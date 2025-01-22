@@ -14,6 +14,11 @@ import { CookiesComponent } from './components/cookies/cookies.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    NavbarComponent,
+    FooterComponent,
+    CookiesComponent
   ]
 })
 export class SharedModule { }

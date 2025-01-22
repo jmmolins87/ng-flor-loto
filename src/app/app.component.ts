@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SharedService } from './public/shared/services/shared.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng-f-loto-proj';
+
+  constructor(public sharedService: SharedService) {}
 }

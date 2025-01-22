@@ -9,8 +9,9 @@ import { AuthenticationService } from '../../services/authentication.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-  username = '';
-  password = '';
+  
+  public username = '';
+  public password = '';
 
   constructor(private authService: AuthenticationService, private router: Router) { }
 
@@ -21,5 +22,9 @@ export class LoginComponent {
     } else {
       alert('Invalid credentials');
     }
+  }
+
+  onGoToSite() {
+    this.router.navigate(['admin/dashboard']);
   }
 }

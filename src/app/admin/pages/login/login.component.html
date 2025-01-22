@@ -1,32 +1,42 @@
 <mat-card class="dashboard-card">
     <mat-card-header>
-        <mat-card-title>Login</mat-card-title>
+        <img src="assets/logo-loto.png" alt="" srcset="">
     </mat-card-header>
     <mat-card-content>
         <form (submit)="onLogin()">
-            <mat-form-field>
-                <input 
-                    [(ngModel)]="username" 
-                    matInput 
-                    placeholder="Username" 
-                    name="username" 
-                    required />
-            </mat-form-field>
-            <mat-form-field>
-                <input 
-                    [(ngModel)]="password" 
-                    matInput 
-                    type="password" 
-                    placeholder="Password" 
-                    name="password"
-                    required />
-            </mat-form-field>
-            <button 
-                mat-raised-button 
-                color="primary" 
-                type="submit">
-                Login
-            </button>
+            <div class="wrap-content">
+                <mat-form-field>
+                    <input 
+                        [(ngModel)]="username" 
+                        matInput 
+                        placeholder="Username" 
+                        name="username" 
+                        required />
+                </mat-form-field>
+                <mat-form-field>
+                    <input 
+                        [(ngModel)]="password" 
+                        matInput 
+                        type="password" 
+                        placeholder="Password" 
+                        name="password"
+                        required />
+                </mat-form-field>
+                <div class="wrap-buttons">
+                    <button 
+                        mat-raised-button 
+                        color="primary" 
+                        type="submit">
+                        Login
+                    </button>
+                    <button 
+                        mat-raised-button 
+                        color="primary" 
+                        (click)="onGoToSite()">
+                        Go to Site
+                    </button>
+                </div>
+            </div>
         </form>
     </mat-card-content>
 </mat-card>
