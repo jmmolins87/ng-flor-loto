@@ -1,0 +1,30 @@
+.dashboard-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.content-list {
+  margin-top: 20px;
+}
+
+.content-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+mat-card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 0;
+}
