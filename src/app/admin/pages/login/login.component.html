@@ -1,42 +1,29 @@
-<mat-card class="dashboard-card">
-    <mat-card-header>
-        <img src="assets/logo-loto.png" alt="" srcset="">
-    </mat-card-header>
-    <mat-card-content>
-        <form (submit)="onLogin()">
-            <div class="wrap-content">
-                <mat-form-field>
-                    <input 
-                        [(ngModel)]="username" 
-                        matInput 
-                        placeholder="Username" 
-                        name="username" 
-                        required />
-                </mat-form-field>
-                <mat-form-field>
-                    <input 
-                        [(ngModel)]="password" 
-                        matInput 
-                        type="password" 
-                        placeholder="Password" 
-                        name="password"
-                        required />
-                </mat-form-field>
-                <div class="wrap-buttons">
-                    <button 
-                        mat-raised-button 
-                        color="primary" 
-                        type="submit">
-                        Login
-                    </button>
-                    <button 
-                        mat-raised-button 
-                        color="primary" 
-                        (click)="onGoToSite()">
-                        Go to Site
-                    </button>
-                </div>
-            </div>
-        </form>
-    </mat-card-content>
-</mat-card>
+<form (submit)="onLogin()">
+    <div class="wrap-content">
+            <input 
+                [(ngModel)]="username" 
+                matInput 
+                placeholder="Username" 
+                name="username" 
+                required />
+            <input 
+                [(ngModel)]="password" 
+                matInput 
+                type="password" 
+                placeholder="Password" 
+                name="password"
+                required />
+        <div class="wrap-buttons">
+            <button 
+                color="primary" 
+                type="submit">
+                Login
+            </button>
+            <button 
+                color="primary" 
+                (click)="onGoToSite()">
+                Go to Site
+            </button>
+        </div>
+    </div>
+</form>
