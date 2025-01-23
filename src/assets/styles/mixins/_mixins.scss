@@ -1,0 +1,22 @@
+@mixin max-responsive($width) {
+    @media screen and (max-width: $width) {
+        @content;
+    }
+}
+
+@mixin min-responsive($width) {
+    @media screen and (min-width: $width) {
+        @content;
+    }
+}
+
+@mixin grid($colummns, $gap ) {
+    display: grid;
+    grid-template-columns: repeat($colummns, 1fr);
+    gap: $gap;
+}
+
+@mixin gridMasonry($colummns, $width, $gap ) {
+    columns: $colummns $width;
+    column-gap: $gap;
+}

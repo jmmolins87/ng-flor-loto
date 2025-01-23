@@ -1,0 +1,91 @@
+// Global styles
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+// body.light-theme {
+//     background: $grey-light;
+//     color: $black-light;
+// }
+
+// body.dark-theme {
+//     background: $black-light-bg;
+//     color: $grey-light-txt;
+// }
+
+body {
+    background: $white-dark;
+    color: $black-light;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $txt-h;
+    font-weight: $txt-bold;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: $h1-mob;
+
+    @include min-responsive($tablet) {
+        font-size: $h1-tab;
+    }
+
+    @include min-responsive($desktop-laptop) {
+        font-size: $h1-desk;
+    }
+}
+
+h2 {
+    font-size: $h2-mob;
+
+    @include min-responsive($tablet) {
+        font-size: $h2-tab;
+    }
+
+    @include min-responsive($desktop-laptop) {
+        font-size: $h2-desk;
+    }
+}
+
+h3 {
+    font-size: $h3-mob;
+
+    @include min-responsive($tablet) {
+        font-size: $h3-tab;
+    }
+
+    @include min-responsive($desktop-laptop) {
+        font-size: $h3-desk;
+    }
+}
+
+p,
+a,
+span,
+input,
+button {
+    font-family: $txt-p;
+    font-size: $txt-main;
+    font-weight: $txt-regular;
+}
+
+button {
+    border-radius: $border-radius-05;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.wrap-navbar a {
+    font-size: $txt-menu;
+}

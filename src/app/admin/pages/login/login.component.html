@@ -1,29 +1,46 @@
-<form (submit)="onLogin()">
-    <div class="wrap-content">
-            <input 
-                [(ngModel)]="username" 
-                matInput 
-                placeholder="Username" 
-                name="username" 
-                required />
-            <input 
-                [(ngModel)]="password" 
-                matInput 
-                type="password" 
-                placeholder="Password" 
-                name="password"
-                required />
-        <div class="wrap-buttons">
-            <button 
-                color="primary" 
-                type="submit">
-                Login
-            </button>
-            <button 
-                color="primary" 
-                (click)="onGoToSite()">
-                Go to Site
-            </button>
+
+
+<div class="wrapper-form">
+    <form (submit)="onLogin()" class="wrap-form">
+        <div class="wrap-form__header">
+            <img src="assets/logo-loto.png" alt="" srcset="">
         </div>
-    </div>
-</form>
+        <div class="wrap-form__content">
+            <div class="wrap-form__inputs">
+                <span class="p-float-label">
+                    <input 
+                        pInputText 
+                        [(ngModel)]="username" 
+                        name="username" 
+                        required />
+                        <label htmlFor="username">Username</label>
+                </span>
+                <span class="p-float-label">
+                    <input 
+                        [(ngModel)]="password" 
+                        pInputText 
+                        type="password" 
+                        name="password"
+                        required />
+                        <label htmlFor="username">Password</label>
+                </span>
+            </div>
+            <div class="wrap-form__buttons">
+                <button 
+                    pButton 
+                    pRipple 
+                    color="primary" 
+                    type="submit">
+                    Login
+                </button>
+                <button 
+                    (click)="onGoToSite()" 
+                    pButton 
+                    pRipple 
+                    class="p-button-success">
+                    Volver
+                </button>
+            </div>
+        </div>
+    </form>
+</div>

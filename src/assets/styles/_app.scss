@@ -1,0 +1,25 @@
+
+
+// Normalize
+@import "./normalize";
+
+// Colors
+@import "./colors/main";
+
+// Fonts
+@import "./fonts/txt-family";
+@import "./fonts/txt-sizes";
+@import "./fonts/txt-weight";
+
+// Sizes
+@import "./break-points/break-points";
+
+// Shapes
+@import "./shapes/shapes";
+
+// Mixins
+@import "./mixins/mixins";
+
+// Global Styles
+@import "./global/grid";
+@import "./global/globals";
