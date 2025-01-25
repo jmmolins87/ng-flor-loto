@@ -4,7 +4,10 @@
 @import "./normalize";
 
 // Colors
+@import "./colors/brand";
 @import "./colors/main";
+@import "./colors/states";
+@import "./colors/shadows";
 
 // Fonts
 @import "./fonts/txt-family";
@@ -21,5 +24,8 @@
 @import "./mixins/mixins";
 
 // Global Styles
-@import "./global/grid";
 @import "./global/globals";
+@import "./global/grid";
+@import "./global/utilitis";
+@import "./custom-scrollbar";
+@import "./primeNg";

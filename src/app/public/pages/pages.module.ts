@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
+
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ComponentsModule } from '../components/components.module';
 
 
 @NgModule({
@@ -11,7 +14,9 @@ import { AboutComponent } from './about/about.component';
     AboutComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ComponentsModule,
+    PrimeNgModule
   ],
   exports: [
     HomeComponent,

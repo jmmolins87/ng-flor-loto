@@ -1,1 +1,33 @@
-<p>footer works!</p>
+<footer class="wrap-footer">
+    <div class="container">
+        <div class="wrapper-footer">
+            <ul class="wrap-polities">
+                <li *ngFor="let policie of policies">
+                    <a [routerLink]="policie.link">{{ policie.label }}</a>
+                </li>
+            </ul>
+            <div [routerLink]="['/']" class="wrap-logo">
+                <img 
+                    src="/assets/img/logo-loto.png" 
+                    alt="Logo flor de loto" 
+                    title="Logo flor de loto">
+            </div>
+            <ul class="wrap-location">
+                <li *ngFor="let contact of contactItems">
+                    <a 
+                        target="_blank" 
+                        [href]="contact.link">
+                        <i class="pi {{ contact.icon }}"></i> 
+                        {{ contact.label }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wrap-info">
+        <div class="wrap-info">
+            <p>&copy; Todos los derechos reservados <span>{{ currentYear }}</span></p>
+            <p>Sitio creado con mucho <i class="pi pi-heart-fill"></i></p>
+        </div>
+    </div>
+</footer>

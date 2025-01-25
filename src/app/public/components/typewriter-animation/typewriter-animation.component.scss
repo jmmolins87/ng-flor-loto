@@ -1,0 +1,44 @@
+
+
+
+@import "/src/styles.scss";
+
+
+// Text container  
+.typewriter-container {
+    overflow: hidden;
+    position: relative;
+    padding: 0.5rem;
+    height: auto;
+}
+// Text config
+.typewriter-text {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-y: auto;
+    height: 100%;
+    padding: 10px; // Add padding to avoid text touching the edges
+    text-shadow: $text-shadow;
+    color: $grey-light;
+    .text-end {
+        text-align: end;
+    }
+}
+// Cursor
+.cursor::after {
+    content: '_';
+    animation: blink 1s step-end infinite;
+}
+// Animation
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+// Hide scrollbar
+::-webkit-scrollbar {
+    width: 0;
+}
+::-moz-scrollbar {
+    width: 0;
+}

@@ -1,0 +1,39 @@
+
+
+::ng-deep {
+    .p-scrolltop {
+        position: fixed;
+        right: 2rem;
+        bottom: 5rem;
+        border-radius: $border-radius-50;
+        border: none;
+        background: $brand-primary-light;
+        backdrop-filter: blur(1.5rem);
+        width: 5rem;
+        height: 5rem;
+        z-index: 1002;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        transition: box-shadow .2s ease-in-out;
+
+        &:hover,
+        &:focus {
+            box-shadow: $dialShadow;
+        }
+
+        .p-icon-wrapper svg {
+            color: $brand-primary;
+        }
+
+        @include min-responsive($tablet) {
+            width: 5rem;
+            height: 5rem;
+
+            .pi {
+                &.pi-icon {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+}

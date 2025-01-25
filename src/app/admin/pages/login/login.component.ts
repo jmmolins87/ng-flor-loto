@@ -25,6 +25,6 @@ export class LoginComponent {
   }
 
   onGoToSite() {
-    this.router.navigate(['admin/dashboard']);
+    this.router.navigate(['/']);
   }
 }

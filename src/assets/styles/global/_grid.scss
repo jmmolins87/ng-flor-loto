@@ -7,7 +7,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: $mobile) {
+@media (max-width: $mobile-large) {
     .container {
         max-width: 100%;
     }
@@ -16,14 +16,7 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: $tablet) {
     .container {
-        max-width: 100%;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: $tablet-hor) {
-    .container {
-        max-width: 96rem;
+        max-width: 92.2rem;
     }
 }
 

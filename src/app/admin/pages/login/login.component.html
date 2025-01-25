@@ -26,20 +26,19 @@
                 </span>
             </div>
             <div class="wrap-form__buttons">
-                <button 
-                    pButton 
+                <p-button 
+                    label="Login" 
                     pRipple 
-                    color="primary" 
-                    type="submit">
-                    Login
-                </button>
-                <button 
+                    [outlined]="true" 
+                    type="submit"
+                    severity="info" />
+                <p-button 
                     (click)="onGoToSite()" 
-                    pButton 
+                    label="Volver" 
                     pRipple 
-                    class="p-button-success">
-                    Volver
-                </button>
+                    [outlined]="true" 
+                    type="submit" 
+                    severity="info" />
             </div>
         </div>
     </form>
