@@ -10,7 +10,7 @@
     background: $brand-primary;
     transition: all .2s ease-in-out;
     &.scroll {
-        // background-color: rgba($brand-primary-light, .9);
+        background-color: rgba($brand-primary, .75);
         backdrop-filter: blur(1.5rem);
         box-shadow: $navbar-shadow-light;
         .navbar-brand {
@@ -20,9 +20,11 @@
     .navbar-brand {
         height: 12rem;
         transition: all .2s ease-in-out;
-        padding: 0 !important;
-        margin: 0 !important;
+        padding: 0;
+        margin: 0;
+        margin-right: 2rem;
         cursor: pointer;
+        margin-right: 2rem;
         img {
             width: 100%;
             height: 100%;

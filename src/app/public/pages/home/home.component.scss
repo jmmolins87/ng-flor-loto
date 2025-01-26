@@ -29,9 +29,10 @@
         margin-top: 2rem;
         padding: 2rem;
         border-radius: $border-radius-10;
-        background: rgba($black, .5);
+        background: rgba($white-dark, .5);
+        border: .5rem solid $grey-light;
         backdrop-filter: blur(1.5rem);
-        color: $grey-light;
+        color: $black;
         @include min-responsive($tablet) {
             flex-direction: row;
             min-width: calc(33% - 2rem);

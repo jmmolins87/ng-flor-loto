@@ -14,20 +14,16 @@
         z-index: 1002;
         box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
         transition: box-shadow .2s ease-in-out;
-
         &:hover,
         &:focus {
             box-shadow: $dialShadow;
         }
-
         .p-icon-wrapper svg {
             color: $brand-primary;
         }
-
         @include min-responsive($tablet) {
             width: 5rem;
             height: 5rem;
-
             .pi {
                 &.pi-icon {
                     width: 2rem;

@@ -71,14 +71,16 @@ export class FlowerBackgroundComponent implements OnInit, AfterViewInit {
   }
 
   private generateFlowers(): void {
-    if (this.flowers.length < 50) {
-      const x = Math.random() * this.ctx.canvas.width;
-      const y = Math.random() * this.ctx.canvas.height;
-      const size = Math.random() * 30 + 20; // Flower size
-      const petals = Math.floor(Math.random() * 5) + 5; // Number of petals (5 to 10)
-      const color = `hsl(${Math.random() * 360}, 70%, 60%)`; // Random pastel color
-      this.flowers.push({ x, y, size, petals, color, step: 0 });
-    }
+    const numberOfFlowers = 20;
+  const spacing = this.ctx.canvas.width / numberOfFlowers;
+  for (let i = 0; i < numberOfFlowers; i++) {
+    const x = i * spacing;
+    const y = this.ctx.canvas.height / 2;
+    const size = Math.random() * 30 + 20;
+    const petals = Math.floor(Math.random() * 5) + 5;
+    const color = `hsl(${Math.random() * 360}, 70%, 60%)`;
+    this.flowers.push({ x, y, size, petals, color, step: 0 });
+  }
   }
 
   private drawFlowers(): void {
