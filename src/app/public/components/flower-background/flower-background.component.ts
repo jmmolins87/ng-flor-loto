@@ -1,134 +1,116 @@
-import { Component, ElementRef, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, ElementRef, ViewChild, AfterViewInit } from '@angular/core';
 
 @Component({
   selector: 'app-flower-background',
   templateUrl: './flower-background.component.html',
   styleUrls: ['./flower-background.component.scss']
 })
-export class FlowerBackgroundComponent implements OnInit, AfterViewInit {
+export class FlowerBackgroundComponent implements AfterViewInit {
+
   @ViewChild('flowerCanvas', { static: true }) canvasRef!: ElementRef<HTMLCanvasElement>;
   private ctx!: CanvasRenderingContext2D;
-  private flowers: any[] = [];
+  private flowers: {
+    x: number, y: number, size: number, petals: number,
+    lines: { start: { x: number, y: number }, end: { x: number, y: number }, drawn: number }[],
+    circles: { x: number, y: number, radius: number, drawn: number }[],
+    progress: number
+  }[] = [];
 
-  ngOnInit(): void {}
+  constructor() { }
 
   ngAfterViewInit(): void {
+    this.ctx = this.canvasRef.nativeElement.getContext('2d')!;
+    this.drawBackground();
+    this.createFlowers();
+    this.animateFlowers();
+  }
+
+  private drawBackground(): void {
     const canvas = this.canvasRef.nativeElement;
-    this.ctx = canvas.getContext('2d')!;
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    // Generar flores en una línea
-    this.generateFlowersInLine();
-
-    // Generar flores en una forma circular
-    this.generateFlowersInCircle();
-
-    this.animate();
+    // Fondo blanco
+    this.ctx.fillStyle = '#ffffff';
+    this.ctx.fillRect(0, 0, canvas.width, canvas.height);
   }
 
-  private generateFlowersInLine(): void {
-    const numberOfFlowers = 20;
-    const spacing = this.ctx.canvas.width / numberOfFlowers;
-    for (let i = 0; i < numberOfFlowers; i++) {
-      const x = i * spacing;
-      const y = this.ctx.canvas.height / 2;
-      const size = Math.random() * 30 + 20;
-      const petals = Math.floor(Math.random() * 5) + 5;
-      const color = `hsl(${Math.random() * 360}, 70%, 60%)`;
-      this.flowers.push({ x, y, size, petals, color, step: 0 });
+  private createFlowers(): void {
+    for (let i = 0; i < 10; i++) { // Número de flores
+      const x = Math.random() * this.canvasRef.nativeElement.width;
+      const y = Math.random() * this.canvasRef.nativeElement.height;
+      const size = Math.random() * 40 + 30; // Tamaño de la flor
+      const petals = Math.floor(Math.random() * 6) + 4; // Número de pétalos
+
+      // Crear líneas y círculos para la flor
+      const lines = this.createFlowerLines(x, y, size, petals);
+      const circles = this.createFlowerCircles(x, y, size);
+
+      this.flowers.push({ x, y, size, petals, lines, circles, progress: 0 });
     }
   }
 
-  private generateFlowersInCircle(): void {
-    const numberOfFlowers = 20;
-    const centerX = this.ctx.canvas.width / 2;
-    const centerY = this.ctx.canvas.height / 2;
-    const radius = Math.min(this.ctx.canvas.width, this.ctx.canvas.height) / 4;
-    for (let i = 0; i < numberOfFlowers; i++) {
-      const angle = (i * Math.PI * 2) / numberOfFlowers;
-      const x = centerX + radius * Math.cos(angle);
-      const y = centerY + radius * Math.sin(angle);
-      const size = Math.random() * 30 + 20;
-      const petals = Math.floor(Math.random() * 5) + 5;
-      const color = `hsl(${Math.random() * 360}, 70%, 60%)`;
-      this.flowers.push({ x, y, size, petals, color, step: 0 });
-    }
-  }
-
-  private animate(): void {
-    this.ctx.clearRect(0, 0, this.ctx.canvas.width, this.ctx.canvas.height);
-
-    // Generate flowers if needed
-    this.generateFlowers();
-    this.drawFlowers();
-
-    // Slowly morph flowers over time
-    this.morphFlowers();
-
-    // Request next animation frame
-    requestAnimationFrame(() => this.animate());
-  }
-
-  private generateFlowers(): void {
-    const numberOfFlowers = 20;
-  const spacing = this.ctx.canvas.width / numberOfFlowers;
-  for (let i = 0; i < numberOfFlowers; i++) {
-    const x = i * spacing;
-    const y = this.ctx.canvas.height / 2;
-    const size = Math.random() * 30 + 20;
-    const petals = Math.floor(Math.random() * 5) + 5;
-    const color = `hsl(${Math.random() * 360}, 70%, 60%)`;
-    this.flowers.push({ x, y, size, petals, color, step: 0 });
-  }
-  }
-
-  private drawFlowers(): void {
-    this.flowers.forEach((flower) => {
-      this.drawFlower(flower.x, flower.y, flower.size, flower.petals, flower.color, flower.step);
-    });
-  }
-
-  private drawFlower(
-    x: number,
-    y: number,
-    size: number,
-    petals: number,
-    color: string,
-    step: number
-  ): void {
-    this.ctx.save();
-    this.ctx.translate(x, y);
-
+  private createFlowerLines(x: number, y: number, size: number, petals: number): { start: { x: number, y: number }, end: { x: number, y: number }, drawn: number }[] {
+    const lines = [];
     for (let i = 0; i < petals; i++) {
-      const angle = (i * Math.PI * 2) / petals + Math.sin(step) * 0.2; // Slight rotation
-      const petalLength = size + Math.sin(step + i) * 5; // Dynamic petal length
-
-      this.ctx.save();
-      this.ctx.rotate(angle);
-      this.ctx.beginPath();
-
-      // Draw petal as a rounded shape
-      this.ctx.moveTo(0, 0);
-      this.ctx.quadraticCurveTo(petalLength / 2, -petalLength / 3, 0, -petalLength);
-      this.ctx.quadraticCurveTo(-petalLength / 2, -petalLength / 3, 0, 0);
-
-      this.ctx.fillStyle = color;
-      this.ctx.fill();
-      this.ctx.restore();
+      const angle = (Math.PI * 2 / petals) * i;
+      const startX = x + Math.cos(angle) * size * 0.2;
+      const startY = y + Math.sin(angle) * size * 0.2;
+      const endX = x + Math.cos(angle) * size;
+      const endY = y + Math.sin(angle) * size;
+      lines.push({ start: { x: startX, y: startY }, end: { x: endX, y: endY }, drawn: 0 });
     }
-
-    this.ctx.restore();
+    return lines;
   }
 
-  private morphFlowers(): void {
-    this.flowers.forEach((flower) => {
-      flower.step += 0.02; // Slow animation for petals
-      flower.size += Math.sin(flower.step) * 0.1; // Slight pulsation of flower size
-      if (flower.size > 60) {
-        flower.size = Math.random() * 30 + 20; // Reset flower size if it grows too large
+  private createFlowerCircles(x: number, y: number, size: number): { x: number, y: number, radius: number, drawn: number }[] {
+    const circles = [];
+    // Círculo central
+    circles.push({ x, y, radius: size * 0.1, drawn: 0 });
+    return circles;
+  }
+
+  private animateFlowers(): void {
+    const animate = () => {
+      this.ctx.clearRect(0, 0, this.canvasRef.nativeElement.width, this.canvasRef.nativeElement.height);
+      this.drawBackground();
+
+      this.flowers.forEach(flower => {
+        this.drawFlower(flower);
+      });
+
+      requestAnimationFrame(animate);
+    };
+
+    animate();
+  }
+
+  private drawFlower(flower: typeof this.flowers[0]): void {
+    // Dibuja las líneas gradualmente
+    flower.lines.forEach(line => {
+      if (line.drawn < 1) {
+        line.drawn += 0.005; // Velocidad del trazado de las líneas
       }
+      this.ctx.beginPath();
+      this.ctx.moveTo(line.start.x, line.start.y);
+      const endX = line.start.x + (line.end.x - line.start.x) * line.drawn;
+      const endY = line.start.y + (line.end.y - line.start.y) * line.drawn;
+      this.ctx.lineTo(endX, endY);
+      this.ctx.strokeStyle = '#000000'; // Líneas en negro
+      this.ctx.lineWidth = 2;
+      this.ctx.stroke();
+    });
+
+    // Dibuja los círculos gradualmente
+    flower.circles.forEach(circle => {
+      if (circle.drawn < 1) {
+        circle.drawn += 0.005; // Velocidad del trazado de los círculos
+      }
+      this.ctx.beginPath();
+      this.ctx.arc(circle.x, circle.y, circle.radius * circle.drawn, 0, Math.PI * 2);
+      this.ctx.strokeStyle = '#000000'; // Círculos en negro
+      this.ctx.lineWidth = 2;
+      this.ctx.stroke();
     });
   }
 }
-

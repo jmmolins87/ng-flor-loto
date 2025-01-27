@@ -8,8 +8,8 @@
     </div>
     <div class="container">
         <div class="wrap-title">
-            <h1 class="title">El arte de las flores</h1>
-            <h3 class="subtitle">Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado.</h3>
+            <h1 class="title">{{ titlePage }}</h1>
+            <h3 class="subtitle">{{ subtitlePage }}</h3>
         </div>
         <div class="wrap-presentation">
             <app-typewriter-animation 
@@ -18,27 +18,25 @@
                 [height]="200" />
         </div>
         <div class="wrap-title mt-3">
-            <h3 class="subtitle mb-0 ">Te recomendamos</h3>
+            <h3 class="subtitle mb-0 ">{{ recommendationsTitleSection }}</h3>
         </div>
         <div class="wrap-recommends">
-            <div class="wrap-presentation">
-                <h3>Rosas preservadas.</h3>
-                <p>Las flores preservadas presentadas en diferentes recipientes : cúpulas de cristal ,cajitas de madera ,teteras , etc… Si
-                buscas un regalo duradero es una opción perfecta para que alguien muy especial se quede con un bonito recuerdo para
-                siempre</p>
-            </div>
-            <div class="wrap-presentation">
-                <h3>Ramo de flores.</h3>
-                <p>Las flores preservadas presentadas en diferentes recipientes : cúpulas de cristal ,cajitas de madera ,teteras ,
-                    etc… Si buscas un regalo duradero es una opción perfecta para que alguien muy especial se quede con un bonito recuerdo para siempre</p>
-            </div>
-            <div class="wrap-presentation">
-                <h3>Ramos de novia.</h3>
-                <p>¡El mejor elemento para destacar tu look nupcial ! Te ofrecemos un extenso catálogo de ramos de novia que ofrece desde ramos de novia más clásicos hasta ramos de novia vintage con un aire retro.</p>
+            <div *ngFor="let recomendation of recommendationsSection" class="wrap-presentation">
+                <h3>{{ recomendation.title }}</h3>
+                <div class="card flex justify-content-center">
+                    <p-image 
+                        src="https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
+                        alt="Image" 
+                        width="100%" />
+                </div>
+                <p class="mt-2">{{ recomendation.description }}</p>
             </div>
         </div>
         <div class="wrap-title mt-3">
-            <h3 class="subtitle mb-0">Las opiniones de nuestros clientes</h3>
+            <h3 class="subtitle mb-0">{{ opinionsTitleSection }}</h3>
+        </div>
+        <div class="wrap-carrousel-opinions mb-3">
+            <app-carrousel [itemsCarrousel]="opinionsSection" />
         </div>
     </div>
 </div>

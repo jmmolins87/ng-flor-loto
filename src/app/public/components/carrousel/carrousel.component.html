@@ -1,0 +1,34 @@
+<div class="card">
+    <p-carousel 
+        [value]="itemsCarrousel" 
+        [numVisible]="3" 
+        [numScroll]="3" 
+        [circular]="true"
+        [responsiveOptions]="responsiveOptions" 
+        autoplayInterval="10000">
+        <ng-template let-product pTemplate="item" >
+            <div class="border-1 m-2 p-3 wrap-rating">
+                <div class="wrap-header">
+                    <h3 class="mb-3 font-medium opinator-name">
+                        {{ product.name }}
+                    </h3>
+                    <p-rating
+                        *ngIf="product.rating"
+                        [(ngModel)]="product.rating" 
+                        [readonly]="true" 
+                        [cancel]="false" />
+                </div>
+                <div class="flex justify-content-between align-items-center">
+                    <p [innerHtml]="product.description" class="mt-0 opinator-description"></p>
+                    <div *ngIf="product.image" class="wrap-imges">
+                        <img 
+                            *ngFor="let image of product.image; let i = index"
+                            [src]="product.image[i]" 
+                            [alt]="product.name" 
+                            class="img" />
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </p-carousel>
+</div>

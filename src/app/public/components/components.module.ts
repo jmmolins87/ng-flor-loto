@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 import { TypewriterAnimationComponent } from './typewriter-animation/typewriter-animation.component';
 import { FlowerBackgroundComponent } from './flower-background/flower-background.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
 
 
 
@@ -10,14 +14,18 @@ import { FlowerBackgroundComponent } from './flower-background/flower-background
 @NgModule({
   declarations: [
     TypewriterAnimationComponent,
-    FlowerBackgroundComponent
+    FlowerBackgroundComponent,
+    CarrouselComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    PrimeNgModule
   ], 
   exports: [
     TypewriterAnimationComponent,
-    FlowerBackgroundComponent
+    FlowerBackgroundComponent,
+    CarrouselComponent
   ]
 })
 export class ComponentsModule { }
