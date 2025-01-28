@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
 import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
+import { SpeedDialComponent } from './components/speed-dial/speed-dial.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
     NavbarComponent,
     FooterComponent,
     CookiesComponent,
-    WhatsappComponent
+    WhatsappComponent,
+    SpeedDialComponent
   ],
   imports: [
     CommonModule,
@@ -26,7 +28,8 @@ import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
     NavbarComponent,
     FooterComponent,
     CookiesComponent,
-    WhatsappComponent
+    WhatsappComponent,
+    SpeedDialComponent
   ]
 })
 export class SharedModule { }

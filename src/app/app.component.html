@@ -12,22 +12,12 @@
         <app-whatsapp />
     </div> -->
     <div class="wrap-shopping">
-        <p-speedDial 
-            [model]="itemsShop || null" 
-            direction="up" 
-            transitionDelay="80" 
-            showIcon="pi pi-shopping-cart" 
-            hideIcon="pi pi-times"
-            buttonClassName="p-button-outlined" />
+        <app-speed-dial 
+            [items]="itemsShop" />
     </div>
     <div class="wrap-social">
-        <p-speedDial 
-            [model]="itemsSocial || null" 
-            direction="up" 
-            transitionDelay="80" 
-            showIcon="pi pi-share-alt" 
-            hideIcon="pi pi-times"
-            buttonClassName="p-button-outlined" />
+        <app-speed-dial 
+            [items]="itemsSocial" />
     </div>
 </div>
 

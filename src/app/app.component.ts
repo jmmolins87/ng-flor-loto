@@ -16,9 +16,9 @@ import { SharedService } from './public/shared/services/shared.service';
 })
 export class AppComponent {
 
-  public itemsShop: MenuItem[] | undefined;
-  public itemsSocial: MenuItem[] | undefined;
   public visible: boolean = false;
+  public itemsShop: MenuItem[] = [];
+  public itemsSocial: MenuItem[] = [];
 
   constructor(
     public sharedService: 
@@ -44,27 +44,28 @@ export class AppComponent {
     this.social();
   }
 
-  showDialog() {
-    this.visible = true;
-  }
-
   shopping() {
     this.itemsShop = [
       {
-        icon: 'pi pi-whatsapp',
+        label: 'Whatsapp',
+        image: 'assets/img/icons-dial/whatsapp.svg',
         command: () => {
-          this.showDialog();
+          window.open();
         }
       },
       {
-        icon: 'pi pi-refresh',
-        target: '_blank',
-        url: 'https://glovoapp.com/es/es/segovia/flor-de-loto-segovia/?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action'
+        label: 'Glovo',
+        image: 'assets/img/icons-dial/glovo.svg',
+        command: () => {
+          window.open('https://glovoapp.com/es/es/segovia/flor-de-loto-segovia/?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action', '_blank');
+        }
       },
       {
-        icon: 'pi pi-trash',
-        target: '_blank',
-        url: 'https://www.just-eat.es/restaurants-flor-de-loto-segovia/menu?utm_source=google&utm_medium=organic&utm_campaign=orderaction'
+        label: 'Just Eat',
+        image: 'assets/img/icons-dial/just-eat.svg',
+        command: () => {
+          window.open('https://www.just-eat.es/restaurants-flor-de-loto-segovia/menu?utm_source=google&utm_medium=organic&utm_campaign=orderaction', '_blank');
+        }
       }
     ];
   }
@@ -72,19 +73,18 @@ export class AppComponent {
   social() {
     this.itemsSocial = [
       {
-        icon: 'pi pi-facebook',
-        target: '_blank',
-        url: 'https://glovoapp.com/es/es/segovia/flor-de-loto-segovia/?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action'
+        label: 'Facebook',
+        image: 'assets/img/icons-dial/facebook.svg',
+        command: () => {
+          window.open('https://www.facebook.com/FlorDeLotoSegovia', '_blank');
+        }
       },
       {
-        icon: 'pi pi-instagram',
-        target: '_blank',
-        url: 'https://glovoapp.com/es/es/segovia/flor-de-loto-segovia/?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action'
-      },
-      {
-        icon: 'pi pi-twitter',
-        target: '_blank',
-        url: 'https://www.just-eat.es/restaurants-flor-de-loto-segovia/menu?utm_source=google&utm_medium=organic&utm_campaign=orderaction'
+        label: 'Instagram',
+        image: 'assets/img/icons-dial/instagram.svg',
+        command: () => {
+          window.open('https://www.instagram.com/flordelotosegovia/', '_blank');
+        }
       }
     ];
   }

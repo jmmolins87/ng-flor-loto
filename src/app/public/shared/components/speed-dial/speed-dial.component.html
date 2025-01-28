@@ -1,0 +1,16 @@
+
+
+
+<p-speedDial 
+    [model]="items || null" 
+    direction="up" 
+    transitionDelay="80" 
+    showIcon="pi pi-bars" 
+    hideIcon="pi pi-times"
+    buttonClassName="p-button-outlined" >
+    <ng-template let-item pTemplate="item">
+        <button pRipple type="button" [ngClass]="'p-speeddial-action'" (click)="item.command?.()">
+            <img [src]="item.image" alt="{{item.label}}" class="speed-dial-image" />
+        </button>
+    </ng-template>
+</p-speedDial>
