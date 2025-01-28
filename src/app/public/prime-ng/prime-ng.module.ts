@@ -6,6 +6,7 @@ import { DialogModule } from 'primeng/dialog';
 import { ImageModule } from 'primeng/image';
 import { RatingModule } from 'primeng/rating';
 import { ScrollTopModule } from 'primeng/scrolltop';
+import { SpeedDialModule } from 'primeng/speeddial';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { ScrollTopModule } from 'primeng/scrolltop';
     DialogModule,
     ImageModule,
     RatingModule,
-    ScrollTopModule
+    ScrollTopModule,
+    SpeedDialModule
   ]
 })
 export class PrimeNgModule { }

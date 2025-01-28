@@ -20,13 +20,13 @@
                 </div>
                 <div class="flex justify-content-between align-items-center">
                     <p [innerHtml]="product.description" class="mt-0 opinator-description"></p>
-                    <div *ngIf="product.image" class="wrap-imges">
+                    <!-- <div *ngIf="product.image" class="wrap-imges">
                         <img 
                             *ngFor="let image of product.image; let i = index"
                             [src]="product.image[i]" 
                             [alt]="product.name" 
                             class="img" />
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </ng-template>

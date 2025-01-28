@@ -20,6 +20,13 @@
         justify-content: space-between;
         align-items: flex-start;
     }
+    .opinator-description {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
     .wrap-imges {
         display: flex;
         box-sizing: border-box;

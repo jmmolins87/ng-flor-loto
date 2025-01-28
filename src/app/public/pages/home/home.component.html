@@ -3,9 +3,7 @@
 
 
 <div class="wrap-home">
-    <div class="video-container">
-        <app-flower-background />
-    </div>
+    <app-flower-background />
     <div class="container">
         <div class="wrap-title">
             <h1 class="title">{{ titlePage }}</h1>
@@ -23,7 +21,7 @@
         <div class="wrap-recommends">
             <div *ngFor="let recomendation of recommendationsSection" class="wrap-presentation">
                 <h3>{{ recomendation.title }}</h3>
-                <div class="card flex justify-content-center">
+                <div class="wrap-image">
                     <p-image 
                         src="https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
                         alt="Image" 
