@@ -1,6 +1,9 @@
 
 
+
+
 ::ng-deep {
+    // * To top button
     .p-scrolltop {
         position: fixed;
         right: 2rem;
@@ -32,6 +35,7 @@
             }
         }
     }
+    // * Carrousel
     .p-carousel-indicator.p-highlight {
         .p-link {
             background-color: $brand-primary;
@@ -40,4 +44,60 @@
     .p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
         color: $brand-secondary-dark;
     }
+    .p-carousel-content {
+        overflow: hidden;
+    }
+    // * SpeedDial Shop
+    // .speeddial-tooltip {
+    //     &.p-speeddial-direction-down-left {
+    //         left: 0;
+    //         bottom: 0;
+    //     }
+    //     button {
+    //         border-radius: $border-radius-50;
+    //         border: none;
+    //         background: rgba($white, .2);
+    //         backdrop-filter: blur(1.5rem);
+    //         width: 5rem;
+    //         height: 5rem;
+    //         z-index: 1002;
+    //         box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    //         transition: box-shadow .2s ease-in-out;
+    //         &:hover,
+    //         &:focus {
+    //             box-shadow: $dialShadow;
+    //         }
+    //         .pi {
+    //             color: $brand-primary-dark;
+    //         }
+    //         ul {
+    //             li a {
+    //                 color: $black;
+    //                 width: 5rem;
+    //                 height: 5rem;
+    //                 text-decoration: none;
+    //                 padding: .75rem;
+    //                 background: rgba($white, .2);
+    //                 backdrop-filter: blur(1.5rem);
+    //                 span {
+    //                     font-size: $icon-dial;
+    //                     position: absolute;
+    //                     color: red;
+    //                     left: 50%;
+    //                     transform: translateX(-50%);
+    //                 }
+    //             }
+    //         }
+    //         @include min-responsive($tablet) {
+    //             width: 5rem;
+    //             height: 5rem;
+    //             .pi {
+    //                 &.pi-icon {
+    //                     width: 2rem;
+    //                     height: 2rem;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }

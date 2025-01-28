@@ -1,8 +1,16 @@
 
 
 
-.wrap-whatsapp {
+.wrap-shopping,
+.wrap-social {
     position: fixed;
-    bottom: 12rem;
-    right: 2rem;
+    bottom: calc(12rem + 17.25rem);
+}
+.wrap-shopping {
+    right: 6.6rem;
+}
+.wrap-social {
+    position: fixed;
+    left: 3rem;
+    bottom: calc(12rem + 17.25rem);
 }
