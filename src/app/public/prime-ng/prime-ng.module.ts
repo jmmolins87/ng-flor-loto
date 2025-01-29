@@ -8,6 +8,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { RatingModule } from 'primeng/rating';
 import { ScrollTopModule } from 'primeng/scrolltop';
+import { SkeletonModule } from 'primeng/skeleton';
 import { SpeedDialModule } from 'primeng/speeddial';
 
 
@@ -21,6 +22,7 @@ import { SpeedDialModule } from 'primeng/speeddial';
     InputTextareaModule,
     RatingModule,
     ScrollTopModule,
+    SkeletonModule,
     SpeedDialModule
   ],
   schemas: [

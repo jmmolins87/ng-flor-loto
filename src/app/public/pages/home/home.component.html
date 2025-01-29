@@ -6,35 +6,40 @@
     <app-flower-background />
     <div class="container">
         <div class="wrap-title">
-            <h1 class="title">{{ titlePage }}</h1>
-            <h3 class="subtitle">{{ subtitlePage }}</h3>
+            <h1 *ngIf="!showSkeleton"class="title">{{ titlePage }}</h1>
+            <p-skeleton *ngIf="showSkeleton" width="40rem" height="5rem" />
+            <h3 *ngIf="!showSkeleton" class="subtitle">{{ subtitlePage }}</h3>
+            <p-skeleton *ngIf="showSkeleton" height="15rem" class="d-block mt-3" />
         </div>
         <div class="wrap-presentation">
             <app-typewriter-animation 
+                *ngIf="!showSkeleton"
                 [text]="textPresentatiin" 
                 [typingSpeed]="100"
                 [height]="200" />
+            <p-skeleton *ngIf="showSkeleton" class="wrap-presentation" height="25rem" />
         </div>
+        <!-- Skeleton Presentation -->
         <div class="wrap-title mt-3">
-            <h3 class="subtitle mb-0 ">{{ recommendationsTitleSection }}</h3>
+            <h3 *ngIf="!showSkeleton" class="subtitle mb-0 ">{{ recommendationsTitleSection }}</h3>
+            <p-skeleton *ngIf="showSkeleton" width="30rem" height="5rem" />
         </div>
         <div class="wrap-recommends">
-            <div *ngFor="let recomendation of recommendationsSection" class="wrap-presentation">
+            <div *ngFor="let recomendation of recommendationsSection" class="wrap-recommends__presentation">
                 <h3>{{ recomendation.title }}</h3>
                 <div class="wrap-image">
-                    <p-image 
-                        src="https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
-                        alt="Image" 
-                        width="100%" />
+                    <p-image src="https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg" alt="Image" width="100%" />
                 </div>
                 <p class="mt-2">{{ recomendation.description }}</p>
             </div>
         </div>
         <div class="wrap-title mt-3">
-            <h3 class="subtitle mb-0">{{ opinionsTitleSection }}</h3>
+            <h3 *ngIf="!showSkeleton" class="subtitle mb-0">{{ opinionsTitleSection }}</h3>
+            <p-skeleton *ngIf="showSkeleton" width="50rem" height="5rem" />
         </div>
         <div class="wrap-carrousel-opinions mb-3">
-            <app-carrousel [itemsCarrousel]="opinionsSection" />
+            <app-carrousel *ngIf="!showSkeleton" [itemsCarrousel]="opinionsSection" />
+            <p-skeleton *ngIf="showSkeleton"class="wrap-carrousel-opinions mb-3" height="35rem" />
         </div>
     </div>
 </div>
