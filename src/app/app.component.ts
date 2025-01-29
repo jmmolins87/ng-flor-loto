@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { 
   NavigationEnd, 
   Router, 
@@ -8,6 +8,7 @@ import {
 import { MenuItem, PrimeNGConfig } from 'primeng/api';
 
 import { SharedService } from './public/shared/services/shared.service';
+import { WhatsappComponent } from './public/shared/components/whatsapp/whatsapp.component';
 
 @Component({
   selector: 'app-root',
@@ -19,6 +20,9 @@ export class AppComponent {
   public visible: boolean = false;
   public itemsShop: MenuItem[] = [];
   public itemsSocial: MenuItem[] = [];
+
+  @ViewChild(WhatsappComponent) 
+  public whatsappComponent!: WhatsappComponent;
 
   constructor(
     public sharedService: 
@@ -50,7 +54,7 @@ export class AppComponent {
         label: 'Whatsapp',
         image: 'assets/img/icons-dial/whatsapp.svg',
         command: () => {
-          window.open();
+          this.whatsappComponent.triggerShowDialog();
         }
       },
       {

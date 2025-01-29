@@ -12,15 +12,13 @@
         <app-whatsapp />
     </div> -->
     <div class="wrap-shopping">
-        <app-speed-dial 
-            [items]="itemsShop" />
+        <app-speed-dial [items]="itemsShop" showIcon="pi pi-shopping-cart" />
     </div>
     <div class="wrap-social">
-        <app-speed-dial 
-            [items]="itemsSocial" />
+        <app-speed-dial [items]="itemsSocial" showIcon="pi pi-share-alt" />
     </div>
 </div>
 
-<app-whatsapp />
+<app-whatsapp (showDialogEvent)="whatsappComponent.showDialog()" />
 
 <p-scrollTop />

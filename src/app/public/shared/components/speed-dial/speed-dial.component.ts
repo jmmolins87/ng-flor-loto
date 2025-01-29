@@ -11,7 +11,6 @@ export class SpeedDialComponent {
 
   @Input()
   public items: MenuItem[] | undefined;
-
   @Input()
   public showIcon: string = "pi pi-share-alt";
 

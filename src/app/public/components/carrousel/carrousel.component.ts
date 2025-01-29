@@ -17,6 +17,8 @@ export class CarrouselComponent implements OnInit {
   public valueRating: number = 0;
 
   public responsiveOptions: any[] | undefined;
+  public displayModal: boolean = false;
+  public selectedProduct: any;
 
   constructor() {}
 
@@ -24,7 +26,7 @@ export class CarrouselComponent implements OnInit {
     this.responsiveOptions = [
       {
         breakpoint: '1199px',
-        numVisible: 1,
+        numVisible: 3,
         numScroll: 1
       },
       {
@@ -38,6 +40,11 @@ export class CarrouselComponent implements OnInit {
         numScroll: 1
       }
     ];
+  }
+
+  openModal(product: any) {
+    this.selectedProduct = product;
+    this.displayModal = true;
   }
 
 }

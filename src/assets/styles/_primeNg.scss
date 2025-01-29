@@ -10,23 +10,24 @@
         bottom: 5rem;
         border-radius: $border-radius-50;
         border: none;
-        background: $brand-primary-light;
+        background: rgba($brand-primary-light, .5);
         backdrop-filter: blur(1.5rem);
         width: 5rem;
         height: 5rem;
+        box-shadow: 0 0 1.5rem $white;
         z-index: 1002;
-        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
         transition: box-shadow .2s ease-in-out;
         &:hover,
         &:focus {
             box-shadow: $dialShadow;
         }
-        .p-icon-wrapper svg {
-            color: $brand-primary;
+        .p-icon-wrapper {
+            text-shadow: 0 0 .5rem $white;
+            svg {
+                color: $brand-primary;
+            }
         }
         @include min-responsive($tablet) {
-            width: 5rem;
-            height: 5rem;
             .pi {
                 &.pi-icon {
                     width: 2rem;
@@ -47,12 +48,35 @@
     .p-carousel-content {
         overflow: hidden;
     }
+    .p-carousel-next,
+    .p-carousel-prev {
+        svg {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
     // * SpeedDial Shop
     .p-speeddial {
         .p-button-icon-only {
-            color: $brand-tertiary;
-            text-shadow: 0 0 5px $white;
-            box-shadow: 0 0 15px $white;
+            color: $brand-primary-dark;
+            background: rgba($brand-primary-light, .5);
+            backdrop-filter: blur(1.5rem);
+            border-radius: $border-radius-50;
+            border: none;
+            width: 5rem;
+            height: 5rem;
+            z-index: 1002;
+            text-shadow: 0 0 .5rem $white;
+            box-shadow: 0 0 1.5rem $white;
+            transition: box-shadow .2s ease-in-out;
+            &:hover,
+            &:focus {
+                box-shadow: $dialShadow;
+            }
+            .pi::before {
+                color: $brand-primary;
+                font-size: 2rem;
+            }
         }
         .p-speeddial-action {
             text-decoration: none;
@@ -60,9 +84,18 @@
             background: rgba($grey, .1);
             backdrop-filter: blur(1.5rem);
             border-radius: $border-radius-50;
-            &-icon {
-                font-size: 2rem;
-                color: $brand-secondary;
+        }
+    }
+    // * Dialog
+        .p-element {
+        .p-dialog-mask {
+            .p-dialog-header-icons {
+                .p-dialog-header-icon  {
+                    .p-dialog-header-close-icon  {
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                }
             }
         }
     }
