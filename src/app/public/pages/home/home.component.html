@@ -14,7 +14,7 @@
         <div class="wrap-presentation">
             <app-typewriter-animation 
                 *ngIf="!showSkeleton"
-                [text]="textPresentatiin" 
+                [text]="textPresentation" 
                 [typingSpeed]="100"
                 [height]="200" />
             <p-skeleton *ngIf="showSkeleton" class="wrap-presentation" height="25rem" />
@@ -26,11 +26,12 @@
         </div>
         <div class="wrap-recommends">
             <div *ngFor="let recomendation of recommendationsSection" class="wrap-recommends__presentation">
-                <h3>{{ recomendation.title }}</h3>
-                <div class="wrap-image">
+                <h3 *ngIf="!showSkeleton">{{ recomendation.title }}</h3>
+                <div *ngIf="!showSkeleton" class="wrap-image">
                     <p-image src="https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg" alt="Image" width="100%" />
                 </div>
-                <p class="mt-2">{{ recomendation.description }}</p>
+                <p *ngIf="!showSkeleton" class="mt-2">{{ recomendation.description }}</p>
+                <p-skeleton *ngIf="showSkeleton" height="40rem" />
             </div>
         </div>
         <div class="wrap-title mt-3">
