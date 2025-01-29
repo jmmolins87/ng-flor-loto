@@ -2,3 +2,12 @@
 
 @import "/src/styles.scss";
 
+
+
+.wrap-whatsapp {
+    ::ng-deep {
+        .p-dialog-content {
+            padding-top: 2rem;
+        }
+    }
+}

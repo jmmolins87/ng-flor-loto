@@ -1,9 +1,11 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
 import { DialogModule } from 'primeng/dialog';
 import { ImageModule } from 'primeng/image';
+import { InputTextModule } from 'primeng/inputtext';
+import { InputTextareaModule } from 'primeng/inputtextarea';
 import { RatingModule } from 'primeng/rating';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { SpeedDialModule } from 'primeng/speeddial';
@@ -15,9 +17,14 @@ import { SpeedDialModule } from 'primeng/speeddial';
     CarouselModule,
     DialogModule,
     ImageModule,
+    InputTextModule,
+    InputTextareaModule,
     RatingModule,
     ScrollTopModule,
     SpeedDialModule
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA
   ]
 })
 export class PrimeNgModule { }

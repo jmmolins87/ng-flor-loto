@@ -20,15 +20,42 @@
                 </div>
                 <div class="flex justify-content-between align-items-center">
                     <p [innerHtml]="product.description" class="mt-0 opinator-description"></p>
-                    <!-- <div *ngIf="product.image" class="wrap-imges">
-                        <img 
-                            *ngFor="let image of product.image; let i = index"
-                            [src]="product.image[i]" 
-                            [alt]="product.name" 
-                            class="img" />
-                    </div> -->
+                    <p-button 
+                        [outlined]="true"
+                        pButton 
+                        type="button" 
+                        severity="success"
+                        icon="pi pi-book"
+                        iconPos="right"
+                        label="Leer más" 
+                        (click)="openModal(product)" />
                 </div>
             </div>
         </ng-template>
     </p-carousel>
 </div>
+
+<p-dialog 
+    [(visible)]="displayModal" 
+    [modal]="true"
+    [draggable]="false"
+    [baseZIndex]="10000"
+    [maximizable]="true"
+    [style]="{width: '50vw'}">
+    <div *ngIf="selectedProduct" class="wrap-modal-rating">
+        <h3 class="mb-3 mt-2">{{ selectedProduct.name }}</h3>
+        <p-rating 
+            *ngIf="selectedProduct.rating" 
+            [(ngModel)]="selectedProduct.rating" 
+            [readonly]="true" 
+            [cancel]="false" class="mt-1 mb-2" />
+        <p [innerHtml]="selectedProduct.description" class="mt-1"></p>
+        <div *ngIf="selectedProduct.image" class="wrap-imges mt-2">
+            <img 
+                *ngFor="let image of selectedProduct.image; let i = index"
+                [src]="image" 
+                [alt]="selectedProduct.name" 
+                class="img" />
+        </div>
+    </div>
+</p-dialog>

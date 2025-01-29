@@ -27,21 +27,77 @@
         -webkit-line-clamp: 5;
         -webkit-box-orient: vertical;
     }
-    .wrap-imges {
-        display: flex;
-        box-sizing: border-box;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        gap: 1rem;
-        .img {
-            padding: 1rem;
-            border-radius: $border-radius-05;
-            border: .2rem solid $brand-tertiary;
-            width: 100%;
-            img {
+    .p-button {
+        padding: 0;
+        border: none;
+    }
+}
+
+::ng-deep {
+    .p-dialog {
+        position: relative;
+        .wrap-imges {
+            display: flex;
+            box-sizing: border-box;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 100%;
+            @include min-responsive($tablet) {
+                flex-direction: row;
+                max-width: 33%;
+                flex-wrap: no-wrap;
+            }
+            .img {
+                padding: 1rem;
                 border-radius: $border-radius-05;
+                border: .2rem solid $brand-tertiary;
+                width: 100%;
+    
+                img {
+                    border-radius: $border-radius-05;
+                }
             }
         }
     }
+    .p-dialog-header {
+        position: absolute;
+        right: .5rem;
+        top: .5rem;
+        .p-dialog-header-maximize {
+            margin-right: 2rem;
+            &::hover,
+            &:focus {
+                margin-right: 2rem;
+            }
+            svg {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+        .p-dialog-title {
+            display: none;
+        }
+    }
 }
+
+// .ui-dialog {
+//     width: 100vw !important;
+//     height: 100vh !important;
+//     position: fixed;
+//     top: 0 !important;
+//     left: 0 !important;
+//     margin: 0 !important;
+//     padding: 0 !important;
+// }
+
+// .ui-dialog-content {
+//     height: calc(100vh - 50px) !important; // Ajusta la altura según el header de la modal
+//     overflow: auto;
+// }
+
+// .wrap-imges img {
+//     max-width: 100%;
+//     height: auto;
+// }

@@ -68,7 +68,9 @@ p,
 a,
 span,
 input,
-button {
+label,
+button,
+textarea {
     font-family: $txt-p;
     font-size: $txt-main;
     font-weight: $txt-regular;
