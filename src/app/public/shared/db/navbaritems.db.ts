@@ -6,27 +6,27 @@ import { NavBarInterface } from "../models/nav-bar.interface";
 
 export const navbarItems: NavBarInterface[] =  [
     {
-        label: "NAV_BAR.BRUNCH_FLOWERS",
-        link: ["/brunchFlorwes"]
+        label: "NAV_BAR.BUNCH_FLOWERS",
+        routerLink: ["/brunchFlorwes"]
     },
     {
         label: "NAV_BAR.BOUQUET_ROSES",
-        link: ["/bouquetRoses"]
+        routerLink: ["/bouquetRoses"]
     },
     {
         label: "NAV_BAR.FLOORS",
-        link: ["/floors"]
+        routerLink: ["/floors"]
     },
     {
         label: "NAV_BAR.WEDDING",
-        link: ["/wedding"]
+        routerLink: ["/wedding"]
     },
     {
         label: "NAV_BAR.FUNERAL",
-        link: ["/funeral"]
+        routerLink: ["/funeral"]
     },
     {
         label: "NAV_BAR.CONTACT",
-        link: ["/contact"]
+        routerLink: ["/contact"]
     }
 ]

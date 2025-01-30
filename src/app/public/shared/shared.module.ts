@@ -2,6 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import { TranslateModule } from '@ngx-translate/core';
 
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
@@ -24,6 +27,8 @@ import { SpeedDialComponent } from './components/speed-dial/speed-dial.component
     CommonModule,
     RouterModule,
     ReactiveFormsModule,
+    TranslateModule,
+    HttpClientModule,
     PrimeNgModule
   ],
   exports: [

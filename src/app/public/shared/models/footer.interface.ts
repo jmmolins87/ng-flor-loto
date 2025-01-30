@@ -1,13 +1,8 @@
 
 
 
-export interface policies {
-    link: string;
+export interface footerInterface {
+    link?: string;
     label: string;
-}
-
-export interface contactItems {
-    label: string;
-    icon: string;
-    link: string;
-}
+    icon?: string;
+}   

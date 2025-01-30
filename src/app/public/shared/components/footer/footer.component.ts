@@ -1,45 +1,40 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-import { policies, contactItems } from '../../models/footer.interface';
+import { SharedService } from '../../services/shared.service';
+
+import { footerInterface } from '../../models/footer.interface';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
 
   public currentYear: number = new Date().getFullYear();
-  public policies: policies[] = [
-    {
-      link: "/privacy-policy",
-      label: "Políticas de privacidad"
-    },
-    {
-      link: "/terms-and-conditions",
-      label: "Términos y condiciones"
-    },
-    {
-      link: "/cookies",
-      label: "Política de cookies"
-    }
-  ];
-  public contactItems: contactItems[] = [
-    {
-      label: "¿Dónde estamos?",
-      icon: "pi-map-marker",
-      link: "https://www.google.de/maps?q=Paseo+CONDE+SEPULVEDA,+24,+40006+Segovia"
-    },
-    {
-      label: "¿Nos quieres contar algo?",
-      icon: "pi-comments",
-      link: "mailto:flordelotosegovia@gmail.com"
-    },
-    {
-      label: "¡¡Llámanos!!",
-      icon: "pi-phone",
-      link: "tel:+34691264112"
-    }
-  ];
+  // Items Menu policies
+  public footerPolicies!: footerInterface[] | any[];
+  public footerContact!: footerInterface[] | any[];
+
+  constructor(private _sharedService: SharedService) {}
+
+  ngOnInit(): void {
+    this.getItemsFooterContact();
+    this.getItemsFooterPolicies();
+  }
+
+  getItemsFooterPolicies() {
+    this._sharedService.itemsFooterPolicies.subscribe(itemsPolicies => {
+      this.footerPolicies = itemsPolicies;
+    });
+    return this.footerPolicies;
+  }
+
+  getItemsFooterContact() {
+    this._sharedService.itemsFooterContact.subscribe(itemsContact => {
+      this.footerContact = itemsContact;
+    });
+    return this.footerContact;
+  }
 
 }

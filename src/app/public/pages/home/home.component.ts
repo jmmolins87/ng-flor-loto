@@ -4,10 +4,12 @@ import { Component, OnInit } from '@angular/core';
 
 import { carrouselOptions } from '../../components/carrousel/carrousel.config';
 
+import { SharedService } from '../../shared/services/shared.service';
+import { PagesService } from '../../services/pages.service';
 
-import { RecomendationsHome } from '../../models/home/recomendations.interface';
 import { carrouselHero } from '../../models/home/carrouselHero.interface';
 import { carrouselOpinions } from '../../models/home/carrouselOpinions.interface';
+import { recomendationsHome } from '../../models/home/recomendations.interface';
 
 @Component({
   selector: 'app-home',
@@ -21,11 +23,24 @@ export class HomeComponent implements OnInit {
   public carrouselOpinator: carrouselOptions = carrouselOptions.isOpinator;
   public intervalCarrouselHero: number = 7500;
   public intervalCarrouselOpinions: number = 5000;
+  public recommendations: recomendationsHome[] = []
+
+  constructor( 
+      private _sharedService: SharedService, 
+      private _pagesService: PagesService 
+    ) {}
 
   ngOnInit() {
     setTimeout(() => {
       this.showSkeleton = false;
     }, 1500)
+  }
+
+  getRecommendations() {
+    this._pagesService.recommendations.subscribe(recommendations => {
+      this.recommendations = recommendations;
+    });
+    return this.recommendations;  
   }
 
   // ********************* Data *********************
@@ -51,11 +66,11 @@ export class HomeComponent implements OnInit {
       img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
     }
   ];
-  public titlePage: string = "El arte de las flores";
-  public subtitlePage: string = "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado."
-  public textPresentation: string = "<h3 class='mb-0'>Nuestras especialidades</h3><br> Nuestros ramos y arreglos florales son únicos y a medida para cada cliente. Creamos composiciones versátiles, empezando por arreglos florares para bodas, incluyendo ramos de novia, arreglos de centro de mesa, coronas de flores para el cabello, boutonnieres, y más.<br> Además de bodas, también ofrecemos servicios de decoración para otros eventos, como fiestas de cumpleaños, aniversarios, celebraciones de empresa, entre otros eventos sociales.<br>Nuestras flores y plantas para el hogar son otra de nuestras especialidades, ofrecemos una selección de flores y plantas ya sea para decorar tanto el interior como el exterior.<br> También ofrecemos arreglos florares para funerales, incluyendo coronas funerarias y arreglos para celebración de vida. Si lo que quieres es sorprender a esa persona especial, te ofrecemos la entrega a domicilio, con el mejor mimo y cuidado.<br> Disponible los 365 días del año."
-  public recommendationsTitleSection: string = "Te recomendamos";
-  public recommendationsSection: RecomendationsHome[] = [
+  // public titlePage: string = "El arte de las flores";
+  // public subtitlePage: string = "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado."
+  // public textPresentation: string = "<h3 class='mb-0'>Nuestras especialidades</h3><br> Nuestros ramos y arreglos florales son únicos y a medida para cada cliente. Creamos composiciones versátiles, empezando por arreglos florares para bodas, incluyendo ramos de novia, arreglos de centro de mesa, coronas de flores para el cabello, boutonnieres, y más.<br> Además de bodas, también ofrecemos servicios de decoración para otros eventos, como fiestas de cumpleaños, aniversarios, celebraciones de empresa, entre otros eventos sociales.<br>Nuestras flores y plantas para el hogar son otra de nuestras especialidades, ofrecemos una selección de flores y plantas ya sea para decorar tanto el interior como el exterior.<br> También ofrecemos arreglos florares para funerales, incluyendo coronas funerarias y arreglos para celebración de vida. Si lo que quieres es sorprender a esa persona especial, te ofrecemos la entrega a domicilio, con el mejor mimo y cuidado.<br> Disponible los 365 días del año."
+  // public recommendationsTitleSection: string = "Te recomendamos";
+  public recommendationsSection: recomendationsHome[] = [
     {
       title: "Rosas preservadas",
       description: "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo.",

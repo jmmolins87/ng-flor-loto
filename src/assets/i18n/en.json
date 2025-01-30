@@ -1,42 +1,45 @@
 {
-    "NAV_BAR": {
-        "BUNCH_FLOWERS": "Ramo de flores",
-        "BOUQUET_ROSES": "Ramo de rosas",
-        "FLOORS": "Plantas",
-        "WEDDING": "Bodas",
-        "FUNERAL": "Funerales",
-        "CONTACT": "Contacto"
+    "NAVBAR": {
+        "LOGO": "Flor de Loto Segovia",
+        "BUNCH_FLOWERS": "Bouquet of flowers",
+        "BOUQUET_ROSES": "Bouquet of roses",
+        "FLOORS": "Plants",
+        "WEDDING": "Weddings",
+        "FUNERAL": "Funerals",
+        "CONTACT": "Contact",
+        "LANGUAGE": "Elige tu idioma"
     },
     "FOOTER": {
-        "LOCATION": "¿Dónde estamos?",
-        "MAIL": "¿Nos quieres contar algo?",
-        "PHONE": "¡¡Llámanos!!",
-        "RIGHTS": "Todos los derechos reservados",
-        "MY_SITE": "Sitio creado con mucho",
-        "LEGAL": "Aviso legal",
-        "COOKIES": "Política de cookies",
-        "PRIVACITY": "Política de privacidad"
+        "LOCATION": "Where are we?",
+        "MAIL": "Do you want to tell us something?",
+        "PHONE": "Call us!!",
+        "RIGHTS": "All rights reserved",
+        "MY_SITE": "Site created with a lot",
+        "LEGAL": "Legal notice",
+        "COOKIES": "Cookie Policy",
+        "PRIVACITY": "Privacy Policy"
     },
     "HOME": {
-        "TITLE": "El arte de las flores",
-        "SUBTITLE": "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado.",
-        "TEXT_PRESENTATION": "<h3 class='mb-0'>Nuestras especialidades</h3><br> Nuestros ramos y arreglos florales son únicos y a medida para cada cliente. Creamos composiciones versátiles, empezando por arreglos florares para bodas, incluyendo ramos de novia, arreglos de centro de mesa, coronas de flores para el cabello, boutonnieres, y más.<br> Además de bodas, también ofrecemos servicios de decoración para otros eventos, como fiestas de cumpleaños, aniversarios, celebraciones de empresa, entre otros eventos sociales.<br>Nuestras flores y plantas para el hogar son otra de nuestras especialidades, ofrecemos una selección de flores y plantas ya sea para decorar tanto el interior como el exterior.<br> También ofrecemos arreglos florares para funerales, incluyendo coronas funerarias y arreglos para celebración de vida. Si lo que quieres es sorprender a esa persona especial, te ofrecemos la entrega a domicilio, con el mejor mimo y cuidado.<br> Disponible los 365 días del año.",
-        "RECOMENDATIONS_TITLE_SECTION": "Te recomendamos",
+        "TITLE": "The art of flowers",
+        "SUBTITLE": "Flowers are our best allies to surprise, excite and transmit emotions always with total attention to detail and finish.",
+        "TEXT_PRESENTATION": "<h3 class='mb-0'>Our Specialties</h3><br> Our bouquets and floral arrangements are unique and tailored to each client. We create versatile compositions, starting with floral arrangements for weddings, including bridal bouquets, centerpiece arrangements, hair wreaths, boutonnieres, and more.<br> In addition to weddings, we also offer decoration services for other events, such as birthday parties, anniversaries, company celebrations, among other social events.<br> Our flowers and plants for the home are another of our specialties, we offer a selection of flowers and plants to decorate both indoors and outdoors.<br> We also offer floral arrangements for funerals, including funeral wreaths and celebration of life arrangements. If you want to surprise that special person, we offer home delivery, with the best care and attention.<br> Available 365 days a year.",
+        "RECOMENDATIONS_TITLE_SECTION": "We recommend you",
         "RECOMENDATIONS_SECTION": {
             "PRESERVED_ROSES": {
-                "TITLE": "Rosas preservadas",
-                "DESCRIPTION": "Las flores preservadas presentadas en diferentes recipientes : cúpulas de cristal ,cajitas de madera ,teteras , etc… Si buscas un regalo duradero es una opción perfecta para que alguien muy especial se quede con un bonito recuerdo para siempre",
-                "IMG": ""
+                "TITLE": "Preserved roses",
+                "DESCRIPTION": "Preserved flowers are the perfect choice for those looking for a long-lasting and charming gift. Presented in elegant containers such as glass domes, wooden boxes and teapots, our preserved roses maintain their beauty and freshness for years without the need for special care. Surprise someone special with a keepsake that will last a lifetime."
             },
             "BUNCH_FLOWERS": {
-                "TITLE": "Ramo de flores",
-                "DESCRIPTION": "¡Perfecto para regalar, sorprender, crear sensaciones inolvidables! Te ofrecemos ramos de temporada, clásicos, modernos, polivalentes en todos lo sentidos  la variedad de las flores .",
-                "IMG": ""
+                "TITLE": "Bunch of flowers",
+                "DESCRIPTION": "Perfect for gift giving, surprising and creating unforgettable sensations! Our bouquets are designed for every occasion, from seasonal bouquets full of color to classic and modern compositions. Each bouquet is made with fresh flowers of the highest quality, ensuring that your gift is always special. Make every moment memorable with a beautiful bouquet of flowers!"
             },
             "BRIDAL_BOUQUETS": {
-                "TITLE": "Ramos de novia",
-                "DESCRIPTION": "¡El mejor elemento para destacar tu look nupcial ! Te ofrecemos un extenso catálogo de ramos de novia que ofrece desde ramos de novia más clásicos hasta ramos de novia vintage con un aire retro",
-                "IMG": ""
+                "TITLE": "Bridal bouquets",
+                "DESCRIPTION": "Make your special day even more memorable with our wedding flowers! We offer a wide range of custom floral arrangements for every aspect of your wedding, from bridal bouquets and boutonnieres to table decorations and floral arches. Our expert florists will work with you to create unique arrangements that reflect your style and wedding theme. Delivery and setup available to ensure everything is perfect on your big day!"
+            },
+            "FLOWERS_BIRTHDAYS": {
+                "TITLE": "Flowers for birthdays",
+                "DESCRIPTION": "Make that special someone's birthday one to remember with our fresh and vibrant flowers! We offer a wide variety of floral arrangements designed to surprise and brighten the day. From colorful and cheerful bouquets to elegant compositions, we have the perfect option for every celebration. Home delivery available so your gift arrives just in time!"
             }
         },
         "OPINIONS_TITLE_SECTION": "Las opiniones de nuestros clientes",

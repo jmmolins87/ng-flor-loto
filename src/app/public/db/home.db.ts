@@ -1,14 +1,32 @@
 
 
 
-import { HomePage } from "../models/home.interface";
 
-export const homePage: any = [
+
+
+
+import { recomendationsHome } from "../models/home/recomendations.interface";
+
+
+export const homePageRecomendations: recomendationsHome[] = [
     {
-        titlePage: "HOME.TITLE",
-        subtitlePage: "HOME.SUBTITLE",
-        textPresentation: "HOME.TEXT_PRESENTATION",
-        recomendationsTitleSection: "HOME.RECOMENDATIONS_TITLE_SECTION",
-        recomendationsSection: "HOME.RECOMENDATIONS_SECTION"
+        title: "RECOMENDATIONS_SECTION.PRESERVED_ROSES.TITLE",
+        description: "RECOMENDATIONS_SECTION.PRESERVED_ROSES.DESCRIPTION",
+        img: "assets/img/recommends/preserved-flowers.png"
+    },
+    {
+        title: "RECOMENDATIONS_SECTION.BUNCH_FLOWERS.TITLE",
+        description: "RECOMENDATIONS_SECTION.BUNCH_FLOWERS.DESCRIPTION",
+        img: "assets/img/recommends/bunch-flowers.png"
+    },
+    {
+        title: "RECOMENDATIONS_SECTION.BRIDAL_BOUQUETS.TITLE",
+        description: "RECOMENDATIONS_SECTION.BRIDAL_BOUQUETS.DESCRIPTION",
+        img: "assets/img/recommends/wedding.png"
+    },
+    {
+        title: "RECOMENDATIONS_SECTION.FLOWERS_BIRTHDAYS.TITLE",
+        description: "RECOMENDATIONS_SECTION.FLOWERS_BIRTHDAYS.DESCRIPTION",
+        img: "assets/img/recommends/birthday.jpg"
     }
 ]

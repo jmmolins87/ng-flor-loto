@@ -2,8 +2,10 @@
     <div class="container">
         <div class="wrapper-footer">
             <ul class="wrap-polities">
-                <li *ngFor="let policie of policies">
-                    <a [routerLink]="policie.link">{{ policie.label }}</a>
+                <li *ngFor="let policie of footerPolicies">
+                    <a [routerLink]="policie.link">
+                        {{ policie.label | translate }}
+                    </a>
                 </li>
             </ul>
             <div [routerLink]="['/']" class="wrap-logo">
@@ -13,12 +15,12 @@
                     title="Logo flor de loto">
             </div>
             <ul class="wrap-location">
-                <li *ngFor="let contact of contactItems">
+                <li *ngFor="let contact of footerContact">
                     <a 
                         target="_blank" 
                         [href]="contact.link">
                         <i class="pi {{ contact.icon }}"></i> 
-                        {{ contact.label }}
+                        {{ contact.label | translate }}
                     </a>
                 </li>
             </ul>
@@ -26,8 +28,8 @@
     </div>
     <div class="wrap-info">
         <div class="wrap-info">
-            <p>&copy; Todos los derechos reservados <span>{{ currentYear }}</span></p>
-            <p>Sitio creado con mucho <i class="pi pi-heart-fill"></i></p>
+            <p>&copy; {{ "FOOTER.RIGHTS" | translate }} <span>{{ currentYear }}</span></p>
+            <p>{{ "FOOTER.MY_SITE" | translate }} <i class="pi pi-heart-fill"></i></p>
         </div>
     </div>
 </footer>
