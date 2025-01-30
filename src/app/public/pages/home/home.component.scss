@@ -24,33 +24,25 @@
         }
     }
     .wrap-recommends {
-        display: flex;
-        box-sizing: border-box;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: stretch;
-        gap: 1rem;
-        @include min-responsive($tablet) {
-            flex-direction: row;
-            min-width: calc(33% - 2rem);
-            gap: 2rem;
+        width: 100%;
+        @include min-responsive($mobile-large) {
+            @include grid(2, 2rem);
+        }
+        @include min-responsive($desktop-laptop) {
+            @include grid(3, 2rem);
         }
         &__presentation {
-            flex: 1 1 100%;
-            margin-top: 2rem;
             padding: 2rem;
             border-radius: $border-radius-10;
             background: rgba($white-dark, .1);
             border: .5rem solid $grey-light;
             backdrop-filter: blur(1.5rem);
-            color: $black;
-            @include min-responsive($tablet) {
-                flex: 1 1 33%;
-            }
+            color: $black;  
         }
     }
     .wrap-carrousel-opinions {
         margin-top: 2rem;
+        margin-bottom: 2rem;
         padding: 2rem;
         border-radius: $border-radius-10;
         background: rgba($white-dark, .5);

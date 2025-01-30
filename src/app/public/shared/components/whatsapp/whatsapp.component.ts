@@ -5,11 +5,6 @@ import {
   Validators 
 } from '@angular/forms';
 
-declare global {
-  interface Window {
-    initWhatsAppWidget: (options: { phone: string; text: string; position: string }) => void;
-  }
-}
 
 @Component({
   selector: 'app-whatsapp',
@@ -31,25 +26,6 @@ export class WhatsappComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.loadWhatsAppWidget();
-  }
-
-  loadWhatsAppWidget() {
-    const script = document.createElement('script');
-    script.src = 'https://static.getbutton.io/widget-send-button/js/init.js'; // URL del widget de WhatsApp
-    script.async = true;
-    script.onload = () => {
-      // Inicializa el widget de WhatsApp aquí si es necesario
-      window.initWhatsAppWidget({
-        phone: '655929164',
-        text: '¡Hola! ¿Cómo puedo ayudarte?',
-        position: 'right'
-      });
-    };
-    const widgetElement = document.getElementById('whatsapp-chat-widget');
-    if (widgetElement) {
-      widgetElement.appendChild(script);
-    }
   }
 
   onSubmit() {

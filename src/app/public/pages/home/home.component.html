@@ -24,7 +24,7 @@
                 [height]="200" />
         </div>
         <!-- Skeleton Presentation -->
-        <div class="wrap-title mt-3">
+        <div class="wrap-title mt-3 mb-3">
             <h3 *ngIf="!showSkeleton" class="subtitle mb-0 ">{{ recommendationsTitleSection }}</h3>
             <p-skeleton *ngIf="showSkeleton" width="30rem" height="5rem" />
         </div>
@@ -33,9 +33,9 @@
                 <h3 *ngIf="!showSkeleton">{{ recomendation.title }}</h3>
                 <div *ngIf="!showSkeleton" class="wrap-image">
                     <p-image 
-                        src="https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg" 
-                        alt="Image" 
-                        title="Image"
+                        [src]="recomendation.img" 
+                        [alt]="recomendation.title" 
+                        [title]="recomendation.title"
                         width="100%" />
                 </div>
                 <p *ngIf="!showSkeleton" class="mt-2">{{ recomendation.description }}</p>

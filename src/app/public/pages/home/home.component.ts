@@ -58,21 +58,26 @@ export class HomeComponent implements OnInit {
   public recommendationsSection: RecomendationsHome[] = [
     {
       title: "Rosas preservadas",
-      description: "Las flores preservadas presentadas en diferentes recipientes : cúpulas de cristal ,cajitas de madera ,teteras , etc… Si buscas un regalo duradero es una opción perfecta para que alguien muy especial se quede con un bonito recuerdo para siempre",
-      img: ""
+      description: "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo.",
+      img: "assets/img/recommends/preserved-flowers.png"
     },
     {
       title: "Ramo de flores",
-      description: "¡Perfecto para regalar, sorprender, crear sensaciones inolvidables! Te ofrecemos ramos de temporada, clásicos, modernos, polivalentes en todos lo sentidos  la variedad de las flores .",
-      img: ""
+      description: "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!",
+      img: "assets/img/recommends/bunch-flowers.png"
     },
     {
-      title: "Ramos de novia",
-      description: "¡El mejor elemento para destacar tu look nupcial ! Te ofrecemos un extenso catálogo de ramos de novia que ofrece desde ramos de novia más clásicos hasta ramos de novia vintage con un aire retro",
-      img: ""
+      title: "Flores para bodas",
+      description: "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!",
+      img: "assets/img/recommends/wedding.png"
+    },
+    {
+      title: "Flores para cumpleaños",
+      description: "¡Haz que el cumpleaños de esa persona especial sea inolvidable con nuestras flores frescas y vibrantes! Ofrecemos una amplia variedad de arreglos florales diseñados para sorprender y alegrar el día. Desde ramos coloridos y alegres hasta elegantes composiciones, tenemos la opción perfecta para cada celebración. ¡Entrega a domicilio disponible para que tu regalo llegue justo a tiempo!",
+      img: "assets/img/recommends/birthday.jpg"
     }
   ]
-  public opinionsTitleSection: string = "Las opiniones de nuestros clientes";
+  public opinionsTitleSection: string = "Las opiniones de nuestr@s clientes";
   public opinionsSection: carrouselOpinions[] = [
     {
       name: "Alberto Acebes",

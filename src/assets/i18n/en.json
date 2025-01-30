@@ -1,4 +1,22 @@
 {
+    "NAV_BAR": {
+        "BUNCH_FLOWERS": "Ramo de flores",
+        "BOUQUET_ROSES": "Ramo de rosas",
+        "FLOORS": "Plantas",
+        "WEDDING": "Bodas",
+        "FUNERAL": "Funerales",
+        "CONTACT": "Contacto"
+    },
+    "FOOTER": {
+        "LOCATION": "¿Dónde estamos?",
+        "MAIL": "¿Nos quieres contar algo?",
+        "PHONE": "¡¡Llámanos!!",
+        "RIGHTS": "Todos los derechos reservados",
+        "MY_SITE": "Sitio creado con mucho",
+        "LEGAL": "Aviso legal",
+        "COOKIES": "Política de cookies",
+        "PRIVACITY": "Política de privacidad"
+    },
     "HOME": {
         "TITLE": "El arte de las flores",
         "SUBTITLE": "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado.",
