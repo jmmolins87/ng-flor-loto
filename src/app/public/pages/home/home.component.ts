@@ -24,7 +24,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.showSkeleton = false;
-    }, 500)
+    }, 1500)
   }
 
   // ********************* Data *********************

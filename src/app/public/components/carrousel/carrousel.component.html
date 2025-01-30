@@ -2,6 +2,7 @@
     <p-carousel 
         [value]="itemsCarrouselHero" 
         [numVisible]="1" 
+        [circular]="true"
         [autoplayInterval]="intervalHero">
         <ng-template let-slide pTemplate="item">
             <div class="wrap-carrousel-hero">
@@ -9,13 +10,14 @@
                     <h3 class="hero-title">
                         {{ slide.title }}
                     </h3>
-                    <p [innerHtml]="slide.description"  class="hero-description"></p>
+                    <p [innerHtml]="slide.description" class="hero-description"></p>
                 </div>
                 <div class="wrap-img">
                     <img 
                         [src]="slide.img" 
                         [alt]="slide.title" 
                         class="img" />
+                    <p-skeleton size="5rem" />
                 </div>
             </div>
         </ng-template>

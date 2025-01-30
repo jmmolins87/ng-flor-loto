@@ -5,7 +5,7 @@
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background-color: rgba($white, .1);
+    background-color: rgba($white, .25);
     backdrop-filter: blur(.3rem);
     margin-bottom: 5rem;
     .wrap-carrousel-hero {
@@ -34,11 +34,13 @@
             }
         }
         .wrap-img {
-            max-width: 100%;
-            height: 100dvh;
+            max-width: 100vw;
+            min-width: 100vw;
+            height: 100vh;
             object-fit: cover;
             @include min-responsive($tablet) {
                 max-width: calc(66.6vw - 2rem);
+                min-width: calc(66.6vw - 2rem);
                 width: calc(66.6vw - 2rem);
             }
             img {
