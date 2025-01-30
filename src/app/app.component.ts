@@ -8,6 +8,7 @@ import {
 import { MenuItem, PrimeNGConfig } from 'primeng/api';
 
 import { SharedService } from './public/shared/services/shared.service';
+
 import { WhatsappComponent } from './public/shared/components/whatsapp/whatsapp.component';
 
 @Component({
@@ -25,8 +26,7 @@ export class AppComponent {
   public whatsappComponent!: WhatsappComponent;
 
   constructor(
-    public sharedService: 
-    SharedService, 
+    public sharedService: SharedService, 
     private primengConfig: PrimeNGConfig,
     private _router: Router,
   ) {}
@@ -41,7 +41,7 @@ export class AppComponent {
     };
     this._router.events.subscribe((event: Event) => {
       if (event instanceof NavigationEnd) {
-        window.scrollTo(0, 0);  // Hace scroll al inicio de la página
+        window.scrollTo(0, 0);
       }
     });
     this.shopping();

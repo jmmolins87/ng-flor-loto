@@ -39,6 +39,7 @@
     [draggable]="false" 
     [baseZIndex]="10000" 
     [maximizable]="true"
+    [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" 
     [style]="{width: '75vw'}">
     <div *ngIf="selectedSlide" class="wrap-modal-slide">
         <h3 class="hero-modal-title">{{ selectedSlide.title }}</h3>
@@ -97,7 +98,8 @@
     [draggable]="false"
     [baseZIndex]="10000"
     [maximizable]="true"
-    [style]="{width: '75vw'}">
+    [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" 
+    [style]="{width: '50vw'}">
     <div *ngIf="selectedProduct" class="wrap-modal-rating">
         <h3 class="mb-3 mt-2">{{ selectedProduct.name }}</h3>
         <p-rating 
