@@ -4,9 +4,10 @@ import { Component, OnInit } from '@angular/core';
 
 import { carrouselOptions } from '../../components/carrousel/carrousel.config';
 
-import { OpinionsSection } from '../../models/home/opinions.interface';
+
 import { RecomendationsHome } from '../../models/home/recomendations.interface';
 import { carrouselHero } from '../../models/home/carrouselHero.interface';
+import { carrouselOpinions } from '../../models/home/carrouselOpinions.interface';
 
 @Component({
   selector: 'app-home',
@@ -31,22 +32,22 @@ export class HomeComponent implements OnInit {
   public itemsCarrouselHero: carrouselHero[] = [
     {
       title: "Slide 1",
-      description: "lorem10",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1",
       img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
     },
     {
       title: "Slide 2",
-      description: "lorem10",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 2",
       img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
     },
     {
       title: "Slide 3",
-      description: "lorem10",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 3",
       img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
     }
     , {
       title: "Slide 4",
-      description: "lorem10",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 4",
       img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
     }
   ];
@@ -72,7 +73,7 @@ export class HomeComponent implements OnInit {
     }
   ]
   public opinionsTitleSection: string = "Las opiniones de nuestros clientes";
-  public opinionsSection: OpinionsSection[] = [
+  public opinionsSection: carrouselOpinions[] = [
     {
       name: "Alberto Acebes",
       description: "¡Raúl es un gran florista! Siempre está dispuesto a ayudar, dando buenos consejos sobre cómo cuidar de las plantas. Siempre que tengo dudas, las resuelve rápidamente y me ayuda a que mis plantas se mantengan sanas. Además, tiene algunas especies de lo más originales, como la que se puede ver en la foto, que quedan genial en casa y son fáciles de cuidar. ¡Totalmente recomendable!"

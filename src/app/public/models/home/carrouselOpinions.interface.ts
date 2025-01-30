@@ -1,6 +1,6 @@
 
 
-export interface OpinionsSection {
+export interface carrouselOpinions {
     name: string;
     description: string;
     image?: string[];

@@ -11,6 +11,15 @@
                         {{ slide.title }}
                     </h3>
                     <p [innerHtml]="slide.description" class="hero-description"></p>
+                    <p-button 
+                        [outlined]="true" 
+                        pButton type="button" 
+                        severity="info" 
+                        icon="pi pi-align-justify" 
+                        iconPos="right" 
+                        label="Seguir leyendo"
+                        (click)="openModalSlide(slide)"
+                        class="btn-modal" />
                 </div>
                 <div class="wrap-img">
                     <img 
@@ -23,6 +32,27 @@
         </ng-template>
     </p-carousel>
 </div>
+
+<p-dialog 
+    [(visible)]="displayModalHero" 
+    [modal]="true" 
+    [draggable]="false" 
+    [baseZIndex]="10000" 
+    [maximizable]="true"
+    [style]="{width: '50vw'}">
+    <div *ngIf="selectedSlide" class="wrap-modal-slide">
+        <h3 class="hero-modal-title">{{ selectedSlide.title }}</h3>
+        <p [innerHtml]="selectedSlide.description" class="hero-modal-description mt-1"></p>
+        <div class="wrap-img">
+            <img 
+                [src]="selectedSlide.img" 
+                [alt]="selectedSlide.title" 
+                [title]="selectedSlide.title" 
+                class="img" />
+        </div>
+    </div>
+</p-dialog>
+
     <!-- *************** -->
 <div *ngIf="carrouselOptions === 'isOpinator'" class="carrousel-opinator">
     <p-carousel 
@@ -54,7 +84,7 @@
                         icon="pi pi-book"
                         iconPos="right"
                         label="Leer más" 
-                        (click)="openModal(product)" />
+                        (click)="openModalOpinator(product)" />
                 </div>
             </div>
         </ng-template>
@@ -62,7 +92,7 @@
 </div>
 
 <p-dialog 
-    [(visible)]="displayModal" 
+    [(visible)]="displayModalOpinator" 
     [modal]="true"
     [draggable]="false"
     [baseZIndex]="10000"
@@ -81,6 +111,7 @@
                 *ngFor="let image of selectedProduct.image; let i = index"
                 [src]="image" 
                 [alt]="selectedProduct.name" 
+                [title]="selectedProduct.name" 
                 class="img" />
         </div>
     </div>
