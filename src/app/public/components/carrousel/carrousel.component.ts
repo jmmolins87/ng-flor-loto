@@ -4,6 +4,8 @@ import {
   OnInit 
 } from '@angular/core';
 
+import { carrouselOptions } from './carrousel.config';
+
 @Component({
   selector: 'app-carrousel',
   templateUrl: './carrousel.component.html',
@@ -12,9 +14,17 @@ import {
 export class CarrouselComponent implements OnInit {
 
   @Input()
-  public itemsCarrousel: any [] = [];
+  public itemsCarrouselHero: any [] = [];
+  @Input()
+  public itemsCarrouselOpinator: any [] = [];
   @Input()
   public valueRating: number = 0;
+  @Input()
+  public carrouselOptions!: carrouselOptions;
+  @Input()
+  public intervalHero: number = 7500;
+  @Input()
+  public intervalOpinions: number = 5000;
 
   public responsiveOptions: any[] | undefined;
   public displayModal: boolean = false;

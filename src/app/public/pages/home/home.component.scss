@@ -3,6 +3,11 @@
 @import "/src/styles.scss";
 
 .wrap-home {
+    .wrap-carrousel-hero {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+    }
     .wrap-title {
         .subtitle {
             color: $black-light;
@@ -12,7 +17,7 @@
         margin-top: 2rem;
         padding: 2rem;
         border-radius: $border-radius-10;
-        background: rgba($white-dark, .1);
+        background: rgba($white, .1);
         border: .5rem solid $grey-light;
         backdrop-filter: blur(1.5rem);
         color: $black;

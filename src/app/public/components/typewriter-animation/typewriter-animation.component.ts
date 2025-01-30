@@ -1,8 +1,11 @@
-import { 
-  Component, 
-  ElementRef, 
-  Input, 
-  ViewChild 
+// filepath: /C:/Users/juan.maria.molins/OneDrive - Accenture/Documents/GitHub/ng-f-loto-proj/src/app/public/components/typewriter-animation/typewriter-animation.component.ts
+import {
+  Component,
+  ElementRef,
+  HostListener,
+  Input,
+  ViewChild,
+  AfterViewInit
 } from '@angular/core';
 
 @Component({
@@ -10,9 +13,8 @@ import {
   templateUrl: './typewriter-animation.component.html',
   styleUrls: ['./typewriter-animation.component.scss']
 })
-export class TypewriterAnimationComponent {
+export class TypewriterAnimationComponent implements AfterViewInit {
 
-  // Add text, height, and typing speed as input properties
   @Input()
   public text: string = '';
   @Input()
@@ -20,36 +22,43 @@ export class TypewriterAnimationComponent {
   @Input()
   public typingSpeed: number = 200; // Default speed
 
-  // Get the text container element
   @ViewChild('textContainer')
   public textContainer!: ElementRef;
 
-  // Initialize variables
   public displayedText: string = '';
   public currentIndex: number = 0;
-
-  ngOnInit(): void { }
+  private isTyping: boolean = false;
 
   ngAfterViewInit(): void {
-    this.typeWriterEffect();
+    this.checkVisibility();
   }
 
-  // Listen for window resize events and adjust the height of the text container accordingly
-  typeWriterEffect(): void {
+  @HostListener('window:scroll', [])
+  onWindowScroll(): void {
+    this.checkVisibility();
+  }
+
+  private checkVisibility(): void {
+    const rect = this.textContainer.nativeElement.getBoundingClientRect();
+    const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+    if (!this.isTyping && rect.top >= 0 && rect.bottom <= viewHeight) {
+      this.isTyping = true;
+      this.typeWriterEffect();
+    }
+  }
+
+  private typeWriterEffect(): void {
     if (this.currentIndex < this.text.length) {
       this.displayedText += this.text.charAt(this.currentIndex);
       this.currentIndex++;
-      this.scrollTextContainer();
-      setTimeout(() => this.typeWriterEffect(), this.typingSpeed); // Adjust the speed as needed
+      setTimeout(() => {
+        this.typeWriterEffect();
+        this.scrollToBottom();
+      }, this.typingSpeed);
     }
   }
 
-  // Scroll the text container to the bottom when the text overflows the container
-  scrollTextContainer(): void {
-    const container = this.textContainer.nativeElement;
-    if (container.scrollHeight > container.clientHeight) {
-      container.scrollTop = container.scrollHeight - container.clientHeight;
-    }
+  private scrollToBottom(): void {
+    this.textContainer.nativeElement.scrollTop = this.textContainer.nativeElement.scrollHeight;
   }
-
 }

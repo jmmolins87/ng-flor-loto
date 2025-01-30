@@ -1,13 +1,37 @@
-<div class="card">
+<div *ngIf="carrouselOptions === 'isHero'" class="carrousel-hero">
     <p-carousel 
-        [value]="itemsCarrousel" 
+        [value]="itemsCarrouselHero" 
+        [numVisible]="1" 
+        [autoplayInterval]="intervalHero">
+        <ng-template let-slide pTemplate="item">
+            <div class="wrap-carrousel-hero">
+                <div class="wrap-text">
+                    <h3 class="hero-title">
+                        {{ slide.title }}
+                    </h3>
+                    <p [innerHtml]="slide.description"  class="hero-description"></p>
+                </div>
+                <div class="wrap-img">
+                    <img 
+                        [src]="slide.img" 
+                        [alt]="slide.title" 
+                        class="img" />
+                </div>
+            </div>
+        </ng-template>
+    </p-carousel>
+</div>
+    <!-- *************** -->
+<div *ngIf="carrouselOptions === 'isOpinator'" class="carrousel-opinator">
+    <p-carousel 
+        [value]="itemsCarrouselOpinator" 
         [numVisible]="3" 
         [numScroll]="3" 
         [circular]="true"
         [responsiveOptions]="responsiveOptions" 
-        autoplayInterval="10000">
+        [autoplayInterval]="intervalOpinions">
         <ng-template let-product pTemplate="item" >
-            <div class="border-1 m-2 p-3 wrap-rating">
+            <div class="border-1 m-2 p-3">
                 <div class="wrap-header">
                     <h3 class="mb-3 font-medium opinator-name">
                         {{ product.name }}
