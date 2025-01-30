@@ -42,7 +42,7 @@
                 "DESCRIPTION": "¡Haz que el cumpleaños de esa persona especial sea inolvidable con nuestras flores frescas y vibrantes! Ofrecemos una amplia variedad de arreglos florales diseñados para sorprender y alegrar el día. Desde ramos coloridos y alegres hasta elegantes composiciones, tenemos la opción perfecta para cada celebración. ¡Entrega a domicilio disponible para que tu regalo llegue justo a tiempo!"
             }
         },
-        "OPINIONS_TITLE_SECTION": "Las opiniones de nuestros clientes",
+        "OPINIONS_TITLE_SECTION": "Las opiniones de nuestr@s clientes",
         "OPINIONS_SECTION": {
             "OPINION_1": {
                 "NAME_AUTHOR": "Alberto Acebes",
@@ -123,6 +123,7 @@
                 ],
                 "RATING": 5
             }
-        }
+        },
+        "BUTTON": "Leer más"
     }
 }

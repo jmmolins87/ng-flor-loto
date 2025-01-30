@@ -12,7 +12,7 @@ export class PagesService {
   constructor() { }
 
   // Get recommendations
-  get recommendations() {
+  get recommendationsHome() {
     return new Observable<any[]>(observer => {
       // Get items from db
       observer.next(homePageRecomendations);

@@ -23,24 +23,22 @@ export class HomeComponent implements OnInit {
   public carrouselOpinator: carrouselOptions = carrouselOptions.isOpinator;
   public intervalCarrouselHero: number = 7500;
   public intervalCarrouselOpinions: number = 5000;
-  public recommendations: recomendationsHome[] = []
+  public recommendationsHome: recomendationsHome[] = []
 
-  constructor( 
-      private _sharedService: SharedService, 
-      private _pagesService: PagesService 
-    ) {}
+  constructor( private _pagesService: PagesService ) {}
 
   ngOnInit() {
     setTimeout(() => {
       this.showSkeleton = false;
     }, 1500)
+    this.getRecommendations();
   }
 
   getRecommendations() {
-    this._pagesService.recommendations.subscribe(recommendations => {
-      this.recommendations = recommendations;
+    this._pagesService.recommendationsHome.subscribe(recommendations => {
+      this.recommendationsHome = recommendations;
     });
-    return this.recommendations;  
+    return this.recommendationsHome;  
   }
 
   // ********************* Data *********************

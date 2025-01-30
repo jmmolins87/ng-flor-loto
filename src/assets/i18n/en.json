@@ -42,7 +42,7 @@
                 "DESCRIPTION": "Make that special someone's birthday one to remember with our fresh and vibrant flowers! We offer a wide variety of floral arrangements designed to surprise and brighten the day. From colorful and cheerful bouquets to elegant compositions, we have the perfect option for every celebration. Home delivery available so your gift arrives just in time!"
             }
         },
-        "OPINIONS_TITLE_SECTION": "Las opiniones de nuestros clientes",
+        "OPINIONS_TITLE_SECTION": "Our customer's opinions",
         "OPINIONS_SECTION": {
             "OPINION_1": {
                 "NAME_AUTHOR": "Alberto Acebes",
@@ -123,6 +123,7 @@
                 ],
                 "RATING": 5
             }
-        }
+        },
+        "BUTTON": "Read more"
     }
 }
