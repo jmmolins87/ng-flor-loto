@@ -1,4 +1,4 @@
-<nav [ngClass]="scrolled ? 'scroll' : ''" class="navbar navbar-expand-xl sticky-top">
+<nav [ngClass]="scrolled ? 'scroll' : ''" class="navbar navbar-expand-xl">
     <div class="container-fluid wrap-navbar">
         <a [routerLink]="['/']" [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
             [attr.data-bs-target]="isTablet ? '' : '#navbarFsnArg'"
@@ -23,6 +23,18 @@
                     </a>
                 </li>
             </ul>
+            <!-- TODO -->
+            <!-- <div class="end">
+                <div class="wrap-change-language">
+                    <span class="pi pi-fw pi-language icon-lang"></span>
+                    <select #langSelect (change)="changeLang( langSelect.value )" class="form-select" aria-label="change language">
+                        <option selected disabled class>{{ "NAV_BAR.LANGUAGE" | translate }}</option>
+                        <option *ngFor="let lang of langs" [value]="lang.lang">
+                            {{ lang.name }}
+                        </option>
+                    </select>
+                </div>
+            </div> -->
         </div>
     </div>
 </nav>

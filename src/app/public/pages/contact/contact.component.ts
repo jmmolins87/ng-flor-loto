@@ -11,7 +11,9 @@ import { MessageService } from 'primeng/api';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
+
   public contactForm!: FormGroup;
+  public showSkeleton: boolean = true;
 
   constructor(private fb: FormBuilder, private _messageService: MessageService ) { }
 
@@ -22,6 +24,9 @@ export class ContactComponent implements OnInit {
       subject: ['', Validators.required],
       message: ['', Validators.required]
     });
+    setTimeout(() => {
+      this.showSkeleton = false;
+    }, 1000)
   }
 
   onSubmit(): void {
@@ -37,7 +42,7 @@ export class ContactComponent implements OnInit {
       emailjs.send('service_6tb3ps3', 'template_dpt3vlk', templateParams, '_JM6-N2BcvGJM05T_')
         .then((response: EmailJSResponseStatus) => {
           console.log('Email sent successfully', response.status, response.text);
-          this._messageService.add({ severity: 'success', summary: '¡Bien!', detail: 'Se mandó tu correo correctamente' });
+          this._messageService.add({ severity: 'success', summary: 'Correo enviado correctamente', detail: 'Te responderemos lo antes posible' });
         }, (error) => {
           console.error('Error sending email', error);
           this._messageService.add({ severity: 'error', summary: '¡¡Vaya!!', detail: `Algo salió mal: ${error}` });

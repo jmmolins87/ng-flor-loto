@@ -5,6 +5,7 @@
 .navbar {
     position: fixed;
     top: 0;
+    padding: .5rem 1rem .5rem 0;
     width: 100%;
     z-index: 1000;
     background: $brand-primary;
@@ -76,7 +77,7 @@
         .navbar-nav {
             gap: .5rem;
             @include min-responsive($tablet) {
-                gap: 1.2rem;
+                gap: 3rem;
             }
             .nav-item {
                 display: flex;
@@ -118,20 +119,31 @@
             margin-top: 0;
             min-width: auto;
         }
-        .icon-lang {
-            margin-right: 0;
+        .wrap-change-language {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: .5rem;
             @include min-responsive($tablet) {
-                margin-right: 1rem;
+                flex-direction: row;
             }
-        }
-        .form-select {
-            font-size: $txt-main;
-            width: 19.5rem;
-            padding: 1rem;
-            margin-top: 1rem;
-            background: transparent;
-            @include min-responsive($tablet) {
-                margin-top: 0;
+            .icon-lang {
+                color: $white;
+                margin-right: 0;
+                @include min-responsive($tablet) {
+                    margin-right: 1rem;
+                }
+            }
+            .form-select {
+                font-size: $txt-main;
+                padding: 1rem;
+                margin-top: 1rem;
+                background: transparent;
+                @include min-responsive($tablet) {
+                    margin-top: 0;
+                }
             }
         }
     }

@@ -28,7 +28,7 @@ export const footerItemsContact: footerInterface[] =[
     {
         label: "FOOTER.MAIL",
         icon: "pi-comments",
-        link: "mailto:flordelotosegovia@gmail.com"
+        link: "/contact"
     },
     {
         label: "FOOTER.PHONE",

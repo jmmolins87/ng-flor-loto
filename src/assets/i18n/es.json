@@ -129,5 +129,20 @@
             }
         },
         "BUTTON": "Leer más"
+    },
+    "CONTACT": {
+        "TITLE": "¡Estamos para ayudarte!",
+        "DESCRIPTION": "Si tienes alguna pregunta, consulta o deseas realizar un pedido personalizado, no dudes en contactarnos. Nuestro amable equipo de expertos floristas está listo para brindarte un servicio excepcional y asesoramiento personalizado. Puedes comunicarte con nosotros por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
+        "FORM_FIEDS": {
+            "NAME": "Nombre",
+            "VALIDATION_NAME": "El nombre es requerido.",
+            "EMAIL": "E-mail",
+            "VALIDATION_EMAIL": "Introduzca un correo electrónico válido.",
+            "SUBJECT": "Asunto",
+            "VALIDATION_SUBJECT": "El asunto es requerido.",
+            "MESSAGE": "Mensaje",
+            "VALIDATION_MESSAGE": "El mensaje es requerido."
+        },
+        "SEND": "Enviar"
     }
 }
