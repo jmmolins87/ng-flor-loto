@@ -24,8 +24,10 @@
             .p-field {
                 margin-bottom: 1.5em;
                 flex: 1 1 100%;
+                min-width: 100%;
                 @include min-responsive($tablet) {
                     flex: 1 1 33%;
+                    min-width: calc(33% - 1rem);
                 }
             }
         }

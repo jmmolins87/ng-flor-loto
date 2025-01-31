@@ -32,12 +32,16 @@
             @include grid(3, 2rem);
         }
         &__presentation {
+            margin-top: 1rem;
             padding: 2rem;
             border-radius: $border-radius-10;
             background: rgba($white-dark, .1);
             border: .5rem solid $grey-light;
             backdrop-filter: blur(1.5rem);
             color: $black;  
+            @include min-responsive($tablet) {
+                margin-top: 0;
+            }
         }
     }
     .wrap-carrousel-opinions {
