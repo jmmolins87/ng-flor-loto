@@ -1,16 +1,10 @@
-<nav [ngClass]="scrolled ? 'scroll' : ''" class="navbar navbar-expand-xl">
+<nav [ngClass]="scrolled ? 'scroll' : ''" class="navbar navbar-expand-xl sticky-top">
     <div class="container-fluid wrap-navbar">
-        <a 
-            [routerLink]="['/']" 
-            [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
+        <a [routerLink]="['/']" [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
             [attr.data-bs-target]="isTablet ? '' : '#navbarFsnArg'"
-            [attr.aria-controls]="isTablet ? '' : 'navbarFsnArg'"
-            [attr.aria-expanded]="isTablet ? '' : 'false'"  
+            [attr.aria-controls]="isTablet ? '' : 'navbarFsnArg'" [attr.aria-expanded]="isTablet ? '' : 'false'"
             class="navbar-brand">
-            <img 
-                src="/assets/img/logo-loto.png" 
-                [alt]="'NAVBAR.LOGO' | translate"
-                [title]="'NAVBAR.LOGO' | translate">
+            <img src="/assets/img/logo-loto.png" [alt]="'NAVBAR.LOGO' | translate" [title]="'NAVBAR.LOGO' | translate">
         </a>
         <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarFsnArg" aria-controls="navbarFsnArg"
             aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed">
@@ -19,32 +13,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarFsnArg">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li 
-                    *ngFor="let item of menuItems" 
-                    [routerLinkActive]="['active']" 
-                    class="nav-item">
-                    <a 
-                        [routerLink]="item.routerLink"
-                        [title]="item.label | translate"
+                <li *ngFor="let item of menuItems" [routerLinkActive]="['active']" class="nav-item">
+                    <a [routerLink]="item.routerLink" [title]="item.label | translate"
                         [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
                         [attr.data-bs-target]="isTablet ? '' : '#navbarFsnArg'"
                         [attr.aria-controls]="isTablet ? '' : 'navbarFsnArg'"
-                        [attr.aria-expanded]="isTablet ? '' : 'false'" 
-                        aria-current="page"
-                        class="nav-link" >
+                        [attr.aria-expanded]="isTablet ? '' : 'false'" aria-current="page" class="nav-link">
                         {{ item.label | translate }}
                     </a>
                 </li>
             </ul>
         </div>
     </div>
-    <!-- <div class="end">
-        <span class="pi pi-fw pi-language icon-lang"></span>
-        <select #langSelect (change)="changeLang( langSelect.value )" class="form-select" aria-label="change language">
-            <option selected disabled class>{{ "NAV_BAR.LANGUAGE" | translate }}</option>
-            <option *ngFor="let lang of langs" [value]="lang.lang">
-                {{ lang.name }}
-            </option>
-        </select>
-    </div> -->
 </nav>

@@ -19,6 +19,10 @@
         "COOKIES": "Política de cookies",
         "PRIVACITY": "Política de privacidad"
     },
+    "COOKIES": {
+        "TEXT": "Utilizamos cookies para mejorar tu experiencia. Al utilizar nuestro sitio, aceptas el uso de cookies.",
+        "BUTTON": "Aceptar"
+    },
     "HOME": {
         "TITLE": "El arte de las flores",
         "SUBTITLE": "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado.",

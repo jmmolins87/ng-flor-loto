@@ -4,12 +4,13 @@ import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
 import { DialogModule } from 'primeng/dialog';
 import { ImageModule } from 'primeng/image';
-import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
+import { InputTextModule } from 'primeng/inputtext';
 import { RatingModule } from 'primeng/rating';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { SkeletonModule } from 'primeng/skeleton';
 import { SpeedDialModule } from 'primeng/speeddial';
+import { ToastModule } from 'primeng/toast';
 
 
 @NgModule({
@@ -18,12 +19,13 @@ import { SpeedDialModule } from 'primeng/speeddial';
     CarouselModule,
     DialogModule,
     ImageModule,
-    InputTextModule,
     InputTextareaModule,
+    InputTextModule,
     RatingModule,
     ScrollTopModule,
     SkeletonModule,
-    SpeedDialModule
+    SpeedDialModule,
+    ToastModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

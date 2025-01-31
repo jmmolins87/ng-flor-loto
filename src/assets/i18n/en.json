@@ -19,6 +19,10 @@
         "COOKIES": "Cookie Policy",
         "PRIVACITY": "Privacy Policy"
     },
+    "COOKIES": {
+        "TEXT": "We use cookies to improve your experience. By using our site, you agree to our use of cookies.",
+        "BUTTON": "Accept"
+    },
     "HOME": {
         "TITLE": "The art of flowers",
         "SUBTITLE": "Flowers are our best allies to surprise, excite and transmit emotions always with total attention to detail and finish.",

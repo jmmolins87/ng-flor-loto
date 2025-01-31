@@ -7,6 +7,8 @@ import {
 
 import { MenuItem, PrimeNGConfig } from 'primeng/api';
 
+import { CookieService } from 'ngx-cookie-service';
+
 import { SharedService } from './public/shared/services/shared.service';
 
 import { WhatsappComponent } from './public/shared/components/whatsapp/whatsapp.component';
@@ -29,6 +31,7 @@ export class AppComponent {
     public sharedService: SharedService, 
     private primengConfig: PrimeNGConfig,
     private _router: Router,
+    private _cookieService: CookieService, 
   ) {}
 
   ngOnInit() {
@@ -46,8 +49,20 @@ export class AppComponent {
     });
     this.shopping();
     this.social();
+    this.getCookies();
   }
 
+  getCookies() {
+    // Set a cookie
+    this._cookieService.set('user-visited', 'true', 7); // Cookie expires in 7 days
+    // Get a cookie
+    const userVisited = this._cookieService.get('user-visited');
+    // Check if a cookie exists
+    const hasVisited = this._cookieService.check('user-visited');
+  }
+
+
+  // ********** Data
   shopping() {
     this.itemsShop = [
       {

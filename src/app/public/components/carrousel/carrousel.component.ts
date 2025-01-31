@@ -33,10 +33,18 @@ export class CarrouselComponent implements OnInit {
   public displayModalOpinator: boolean = false;
   public selectedSlide: any;
   public selectedProduct: any;
+  public showSkeleton: boolean = true;
 
   constructor() {}
 
   ngOnInit() {
+    this.resposnsiveOptionsModal();
+    setTimeout(()=> {
+      this.showSkeleton = false;
+    }, 1000);
+  }
+
+  resposnsiveOptionsModal() {
     this.responsiveOptions = [
       {
         breakpoint: '1199px',

@@ -8,6 +8,7 @@ import { PublicRoutingModule } from './public-routing.module';
 import { SharedModule } from './shared/shared.module';
 import { PagesModule } from './pages/pages.module';
 import { AdminModule } from '../admin/admin.module';
+import { ComponentsModule } from './components/components.module';
 
 
 @NgModule({
@@ -17,14 +18,16 @@ import { AdminModule } from '../admin/admin.module';
     PublicRoutingModule,
     SharedModule,
     PagesModule,
-    AdminModule
+    AdminModule,
+    ComponentsModule
   ],
   exports: [
     SharedModule,
     HttpClientModule,
     TranslateModule,
     PagesModule,
-    AdminModule
+    AdminModule,
+    ComponentsModule
   ]
 })
 export class PublicModule { }
