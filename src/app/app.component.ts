@@ -1,4 +1,8 @@
-import { Component, ViewChild } from '@angular/core';
+import { 
+  Component, 
+  OnInit, 
+  ViewChild 
+} from '@angular/core';
 import { 
   NavigationEnd, 
   Router, 
@@ -11,15 +15,21 @@ import { CookieService } from 'ngx-cookie-service';
 
 import { SharedService } from './public/shared/services/shared.service';
 
+import { ModalMessageComponent } from './public/shared/components/modal-message/modal-message.component';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
 
   public itemsShop: MenuItem[] = [];
   public itemsSocial: MenuItem[] = [];
+  public showDialogMessage: boolean = false;
+
+  @ViewChild(ModalMessageComponent) 
+  public modalMessageComponent!: ModalMessageComponent;
 
   constructor(
     public sharedService: SharedService, 
@@ -55,6 +65,9 @@ export class AppComponent {
     const hasVisited = this._cookieService.check('user-visited');
   }
 
+  openModalMessage() {
+    this.modalMessageComponent.showDialogMessage();
+  }
 
   // ********** Data
   shopping() {

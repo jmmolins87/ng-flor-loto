@@ -101,9 +101,23 @@
                 }
             }
         }
+        .p-dialog-title {
+            font-size: $h3-mob;
+            color: $brand-secondary;
+            @include min-responsive($tablet) {
+                font-size: $h3-tab;
+            }
+            @include min-responsive($desktop-laptop) {
+                font-size: $h3-desk;
+            }
+        }
     }
     // * Toast
     .p-toast-message-text {
         font-size: 1.4rem;
+    }
+    // * Tabs
+    .p-tabview .p-tabview-nav {
+        border: none;
     }
 }

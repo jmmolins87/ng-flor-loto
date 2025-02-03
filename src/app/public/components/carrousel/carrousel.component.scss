@@ -1,177 +1,179 @@
 
 @import "/src/styles.scss";
 
-.carrousel-hero {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    background-color: rgba($white, .25);
-    backdrop-filter: blur(.3rem);
-    margin-bottom: 5rem;
-    .wrap-carrousel-hero {
-        display: flex;
-        box-sizing: border-box;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        gap: 2rem;
-        margin-top: 15rem;
-        @include min-responsive($tablet) {
-            flex-direction: row;
-            margin-top: 0;
-        }
-        .wrap-text {
-            text-align: center;
-            max-width: 100%;
-            padding: 0 2.5rem;
-            @include min-responsive($tablet) {
-                padding-left: 4rem;
-                max-width: calc(33.3vw - 2rem);
-                width: calc(33.3vw - 2rem);
-                .hero-title,
-                .hero-description {
-                    text-align: center;
-                }
-            }
-            .hero-description {
-                text-overflow: ellipsis;
-                overflow: hidden;
-                display: -webkit-box;
-                -webkit-line-clamp: 3;
-                -webkit-box-orient: vertical;
-                @include min-responsive($tablet) {
-                    overflow: visible;
-                    text-overflow: initial;
-                    display: block;
-                }
-            }
-            .btn-modal {
-                @include min-responsive($tablet) {
-                    display: none;
-                }
-            }
-            
-        }
-        .wrap-img {
-            max-width: 100vw;
-            min-width: 100vw;
-            height: 100vh;
-            object-fit: cover;
-            @include min-responsive($tablet) {
-                max-width: calc(66.6vw - 2rem);
-                min-width: calc(66.6vw - 2rem);
-                width: calc(66.6vw - 2rem);
-            }
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-    }
-    ::ng-deep {
-        .p-carousel-next,
-        .p-carousel-prev,
-        .p-carousel-indicators {
-            display: none;
-        }
-    }
-}
-
-::ng-deep {
-    .p-dialog {
-        .wrap-modal-slide {
-            .wrap-img {
-                width: 100%;
-                height: auto;
-        
-                .img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-        }
-    }
-}
-
-.carrousel-opinator {
-    border: none;
-    background-color: transparent;
-    overflow: hidden;
-    .wrap-rating {
-        display: flex;
-        box-sizing: border-box;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: 1rem;
-    }
-    .wrap-header {
-        display: flex;
-        box-sizing: border-box;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .opinator-description {
-        text-overflow: ellipsis;
+.wrap-carrousel-home {
+    .carrousel-hero {
+        height: 100vh;
+        width: 100vw;
         overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 5;
-        -webkit-box-orient: vertical;
-    }
-}
-
-.p-button {
-    padding: 0;
-    border: none;
-}
-
-::ng-deep {
-    .p-dialog {
-        position: relative;
-        .wrap-imges {
+        background-color: rgba($white, .25);
+        backdrop-filter: blur(.3rem);
+        margin-bottom: 5rem;
+        .wrap-carrousel-hero {
             display: flex;
             box-sizing: border-box;
-            justify-content: flex-start;
+            justify-content: space-between;
             align-items: center;
             flex-direction: column;
-            gap: 1rem;
-            max-width: 100%;
+            gap: 2rem;
+            margin-top: 15rem;
             @include min-responsive($tablet) {
                 flex-direction: row;
-                max-width: 33%;
-                flex-wrap: no-wrap;
+                margin-top: 0;
             }
-            .img {
-                padding: 1rem;
-                border-radius: $border-radius-05;
-                border: .2rem solid $brand-tertiary;
-                width: 100%;
-    
+            .wrap-text {
+                text-align: center;
+                max-width: 100%;
+                padding: 0 2.5rem;
+                @include min-responsive($tablet) {
+                    padding-left: 4rem;
+                    max-width: calc(33.3vw - 2rem);
+                    width: calc(33.3vw - 2rem);
+                    .hero-title,
+                    .hero-description {
+                        text-align: center;
+                    }
+                }
+                .hero-description {
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    @include min-responsive($tablet) {
+                        overflow: visible;
+                        text-overflow: initial;
+                        display: block;
+                    }
+                }
+                .btn-modal {
+                    @include min-responsive($tablet) {
+                        display: none;
+                    }
+                }
+                
+            }
+            .wrap-img {
+                max-width: 100vw;
+                min-width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+                @include min-responsive($tablet) {
+                    max-width: calc(66.6vw - 2rem);
+                    min-width: calc(66.6vw - 2rem);
+                    width: calc(66.6vw - 2rem);
+                }
                 img {
-                    border-radius: $border-radius-05;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        ::ng-deep {
+            .p-carousel-next,
+            .p-carousel-prev,
+            .p-carousel-indicators {
+                display: none;
+            }
+        }
+    }
+    
+    ::ng-deep {
+        .p-dialog {
+            .wrap-modal-slide {
+                .wrap-img {
+                    width: 100%;
+                    height: auto;
+            
+                    .img {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
         }
     }
-    .p-dialog-header {
-        position: absolute;
-        right: .5rem;
-        top: .5rem;
-        .p-dialog-header-maximize {
-            margin-right: 2rem;
-            &::hover,
-            &:focus {
-                margin-right: 2rem;
-            }
-            svg {
-                width: 1.5rem;
-                height: 1.5rem;
+    
+    .carrousel-opinator {
+        border: none;
+        background-color: transparent;
+        overflow: hidden;
+        .wrap-rating {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        .wrap-header {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .opinator-description {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+        }
+    }
+    
+    .p-button {
+        padding: 0;
+        border: none;
+    }
+    
+    ::ng-deep {
+        .p-dialog {
+            position: relative;
+            .wrap-imges {
+                display: flex;
+                box-sizing: border-box;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: column;
+                gap: 1rem;
+                max-width: 100%;
+                @include min-responsive($tablet) {
+                    flex-direction: row;
+                    max-width: 33%;
+                    flex-wrap: no-wrap;
+                }
+                .img {
+                    padding: 1rem;
+                    border-radius: $border-radius-05;
+                    border: .2rem solid $brand-tertiary;
+                    width: 100%;
+        
+                    img {
+                        border-radius: $border-radius-05;
+                    }
+                }
             }
         }
-        .p-dialog-title {
-            display: none;
+        .p-dialog-header {
+            position: absolute;
+            right: .5rem;
+            top: .5rem;
+            .p-dialog-header-maximize {
+                margin-right: 2rem;
+                &::hover,
+                &:focus {
+                    margin-right: 2rem;
+                }
+                svg {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                }
+            }
+            .p-dialog-title {
+                display: none;
+            }
         }
     }
 }

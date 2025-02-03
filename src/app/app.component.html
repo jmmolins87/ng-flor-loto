@@ -21,10 +21,13 @@
 
 <div class="wrap-message-btn">
     <p-button 
+        (click)="openModalMessage()"
         label="¡¡Haz tu pedido aquí!!" 
         icon="pi pi-send"
         iconPos="right" />
 </div>
+
+<app-modal-message />
 
 
 <p-scrollTop />

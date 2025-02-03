@@ -1,0 +1,22 @@
+
+
+
+
+<div class="wrap-modal-messages">
+    <p-dialog 
+        header="¡¡Haz tu pedido de forma fácil y rápida!!" 
+        [modal]="true" 
+        [(visible)]="visible" 
+        [breakpoints]="{ '1199px': '75vw', '992px': '75', '575px': '90vw' }" 
+        [style]="{ width: '75rem' }" 
+        [draggable]="false" >
+            <p-tabView>
+                <p-tabPanel header="SMS">
+                    <app-sms />
+                </p-tabPanel>
+                <p-tabPanel header="Whatsapp">
+                    <app-whatsapp />
+                </p-tabPanel>
+            </p-tabView>
+    </p-dialog>
+</div>

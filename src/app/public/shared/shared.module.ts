@@ -12,6 +12,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
 import { SpeedDialComponent } from './components/speed-dial/speed-dial.component';
+import { ModalMessageComponent } from './components/modal-message/modal-message.component';
+import { SmsComponent } from './components/modal-message/components/sms/sms.component';
+import { WhatsappComponent } from './components/modal-message/components/whatsapp/whatsapp.component';
+
 
 
 @NgModule({
@@ -19,7 +23,10 @@ import { SpeedDialComponent } from './components/speed-dial/speed-dial.component
     NavbarComponent,
     FooterComponent,
     CookiesComponent,
-    SpeedDialComponent
+    SpeedDialComponent,
+    ModalMessageComponent,
+    SmsComponent,
+    WhatsappComponent
   ],
   imports: [
     CommonModule,
@@ -33,7 +40,8 @@ import { SpeedDialComponent } from './components/speed-dial/speed-dial.component
     NavbarComponent,
     FooterComponent,
     CookiesComponent,
-    SpeedDialComponent
+    SpeedDialComponent,
+    ModalMessageComponent
   ]
 })
 export class SharedModule { }

@@ -28,9 +28,19 @@
         box-shadow: 0 0 1.5rem $white;
         color: $brand-primary;
         text-shadow: 0 0 .5rem $white;
+        animation: blink-shadow 2s infinite;
         &:hover,
         &:focus {
             box-shadow: $dialShadow;
+        }
+    }
+    @keyframes blink-shadow {
+        0%,
+        100% {
+            box-shadow: 0 0 10px 2px $success-light-alert;
+        }
+        50% {
+            box-shadow: 0 0 20px 5px $success-alert;
         }
     }
 }
