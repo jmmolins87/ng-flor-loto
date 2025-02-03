@@ -11,8 +11,6 @@ import { CookieService } from 'ngx-cookie-service';
 
 import { SharedService } from './public/shared/services/shared.service';
 
-import { WhatsappComponent } from './public/shared/components/whatsapp/whatsapp.component';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -20,12 +18,8 @@ import { WhatsappComponent } from './public/shared/components/whatsapp/whatsapp.
 })
 export class AppComponent {
 
-  public visible: boolean = false;
   public itemsShop: MenuItem[] = [];
   public itemsSocial: MenuItem[] = [];
-
-  @ViewChild(WhatsappComponent) 
-  public whatsappComponent!: WhatsappComponent;
 
   constructor(
     public sharedService: SharedService, 
@@ -65,13 +59,6 @@ export class AppComponent {
   // ********** Data
   shopping() {
     this.itemsShop = [
-      {
-        label: 'Whatsapp',
-        image: 'assets/img/icons-dial/whatsapp.svg',
-        command: () => {
-          this.whatsappComponent.triggerShowDialog();
-        }
-      },
       {
         label: 'Glovo',
         image: 'assets/img/icons-dial/glovo.svg',

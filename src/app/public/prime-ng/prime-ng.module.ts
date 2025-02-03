@@ -10,6 +10,7 @@ import { RatingModule } from 'primeng/rating';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { SkeletonModule } from 'primeng/skeleton';
 import { SpeedDialModule } from 'primeng/speeddial';
+import { TabViewModule } from 'primeng/tabview';
 import { ToastModule } from 'primeng/toast';
 
 
@@ -25,6 +26,7 @@ import { ToastModule } from 'primeng/toast';
     ScrollTopModule,
     SkeletonModule,
     SpeedDialModule,
+    TabViewModule,
     ToastModule
   ],
   schemas: [

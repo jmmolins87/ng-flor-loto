@@ -11,7 +11,6 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CookiesComponent } from './components/cookies/cookies.component';
-import { WhatsappComponent } from './components/whatsapp/whatsapp.component';
 import { SpeedDialComponent } from './components/speed-dial/speed-dial.component';
 
 
@@ -20,7 +19,6 @@ import { SpeedDialComponent } from './components/speed-dial/speed-dial.component
     NavbarComponent,
     FooterComponent,
     CookiesComponent,
-    WhatsappComponent,
     SpeedDialComponent
   ],
   imports: [
@@ -35,7 +33,6 @@ import { SpeedDialComponent } from './components/speed-dial/speed-dial.component
     NavbarComponent,
     FooterComponent,
     CookiesComponent,
-    WhatsappComponent,
     SpeedDialComponent
   ]
 })

@@ -1,15 +1,36 @@
 
 
 
+@import "/src/styles.scss";
+
 .wrap-shopping,
 .wrap-social {
     position: fixed;
+    bottom: calc(9.5rem + 17.25rem);
 }
 .wrap-shopping {
     right: 7rem;
-    bottom: calc(14rem + 17.25rem);
 }
 .wrap-social {
     left: 2rem;
-    bottom: calc(9.5rem + 17.25rem);
+}
+.wrap-message-btn {
+    position: fixed;
+    left: 2rem;
+    bottom: 6rem;
+}
+
+.wrap-message-btn ::ng-deep {
+    .p-button {
+        background: rgba($brand-primary-light, .5);
+        border: none;
+        backdrop-filter: blur(1.5rem);
+        box-shadow: 0 0 1.5rem $white;
+        color: $brand-primary;
+        text-shadow: 0 0 .5rem $white;
+        &:hover,
+        &:focus {
+            box-shadow: $dialShadow;
+        }
+    }
 }
