@@ -1,0 +1,46 @@
+
+@import "/src/styles.scss";
+
+.wrap-form-whatsapp {
+    .wrap-form {
+        .p-fluid {
+            .wrap-data-user {
+                display: flex;
+                box-sizing: border-box;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                @include min-responsive($tablet) {
+                    flex-direction: row;
+                    gap: 2rem;
+                }
+                .p-field {
+                    width: 100%;
+                    ::ng-deep {
+                        .textarea {
+                            min-height: 10rem;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .wrap-button {
+            display: flex;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+            min-width: 100%;
+            margin-top: 1rem;
+            @include min-responsive($tablet) {
+                justify-content: flex-end;
+            }
+            button {
+                @include min-responsive($tablet) {
+                    width: 33%;
+                }
+            }
+        }
+    }
+}

@@ -41,6 +41,9 @@ export class HomeComponent implements OnInit {
     return this.recommendationsHome;  
   }
 
+
+
+  
   // ********************* Data *********************
   public itemsCarrouselHero: carrouselHero[] = [
     {
@@ -64,33 +67,6 @@ export class HomeComponent implements OnInit {
       img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
     }
   ];
-  // public titlePage: string = "El arte de las flores";
-  // public subtitlePage: string = "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado."
-  // public textPresentation: string = "<h3 class='mb-0'>Nuestras especialidades</h3><br> Nuestros ramos y arreglos florales son únicos y a medida para cada cliente. Creamos composiciones versátiles, empezando por arreglos florares para bodas, incluyendo ramos de novia, arreglos de centro de mesa, coronas de flores para el cabello, boutonnieres, y más.<br> Además de bodas, también ofrecemos servicios de decoración para otros eventos, como fiestas de cumpleaños, aniversarios, celebraciones de empresa, entre otros eventos sociales.<br>Nuestras flores y plantas para el hogar son otra de nuestras especialidades, ofrecemos una selección de flores y plantas ya sea para decorar tanto el interior como el exterior.<br> También ofrecemos arreglos florares para funerales, incluyendo coronas funerarias y arreglos para celebración de vida. Si lo que quieres es sorprender a esa persona especial, te ofrecemos la entrega a domicilio, con el mejor mimo y cuidado.<br> Disponible los 365 días del año."
-  // public recommendationsTitleSection: string = "Te recomendamos";
-  public recommendationsSection: recomendationsHome[] = [
-    {
-      title: "Rosas preservadas",
-      description: "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo.",
-      img: "assets/img/recommends/preserved-flowers.png"
-    },
-    {
-      title: "Ramo de flores",
-      description: "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!",
-      img: "assets/img/recommends/bunch-flowers.png"
-    },
-    {
-      title: "Flores para bodas",
-      description: "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!",
-      img: "assets/img/recommends/wedding.png"
-    },
-    {
-      title: "Flores para cumpleaños",
-      description: "¡Haz que el cumpleaños de esa persona especial sea inolvidable con nuestras flores frescas y vibrantes! Ofrecemos una amplia variedad de arreglos florales diseñados para sorprender y alegrar el día. Desde ramos coloridos y alegres hasta elegantes composiciones, tenemos la opción perfecta para cada celebración. ¡Entrega a domicilio disponible para que tu regalo llegue justo a tiempo!",
-      img: "assets/img/recommends/birthday.jpg"
-    }
-  ]
-  public opinionsTitleSection: string = "Las opiniones de nuestr@s clientes";
   public opinionsSection: carrouselOpinions[] = [
     {
       name: "Alberto Acebes",

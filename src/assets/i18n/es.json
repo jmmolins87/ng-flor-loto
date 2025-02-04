@@ -144,5 +144,18 @@
             "VALIDATION_MESSAGE": "El mensaje es requerido."
         },
         "SEND": "Enviar"
+    },
+    "OTHERS": {
+        "ORDER_MESSAGES": "¡¡Haz tu pedido aquí!!",
+        "FORM_ORDER_WHATSAPP": {
+            "TITLE": "Enviar pedido por WhatsApp",
+            "LABEL_NAME": "Escriba su nombre",
+            "VALIDATION_NAME": "El nombre debe contener al menos 3 carácteres.",
+            "LABEL_PHONE": "Escriba su teléfono",
+            "VALIDATION_PHONE": "El teléfono es requerido.",
+            "LABEL_MESSAGE": "Digános, ¿que desea?",
+            "VALIDATION_MESSAGE": "El pedido debe contener al menos 5 carácteres.",
+            "BUTTON": "Enviar pedido por WhatsApp"
+        }
     }
 }

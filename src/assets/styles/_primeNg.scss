@@ -119,5 +119,19 @@
     // * Tabs
     .p-tabview .p-tabview-nav {
         border: none;
+        .p-tabview-title {
+            color: $brand-secondary;
+            &:hover {
+                color: $brand-secondary-dark;
+            }
+        }
+    }
+    .p-tabview-nav-link {
+        &::before {
+            color: $brand-primary;
+        }
+        a:not(.p-speeddial-action):hover {
+            color: $brand-primary;
+        }
     }
 }

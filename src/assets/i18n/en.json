@@ -144,5 +144,18 @@
             "VALIDATION_MESSAGE": "Message is required."
         },
         "SEND": "Send"
+    },
+    "OTHERS": {
+        "ORDER_MESSAGES": "Place your order here!!",
+        "FORM_ORDER_WHATSAPP": {
+            "TITLE": "Place your order here!!",
+            "LABEL_NAME": "Write your name",
+            "VALIDATION_NAME": "The name must contain at least 3 characters.",
+            "LABEL_PHONE": "Write your phone",
+            "VALIDATION_PHONE": "Please enter a valid phone number.",
+            "LABEL_MESSAGE": "Tell us, what do you want?",
+            "VALIDATION_MESSAGE": "The order must contain at least 5 characters.",
+            "BUTTON": "Send order by WhatsApp"
+        }
     }
 }
