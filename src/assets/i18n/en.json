@@ -65,7 +65,7 @@
     },
     "CONTACT": {
         "TITLE": "We are here to help you!",
-        "DESCRIPTION": "Si tienes alguna pregunta, consulta o deseas realizar un pedido personalizado, no dudes en contactarnos. Nuestro amable equipo de expertos floristas está listo para brindarte un servicio excepcional y asesoramiento personalizado. Puedes comunicarte con nosotrosIf you have any questions, queries or would like to place a custom order, please do not hesitate to contact us. Our friendly team of expert florists are ready to provide you with exceptional service and personalized advice. You can reach us by phone, email or visit us in our store. We would love to be a part of your special moments and make them unforgettable with our beautiful flowers. por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
+        "DESCRIPTION": "If you have any questions, queries or would like to place a custom order, please do not hesitate to contact us. Our friendly team of expert florists are ready to provide you with exceptional service and personalized advice. You can reach us by phone, email or visit us in our store. We would love to be a part of your special moments and make them unforgettable with our beautiful flowers. por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
         "FORM_FIEDS": {
             "NAME": "Name",
             "VALIDATION_NAME": "Name is required.",
@@ -76,11 +76,13 @@
             "MESSAGE": "Message",
             "VALIDATION_MESSAGE": "Message is required."
         },
+        "MESSAGE_SUCCESS": "Thank you for contacting us! We will get back to you as soon as possible.",
+        "MESSAGE_ERROR": "Oops! Something went wrong. Please try again later.",
         "SEND": "Send"
     },
     "OTHERS": {
         "ORDER_MESSAGES": "Place your order here!!",
-        "FORM_ORDER_WHATSAPP": {
+        "FORM_ORDER": {
             "TITLE": "Place your order here!!",
             "LABEL_NAME": "Write your name",
             "VALIDATION_NAME": "The name must contain at least 3 characters.",
@@ -88,7 +90,8 @@
             "VALIDATION_PHONE": "Please enter a valid phone number.",
             "LABEL_MESSAGE": "Tell us, what do you want?",
             "VALIDATION_MESSAGE": "The order must contain at least 5 characters.",
-            "BUTTON": "Send order by WhatsApp"
+            "BUTTON_WHATSAPP": "Send order by WhatsApp",
+            "BUTTON_SMS": "Send order by SMS"
         }
     },
     "POLICIES": {

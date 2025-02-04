@@ -17,9 +17,11 @@
                 }
                 .p-field {
                     width: 100%;
-                    ::ng-deep {
-                        .textarea {
-                            min-height: 10rem;
+                    &.message {
+                        ::ng-deep {
+                            .textarea {
+                                height: 20rem;
+                            }
                         }
                     }
                     

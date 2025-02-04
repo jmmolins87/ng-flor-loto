@@ -76,11 +76,13 @@
             "MESSAGE": "Mensaje",
             "VALIDATION_MESSAGE": "El mensaje es requerido."
         },
+        "MESSAGE_SUCCESS": "¡Gracias por contactarnos! Nos pondremos en contacto contigo lo antes posible.",
+        "MESSAGE_ERROR": "¡Ups! Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
         "SEND": "Enviar"
     },
     "OTHERS": {
         "ORDER_MESSAGES": "¡¡Haz tu pedido aquí!!",
-        "FORM_ORDER_WHATSAPP": {
+        "FORM_ORDER": {
             "TITLE": "Enviar pedido por WhatsApp",
             "LABEL_NAME": "Escriba su nombre",
             "VALIDATION_NAME": "El nombre debe contener al menos 3 carácteres.",
@@ -88,7 +90,8 @@
             "VALIDATION_PHONE": "El teléfono es requerido.",
             "LABEL_MESSAGE": "Digános, ¿que desea?",
             "VALIDATION_MESSAGE": "El pedido debe contener al menos 5 carácteres.",
-            "BUTTON": "Enviar pedido por WhatsApp"
+            "BUTTON_WHATSAPP": "Enviar pedido por WhatsApp",
+            "BUTTON_SMS": "Enviar pedido por SMS"
         }
     },
     "POLICIES": {

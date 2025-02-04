@@ -134,4 +134,7 @@
             color: $brand-primary;
         }
     }
+    .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+        border-color: $brand-secondary;
+    }
 }

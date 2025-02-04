@@ -3,31 +3,34 @@
         <div class="p-fluid">
             <div class="wrap-data-user">
                 <div class="p-field">
-                    <label for="name">{{"OTHERS.FORM_ORDER_WHATSAPP.LABEL_NAME" | translate}}</label>
+                    <label for="name">{{"OTHERS.FORM_ORDER.LABEL_NAME" | translate}}</label>
                     <input id="name" type="text" pInputText formControlName="name" class="p-inputtext-lg" required />
                     <span *ngIf="whatsappForm.get('name')?.invalid && whatsappForm.get('name')?.touched"
-                        class="p-error">{{"OTHERS.FORM_ORDER_WHATSAPP.VALIDATION_NAME" | translate}}</span>
+                        class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_NAME" | translate}}</span>
                 </div>
                 <div class="p-field">
-                    <label for="phone">{{"OTHERS.FORM_ORDER_WHATSAPP.LABEL_PHONE" | translate}}</label>
+                    <label for="phone">{{"OTHERS.FORM_ORDER.LABEL_PHONE" | translate}}</label>
                     <input id="phone" type="tel" pInputText formControlName="phoneNumber" class="p-inputtext-lg" required />
                     <span *ngIf="whatsappForm.get('phoneNumber')?.invalid && whatsappForm.get('phoneNumber')?.touched"
-                        class="p-error">{{"OTHERS.FORM_ORDER_WHATSAPP.VALIDATION_PHONE" | translate}}</span>
+                        class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_PHONE" | translate}}</span>
                 </div>
             </div>
-            <div class="p-field">
-                <label for="message">{{"OTHERS.FORM_ORDER_WHATSAPP.LABEL_MESSAGE" | translate}}</label>
+            <div class="p-field message">
+                <label for="message">{{"OTHERS.FORM_ORDER.LABEL_MESSAGE" | translate}}</label>
                 <textarea id="message" rows="3" pInputTextarea formControlName="message" class="p-inputtextarea-lg textarea"
                     required></textarea>
                 <span *ngIf="whatsappForm.get('message')?.invalid && whatsappForm.get('message')?.touched"
-                    class="p-error">{{"OTHERS.FORM_ORDER_WHATSAPP.VALIDATION_MESSAGE" | translate}}</span>
+                    class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_MESSAGE" | translate}}</span>
             </div>
             <div class="wrap-button">
                 <button 
                     pButton 
                     type="submit" 
-                    [label]="'OTHERS.FORM_ORDER_WHATSAPP.BUTTON' | translate" 
-                    icon="pi pi-send" 
+                    [label]="'OTHERS.FORM_ORDER.BUTTON_WHATSAPP' | translate"
+                    [icon]="whatsappForm.invalid ? 'pi pi-ban' : 'pi pi-send'" 
+                    iconPos="right"
+                    [outlined]="true"
+                    [ngClass]="{'p-button-danger': whatsappForm.invalid, 'p-button-success': whatsappForm.valid}"
                     class="p-mt-2 
                     p-button-success"
                     [disabled]="whatsappForm.invalid"></button>

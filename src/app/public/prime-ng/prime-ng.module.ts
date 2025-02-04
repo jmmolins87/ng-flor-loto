@@ -6,6 +6,7 @@ import { DialogModule } from 'primeng/dialog';
 import { ImageModule } from 'primeng/image';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { InputTextModule } from 'primeng/inputtext';
+import { MessagesModule } from 'primeng/messages';
 import { RatingModule } from 'primeng/rating';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { SkeletonModule } from 'primeng/skeleton';
@@ -22,6 +23,7 @@ import { ToastModule } from 'primeng/toast';
     ImageModule,
     InputTextareaModule,
     InputTextModule,
+    MessagesModule,
     RatingModule,
     ScrollTopModule,
     SkeletonModule,
