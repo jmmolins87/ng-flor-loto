@@ -37,10 +37,10 @@
     @keyframes blink-shadow {
         0%,
         100% {
-            box-shadow: 0 0 10px 2px $success-light-alert;
+            box-shadow: 0 0 1rem .2rem $success-light-alert;
         }
         50% {
-            box-shadow: 0 0 20px 5px $success-alert;
+            box-shadow: 0 0 2rem .5rem $success-alert;
         }
     }
 }

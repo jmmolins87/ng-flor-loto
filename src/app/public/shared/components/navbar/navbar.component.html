@@ -1,24 +1,38 @@
-<nav [ngClass]="scrolled ? 'scroll' : ''" class="navbar navbar-expand-xl">
+<nav [ngClass]="scrolled ? 'scroll' : ''" #navbarContainer class="navbar navbar-expand-xl">
     <div class="container-fluid wrap-navbar">
-        <a [routerLink]="['/']" [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
-            [attr.data-bs-target]="isTablet ? '' : '#navbarFsnArg'"
-            [attr.aria-controls]="isTablet ? '' : 'navbarFsnArg'" [attr.aria-expanded]="isTablet ? '' : 'false'"
-            class="navbar-brand">
-            <img src="/assets/img/logo-loto.png" [alt]="'NAV_BAR.LOGO' | translate" [title]="'NAV_BAR.LOGO' | translate">
+        <a 
+            [routerLink]="['/']" 
+            [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
+            [attr.data-bs-target]="isTablet ? '' : '#navbarFlrLoto'"
+            [attr.aria-controls]="isTablet ? '' : 'navbarFlrLoto'" 
+            [attr.aria-expanded]="isTablet ? '' : 'false'"
+            (click)="closeMenu()" 
+            class="navbar-brand collapsed">
+            <img src="/assets/img/logo-loto.png" [alt]="'NAV_BAR.LOGO' | translate"
+                [title]="'NAV_BAR.LOGO' | translate">
         </a>
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarFsnArg" aria-controls="navbarFsnArg"
-            aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed">
+        <button 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarFlrLoto" 
+            aria-controls="navbarFlrLoto"
+            aria-expanded="false" 
+            aria-label="Toggle navigation" 
+            class="navbar-toggler collapsed">
             <span></span>
             <span></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarFsnArg">
+        <div class="collapse navbar-collapse" id="navbarFlrLoto">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li *ngFor="let item of menuItems" [routerLinkActive]="['active']" class="nav-item">
                     <a [routerLink]="item.routerLink" [title]="item.label | translate"
                         [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
-                        [attr.data-bs-target]="isTablet ? '' : '#navbarFsnArg'"
-                        [attr.aria-controls]="isTablet ? '' : 'navbarFsnArg'"
-                        [attr.aria-expanded]="isTablet ? '' : 'false'" aria-current="page" class="nav-link">
+                        [attr.data-bs-target]="isTablet ? '' : '#navbarFlrLoto'"
+                        [attr.aria-controls]="isTablet ? '' : 'navbarFlrLoto'"
+                        [attr.aria-expanded]="isTablet ? '' : 'false'" 
+                        (click)="closeMenu()" 
+                        aria-current="page"
+                        class="nav-link">
                         {{ item.label | translate }}
                     </a>
                 </li>
