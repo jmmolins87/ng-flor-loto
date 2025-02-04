@@ -22,7 +22,7 @@
                             icon="pi pi-align-justify" 
                             iconPos="right" 
                             label="Seguir leyendo"
-                            (click)="openModalSlide(slide)"
+                            (click)="openModalHero(slide)"
                             class="btn-modal" />
                     </div>
                     <div class="wrap-img">
@@ -44,14 +44,14 @@
         [maximizable]="true"
         [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" 
         [style]="{width: '75vw'}">
-        <div *ngIf="selectedSlide" class="wrap-modal-slide">
-            <h3 class="hero-modal-title">{{ selectedSlide.title }}</h3>
-            <p [innerHtml]="selectedSlide.description" class="hero-modal-description mt-1"></p>
+        <div *ngIf="selectedSlideHero" class="wrap-modal-slide">
+            <h3 class="hero-modal-title">{{ selectedSlideHero.title }}</h3>
+            <p [innerHtml]="selectedSlideHero.description" class="hero-modal-description mt-1"></p>
             <div class="wrap-img">
                 <img 
-                    [src]="selectedSlide.img" 
-                    [alt]="selectedSlide.title" 
-                    [title]="selectedSlide.title" 
+                    [src]="selectedSlideHero.img" 
+                    [alt]="selectedSlideHero.title" 
+                    [title]="selectedSlideHero.title" 
                     class="img" />
             </div>
         </div>
@@ -60,26 +60,26 @@
         <!-- *************** -->
     <div *ngIf="carrouselOptions === 'isOpinator'" class="carrousel-opinator">
         <p-carousel 
-            [value]="itemsCarrouselOpinator" 
+            [value]="homePageOpinions" 
             [numVisible]="3" 
             [numScroll]="3" 
             [circular]="true"
             [responsiveOptions]="responsiveOptions" 
             [autoplayInterval]="intervalOpinions">
-            <ng-template let-product pTemplate="item" >
+            <ng-template let-opinion pTemplate="item" >
                 <div class="border-1 m-2 p-3">
                     <div class="wrap-header">
                         <h3 class="mb-3 font-medium opinator-name">
-                            {{ product.name }}
+                            {{ opinion.name }}
                         </h3>
                         <p-rating
-                            *ngIf="product.rating"
-                            [(ngModel)]="product.rating" 
+                            *ngIf="opinion.rating"
+                            [(ngModel)]="opinion.rating" 
                             [readonly]="true" 
                             [cancel]="false" />
                     </div>
                     <div class="flex justify-content-between align-items-center">
-                        <p *ngIf="!showSkeleton" [innerHtml]="product.description" class="mt-0 mb-4 opinator-description"></p>
+                        <p *ngIf="!showSkeleton" [innerHtml]="opinion.description | translate" class="mt-0 mb-4 opinator-description"></p>
                         <p-skeleton *ngIf="showSkeleton" height="10rem" styleClass="mb-2" />
                         <p-button 
                             *ngIf="!showSkeleton"
@@ -89,8 +89,8 @@
                             severity="success"
                             icon="pi pi-book"
                             iconPos="right"
-                            label="Leer más" 
-                            (click)="openModalOpinator(product)" />
+                            [label]="'HOME.OPINIONS_SECTION.BUTTON' | translate" 
+                            (click)="openModalOpinator(opinion)" />
                         <p-skeleton *ngIf="showSkeleton" height="10rem" styleClass="mb-2" />
                     </div>
                 </div>
@@ -106,20 +106,20 @@
         [maximizable]="true"
         [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" 
         [style]="{width: '50vw'}">
-        <div *ngIf="selectedProduct" class="wrap-modal-rating">
-            <h3 class="mb-3 mt-2">{{ selectedProduct.name }}</h3>
+        <div *ngIf="selectedSlideOpinator" class="wrap-modal-rating">
+            <h3 class="mb-3 mt-2">{{ selectedSlideOpinator.name }}</h3>
             <p-rating 
-                *ngIf="selectedProduct.rating" 
-                [(ngModel)]="selectedProduct.rating" 
+                *ngIf="selectedSlideOpinator.rating" 
+                [(ngModel)]="selectedSlideOpinator.rating" 
                 [readonly]="true" 
                 [cancel]="false" class="mt-1 mb-2" />
-            <p [innerHtml]="selectedProduct.description" class="mt-1"></p>
-            <div *ngIf="selectedProduct.image" class="wrap-imges mt-2">
+            <p [innerHtml]="selectedSlideOpinator.description | translate" class="mt-1"></p>
+            <div *ngIf="selectedSlideOpinator.image" class="wrap-imges mt-2">
                 <img 
-                    *ngFor="let image of selectedProduct.image; let i = index"
+                    *ngFor="let image of selectedSlideOpinator.image; let i = index"
                     [src]="image" 
-                    [alt]="selectedProduct.name" 
-                    [title]="selectedProduct.name" 
+                    [alt]="selectedSlideOpinator.name" 
+                    [title]="selectedSlideOpinator.name" 
                     class="img" />
             </div>
         </div>

@@ -5,8 +5,7 @@ import {
 } from '@angular/core';
 
 import { carrouselOptions } from './carrousel.config';
-import { carrouselHero } from '../../models/home/carrouselHero.interface';
-import { carrouselOpinions } from '../../models/home/carrouselOpinions.interface';
+import { carrouselHero, carrouselOpinions } from '../../models/home/contentHomePage.interface';
 
 @Component({
   selector: 'app-carrousel',
@@ -18,8 +17,6 @@ export class CarrouselComponent implements OnInit {
   @Input()
   public itemsCarrouselHero: carrouselHero[] = [];
   @Input()
-  public itemsCarrouselOpinator: carrouselOpinions[] = [];
-  @Input()
   public valueRating: number = 0;
   @Input()
   public carrouselOptions!: carrouselOptions;
@@ -27,12 +24,14 @@ export class CarrouselComponent implements OnInit {
   public intervalHero: number = 7500;
   @Input()
   public intervalOpinions: number = 5000;
+  @Input()
+  public homePageOpinions: carrouselOpinions[] = []
 
   public responsiveOptions: any[] | undefined;
   public displayModalHero: boolean = false;
   public displayModalOpinator: boolean = false;
-  public selectedSlide: any;
-  public selectedProduct: any;
+  public selectedSlideHero: any;
+  public selectedSlideOpinator: any;
   public showSkeleton: boolean = true;
 
   constructor() {}
@@ -64,13 +63,13 @@ export class CarrouselComponent implements OnInit {
     ];
   }
 
-  openModalSlide(slide: any) {
-    this.selectedSlide = slide;
+  openModalHero(slideHero: any) {
+    this.selectedSlideHero = slideHero;
     this.displayModalHero = true;
   }
 
-  openModalOpinator(product: any) {
-    this.selectedProduct = product;
+  openModalOpinator(opinion: any) {
+    this.selectedSlideOpinator = opinion;
     this.displayModalOpinator = true;
   }
 

@@ -48,87 +48,20 @@
         },
         "OPINIONS_TITLE_SECTION": "Our customer's opinions",
         "OPINIONS_SECTION": {
-            "OPINION_1": {
-                "NAME_AUTHOR": "Alberto Acebes",
-                "OPINION": "¡Raúl es un gran florista! Siempre está dispuesto a ayudar, dando buenos consejos sobre cómo cuidar de las plantas. Siempre que tengo dudas, las resuelve rápidamente y me ayuda a que mis plantas se mantengan sanas. Además, tiene algunas especies de lo más originales, como la que se puede ver en la foto, que quedan genial en casa y son fáciles de cuidar. ¡Totalmente recomendable!"
-            },
-            "OPINION_2": {
-                "NAME_AUTHOR": "Eliza Obre",
-                "OPINION": "Me ha encantado la atención y el ramo de flores que me hicieron. Recomiendo mucho esta Floristería Flor de Loto. De verdad sacara una sonrisa de sus caras al tener el ramo en sus manos."
-            },
-            "OPINION_3": {
-                "NAME_AUTHOR": "Odette Lander",
-                "OPINION": "No es una simple floristería, es un negocio que está gestionado por una artista totalmente artesanal. Su trabajo es es espectacular y no tiene precio. Se adapta a todas las peticiones personalizadas; he visto con mis propios ojos realizar una diadema de flores frescas impresionante, me quede sin palabras. Si queréis algo exclusivo, auténtico y espectacular debéis ver su trabajo y tienen un trato agradable, cercano y su calidad precio es único. Os lo recomiendo."
-            },
-            "OPINION_4": {
-                "NAME_AUTHOR": "Sergio Enriquez",
-                "OPINION": "Pues yo he encargado ya muchos ramos para regalos y siempre muy bien, por cambiar esta vez compré una urna de cristal con un Bonsai que son preciosos, y por lo que sea a las semanas se me murió… se lo dije y sin poner ningún problema me dijo que se lo llevara y me ha echo otro nuevo, sin cargo ninguno!! <br/>Tienen un trato genial hacia el cliente, volveré y la recomiendo para todo el mundo.",
-                "IMAGE": [
-                    "assets/img/opinions/sergio-enriquez.jpg"
-                ],
-                "RATING": 5
-            },
-            "OPINION_5": {
-                "NAME_AUTHOR": "Sergio Enriquez",
-                "OPINION": "Pues yo he encargado ya muchos ramos para regalos y siempre muy bien, por cambiar esta vez compré una urna de cristal con un Bonsai que son preciosos, y por lo que sea a las semanas se me murió… se lo dije y sin poner ningún problema me dijo que se lo llevara y me ha echo otro nuevo, sin cargo ninguno!! <br/>Tienen un trato genial hacia el cliente, volveré y la recomiendo para todo el mundo.",
-                "IMAGE": [
-                    "assets/img/opinions/sergio-enriquez.jpg"
-                ],
-                "RATING": 5
-            },
-            "OPINION_6": {
-                "NAME_AUTHOR": "Lu RqV",
-                "OPINION": "Da gusto con gente tan profesional como Rafaela.. todo perfecto! <br/>Con mucho detalle y gusto! <br/>Se nota cuando alguién disfruta con su trabajo! <br/>Gracias! <br/>Volveré sin duda",
-                "IMAGE": [
-                    "assets/img/opinions/lu-rqv.jpg"
-                ],
-                "RATING": 5
-            },
-            "OPINION_7": {
-                "NAME_AUTHOR": "Gloria",
-                "OPINION": "Hoy es la primera vez que he ido y seguro que no la última! Rafaela (me quedé con su nombre) me ha preparado con mucho mimo un precioso ramo de claveles multicolor. <br/>Ha sido además muy atenta y paciente porque no me decidía por unas flores u otras y quería ceñirme a un presupuesto :). <br/>Gracias Rafaela! A mi amiga le ha encantado su ramo!",
-                "IMAGE": [
-                    "assets/img/opinions/gloria.jpg"
-                ],
-                "RATING": 5
-            },
-            "OPINION_8": {
-                "NAME_AUTHOR": "Cielo mr (Quispe)",
-                "OPINION": "He ido varias veces y he sido atendida tanto por Rafaela como por el dueño, en todos los casos un trato estupendo, muy amables, siempre con una sonrisa y unos ramos preciosos! <br/>Totalmente recomendable!!",
-                "image": [
-                    "assets/img/opinions/quispe.jpg"
-                ],
-                "RATING": 5
-            },
-            "OPINION_9": {
-                "NAME_AUTHOR": "Angelica Muñoz Pascual",
-                "OPINION": "Encargué un regalo para agradecer a una compañera. <br>El trato desde el primer momento fue exquisito, con una atención y dedicación incomparables. <br>Nunca he recibido tanta amabilidad de una persona en ninguna de los establecimientos a los que acudo. El regalo quedó precioso. Son unos profesionales impresionantes. <br>Muchas gracias por todo",
-                "RATING": 5
-            },
-            "OPINION_10": {
-                "NAME_AUTHOR": "beatriz cruz",
-                "OPINION": "He contactado con esta floristeria desde Madrid para mandar una orquídea a un familiar hospitalizado en Segovia. <br>Me ha atendido Rafaela y me ha dado todas las facilidades posibles. <br>Muchas gracias por su eficacia. <br>He quedado encantada.",
-                "RATING": 5
-            },
-            "OPINION_11": {
-                "NAME_AUTHOR": "Estefany Rodriguez Garcia",
-                "OPINION": "Me han atendido súper bien, Rafaela a hecho un trabajo súper bonito con el regalo de mi madre muchas gracias",
-                "IMAGE": [
-                    "assets/img/opinions/estefany1.jpg",
-                    "assets/img/opinions/estefany2.jpg"
-                ],
-                "RATING": 5
-            },
-            "OPINION_12": {
-                "NAME_AUTHOR": "Bianca B",
-                "OPINION": "Muy buena atención por parte de Rafaela en todo momento. <br>El papel del ramo no me gustó, y sin problema me lo cambio por otro. <br>Recomiendo.",
-                "IMAGE": [
-                    "assets/img/opinions/bianca_b.jpg"
-                ],
-                "RATING": 5
-            }
-        },
-        "BUTTON": "Read more"
+            "OPINION_1": "Raul is a great florist! He is always willing to help, giving good advice on how to care for plants. Whenever I have questions, he answers them quickly and helps me keep my plants healthy. He also has some of the most original species, like the one you can see in the photo, that look great at home and are easy to care for. Highly recommended!",
+            "OPINION_2": "I loved the attention and the bouquet of flowers they made me. I highly recommend this Flor de Loto Florist. It will really put a smile on your face when you hold the bouquet in your hands.",
+            "OPINION_3": "It is not a simple flower shop, it is a business run by a completely artisan artist. Her work is spectacular and priceless. She adapts to all personalized requests; I have seen with my own eyes an impressive headband of fresh flowers made, I am speechless. If you want something exclusive, authentic and spectacular you must see her work. They have a pleasant, friendly service and their quality-price ratio is unique. I recommend it to you.",
+            "OPINION_4": "Well, I have already ordered many bouquets for gifts and they are always very good. For a change, this time I bought a glass urn with a Bonsai that are beautiful, and for whatever reason it died a few weeks later... I told him so and without any problem he told me to take it and he made me a new one, free of charge!! <br/>They have great customer service, I will return and I recommend them to everyone.",
+            "OPINION_5": "Well, I have already ordered many bouquets for gifts and they are always very good. For a change, this time I bought a glass urn with a Bonsai that are beautiful, and for whatever reason it died a few weeks later... I told him so and without any problem he told me to take it and he made me a new one, free of charge!! <br/>They have great customer service, I will return and I recommend them to everyone.",
+            "OPINION_6": "It's a pleasure to work with such professional people like Rafaela... everything is perfect! <br/>With lots of detail and taste! <br/>You can tell when someone enjoys their work! <br/>Thank you! <br/>I will definitely be back.",
+            "OPINION_7": "Today is the first time I've been there and it certainly won't be the last! Rafaela (I'll remember her name) has lovingly prepared a beautiful bouquet of multicoloured carnations for me. <br/>She has also been very attentive and patient because I couldn't decide on one flower or another and I wanted to stick to a budget :). <br/>Thank you Rafaela! My friend loved her bouquet!",
+            "OPINION_8": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! <br/>Totally recommended!!",
+            "OPINION_9": "I ordered a gift to thank a colleague. <br>The treatment from the first moment was exquisite, with incomparable attention and dedication. <br>I have never received such kindness from a person in any of the establishments I go to. The gift was beautiful. They are amazing professionals. <br>Thank you very much for everything.",
+            "OPINION_10": "I contacted this florist from Madrid to send an orchid to a relative hospitalized in Segovia. <br>Rafaela helped me and gave me all the possible facilities. <br>Thank you very much for your efficiency. <br>I was delighted.",
+            "OPINION_11": "They have treated me super well, Rafaela has done a super nice job with my mother's gift, thank you very much.",
+            "OPINION_12": "Very good service from Rafaela at all times. <br>I didn't like the paper on the bouquet, and she would have no problem exchanging it for another one. <br>I recommend it.",
+            "BUTTON": "Read more"
+        }
     },
     "CONTACT": {
         "TITLE": "We are here to help you!",
@@ -180,7 +113,7 @@
             "MANAGE_TITLE": "Cookie management",
             "MANAGE_DESCRIPTION": "You can manage cookies through your browser settings. Here are the links for the most common browsers:",
             "MORE_INFORMATION_TITLE": "More information",
-            "MORE_INFORMATION_DESCRIPTION": "If you have any questions about our cookie policy, you can contact us at "
+            "MORE_INFORMATION_DESCRIPTION": "If you have any questions about our cookie policy, you can contact us at:"
         },
         "LEGAL": {
             "TITLE": "Legal Notice",
