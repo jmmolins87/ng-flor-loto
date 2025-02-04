@@ -3,11 +3,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
-import { LegalNoticeComponent } from './policies/legal-notice/legal-notice.component';
 import { CookiePolicyComponent } from './policies/cookie-policy/cookie-policy.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
+import { HomeComponent } from './home/home.component';
+import { LegalNoticeComponent } from './policies/legal-notice/legal-notice.component';
 import { PrivacyPolicyComponent } from './policies/privacy-policy/privacy-policy.component';
 
 const routes: Routes = [
@@ -36,8 +37,12 @@ const routes: Routes = [
         component: PrivacyPolicyComponent
     },
     {
+        path: '404',
+        component: ErrorPageComponent
+    },
+    {
         path: '**',
-        redirectTo: ''
+        redirectTo: '/404'
     }
 ];
 

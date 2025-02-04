@@ -4,22 +4,22 @@
 <app-cookies />
 
 <div *ngIf="!sharedService.isAdminRoute()">
-    <app-navbar/>
+    <app-navbar  *ngIf="showNavbarFooter" />
 </div>
 
 <router-outlet />
 
 <div *ngIf="!sharedService.isAdminRoute()">
-    <app-footer />
-    <div class="wrap-shopping">
+    <app-footer  *ngIf="showNavbarFooter" />
+    <div class="wrap-shopping"  *ngIf="showNavbarFooter">
         <app-speed-dial [items]="itemsShop" showIcon="pi pi-shopping-cart" />
     </div>
-    <div class="wrap-social">
+    <div class="wrap-social" *ngIf="showNavbarFooter">
         <app-speed-dial [items]="itemsSocial" showIcon="pi pi-share-alt" />
     </div>
 </div>
 
-<div class="wrap-message-btn">
+<div class="wrap-message-btn" *ngIf="showNavbarFooter">
     <p-button 
         (click)="openModalMessage()"
         [label]="'OTHERS.ORDER_MESSAGES' | translate" 

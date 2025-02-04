@@ -80,6 +80,10 @@
         "MESSAGE_ERROR": "Oops! Something went wrong. Please try again later.",
         "SEND": "Send"
     },
+    "ERROR_PAGE": {
+        "TITLE": "This is not the right way!!",
+        "GO_BACK": "We rewind?"
+    },
     "OTHERS": {
         "ORDER_MESSAGES": "Place your order here!!",
         "FORM_ORDER": {

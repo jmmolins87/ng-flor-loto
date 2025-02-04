@@ -27,6 +27,8 @@ export class AppComponent implements OnInit {
   public itemsShop: MenuItem[] = [];
   public itemsSocial: MenuItem[] = [];
   public showDialogMessage: boolean = false;
+  // Hide Navbar and footer component
+  public showNavbarFooter: boolean = true;
 
   @ViewChild(ModalMessageComponent) 
   public modalMessageComponent!: ModalMessageComponent;
@@ -54,6 +56,7 @@ export class AppComponent implements OnInit {
     this.shopping();
     this.social();
     this.getCookies();
+    this.hideNavigation();
   }
 
   getCookies() {
@@ -67,6 +70,15 @@ export class AppComponent implements OnInit {
 
   openModalMessage() {
     this.modalMessageComponent.showDialogMessage();
+  }
+
+  // Hide navigation bar and footer on 404 page
+  hideNavigation() {
+    this._router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.showNavbarFooter = !['/404'].includes(event.urlAfterRedirects);
+      }
+    });
   }
 
   // ********** Data

@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CookiePolicyComponent } from './policies/cookie-policy/cookie-policy.component';
 import { LegalNoticeComponent } from './policies/legal-notice/legal-notice.component';
 import { PrivacyPolicyComponent } from './policies/privacy-policy/privacy-policy.component';
+import { ErrorPageComponent } from './error-page/error-page.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PrivacyPolicyComponent } from './policies/privacy-policy/privacy-policy
     ContactComponent,
     CookiePolicyComponent,
     LegalNoticeComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    ErrorPageComponent
   ],
   imports: [
     CommonModule,

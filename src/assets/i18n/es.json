@@ -80,6 +80,10 @@
         "MESSAGE_ERROR": "¡Ups! Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
         "SEND": "Enviar"
     },
+    "ERROR_PAGE": {
+        "TITLE": "¡¡Este no es el camino correcto!!",
+        "GO_BACK": "¿Rebobinamos?"
+    },
     "OTHERS": {
         "ORDER_MESSAGES": "¡¡Haz tu pedido aquí!!",
         "FORM_ORDER": {
