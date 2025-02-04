@@ -6,7 +6,7 @@ import { footerInterface } from "../models/footer.interface"
 
 export const footerItemsPolicies: footerInterface[] = [
     {
-        link: "/privacy-policy",
+        link: "/privacity",
         label: "FOOTER.PRIVACITY"
     },
     {

@@ -14,13 +14,19 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ComponentsModule } from '../components/components.module';
 import { ContactComponent } from './contact/contact.component';
+import { CookiePolicyComponent } from './policies/cookie-policy/cookie-policy.component';
+import { LegalNoticeComponent } from './policies/legal-notice/legal-notice.component';
+import { PrivacyPolicyComponent } from './policies/privacy-policy/privacy-policy.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    CookiePolicyComponent,
+    LegalNoticeComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     CommonModule,
@@ -29,10 +35,6 @@ import { ContactComponent } from './contact/contact.component';
     PagesRoutingModule,
     TranslateModule,
     PrimeNgModule
-  ],
-  exports: [
-    HomeComponent,
-    AboutComponent
   ],
   providers: [MessageService],
   schemas: [

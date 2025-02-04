@@ -157,5 +157,62 @@
             "VALIDATION_MESSAGE": "The order must contain at least 5 characters.",
             "BUTTON": "Send order by WhatsApp"
         }
+    },
+    "POLICIES": {
+        "COOKIES": {
+            "TITLE": "Cookie Policy",
+            "WHAT_ARE_COOKIES_TITLE": "What are cookies?",
+            "WHAT_ARE_COOKIES_DESCRIPTION": "Cookies are small text files that are stored on your device when you visit a website. They are used to remember your activity and preferences.",
+            "HOW_DO_WE_USE_COOKIES_TITLE": "How do we use cookies?",
+            "HOW_DO_WE_USE_COOKIES_DESCRIPTION": "At [Company Name], we use cookies for the following purposes:",
+            "HOW_DO_WE_USE_COOKIES_LIST": {
+                "REMEMBER": "· Remember your user preferences.",
+                "ANALYZE": "· Analyze traffic on our website.",
+                "PROVIDE": "· Provide personalized content."
+            },
+            "TYPES_OF_COOKIES_WE_USE_TITLE": "Types of cookies we use",
+            "TYPES_OF_COOKIES_WE_USE_LIST": {
+                "ESSENTIAL": "<li><strong>· Essential cookies:</strong> They are necessary for the operation of the website.</li>",
+                "ANALYTICS": "<li><strong>· Analysis cookies:</strong> They help us understand how users interact with our site.</li>",
+                "FUNCTIONALITY": "<li><strong>· Functionality cookies:</strong> They improve your experience by remembering your preferences.</li>",
+                "PUBLISHING": "<li><strong>· Advertising cookies:</strong> Used to display relevant ads.</li>"
+            },
+            "MANAGE_TITLE": "Cookie management",
+            "MANAGE_DESCRIPTION": "You can manage cookies through your browser settings. Here are the links for the most common browsers:",
+            "MORE_INFORMATION_TITLE": "More information",
+            "MORE_INFORMATION_DESCRIPTION": "If you have any questions about our cookie policy, you can contact us at "
+        },
+        "LEGAL": {
+            "TITLE": "Legal Notice",
+            "DESCRIPTION": "This website is operated by [Company Name]. By accessing or using this website, you agree to be bound by the following terms and conditions.",
+            "IDENTIFICATION_TITLE": "Identification of the Responsible Party",
+            "IDENTIFICATION_DESCRIPTION": "Company Name: [Company Name<br>CIF/NIF: [Number] <br>Address: [Full Address]<br>Email: [Email] <br>Telephone: [Telephone Number]",
+            "CONDITIONS_TITLE": "Terms of Use",
+            "CONDITIONS_DESCRIPTION": "By accessing this website, the user undertakes to use it in accordance with the law, morality, public order and these conditions of use.",
+            "PROPERTY_TITLE": "Intellectual and Industrial Property",
+            "PROPERTY_DESCRIPTION": "All content on this website (texts, images, logos, design, etc.) is protected by intellectual property rights belonging to [Company Name] or its licensors.",
+            "EXCLUSION_TITLE": "Disclaimer",
+            "EXCLUSION_DESCRIPTION": "[Company Name] is not responsible for any damages or losses that may arise from the use of the website.",
+            "LEGISLATION_TITLE": "Applicable Legislation",
+            "LEGISLATION_DESCRIPTION": "These conditions shall be governed by Spanish law. For any dispute, the parties shall submit to the courts and tribunals of [City]."
+        },
+        "PRIVACY": {
+            "TITLE": "Privacy Policy",
+            "INTRO_TITLE": "Introduction",
+            "INTRO_DESCRIPTION": "At [Company Name], we take the privacy of our users very seriously. This privacy policy describes how we collect, use, and protect your personal information.",
+            "INFORMATION_TITLE": "Information we collect",
+            "INFORMATION_DESCRIPTION": "<li>· Information provided directly by the user, such as name, email and phone number.</li><li>· Information collected automatically, such as browsing data and IP address.</li><li>· Information from third parties when you interact with our services.</li>",
+            "USE_TITLE": "How we use your information",
+            "USE_DESCRIPTION": "The information collected is used for the following purposes:",
+            "USE_LIST": "<li>· Improve user experience on our website.</li><li>Process requests and provide customer support.</li><li>· Send communications related to our services.</li>",
+            "SHARING_TITLE": "Sharing your information",
+            "SHARING_DESCRIPTION": "We do not share your personal information with third parties except when necessary to comply with the law, protect our rights, or provide the requested services.",
+            "SECURITY_TITLE": "Protecting your information",
+            "SECURITY_DESCRIPTION": "We implement security measures to protect your personal information from unauthorized access, alteration, disclosure or destruction.",
+            "RIGHTS_TITLE": "Your rights",
+            "RIGHTS_DESCRIPTION": "You have the right to access, correct or delete your personal information. To exercise these rights, please contact us at ",
+            "UPDATES_TITLE": "Updates to this policy",
+            "UPDATES_DESCRIPTION": "We reserve the right to update this privacy policy at any time. Changes will be posted on this page with the corresponding update date."
+        }
     }
 }
