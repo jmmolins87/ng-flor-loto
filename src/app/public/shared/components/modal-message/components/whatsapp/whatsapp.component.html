@@ -13,6 +13,8 @@
                     <input id="phone" type="tel" pInputText formControlName="phoneNumber" class="p-inputtext-lg" required />
                     <span *ngIf="whatsappForm.get('phoneNumber')?.invalid && whatsappForm.get('phoneNumber')?.touched"
                         class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_PHONE" | translate}}</span>
+                    <span *ngIf="whatsappForm.get('phoneNumber')?.errors?.['minlength'] && whatsappForm.get('phoneNumber')?.touched"
+                        class="p-error">El número de teléfono debe tener al menos 9 caracteres.</span>
                 </div>
             </div>
             <div class="p-field message">
@@ -21,6 +23,8 @@
                     required></textarea>
                 <span *ngIf="whatsappForm.get('message')?.invalid && whatsappForm.get('message')?.touched"
                     class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_MESSAGE" | translate}}</span>
+                <span *ngIf="whatsappForm.get('message')?.errors?.['minlength'] && whatsappForm.get('message')?.touched"
+                    class="p-error">El mensaje debe tener al menos 5 caracteres.</span>
             </div>
             <div class="wrap-button">
                 <button 
@@ -33,7 +37,8 @@
                     [ngClass]="{'p-button-danger': whatsappForm.invalid, 'p-button-success': whatsappForm.valid}"
                     class="p-mt-2 
                     p-button-success"
-                    [disabled]="whatsappForm.invalid"></button>
+                    [disabled]="whatsappForm.invalid">
+                </button>
             </div>
         </div>
     </form>

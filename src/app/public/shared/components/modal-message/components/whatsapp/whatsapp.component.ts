@@ -21,7 +21,7 @@ export class WhatsappComponent implements OnInit {
       name: ['', [Validators.required, Validators.minLength(3)]],
       phoneNumber: [
         '',
-        [Validators.required, Validators.pattern(/^[0-9]{10}$/)]
+        [Validators.required, Validators.minLength(9)]
       ],
       message: ['', [Validators.required, Validators.minLength(5)]]
     });
