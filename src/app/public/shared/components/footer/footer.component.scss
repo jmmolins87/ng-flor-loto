@@ -43,9 +43,11 @@
         .wrap-logo {
             width: auto;
             height: 15rem;
+            width: 15rem;
             cursor: pointer;
             @include max-responsive($mobile-large) {
                 height: 20rem;
+                width: 20rem;
             }
             img {
                 width: 100%;

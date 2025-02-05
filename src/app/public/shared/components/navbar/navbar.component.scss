@@ -16,10 +16,12 @@
         box-shadow: $navbar-shadow-light;
         .navbar-brand {
             height: 6.5rem;
+            width: 6.5rem;
         }
     }
     .navbar-brand {
         height: 12rem;
+        width: 12rem;
         transition: all .2s ease-in-out;
         padding: 0;
         margin: 0;

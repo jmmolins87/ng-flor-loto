@@ -24,7 +24,7 @@
         .p-icon-wrapper {
             text-shadow: 0 0 .5rem $white;
             svg {
-                color: $brand-primary;
+                color: $black;
             }
         }
         @include min-responsive($tablet) {
@@ -61,7 +61,7 @@
     // * SpeedDial Shop
     .p-speeddial {
         .p-button-icon-only {
-            color: $brand-primary-dark;
+            color: $black;
             background: rgba($brand-primary-light, .5);
             backdrop-filter: blur(1.5rem);
             border-radius: $border-radius-50;
@@ -77,7 +77,7 @@
                 box-shadow: $dialShadow;
             }
             .pi::before {
-                color: $brand-primary;
+                color: $black;
                 font-size: 2rem;
             }
         }

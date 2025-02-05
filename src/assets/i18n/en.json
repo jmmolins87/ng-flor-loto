@@ -48,18 +48,206 @@
         },
         "OPINIONS_TITLE_SECTION": "Our customer's opinions",
         "OPINIONS_SECTION": {
-            "OPINION_1": "Raul is a great florist! He is always willing to help, giving good advice on how to care for plants. Whenever I have questions, he answers them quickly and helps me keep my plants healthy. He also has some of the most original species, like the one you can see in the photo, that look great at home and are easy to care for. Highly recommended!",
-            "OPINION_2": "I loved the attention and the bouquet of flowers they made me. I highly recommend this Flor de Loto Florist. It will really put a smile on your face when you hold the bouquet in your hands.",
-            "OPINION_3": "It is not a simple flower shop, it is a business run by a completely artisan artist. Her work is spectacular and priceless. She adapts to all personalized requests; I have seen with my own eyes an impressive headband of fresh flowers made, I am speechless. If you want something exclusive, authentic and spectacular you must see her work. They have a pleasant, friendly service and their quality-price ratio is unique. I recommend it to you.",
-            "OPINION_4": "Well, I have already ordered many bouquets for gifts and they are always very good. For a change, this time I bought a glass urn with a Bonsai that are beautiful, and for whatever reason it died a few weeks later... I told him so and without any problem he told me to take it and he made me a new one, free of charge!! <br/>They have great customer service, I will return and I recommend them to everyone.",
-            "OPINION_5": "Well, I have already ordered many bouquets for gifts and they are always very good. For a change, this time I bought a glass urn with a Bonsai that are beautiful, and for whatever reason it died a few weeks later... I told him so and without any problem he told me to take it and he made me a new one, free of charge!! <br/>They have great customer service, I will return and I recommend them to everyone.",
-            "OPINION_6": "It's a pleasure to work with such professional people like Rafaela... everything is perfect! <br/>With lots of detail and taste! <br/>You can tell when someone enjoys their work! <br/>Thank you! <br/>I will definitely be back.",
-            "OPINION_7": "Today is the first time I've been there and it certainly won't be the last! Rafaela (I'll remember her name) has lovingly prepared a beautiful bouquet of multicoloured carnations for me. <br/>She has also been very attentive and patient because I couldn't decide on one flower or another and I wanted to stick to a budget :). <br/>Thank you Rafaela! My friend loved her bouquet!",
-            "OPINION_8": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! <br/>Totally recommended!!",
-            "OPINION_9": "I ordered a gift to thank a colleague. <br>The treatment from the first moment was exquisite, with incomparable attention and dedication. <br>I have never received such kindness from a person in any of the establishments I go to. The gift was beautiful. They are amazing professionals. <br>Thank you very much for everything.",
-            "OPINION_10": "I contacted this florist from Madrid to send an orchid to a relative hospitalized in Segovia. <br>Rafaela helped me and gave me all the possible facilities. <br>Thank you very much for your efficiency. <br>I was delighted.",
-            "OPINION_11": "They have treated me super well, Rafaela has done a super nice job with my mother's gift, thank you very much.",
-            "OPINION_12": "Very good service from Rafaela at all times. <br>I didn't like the paper on the bouquet, and she would have no problem exchanging it for another one. <br>I recommend it.",
+            "OPINION_1": {
+                "AUTHOR_NAME": "Gloria",
+                "DESCRIPTION": "Today is the first time I've been there and it certainly won't be the last! Rafaela (I'll remember her name) has lovingly prepared a beautiful bouquet of multicoloured carnations for me. <br>She has also been very attentive and patient because I couldn't decide on one flower or another and I wanted to stick to a budget :). <br>Thank you Rafaela! My friend loved her bouquet!"
+            },
+            "OPINION_2": {
+                "AUTHOR_NAME": "Cielo mr (Quispe)",
+                "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
+            },
+            "OPINION_3": {
+                "AUTHOR_NAME": "Cielo mr (Quispe)",
+                "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
+            },
+            "OPINION_4": {
+                "AUTHOR_NAME": "Lu RqV",
+                "DESCRIPTION": "It's a pleasure to work with such professional people like Rafaela... everything is perfect! With great detail and taste! You can tell when someone enjoys their work! Thank you!<br> I will definitely be back."
+            },
+            "OPINION_5": {
+                "AUTHOR_NAME": "Chema Durán",
+                "DESCRIPTION": "Fantastic service from Rafaela, super attentive and kind. I called by phone for a home delivery and they delivered it very quickly and a beautiful bouquet that I left to her liking. 100% recommended."
+            },
+            "OPINION_6": {
+                "AUTHOR_NAME": "Marvin Bonilla",
+                "DESCRIPTION": "I placed an order with Flor de Loto and was delighted. The flowers arrived beautifully and perfectly arranged, but what really made the difference was Rafaella's attention. She was attentive, kind, and made sure everything was perfect. Definitely an excellent service that I would recommend to anyone. Thank you, Rafaella and Flor de Loto for making this order such a special experience!"
+            },
+            "OPINION_7": {
+                "AUTHOR_NAME": "Mayreni Garcia Almonte",
+                "DESCRIPTION": "Excellent service and attention from Rafaela, the flowers are beautiful, but above all the love and dedication that this girl put into my purchase made my day. Highly recommended!"
+            },
+            "OPINION_8": {
+                "AUTHOR_NAME": "Cecilia Gómez Gascueña",
+                "DESCRIPTION": "Rafaella is an excellent professional. Incredible treatment, fantastic attention and quality 10. I don't plan on ever changing stores!"
+            },
+            "OPINION_9": {
+                "AUTHOR_NAME": "Angelica Muñoz Pascual",
+                "DESCRIPTION": "I ordered a gift to thank a colleague. <br>The treatment from the first moment was exquisite, with incomparable attention and dedication. I have never received such kindness from a person in any of the establishments I go to. The gift was beautiful. <br> They are amazing professionals. <br> Thank you very much for everything."
+            },
+            "OPINION_10": {
+                "AUTHOR_NAME": "Estefany Rodriguez Garcia",
+                "DESCRIPTION": "They have treated me super well, Rafaela has done a super nice job with my mother's gift, thank you very much."
+            },
+            "OPINION_11": {
+                "AUTHOR_NAME": "Blanca B",
+                "DESCRIPTION": "Very good service from Rafaela at all times. I didn't like the paper on the bouquet, and she exchanged it for another one without any problem. <br>I recommend it."
+            },
+            "OPINION_12": {
+                "AUTHOR_NAME": "Valeri Radev Yankov",
+                "DESCRIPTION": "Magnificent treatment by RAFAELA, who made a magnificent and beautiful order."
+            },
+            "OPINION_13": {
+                "AUTHOR_NAME": "Jesus david Rolong arrieta",
+                "DESCRIPTION": "I ordered a bouquet of flowers for my wife's birthday and the person who helped me, Rafaela, did it with great kindness. The service was excellent. I really give this flower shop a 10 out of 10 for both service and product quality. It's really great. <br>100% recommended. Thank you!"
+            },
+            "OPINION_14": {
+                "AUTHOR_NAME": "Yolanda Sanz",
+                "DESCRIPTION": "I can only say that Rafaela's attention was wonderful, the treatment was exquisite, the bouquet she made for my mother was beautiful. <br>I recommend it 100%."
+            },
+            "OPINION_15": {
+                "AUTHOR_NAME": "beatriz cruz",
+                "DESCRIPTION": "I contacted this florist from Madrid to send an orchid to a relative hospitalized in Segovia. Rafaela helped me and gave me all the possible facilities. Thank you very much for your efficiency. I was delighted."
+            },
+            "OPINION_16": {
+                "AUTHOR_NAME": "María Bernabé",
+                "DESCRIPTION": "The person who served me talked non-stop to the point of overwhelming me. I asked for some bamboo sticks that had a blackboard with the price on them and when I went to pay he overcharged me, taking me for a fool. He gave me the bill and was so pleased... I didn't say anything because he kept talking as if to distract me. It was €2.50 that didn't go anywhere, but I left upset and indignant that someone would lose a customer for €2.50."
+            },
+            "OPINION_17": {
+                "AUTHOR_NAME": "Ana",
+                "DESCRIPTION": "Always attentive to your needs. <br>Rafaela is charming. Great service. She tries to help you with what you are looking for. <br>A 10 in every way."
+            },
+            "OPINION_18": {
+                "AUTHOR_NAME": "Editorial SHB",
+                "DESCRIPTION": "This is my second time shopping here and besides the beauty of the store and its products, it is worth highlighting, above all, Rafaella's loving treatment. I declare myself a new customer!! ❤"
+            },
+            "OPINION_19": {
+                "AUTHOR_NAME": "Aurora Allas Jorge",
+                "DESCRIPTION": "I always go there because I am always very satisfied with the result. The service is great. They give you lots of ideas. <br>Very professional, as well as very friendly and approachable."
+            },
+            "OPINION_20": {
+                "AUTHOR_NAME": "Maria Alvarez",
+                "DESCRIPTION": "We love this flower shop! Rafaela is super friendly and makes beautiful bouquets. She gives you advice on how to make your gift special."
+            },
+            "OPINION_21": {
+                "AUTHOR_NAME": "Inmaculada Pérez",
+                "DESCRIPTION": "Exquisite and very professional service. The birthday bouquet was beautiful, it was a surprise and she loved it. And they brought it to the place of the celebration. Thank you for everything."
+            },
+            "OPINION_22": {
+                "AUTHOR_NAME": "Alberto Acebes",
+                "DESCRIPTION": "Raul is a great florist! He is always willing to help, giving good advice on how to care for plants. Whenever I have questions, he answers them quickly and helps me keep my plants healthy. <br> He also has some of the most original species, like the one you can see in the photo, that look great at home and are easy to care for. <br> Highly recommended!"
+            },
+            "OPINION_23": {
+                "AUTHOR_NAME": "Macarena Cabello Obrecht",
+                "DESCRIPTION": "Even though we came at the last minute, Rafaela was very attentive and took the time to make us a wonderful bouquet. <br>Thank you very much."
+            },
+            "OPINION_24": {
+                "AUTHOR_NAME": "Nuria Sacristán",
+                "DESCRIPTION": "Terrible. First they forget about the order and, when an hour later it was claimed, it took them another hour to deliver it. A bouquet of yellow roses was ordered and the one in the photo arrived... When I reported the error again, and another 45 minutes later, they changed it for the bouquet that was supposed to be correct. <br>Yellow roses? No, a tiny one of white roses painted with yellow spray... I will not recommend or return to a place where it seems that they are dedicated to laughing at the client."
+            },
+            "OPINION_25": {
+                "AUTHOR_NAME": "Isabel Vallejo",
+                "DESCRIPTION": "Totally recommendable, I love shopping here, we had already bought before, Rafaela is so nice and attentive, today we went to buy a flower arrangement and she also gave us some flowers that she prepared for us with all her love, we are so grateful, it was a lovely detail on her part, now in these difficult times for us...... <br>I wish they would serve us the same everywhere..."
+            },
+            "OPINION_26": {
+                "AUTHOR_NAME": "Elisa de la Cruz",
+                "DESCRIPTION": "The flower shop is great, but above all Rafaela's service, she is attentive, delicate, she gives you very good advice and is super affectionate. <br>Thank you very much Rafaela."
+            },
+            "OPINION_27": {
+                "AUTHOR_NAME": "Nila Montero",
+                "DESCRIPTION": "Today my partner surprised me with a SPECTACULAR bouquet of flowers from this store. Thank you so much Rafaela for your attention and service. <br><It was exciting ❤️."
+            },
+            "OPINION_28": {
+                "AUTHOR_NAME": "Daniel Muñoz Perez",
+                "DESCRIPTION": "First class service, fast and very professional, giving advice. It's a pleasure to deal with people who like what they do. Thank you very much Rafaela, a wonderful person."
+            },
+            "OPINION_29": {
+                "AUTHOR_NAME": "jenny lilieth bermejo",
+                "DESCRIPTION": "The customer service was very good, Rafaela was very kind and attentive."
+            },
+            "OPINION_30": {
+                "AUTHOR_NAME": "ANA ROBLEDO BARROSO",
+                "DESCRIPTION": "Today I bought a beautiful bouquet of flowers at the Lotus Flower flower shop. The girl who helped me made the bouquet with great art and taste, with great detail and lots of kindness and friendliness. I totally recommend it, a great place."
+            },
+            "OPINION_31": {
+                "AUTHOR_NAME": "Fernando de Frutos García",
+                "DESCRIPTION": "By far the best flower shop in Segovia in terms of quality, service and price. <br>The unbeatable hours with Raul and Rafaela always ready to provide a service that interflora is not capable of providing. <br>An excellent solution for Sundays and holidays that are always open for your surprise gift for a visit to your family or friends in the form of a floral gift. <br>Keep up the good work."
+            },
+            "OPINION_32": {
+                "AUTHOR_NAME": "adrian sanchez",
+                "DESCRIPTION": "It is the first time I buy from the flower shop and I definitely loved the service and the bouquet is beautiful. My mother loved it and Rafaela is a super good host. I do not hesitate to recommend her."
+            },
+            "OPINION_33": {
+                "AUTHOR_NAME": "lilibeth montenegro londoño",
+                "DESCRIPTION": "I have bought several times and I think it is wonderful, Rafaela is a very attentive and kind girl. I was very pleased with each visit, highly recommended."
+            },
+            "OPINION_34": {
+                "AUTHOR_NAME": "Maria Yolanda Hernandez",
+                "DESCRIPTION": "I went to buy a center and Rafaela helped me, she treated me specially and was super friendly and nice...and the center was beautiful. <br>I will return."
+            },
+            "OPINION_35": {
+                "AUTHOR_NAME": "Eliezer Leonardo Garcia aponte",
+                "DESCRIPTION": "Super delighted with the arrangements, they are very detailed and attentive, I loved their services and attention, especially to Rafaela, a great, kind and charismatic person."
+            },
+            "OPINION_36": {
+                "AUTHOR_NAME": "Alejandra Herraiz Moya",
+                "DESCRIPTION": "I came on a trip to Segovia and we returned with two beautiful bouquets of roses and wonderful service from Rafaela."
+            },
+            "OPINION_37": {
+                "AUTHOR_NAME": "Rubiela Petrelpetrel",
+                "DESCRIPTION": "Rafaela's service is excellent 👌 she makes beautiful bouquets."
+            },
+            "OPINION_38": {
+                "AUTHOR_NAME": "Cristina CC",
+                "DESCRIPTION": "I went on Mother's Day to get a gift for 3 people. The person who helped me insisted on selling me €40 bouquets without listening to what I was saying, showing me options that didn't fit what I was saying. All in such a hurry and in such a way that I wanted to leave without buying anything. But I didn't have many other options either... In the end I ended up buying and when I gave the flowers I saw that one was missing the ribbon, another was missing the card... In short, a disaster. The workers who were in the establishment at that time didn't seem to understand each other very well either."
+            },
+            "OPINION_39": {
+                "AUTHOR_NAME": "Lisbeth Pamela",
+                "DESCRIPTION": "The arrangement he made me was very beautiful and the service was super good. Everything was great."
+            },
+            "OPINION_40": {
+                "AUTHOR_NAME": "Arantxa Sacristán",
+                "DESCRIPTION": "Rafaela has treated us very well. She was kind and made the bouquet very pretty. We will return."
+            },
+            "OPINION_41": {
+                "AUTHOR_NAME": "homeguitarclass Clases de guitarra",
+                "DESCRIPTION": "Rafaella is always attentive and professional!!! A cheerful, simple and authentic flower shop. 10/10!!!"
+            },
+            "OPINION_42": {
+                "AUTHOR_NAME": "Adal MG88",
+                "DESCRIPTION": "Good service from Rafaela and beautiful bouquet of roses with its balloon and stuffed animal❤️."
+            },
+            "OPINION_43": {
+                "AUTHOR_NAME": "Pilar Montes",
+                "DESCRIPTION": "Rafaela is a charming girl and she prepares bouquets of roses for me with her stuffed animal and I love Rafaela's attention 🍀🍀🍀💋."
+            },
+            "OPINION_44": {
+                "AUTHOR_NAME": "Deriva_78",
+                "DESCRIPTION": "Muy buen gusto, me prepararon un ramo precioso en un momento, con todo detalle y ajustado al presupuesto. La chica es muy profesional y cuida cada detalle. <br>Volveré a comprar allí"
+            },
+            "OPINION_45": {
+                "AUTHOR_NAME": "Damaris Dorscht",
+                "DESCRIPTION": "Siempre elijo Flor de Loto ya sea para agasajar a mis santos o dar un bonito regalo, la atención de Raúl tanto como Rafaela es genial!!!!! <br>Gracias!"
+            },
+            "OPINION_46": {
+                "AUTHOR_NAME": "Bego Isabel",
+                "DESCRIPTION": "Rafaela came to bring a pothos and transplanted it, she did an excellent job, very kind and very professional, I recommend 100%."
+            },
+            "OPINION_47": {
+                "AUTHOR_NAME": "Elisa Pascual González",
+                "DESCRIPTION": "Whenever we need a flower item, whether it be a bouquet, plant or gift, we do not hesitate to go to their flower shop. We have always had great service (with very long hours, even on holidays) and quality flowers that have filled our home and our family with colour. <br>The private delivery has also been to our liking on all occasions, (also at no additional cost) <br>We will definitely continue to go to this flower shop, both for quality and proximity!"
+            },
+            "OPINION_48": {
+                "AUTHOR_NAME": "Raquel Bermejo De La Puente",
+                "DESCRIPTION": "Rafaela is wonderful, kind, friendly, very nice and a good saleswoman, I recommend her, I took home a beautiful plant!!!!!"
+            },
+            "OPINION_49": {
+                "AUTHOR_NAME": "N KN",
+                "DESCRIPTION": "A bad experience... We have been clients of this flower shop for many years and we liked it very much, but the truth is that it is not like it used to be. A few days ago I made a purchase and it is assumed that an establishment is there to attend to the needs/requests of the client, in this case it was not, they do not listen to the requests but rather they go a bit on their own (the service is not the best) and the truth is that one is left unhappy and about the prices no comments, each time a different one... It is a shame because the owner has always treated us very well and with great kindness, but we will certainly not return..."
+            },
+            "OPINION_50": {
+                "AUTHOR_NAME": "Gebris ester Jiménez sanmartin",
+                "DESCRIPTION": "Very good service, excellent, I recommend it. Greetings Rafaela, I love you and the owner."
+            },
             "BUTTON": "Read more"
         }
     },

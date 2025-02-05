@@ -69,14 +69,15 @@
             <ng-template let-opinion pTemplate="item" >
                 <div class="border-1 m-2 p-3">
                     <div class="wrap-header">
-                        <h3 class="mb-3 font-medium opinator-name">
-                            {{ opinion.name }}
+                        <h3 class="mb-2 font-medium opinator-name">
+                            {{ opinion.name | translate }}
                         </h3>
                         <p-rating
                             *ngIf="opinion.rating"
                             [(ngModel)]="opinion.rating" 
                             [readonly]="true" 
-                            [cancel]="false" />
+                            [cancel]="false"
+                            class="mb-3" />
                     </div>
                     <div class="flex justify-content-between align-items-center">
                         <p *ngIf="!showSkeleton" [innerHtml]="opinion.description | translate" class="mt-0 mb-4 opinator-description"></p>
@@ -107,7 +108,7 @@
         [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" 
         [style]="{width: '50vw'}">
         <div *ngIf="selectedSlideOpinator" class="wrap-modal-rating">
-            <h3 class="mb-3 mt-2">{{ selectedSlideOpinator.name }}</h3>
+            <h3 class="mb-3 mt-2">{{ selectedSlideOpinator.name | translate }}</h3>
             <p-rating 
                 *ngIf="selectedSlideOpinator.rating" 
                 [(ngModel)]="selectedSlideOpinator.rating" 

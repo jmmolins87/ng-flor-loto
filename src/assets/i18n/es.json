@@ -48,18 +48,206 @@
         },
         "OPINIONS_TITLE_SECTION": "Las opiniones de nuestr@s clientes",
         "OPINIONS_SECTION": {
-            "OPINION_1": "¡Raúl es un gran florista! Siempre está dispuesto a ayudar, dando buenos consejos sobre cómo cuidar de las plantas. Siempre que tengo dudas, las resuelve rápidamente y me ayuda a que mis plantas se mantengan sanas. Además, tiene algunas especies de lo más originales, como la que se puede ver en la foto, que quedan genial en casa y son fáciles de cuidar. ¡Totalmente recomendable!",
-            "OPINION_2": "Me ha encantado la atención y el ramo de flores que me hicieron. Recomiendo mucho esta Floristería Flor de Loto. De verdad sacara una sonrisa de sus caras al tener el ramo en sus manos.",
-            "OPINION_3": "No es una simple floristería, es un negocio que está gestionado por una artista totalmente artesanal. Su trabajo es es espectacular y no tiene precio. Se adapta a todas las peticiones personalizadas; he visto con mis propios ojos realizar una diadema de flores frescas impresionante, me quede sin palabras. Si queréis algo exclusivo, auténtico y espectacular debéis ver su trabajo y tienen un trato agradable, cercano y su calidad precio es único. Os lo recomiendo.",
-            "OPINION_4": "Pues yo he encargado ya muchos ramos para regalos y siempre muy bien, por cambiar esta vez compré una urna de cristal con un Bonsai que son preciosos, y por lo que sea a las semanas se me murió… se lo dije y sin poner ningún problema me dijo que se lo llevara y me ha echo otro nuevo, sin cargo ninguno!! <br/>Tienen un trato genial hacia el cliente, volveré y la recomiendo para todo el mundo.",
-            "OPINION_5": "Pues yo he encargado ya muchos ramos para regalos y siempre muy bien, por cambiar esta vez compré una urna de cristal con un Bonsai que son preciosos, y por lo que sea a las semanas se me murió… se lo dije y sin poner ningún problema me dijo que se lo llevara y me ha echo otro nuevo, sin cargo ninguno!! <br/>Tienen un trato genial hacia el cliente, volveré y la recomiendo para todo el mundo.",
-            "OPINION_6": "Da gusto con gente tan profesional como Rafaela.. todo perfecto! <br/>Con mucho detalle y gusto! <br/>Se nota cuando alguién disfruta con su trabajo! <br/>Gracias! <br/>Volveré sin duda.",
-            "OPINION_7": "Hoy es la primera vez que he ido y seguro que no la última! Rafaela (me quedé con su nombre) me ha preparado con mucho mimo un precioso ramo de claveles multicolor. <br/>Ha sido además muy atenta y paciente porque no me decidía por unas flores u otras y quería ceñirme a un presupuesto :). <br/>Gracias Rafaela! A mi amiga le ha encantado su ramo!",
-            "OPINION_8": "He ido varias veces y he sido atendida tanto por Rafaela como por el dueño, en todos los casos un trato estupendo, muy amables, siempre con una sonrisa y unos ramos preciosos! <br/>Totalmente recomendable!!",
-            "OPINION_9": "Encargué un regalo para agradecer a una compañera. <br>El trato desde el primer momento fue exquisito, con una atención y dedicación incomparables. <br>Nunca he recibido tanta amabilidad de una persona en ninguna de los establecimientos a los que acudo. El regalo quedó precioso. Son unos profesionales impresionantes. <br>Muchas gracias por todo.",
-            "OPINION_10": "He contactado con esta floristeria desde Madrid para mandar una orquídea a un familiar hospitalizado en Segovia. <br>Me ha atendido Rafaela y me ha dado todas las facilidades posibles. <br>Muchas gracias por su eficacia. <br>He quedado encantada.",
-            "OPINION_11": "Me han atendido súper bien, Rafaela a hecho un trabajo súper bonito con el regalo de mi madre muchas gracias.",
-            "OPINION_12": "Muy buena atención por parte de Rafaela en todo momento. <br>El papel del ramo no me gustó, y sin problema me lo cambio por otro. <br>Recomiendo.",
+            "OPINION_1": {
+                "AUTHOR_NAME": "Gloria",
+                "DESCRIPTION": "Hoy es la primera vez que he ido y seguro que no la última! Rafaela (me quedé con su nombre) me ha preparado con mucho mimo un precioso ramo de claveles multicolor. <br>Ha sido además muy atenta y paciente porque no me decidía por unas flores u otras y quería ceñirme a un presupuesto :). <br>Gracias Rafaela! A mi amiga le ha encantado su ramo!"
+            },
+            "OPINION_2": {
+                "AUTHOR_NAME": "Cielo mr (Quispe)",
+                "DESCRIPTION": "He ido varias veces y he sido atendida tanto por Rafaela como por el dueño, en todos los casos un trato estupendo, muy amables, siempre con una sonrisa y unos ramos preciosos! <br>Totalmente recomendable!!"
+            },
+            "OPINION_3": {
+                "AUTHOR_NAME": "Sergio Enriquez",
+                "DESCRIPTION": "Pues yo he encargado ya muchos ramos para regalos y siempre muy bien, por cambiar esta vez compré una urna de cristal con un Bonsai que son preciosos, y por lo que sea a las semanas se me murió… se lo dije y sin poner ningún problema me dijo que se lo llevara y me ha echo otro nuevo, sin cargo ninguno!! <br>Tienen un trato genial hacia el cliente, volveré y la recomiendo para todo el mundo."
+            },
+            "OPINION_4": {
+                "AUTHOR_NAME": "Lu RqV",
+                "DESCRIPTION": "Da gusto con gente tan profesional como Rafaela.. todo perfecto! Con mucho detalle y gusto! Se nota cuando alguien disfruta con su trabajo! Gracias!<br> Volveré sin duda."
+            },
+            "OPINION_5": {
+                "AUTHOR_NAME": "Chema Durán",
+                "DESCRIPTION": "Fantástica atención por parte de Rafaela, super atenta y amable. Llamé por teléfono para un envío a domicilio y lo entregaron muy rápido y un ramo precioso que dejé a su gusto. Recomendable 100%"
+            },
+            "OPINION_6": {
+                "AUTHOR_NAME": "Marvin Bonilla",
+                "DESCRIPTION": "Realicé un pedido a la floristería Flor de Loto y quedé encantado. Las flores llegaron hermosas y perfectamente arregladas, pero lo que realmente marcó la diferencia fue la atención de Rafaella. Fue atenta, amable y se aseguró de que todo saliera perfecto. Sin duda, un servicio excelente que recomendaría a cualquiera. ¡Gracias, Rafaella y flor de loto por hacer de este pedido una experiencia tan especial!"
+            },
+            "OPINION_7": {
+                "AUTHOR_NAME": "Mayreni Garcia Almonte",
+                "DESCRIPTION": "Excelente servicio y atención de Rafaela, las flores hermosas, pero sobretodo el amor y entrega que le puso esta chica a mi compra me hizo el día. Super recomendado!"
+            },
+            "OPINION_8": {
+                "AUTHOR_NAME": "Cecilia Gómez Gascueña",
+                "DESCRIPTION": "Rafaella es una excelente profesional. Trato increíble, atención fantástica y calidad 10. No pienso cambiar de tienda nunca!"
+            },
+            "OPINION_9": {
+                "AUTHOR_NAME": "Angelica Muñoz Pascual",
+                "DESCRIPTION": "Encargué un regalo para agradecer a una compañera. <br>El trato desde el primer momento fue exquisito, con una atención y dedicación incomparables. Nunca he recibido tanta amabilidad de una persona en ninguna de los establecimientos a los que acudo. El regalo quedó precioso.<br> Son unos profesionales impresionantes.<br> Muchas gracias por todo."
+            },
+            "OPINION_10": {
+                "AUTHOR_NAME": "Estefany Rodriguez Garcia",
+                "DESCRIPTION": "Me an atendido súper bien, Rafaela a hecho un trabajo súper bonito con el regalo de mi madre muchas gracias."
+            },
+            "OPINION_11": {
+                "AUTHOR_NAME": "Blanca B",
+                "DESCRIPTION": "Muy buena atención por parte de Rafaela en todo momento. El papel del ramo no me gustó, y sin problema me lo cambio por otro. <br>Recomiendo."
+            },
+            "OPINION_12": {
+                "AUTHOR_NAME": "Valeri Radev Yankov",
+                "DESCRIPTION": "Magnifico trato de RAFAELA realizó un encargo magnifico y precioso."
+            },
+            "OPINION_13": {
+                "AUTHOR_NAME": "Jesus david Rolong arrieta",
+                "DESCRIPTION": "Encargué un ramo de flores para el cumple de mi mujer y la persona que me atendió de nombre Rafaela lo hizo con mucha amabilidad fue una excelente atención. De verdad que a esta floristería le doy un 10 de 10 tanto en atención, como en la calidad del producto, la verdad estupendo. <br>Cien por ciento recomendado. Gracias!"
+            },
+            "OPINION_14": {
+                "AUTHOR_NAME": "Yolanda Sanz",
+                "DESCRIPTION": "Solo puedo decir que la atención de Rafaela fue maravillosa, el trato fue exquisito,el ramo que nos hizo para mi madre quedó precioso. <br>Lo recomiendo al 100%."
+            },
+            "OPINION_15": {
+                "AUTHOR_NAME": "beatriz cruz",
+                "DESCRIPTION": "He contactado con esta floristeria desde Madrid para mandar una orquídea a un familiar hospitalizado en Segovia. Me ha atendido Rafaela y me ha dado todas las facilidades posibles. Muchas gracias por su eficacia. He quedado encantada.."
+            },
+            "OPINION_16": {
+                "AUTHOR_NAME": "María Bernabé",
+                "DESCRIPTION": "La persona que me atendió hablaba sin parar llegando al punto de agobiarme. Le pedí unas varas de bambú que tenían una pizarrita con su precio y cuando fui a pagar me cobró de más, tomándome por tonta. Echó la cuenta redonda y se quedó tan a gusto... no dije nada porque no paraba de hablar como para distraerme. Fueron 2.5€ que no van a ningún lado, pero salí molesta e indignada de que por 2.5€ alguien sea capaz de perder a un cliente."
+            },
+            "OPINION_17": {
+                "AUTHOR_NAME": "Ana",
+                "DESCRIPTION": "Siempre atentos a tus necesidades. <br>Rafaela es encantadora. Una atención estupenda. Te intenta ayudar en lo que buscas. <br>Un 10 en todos los sentidos."
+            },
+            "OPINION_18": {
+                "AUTHOR_NAME": "Editorial SHB",
+                "DESCRIPTION": "Segunda vez que compro en este lugar y ademas de lo hermoso de la tienda y sus productos, cabe destacar, por sobretodo, el trato amoroso de Rafaella. Me declaro nueva clienta!! ❤"
+            },
+            "OPINION_19": {
+                "AUTHOR_NAME": "Aurora Allas Jorge",
+                "DESCRIPTION": "Siempre voy allí porque quedo siempre muy satisfecha con el resultado. El trato es estupendo.Te aportan muchas ideas. <br>Muy profesionales, a la vez que muy amables y cercanos."
+            },
+            "OPINION_20": {
+                "AUTHOR_NAME": "Maria Alvarez",
+                "DESCRIPTION": "Nos encanta esta floristería! Rafaela es súper amable y hace unos ramos preciosos. Te aconseja para que tu regalo sea especial."
+            },
+            "OPINION_21": {
+                "AUTHOR_NAME": "Inmaculada Pérez",
+                "DESCRIPTION": "Trato exquisito y muy profesional, el ramo de cumpleaños precioso, era una sorpresa y le ha encantado. Y nos lo han llevado al lugar de la celebración. Gracias por todo."
+            },
+            "OPINION_22": {
+                "AUTHOR_NAME": "Alberto Acebes",
+                "DESCRIPTION": "¡Raúl es un gran florista! Siempre está dispuesto a ayudar, dando buenos consejos sobre cómo cuidar de las plantas. Siempre que tengo dudas, las resuelve rápidamente y me ayuda a que mis plantas se mantengan sanas.<br> Además, tiene algunas especies de lo más originales, como la que se puede ver en la foto, que quedan genial en casa y son fáciles de cuidar.<br> ¡Totalmente recomendable!"
+            },
+            "OPINION_23": {
+                "AUTHOR_NAME": "Macarena Cabello Obrecht",
+                "DESCRIPTION": "A pesar que hemos venido a última hora, Rafaela ha sido muy atenta y se ha dado el tiempo de hacernos un ramo Maravilloso. <br>Muchas gracias."
+            },
+            "OPINION_24": {
+                "AUTHOR_NAME": "Nuria Sacristán",
+                "DESCRIPTION": "Nefasto. Primero se olvidan del encargo y, cuando una hora más tarde se reclamó, todavía tardaron una hora más en llevarlo. Se encargó un ramo de rosas amarillas y llegó lo de la foto... Al volver a informar del error, y otros 45 minutos después, lo cambian por el ramo que se suponía correcto. <br>Rosas amarillas? No, uno minúsculo de rosas blancas pintadas con un spray amarillo... Ni recomendaré ni volveré a un sitio donde parece que se dedican a reírse del cliente."
+            },
+            "OPINION_25": {
+                "AUTHOR_NAME": "Isabel Vallejo",
+                "DESCRIPTION": "Totalmente recomendable, me encanta comprar aquí, ya habíamos comprado anteriormente, Rafaela es tan simpática y detallista, hoy hemos ido a comprar un centro de flores y además nos ha regalado unas flores que nos ha preparado con todo el cariño, cuánto se lo agradecemos, ha sido un detalle precioso por su parte, ahora en estos momentos tan difíciles para nosotros...... <br>Ojalá atendieran igual en todos los sitios..."
+            },
+            "OPINION_26": {
+                "AUTHOR_NAME": "Elisa de la Cruz",
+                "DESCRIPTION": "La floristería es genial, pero sobre todo la atención de Rafaela, es atenta, delicada, te aconseja muy bien y es super cariñosa. <br>Muchas gracias Rafaela."
+            },
+            "OPINION_27": {
+                "AUTHOR_NAME": "Nila Montero",
+                "DESCRIPTION": "Hoy mi pareja me ha sorprendido con un ramo de flores ESPECTACULAR de esta tienda. Mil gracias Rafaela por tu atencion y servicio. <br><Ha sido emocionante ❤️."
+            },
+            "OPINION_28": {
+                "AUTHOR_NAME": "Daniel Muñoz Perez",
+                "DESCRIPTION": "Una atención de primera rápido y muy profesional aconsejando un gusto tratar con gente que le gusta lo que hace muchas gracias Rafaela una maravilla de persona."
+            },
+            "OPINION_29": {
+                "AUTHOR_NAME": "jenny lilieth bermejo",
+                "DESCRIPTION": "La atención al cliente fue muy buena, Rafaela muy amable y atenta."
+            },
+            "OPINION_30": {
+                "AUTHOR_NAME": "ANA ROBLEDO BARROSO",
+                "DESCRIPTION": "Hoy comprado un ramo de flores precioso en la floristería flor de loto,la chica q me ha atendido ha hecho el ramo con mucho arte y mucho gusto, con todo detalle y muchísima amibilidad y simpatía,lo recomiendo totalmente,un sitio."
+            },
+            "OPINION_31": {
+                "AUTHOR_NAME": "Fernando de Frutos García",
+                "DESCRIPTION": "De largo la mejor floristería de Segovia en calidad , servicio y precio. <br>Los horarios inigualables con Raul y Rafaela siempre dispuestos a dar un servicio que no interflora es capaz de suministrar. <br>Una excelente solución para Domingos y festivos que siempre abren para tu regalo sorpresa para una visita a tus familiares o amigos en forma de regalo floral. <br>Seguid así."
+            },
+            "OPINION_32": {
+                "AUTHOR_NAME": "adrian sanchez",
+                "DESCRIPTION": "Es la primera vez que compro en la floristeria y definitivamente me encanto la atención y el ramo está precioso a mi madre le encantó y Rafaela como anfitriona super buena no dudo en recomendarla."
+            },
+            "OPINION_33": {
+                "AUTHOR_NAME": "lilibeth montenegro londoño",
+                "DESCRIPTION": "He comprado en varias ocasiones y me parece maravilloso, Rafaela es una chica muy atenta y amable. Quedó muy a gusto en cada visita, muy recomendados."
+            },
+            "OPINION_34": {
+                "AUTHOR_NAME": "Maria Yolanda Hernandez",
+                "DESCRIPTION": "Fue a comprar un centro y me atendió Rafaela, el trato especial y súper amable y simpática..y él centro precioso. <br>Volvere."
+            },
+            "OPINION_35": {
+                "AUTHOR_NAME": "Eliezer Leonardo Garcia aponte",
+                "DESCRIPTION": "Súper encantado con los arreglos son muy detallistas y atentos, me encantó sus servicios y atención sobretodo a Rafaela gran persona amable y carismática."
+            },
+            "OPINION_36": {
+                "AUTHOR_NAME": "Alejandra Herraiz Moya",
+                "DESCRIPTION": "Vine de viaje a Segovia y nos volvemos con dos ramos de rosas preciosos y una atención maravillosa por parte de Rafaela."
+            },
+            "OPINION_37": {
+                "AUTHOR_NAME": "Rubiela Petrelpetrel",
+                "DESCRIPTION": "La atención de Rafaela es excelente 👌 hace unos ramos hermoso."
+            },
+            "OPINION_38": {
+                "AUTHOR_NAME": "Cristina CC",
+                "DESCRIPTION": "Fui el día de la Madre a por un detalle para 3 personas. La persona que me atendió insistía en venderme ramos de 40€ sin escucharme ni un poquito lo que le estaba diciendo, enseñándome opciones que no se ajustaban a lo que le estaba diciendo. Todo con unas prisas y unas maneras que me dieron ganas de salir sin comprar nada. Pero tampoco tenía muchas más opciones… Al final terminé comprando y cuando di las flores vi que a una le faltaba el lazo, a otra le faltaba la tarjeta… En fin, un desastre. Tampoco parecían entenderse muy bien los trabajadores que estaban en aquel momento en el establecimiento."
+            },
+            "OPINION_39": {
+                "AUTHOR_NAME": "Lisbeth Pamela",
+                "DESCRIPTION": "Muy bello el arreglo que me hizo y la atención super bien. Estupendo todo."
+            },
+            "OPINION_40": {
+                "AUTHOR_NAME": "Arantxa Sacristán",
+                "DESCRIPTION": "Rafaela nos ha atendido muy bien. Ha sido amable y el ramo lo ha hecho muy bonito. Volveremos."
+            },
+            "OPINION_41": {
+                "AUTHOR_NAME": "homeguitarclass Clases de guitarra",
+                "DESCRIPTION": "Rafaella siempre atenta y profesional!!! Una floristeria alegre, sencilla y auténtica. 10/10 !!!"
+            },
+            "OPINION_42": {
+                "AUTHOR_NAME": "Adal MG88",
+                "DESCRIPTION": "Buena atención por parte de Rafaela y precioso ramo de Rosas con su globito y peluche❤️."
+            },
+            "OPINION_43": {
+                "AUTHOR_NAME": "Pilar Montes",
+                "DESCRIPTION": "Rafaela es un encanto de chica y me prepara unos ramos de rosas con su Peluchee y me encanta la atención de Rafaela 🍀🍀🍀💋."
+            },
+            "OPINION_44": {
+                "AUTHOR_NAME": "Deriva_78",
+                "DESCRIPTION": "Muy buen gusto, me prepararon un ramo precioso en un momento, con todo detalle y ajustado al presupuesto. La chica es muy profesional y cuida cada detalle. <br>Volveré a comprar allí"
+            },
+            "OPINION_45": {
+                "AUTHOR_NAME": "Damaris Dorscht",
+                "DESCRIPTION": "Siempre elijo Flor de Loto ya sea para agasajar a mis santos o dar un bonito regalo, la atención de Raúl tanto como Rafaela es genial!!!!! <br>Gracias!"
+            },
+            "OPINION_46": {
+                "AUTHOR_NAME": "Bego Isabel",
+                "DESCRIPTION": "Vino Rafaela a traer un potus y a trasplantado, hizo un excelente trabajo, muy amable y muy profesional, recomiendo 100%."
+            },
+            "OPINION_47": {
+                "AUTHOR_NAME": "Elisa Pascual González",
+                "DESCRIPTION": "Siempre que necesitamos un artículo de floristería, ya sea un ramo, planta o detalle no dudamos en acudir a su floristería, en todo momento hemos contado con un trato estupendo (Con un horario muy amplio, hasta en festivo) y unas flores de calidad que han llenado de color nuestra casa y a nuestros familiares. <br>El reparto de forma particular también ha sido de nuestro agrado en todas las ocasiones, (Además sin coste adicional) <br>¡Sin duda continuaremos acudiendo a esta floristería, tanto por calidad como por proximidad!"
+            },
+            "OPINION_48": {
+                "AUTHOR_NAME": "Raquel Bermejo De La Puente",
+                "DESCRIPTION": "Rafaela maravillosa, amable, cercana , muy simpática y buena vendedora, la recomiendo, me llevè una planta preciosa!!!!!"
+            },
+            "OPINION_49": {
+                "AUTHOR_NAME": "N KN",
+                "DESCRIPTION": "Una mala experiencia... Llevamos siendo clientes de esta floristería muchos años y nos gustaba muchísimo, pero la verdad que ya no es como antes. Hace varios días hice una compra y se supone que un establecimiento está para atender las necesidades/peticiones del cliente, en este caso no lo fue, no se escuchan las peticiones sino que se va un poco por libre (la atención no es la mejor) y la verdad uno queda descontento y sobre los precios sin comentarios, cada vez uno diferente... Es una pena porque el propietario siempre nos ha tratado muy bien y con mucha amabilidad, pero sin duda no volveremos..."
+            },
+            "OPINION_50": {
+                "AUTHOR_NAME": "Gebris ester Jiménez sanmartin",
+                "DESCRIPTION": "Muy buena atención excelente lo recomiendo saludes Rafaela tqm y su propietario."
+            },
             "BUTTON": "Leer más"
         }
     },
