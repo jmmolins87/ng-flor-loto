@@ -9,6 +9,9 @@
         background-color: rgba($white, .25);
         backdrop-filter: blur(.3rem);
         margin-bottom: 5rem;
+        @include max-responsive($desktop-laptop) {
+            touch-action: pan-y;
+        }
         .wrap-carrousel-hero {
             display: flex;
             box-sizing: border-box;
