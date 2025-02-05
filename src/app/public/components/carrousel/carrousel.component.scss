@@ -70,6 +70,19 @@
                 }
             }
         }
+        .p-button {
+            padding: 0;
+            border: none;
+            min-width: 100%;
+            @include min-responsive($mobile-large) {
+                min-width: 50%;
+            }
+            ::ng-deep {
+                button {
+                    width: 100%;
+                }
+            }
+        }
         ::ng-deep {
             .p-carousel-next,
             .p-carousel-prev,
@@ -121,11 +134,19 @@
             -webkit-line-clamp: 5;
             -webkit-box-orient: vertical;
         }
-    }
-    
-    .p-button {
-        padding: 0;
-        border: none;
+        .p-button {
+            padding: 0;
+            border: none;
+            min-width: 100%;
+            @include min-responsive($tablet) {
+                min-width: 50%;
+            }
+            ::ng-deep {
+                button {
+                    width: 100%;
+                }
+            }
+        }
     }
     
     ::ng-deep {
