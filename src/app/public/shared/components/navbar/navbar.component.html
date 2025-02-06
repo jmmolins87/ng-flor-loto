@@ -45,7 +45,8 @@
                             *ngFor="let subItem of item.subMenu" 
                             class="dropdown-menu-item">
                             <a 
-                                [routerLink]="subItem.routerLink" 
+                                [routerLink]="subItem.routerLink"
+                                [title]="subItem.label | translate"
                                 class="dropdown-item">
                                 {{ subItem.label | translate }}
                             </a>
