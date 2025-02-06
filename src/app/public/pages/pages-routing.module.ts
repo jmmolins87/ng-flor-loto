@@ -3,7 +3,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { CookiePolicyComponent } from './policies/cookie-policy/cookie-policy.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
@@ -15,10 +14,6 @@ const routes: Routes = [
     {
         path: "",
         component: HomeComponent
-    },
-    {
-        path: "brunchflowers",
-        component: AboutComponent
     },
     {
         path: "contact",

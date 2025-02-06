@@ -11,7 +11,6 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { MessageService } from 'primeng/api';
 
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
 import { ComponentsModule } from '../components/components.module';
 import { ContactComponent } from './contact/contact.component';
 import { CookiePolicyComponent } from './policies/cookie-policy/cookie-policy.component';
@@ -23,7 +22,6 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 @NgModule({
   declarations: [
     HomeComponent,
-    AboutComponent,
     ContactComponent,
     CookiePolicyComponent,
     LegalNoticeComponent,
