@@ -5,47 +5,65 @@
             <div class="wrap-data-user">
                 <p-floatLabel class="p-field">
                     <label for="name">{{"OTHERS.FORM_ORDER.LABEL_NAME" | translate}}</label>
-                    <input pInputText id="name" type="text" formControlName="name" class="p-inputtext-lg" required />
+                    <input 
+                        pInputText 
+                        id="name" 
+                        type="text" 
+                        formControlName="name" 
+                        class="p-inputtext-lg" 
+                        required />
                     <span 
-                        *ngIf="whatsappForm.get('name')?.invalid && whatsappForm.get('name')?.touched"
+                        *ngIf="whatsappForm.get('name')?.errors?.['required'] && whatsappForm.get('name')?.touched"
                         class="p-error d-block">
                         {{"OTHERS.FORM_ORDER.VALIDATION_NAME" | translate}}
                     </span>
                     <span 
                         *ngIf="whatsappForm.get('name')?.errors?.['minlength'] && whatsappForm.get('name')?.touched"
                         class="p-error d-block">
-                        {{ "OTHERS.FORM_ORDER.VALIDATION_PHONE_LENGTH" | translate }}
+                        {{ "OTHERS.FORM_ORDER.VALIDATION_NAME_LENGTH" | translate }}
                     </span>
                 </p-floatLabel>
                 <p-floatLabel class="p-field">
                     <label for="phone">{{"OTHERS.FORM_ORDER.LABEL_PHONE" | translate}}</label>
-                    <input pInputText id="phone" type="tel" formControlName="phoneNumber" class="p-inputtext-lg" required />
+                    <input 
+                        pInputText 
+                        id="phone" 
+                        type="tel" 
+                        formControlName="phoneNumber" 
+                        class="p-inputtext-lg" 
+                        required />
                     <span 
-                        *ngIf="whatsappForm.get('phoneNumber')?.invalid && whatsappForm.get('phoneNumber')?.touched"
+                        *ngIf="whatsappForm.get('phoneNumber')?.errors?.['required'] && whatsappForm.get('phoneNumber')?.touched"
                         class="p-error d-block">
                         {{"OTHERS.FORM_ORDER.VALIDATION_PHONE" | translate}}
                     </span>
                     <span 
-                        *ngIf="whatsappForm.get('phoneNumber')?.errors?.['minlength'] && whatsappForm.get('phoneNumber')?.touched"
+                        *ngIf="whatsappForm.get('phoneNumber')?.errors?.['pattern'] && whatsappForm.get('phoneNumber')?.touched"
                         class="p-error d-block">
-                        {{ "OTHERS.FORM_ORDER.VALIDATION_PHONE_LENGTH" | translate }}
+                        {{"OTHERS.FORM_ORDER.VALIDATION_PHONE_LENGTH" | translate}}
                     </span>
                 </p-floatLabel>
             </div>
             <!-- ! -->
             <p-floatLabel class="p-field message">
                 <label for="message">{{"OTHERS.FORM_ORDER.LABEL_MESSAGE" | translate}}</label>
-                <textarea pInputTextarea id="message" rows="3" formControlName="message" class="p-inputtextarea-lg textarea"
-                    required></textarea>
+                <textarea 
+                    pInputTextarea 
+                    id="message" 
+                    rows="3" 
+                    formControlName="message" 
+                    class="p-inputtextarea-lg textarea"
+                    required>
+                </textarea>
                 <span 
-                    *ngIf="whatsappForm.get('message')?.invalid && whatsappForm.get('message')?.touched"
+                    *ngIf="whatsappForm.get('message')?.errors?.['required'] && whatsappForm.get('message')?.touched"
                     class="p-error d-block">
                     {{"OTHERS.FORM_ORDER.VALIDATION_MESSAGE" | translate}}
                 </span>
                 <span 
                     *ngIf="whatsappForm.get('message')?.errors?.['minlength'] && whatsappForm.get('message')?.touched"
                     class="p-error d-block">
-                    {{"OTHERS.FORM_ORDER.VALIDATION_MESSAGE_LENGTH" | translate}}
+                    {{ "OTHERS.FORM_ORDER.VALIDATION_MESSAGE_LENGTH" | translate }}
                 </span>
             </p-floatLabel>
             <div class="wrap-button">

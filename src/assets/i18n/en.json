@@ -262,9 +262,11 @@
             "VALIDATION_NAME": "Name is required.",
             "VALIDATION_NAME_LENGTH": "The message must be at least 3 characters.",
             "EMAIL": "E-mail",
-            "VALIDATION_EMAIL": "Please enter a valid email.",
+            "VALIDATION_EMAIL": "Email is required.",
+            "VALIDATION_EMAIL_FORMAT": "Please enter a valid email.",
             "SUBJECT": "Subject",
-            "VALIDATION_SUBJECT": "Subject is required.","VALIDATION_SUBJECT_LENGTH": "The subject must be at least 3 characters.",
+            "VALIDATION_SUBJECT": "Subject is required.",
+            "VALIDATION_SUBJECT_LENGTH": "The subject must be at least 3 characters.",
             "MESSAGE": "Message",
             "VALIDATION_MESSAGE": "Message is required.",
             "VALIDATION_MESSAGE_LENGTH": "The message must be at least 15 characters."

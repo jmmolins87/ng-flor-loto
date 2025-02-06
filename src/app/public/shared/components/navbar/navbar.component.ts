@@ -20,6 +20,7 @@ export class NavbarComponent {
   public scrolled: boolean = false;
   // It is bigger than a tablet
   public isTablet: boolean = false;
+  menuCollapsed: boolean = true;
   // Traductor
   public langs: { lang: string, name: string }[] = [
     { lang: 'es', name: 'Español' },
@@ -62,17 +63,9 @@ export class NavbarComponent {
     return this.menuItems;
   }
 
-  closeMenu() {
-    if (this.isTablet) {
-      const navbarCollapse = document.getElementById('navbarFlrLoto');
-      if (navbarCollapse) {
-        navbarCollapse.classList.remove('show');
-      }
-      const navbarToggler = document.querySelector('.navbar-toggler');
-      if (navbarToggler) {
-        navbarToggler.classList.add('collapsed');
-        navbarToggler.setAttribute('aria-expanded', 'false');
-      }
-    }
+  // Método para alternar el estado del menú
+  toggleMenu() {
+    this.menuCollapsed = !this.menuCollapsed;
   }
+
 }

@@ -1,6 +1,4 @@
 
-<p-toast [life]="7500" />
-
 <div class="container">
     <h1 *ngIf="!showSkeleton">{{ "CONTACT.TITLE" | translate }}</h1>
     <p-skeleton *ngIf="showSkeleton" width="40rem" height="4rem" styleClass="mb-2 mt-2" />
@@ -11,10 +9,10 @@
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12 p-md-6">
                 <label for="name">{{ "CONTACT.FORM_FIEDS.NAME" | translate }}</label>
                 <input id="name" type="text" pInputText formControlName="name" />
-                <span *ngIf="contactForm.get('name')?.invalid && contactForm.get('name')?.touched" class="p-error d-block">
+                <span *ngIf="contactForm.get('name')?.hasError('required') && contactForm.get('name')?.touched" class="p-error d-block">
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_NAME" | translate }}
                 </span>
-                <span *ngIf="contactForm.get('name')?.errors?.['minlength'] && contactForm.get('name')?.touched"
+                <span *ngIf="contactForm.get('name')?.hasError('minlength') && contactForm.get('name')?.touched"
                 class="p-error d-block">
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_NAME_LENGTH" | translate }}
                 </span>
@@ -23,18 +21,21 @@
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12 p-md-6">
                 <label for="email">{{ "CONTACT.FORM_FIEDS.EMAIL" | translate }}</label>
                 <input id="email" type="email" pInputText formControlName="email" />
-                <span *ngIf="contactForm.get('email')?.invalid && contactForm.get('email')?.touched" class="p-error">
+                <span *ngIf="contactForm.get('email')?.hasError('required') && contactForm.get('email')?.touched" class="p-error">
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_EMAIL" | translate }}
+                </span>
+                <span *ngIf="contactForm.get('email')?.hasError('email') && contactForm.get('email')?.touched" class="p-error">
+                    {{ "CONTACT.FORM_FIEDS.VALIDATION_EMAIL_FORMAT" | translate }}
                 </span>
             </p-floatLabel>
             <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-2" />
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12">
                 <label for="subject">{{ "CONTACT.FORM_FIEDS.SUBJECT" | translate }}</label>
                 <input id="subject" type="text" pInputText formControlName="subject" />
-                <span *ngIf="contactForm.get('subject')?.invalid && contactForm.get('subject')?.touched" class="p-error">
+                <span *ngIf="contactForm.get('subject')?.hasError('required') && contactForm.get('subject')?.touched" class="p-error">
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_SUBJECT" | translate }}
                 </span>
-                <span *ngIf="contactForm.get('subject')?.errors?.['minlength'] && contactForm.get('subject')?.touched"
+                <span *ngIf="contactForm.get('subject')?.hasError('minlength') && contactForm.get('subject')?.touched"
                 class="p-error d-block">
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_SUBJECT_LENGTH" | translate }}
                 </span>
@@ -44,10 +45,11 @@
         <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12">
             <label for="message">{{ "CONTACT.FORM_FIEDS.MESSAGE" | translate }}</label>
             <textarea id="message" pInputTextarea formControlName="message" rows="6"></textarea>
-            <span *ngIf="contactForm.get('message')?.invalid && contactForm.get('message')?.touched" class="p-error">
+            <span *ngIf="contactForm.get('message')?.hasError('required') && contactForm.get('message')?.touched"
+                class="p-error d-block">
                 {{ "CONTACT.FORM_FIEDS.VALIDATION_MESSAGE" | translate }}
             </span>
-            <span *ngIf="contactForm.get('message')?.errors?.['minlength'] && contactForm.get('message')?.touched"
+            <span *ngIf="contactForm.get('message')?.hasError('minlength') && contactForm.get('message')?.touched"
                 class="p-error d-block">
                 {{ "CONTACT.FORM_FIEDS.VALIDATION_MESSAGE_LENGTH" | translate }}
             </span>

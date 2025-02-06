@@ -22,12 +22,13 @@ import { carrouselOptions } from '../../components/carrousel/carrousel.config';
 export class HomeComponent implements OnInit {
 
   public showSkeleton: boolean = true;
-  public carrouselHero: carrouselOptions = carrouselOptions.isHero;
+  public carrouselHero: any | carrouselOptions = carrouselOptions.isHero;
   public carrouselOpinator: carrouselOptions = carrouselOptions.isOpinator;
   public intervalCarrouselHero: number = 7500;
   public intervalCarrouselOpinions: number = 5000;
   public recommendationsHome: recomendationsHome[] = []
   public opinionsHome: carrouselOpinions[] = []
+  isMobile: boolean = false;
 
   constructor( private _pagesService: PagesService ) {}
 
@@ -37,6 +38,7 @@ export class HomeComponent implements OnInit {
     }, 1500)
     this.getRecommendations();
     this.getOpinions();
+    this.isMobileNotScroll();
   }
 
   getRecommendations() {
@@ -53,6 +55,14 @@ export class HomeComponent implements OnInit {
     return this.opinionsHome;
   }
 
+  isMobileNotScroll() {
+    this.isMobile = window.innerWidth <= 768;
+    // Configura las opciones del carrusel
+    this.carrouselHero = {
+      // Otras opciones del carrusel
+      swipe: !this.isMobile // Deshabilita el deslizamiento táctil en dispositivos móviles
+    };
+  }
 
 
   
