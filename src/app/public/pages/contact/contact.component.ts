@@ -24,14 +24,23 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
     this.contactForm = this.fb.group({
-      name: ['', Validators.required],
+      name: ['', [Validators.required, Validators.minLength(3)]],
       email: ['', [Validators.required, Validators.email]],
-      subject: ['', Validators.required],
-      message: ['', Validators.required]
+      subject: ['', [Validators.required, Validators.minLength(3)]],
+      message: ['', [Validators.required, Validators.minLength(15)]]
     });
     setTimeout(() => {
       this.showSkeleton = false;
     }, 1000)
+  }
+
+  onInput(): void {
+    Object.keys(this.contactForm.controls).forEach(field => {
+      const control = this.contactForm.get(field);
+      if (control?.touched) {
+        control.updateValueAndValidity();
+      }
+    });
   }
 
   onSubmit(): void {

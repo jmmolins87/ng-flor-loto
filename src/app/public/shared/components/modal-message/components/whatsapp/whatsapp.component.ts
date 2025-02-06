@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { 
+  Component, 
+  OnInit, 
+  AfterViewInit 
+} from '@angular/core';
 import { 
   FormBuilder, 
   FormGroup, 
@@ -10,7 +14,7 @@ import {
   templateUrl: './whatsapp.component.html',
   styleUrls: ['./whatsapp.component.scss']
 })
-export class WhatsappComponent implements OnInit {
+export class WhatsappComponent implements OnInit, AfterViewInit {
 
   public whatsappForm!: FormGroup;
 
@@ -25,6 +29,20 @@ export class WhatsappComponent implements OnInit {
       ],
       message: ['', [Validators.required, Validators.minLength(5)]]
     });
+  }
+
+  ngAfterViewInit(): void {
+    // Remove focus from any element
+    setTimeout(() => {
+      (document.activeElement as HTMLElement).blur();
+    }, 0);
+  }
+
+  onMessageInput(): void {
+    const messageControl = this.whatsappForm.get('message');
+    if (messageControl?.touched) {
+      messageControl.updateValueAndValidity();
+    }
   }
 
   sendWhatsApp() {

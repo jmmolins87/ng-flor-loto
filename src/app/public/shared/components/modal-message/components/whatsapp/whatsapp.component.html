@@ -1,31 +1,53 @@
 <div class="wrap-form-whatsapp shadow-lg border-round card p-4">
     <form [formGroup]="whatsappForm" (ngSubmit)="sendWhatsApp()" class="wrap-form">
         <div class="p-fluid">
+            <!-- ¿¿Hace falta?? -->
             <div class="wrap-data-user">
-                <div class="p-field">
+                <p-floatLabel class="p-field">
                     <label for="name">{{"OTHERS.FORM_ORDER.LABEL_NAME" | translate}}</label>
-                    <input id="name" type="text" pInputText formControlName="name" class="p-inputtext-lg" required />
-                    <span *ngIf="whatsappForm.get('name')?.invalid && whatsappForm.get('name')?.touched"
-                        class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_NAME" | translate}}</span>
-                </div>
-                <div class="p-field">
+                    <input pInputText id="name" type="text" formControlName="name" class="p-inputtext-lg" required />
+                    <span 
+                        *ngIf="whatsappForm.get('name')?.invalid && whatsappForm.get('name')?.touched"
+                        class="p-error d-block">
+                        {{"OTHERS.FORM_ORDER.VALIDATION_NAME" | translate}}
+                    </span>
+                    <span 
+                        *ngIf="whatsappForm.get('name')?.errors?.['minlength'] && whatsappForm.get('name')?.touched"
+                        class="p-error d-block">
+                        {{ "OTHERS.FORM_ORDER.VALIDATION_PHONE_LENGTH" | translate }}
+                    </span>
+                </p-floatLabel>
+                <p-floatLabel class="p-field">
                     <label for="phone">{{"OTHERS.FORM_ORDER.LABEL_PHONE" | translate}}</label>
-                    <input id="phone" type="tel" pInputText formControlName="phoneNumber" class="p-inputtext-lg" required />
-                    <span *ngIf="whatsappForm.get('phoneNumber')?.invalid && whatsappForm.get('phoneNumber')?.touched"
-                        class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_PHONE" | translate}}</span>
-                    <span *ngIf="whatsappForm.get('phoneNumber')?.errors?.['minlength'] && whatsappForm.get('phoneNumber')?.touched"
-                        class="p-error">El número de teléfono debe tener al menos 9 caracteres.</span>
-                </div>
+                    <input pInputText id="phone" type="tel" formControlName="phoneNumber" class="p-inputtext-lg" required />
+                    <span 
+                        *ngIf="whatsappForm.get('phoneNumber')?.invalid && whatsappForm.get('phoneNumber')?.touched"
+                        class="p-error d-block">
+                        {{"OTHERS.FORM_ORDER.VALIDATION_PHONE" | translate}}
+                    </span>
+                    <span 
+                        *ngIf="whatsappForm.get('phoneNumber')?.errors?.['minlength'] && whatsappForm.get('phoneNumber')?.touched"
+                        class="p-error d-block">
+                        {{ "OTHERS.FORM_ORDER.VALIDATION_PHONE_LENGTH" | translate }}
+                    </span>
+                </p-floatLabel>
             </div>
-            <div class="p-field message">
+            <!-- ! -->
+            <p-floatLabel class="p-field message">
                 <label for="message">{{"OTHERS.FORM_ORDER.LABEL_MESSAGE" | translate}}</label>
-                <textarea id="message" rows="3" pInputTextarea formControlName="message" class="p-inputtextarea-lg textarea"
+                <textarea pInputTextarea id="message" rows="3" formControlName="message" class="p-inputtextarea-lg textarea"
                     required></textarea>
-                <span *ngIf="whatsappForm.get('message')?.invalid && whatsappForm.get('message')?.touched"
-                    class="p-error">{{"OTHERS.FORM_ORDER.VALIDATION_MESSAGE" | translate}}</span>
-                <span *ngIf="whatsappForm.get('message')?.errors?.['minlength'] && whatsappForm.get('message')?.touched"
-                    class="p-error">El mensaje debe tener al menos 5 caracteres.</span>
-            </div>
+                <span 
+                    *ngIf="whatsappForm.get('message')?.invalid && whatsappForm.get('message')?.touched"
+                    class="p-error d-block">
+                    {{"OTHERS.FORM_ORDER.VALIDATION_MESSAGE" | translate}}
+                </span>
+                <span 
+                    *ngIf="whatsappForm.get('message')?.errors?.['minlength'] && whatsappForm.get('message')?.touched"
+                    class="p-error d-block">
+                    {{"OTHERS.FORM_ORDER.VALIDATION_MESSAGE_LENGTH" | translate}}
+                </span>
+            </p-floatLabel>
             <div class="wrap-button">
                 <button 
                     pButton 

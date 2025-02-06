@@ -9,7 +9,7 @@
                 box-sizing: border-box;
                 flex-direction: column;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
                 gap: 1rem;
                 @include min-responsive($tablet) {
                     flex-direction: row;
@@ -17,14 +17,15 @@
                 }
                 .p-field {
                     width: 100%;
-                    &.message {
-                        ::ng-deep {
-                            .textarea {
-                                height: 20rem;
-                            }
-                        }
+                    &.message textarea {
+                        background: red;
                     }
-                    
+                }
+            }
+            .p-field {
+                width: 100%;
+                &.message textarea {
+                    height: 20rem;
                 }
             }
         }

@@ -257,12 +257,15 @@
         "FORM_FIEDS": {
             "NAME": "Nombre",
             "VALIDATION_NAME": "El nombre es requerido.",
+            "VALIDATION_NAME_LENGTH": "El mensaje debe tener al menos 3 carácteres.",
             "EMAIL": "E-mail",
             "VALIDATION_EMAIL": "Introduzca un correo electrónico válido.",
             "SUBJECT": "Asunto",
             "VALIDATION_SUBJECT": "El asunto es requerido.",
+            "VALIDATION_SUBJECT_LENGTH": "El asunto debe tener al menos 3 carácteres.",
             "MESSAGE": "Mensaje",
-            "VALIDATION_MESSAGE": "El mensaje es requerido."
+            "VALIDATION_MESSAGE": "El mensaje es requerido.",
+            "VALIDATION_MESSAGE_LENGTH": "El mensaje debe tener al menos 15 carácteres."
         },
         "MESSAGE_SUCCESS": "¡Gracias por contactarnos! Nos pondremos en contacto contigo lo antes posible.",
         "MESSAGE_ERROR": "¡Ups! Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
@@ -277,11 +280,14 @@
         "FORM_ORDER": {
             "TITLE": "Enviar pedido por WhatsApp",
             "LABEL_NAME": "Escriba su nombre",
-            "VALIDATION_NAME": "El nombre debe contener al menos 3 carácteres.",
+            "VALIDATION_NAME": "El nombre es obligatorio",
+            "VALIDATION_NAME_LENGTH": "El nombre debe contener al menos 3 carácteres.",
             "LABEL_PHONE": "Escriba su teléfono",
-            "VALIDATION_PHONE": "El teléfono es requerido.",
+            "VALIDATION_PHONE": "El teléfono es obligatorio.",
+            "VALIDATION_PHONE_LENGTH": "El número de teléfono debe tener al menos 9 caracteres.",
             "LABEL_MESSAGE": "Digános, ¿que desea?",
-            "VALIDATION_MESSAGE": "El pedido debe contener al menos 5 carácteres.",
+            "VALIDATION_MESSAGE": "El pedido es obligatorio.",
+            "VALIDATION_MESSAGE_LENGTH": "El pedido debe tener al menos 5 carácteres.",
             "BUTTON_WHATSAPP": "Enviar pedido por WhatsApp",
             "BUTTON_SMS": "Enviar pedido por SMS"
         }

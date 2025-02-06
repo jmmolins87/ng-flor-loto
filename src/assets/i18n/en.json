@@ -257,12 +257,14 @@
         "FORM_FIEDS": {
             "NAME": "Name",
             "VALIDATION_NAME": "Name is required.",
+            "VALIDATION_NAME_LENGTH": "The message must be at least 3 characters.",
             "EMAIL": "E-mail",
             "VALIDATION_EMAIL": "Please enter a valid email.",
             "SUBJECT": "Subject",
-            "VALIDATION_SUBJECT": "Subject is required.",
+            "VALIDATION_SUBJECT": "Subject is required.","VALIDATION_SUBJECT_LENGTH": "The subject must be at least 3 characters.",
             "MESSAGE": "Message",
-            "VALIDATION_MESSAGE": "Message is required."
+            "VALIDATION_MESSAGE": "Message is required.",
+            "VALIDATION_MESSAGE_LENGTH": "The message must be at least 15 characters."
         },
         "MESSAGE_SUCCESS": "Thank you for contacting us! We will get back to you as soon as possible.",
         "MESSAGE_ERROR": "Oops! Something went wrong. Please try again later.",
@@ -277,11 +279,14 @@
         "FORM_ORDER": {
             "TITLE": "Place your order here!!",
             "LABEL_NAME": "Write your name",
-            "VALIDATION_NAME": "The name must contain at least 3 characters.",
+            "VALIDATION_NAME": "The name is required.",
+            "VALIDATION_NAME_LENGTH": "The name must contain at least 3 characters.",
             "LABEL_PHONE": "Write your phone",
-            "VALIDATION_PHONE": "Please enter a valid phone number.",
+            "VALIDATION_PHONE": "Phone is required..",
+            "VALIDATION_PHONE_LENGTH": "The phone number must contain at least 9 characters.",
             "LABEL_MESSAGE": "Tell us, what do you want?",
-            "VALIDATION_MESSAGE": "The order must contain at least 5 characters.",
+            "VALIDATION_MESSAGE": "Order is required.",
+            "VALIDATION_MESSAGE_LENGTH": "The order must be at least 5 characters.",
             "BUTTON_WHATSAPP": "Send order by WhatsApp",
             "BUTTON_SMS": "Send order by SMS"
         }
