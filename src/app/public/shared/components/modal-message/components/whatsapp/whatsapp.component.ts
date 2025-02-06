@@ -23,8 +23,8 @@ export class WhatsappComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     this.whatsappForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
-      phoneNumber: ['',[Validators.required, Validators.pattern(/^\+?[1-9]\d{8,14}$/)]],
-      message: ['', [Validators.required, Validators.minLength(5)]]
+      // phoneNumber: ['',[Validators.required, Validators.pattern(/^\+?[1-9]\d{8,14}$/)]],
+      message: ['', [Validators.required, Validators.minLength(15)]]
     });
   }
 

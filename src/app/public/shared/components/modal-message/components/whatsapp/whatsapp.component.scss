@@ -4,6 +4,10 @@
 .wrap-form-whatsapp {
     .wrap-form {
         .p-fluid {
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            gap: 1rem;
             .wrap-data-user {
                 display: flex;
                 box-sizing: border-box;

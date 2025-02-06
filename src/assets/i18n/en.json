@@ -291,7 +291,7 @@
             "VALIDATION_PHONE_LENGTH": "The phone number must contain at least 9 characters.",
             "LABEL_MESSAGE": "Tell us, what do you want?",
             "VALIDATION_MESSAGE": "Order is required.",
-            "VALIDATION_MESSAGE_LENGTH": "The order must be at least 5 characters.",
+            "VALIDATION_MESSAGE_LENGTH": "The order must be at least 15 characters.",
             "BUTTON_WHATSAPP": "Send order by WhatsApp",
             "BUTTON_SMS": "Send order by SMS"
         }

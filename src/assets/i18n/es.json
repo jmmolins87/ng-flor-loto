@@ -291,7 +291,7 @@
             "VALIDATION_PHONE_LENGTH": "El número de teléfono debe tener al menos 9 caracteres.",
             "LABEL_MESSAGE": "Digános, ¿que desea?",
             "VALIDATION_MESSAGE": "El pedido es obligatorio.",
-            "VALIDATION_MESSAGE_LENGTH": "El pedido debe tener al menos 5 carácteres.",
+            "VALIDATION_MESSAGE_LENGTH": "El pedido debe tener al menos 15 carácteres.",
             "BUTTON_WHATSAPP": "Enviar pedido por WhatsApp",
             "BUTTON_SMS": "Enviar pedido por SMS"
         }
