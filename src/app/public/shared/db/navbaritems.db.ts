@@ -15,7 +15,13 @@ export const navbarItems: NavBarInterface[] =  [
     },
     {
         label: "NAV_BAR.FLOORS",
-        routerLink: ["/floors"]
+        routerLink: ["/floors"],
+        subMenu: [
+            {
+                label: "NAV_BAR.SUBMENUS.FLOORS_SUB",
+                routerLink: ["/contact"]
+            }
+        ]
     },
     {
         label: "NAV_BAR.WEDDING",

@@ -26,31 +26,33 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarFlrLoto">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li *ngFor="let item of menuItems" [routerLinkActive]="['active']" class="nav-item">
-                    <a [routerLink]="item.routerLink" [title]="item.label | translate"
-                        [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
-                        [attr.data-bs-target]="isTablet ? '' : '#navbarFlrLoto'"
-                        [attr.aria-controls]="isTablet ? '' : 'navbarFlrLoto'"
-                        [attr.aria-expanded]="isTablet ? '' : 'false'" 
-                        (click)="closeMenu()" 
-                        aria-current="page"
-                        class="nav-link">
+                <li 
+                    *ngFor="let item of menuItems" 
+                    [routerLinkActive]="['active']" 
+                    class="nav-item dropdown"
+                    [ngClass]="{'dropdown': item.subMenu}">
+                    <a 
+                        [routerLink]="item.routerLink" 
+                        [title]="item.label | translate" 
+                        aria-current="page" 
+                        class="nav-link"
+                        [ngClass]="{'dropdown-toggle': item.subMenu}" 
+                        [attr.data-bs-toggle]="item.subMenu ? 'dropdown' : null">
                         {{ item.label | translate }}
                     </a>
+                    <ul *ngIf="item.subMenu" class="dropdown-menu">
+                        <li 
+                            *ngFor="let subItem of item.subMenu" 
+                            class="dropdown-menu-item">
+                            <a 
+                                [routerLink]="subItem.routerLink" 
+                                class="dropdown-item">
+                                {{ subItem.label | translate }}
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
-            <!-- TODO -->
-            <!-- <div class="end">
-                <div class="wrap-change-language">
-                    <span class="pi pi-fw pi-language icon-lang"></span>
-                    <select #langSelect (change)="changeLang( langSelect.value )" class="form-select" aria-label="change language">
-                        <option selected disabled class>{{ "NAV_BAR.LANGUAGE" | translate }}</option>
-                        <option *ngFor="let lang of langs" [value]="lang.lang">
-                            {{ lang.name }}
-                        </option>
-                    </select>
-                </div>
-            </div> -->
         </div>
     </div>
 </nav>

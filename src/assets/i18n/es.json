@@ -7,7 +7,10 @@
         "WEDDING": "Bodas",
         "FUNERAL": "Funerales",
         "CONTACT": "Contacto",
-        "LANGUAGE": "Choose your language"
+        "LANGUAGE": "Choose your language",
+        "SUBMENUS": {
+            "FLOORS_SUB": "Más flores"
+        }
     },
     "FOOTER": {
         "LOCATION": "¿Dónde estamos?",

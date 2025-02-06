@@ -81,12 +81,21 @@
             @include min-responsive($tablet) {
                 gap: 3rem;
             }
+            .dropdown {
+                &:hvoer {
+                    > .dropdown-menu {
+                        display: block;
+                        margin-top: 0;
+                    }
+                }
+            }
             .nav-item {
                 display: flex;
                 box-sizing: border-box;
                 justify-content: center;
                 align-items: center;
                 gap: .25rem;
+                position: relative;
                 @include min-responsive($tablet) {
                     gap: .1rem;
                 }
@@ -102,7 +111,16 @@
                     justify-content: flex-start;
                     align-items: baseline;
                     gap: .5rem;
-                    color: $white-dark
+                    color: $white-dark;
+                    &.dropdown-toggle {
+                        position: relative;
+                        &::after {
+                            position: absolute;
+                            left: -1.8rem;
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+                    }
                 }
             }
         }
@@ -149,4 +167,38 @@
             }
         }
     }
+}
+
+
+// * Submenus
+.navbar-nav .dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0;
+    /* Ajusta según sea necesario */
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    &-item a {
+        color: $brand-primary;
+        transition: color .2s ease-in-out;
+        &:hover {
+            color: $brand-primary-dark;
+        }
+    }
+}
+.nav-item.dropdown {
+    position: relative;
+}
+.nav-item.dropdown .dropdown-menu {
+    top: 100%;
+    left: 0;
+    right: auto;
+    margin-top: 0.125rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
 }
