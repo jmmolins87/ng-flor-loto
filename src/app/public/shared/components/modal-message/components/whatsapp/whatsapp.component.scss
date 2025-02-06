@@ -15,7 +15,7 @@
                 justify-content: center;
                 align-items: flex-start;
                 gap: 1rem;
-                @include min-responsive($tablet) {
+                @include min-responsive($mobile-large) {
                     flex-direction: row;
                     gap: 2rem;
                 }
