@@ -44,7 +44,7 @@ export class WhatsappComponent implements OnInit, AfterViewInit {
 
   sendWhatsApp() {
     if (this.whatsappForm.valid) {
-      const phone = this.whatsappForm.value.phoneNumber.replace(/\D/g, '');
+      // const phone = this.whatsappForm.value.phoneNumber.replace(/\D/g, '');
       const message = encodeURIComponent(this.whatsappForm.value.message);
       const whatsappUrl = `https://wa.me/${"691264112"}?text=${message}`;
       window.open(whatsappUrl, '_blank');
