@@ -10,25 +10,28 @@
                 <div class="wrap-carrousel-hero">
                     <div class="wrap-text">
                         <h3 *ngIf="!showSkeleton" class="hero-title">
-                            {{ slide.title }}
+                            {{ slide.title | translate }}
                         </h3>
                         <p-skeleton *ngIf="showSkeleton" height="2rem" styleClass="mb-5" />
-                        <p *ngIf="!showSkeleton" [innerHtml]="slide.description" class="hero-description"></p>
+                        <p *ngIf="!showSkeleton" [innerHtml]="slide.description | translate" class="hero-description"></p>
                         <p-skeleton *ngIf="showSkeleton" height="10rem" styleClass="mb-2" />
                         <p-button 
+                            *ngIf="!showSkeleton"
                             [outlined]="true" 
                             pButton type="button" 
                             severity="info" 
                             icon="pi pi-align-justify" 
                             iconPos="right" 
-                            label="Seguir leyendo"
+                            [label]="'HOME.CAROUSEL_HERO.BUTTON_READ_MORE' | translate"
                             (click)="openModalHero(slide)"
                             class="btn-modal" />
+                         <p-skeleton *ngIf="showSkeleton" width="15rem" height="5rem" styleClass="mb-2" />
                     </div>
                     <div class="wrap-img">
                         <img 
                             [src]="slide.img" 
-                            [alt]="slide.title" 
+                            [alt]="slide.title | translate" 
+                            [title]="slide.title | translate" 
                             class="img" />
                     </div>
                 </div>
@@ -45,13 +48,13 @@
         [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }" 
         [style]="{width: '75vw'}">
         <div *ngIf="selectedSlideHero" class="wrap-modal-slide">
-            <h3 class="hero-modal-title">{{ selectedSlideHero.title }}</h3>
+            <h3 class="hero-modal-title">{{ selectedSlideHero.title | translate }}</h3>
             <p [innerHtml]="selectedSlideHero.description" class="hero-modal-description mt-1"></p>
             <div class="wrap-img">
                 <img 
                     [src]="selectedSlideHero.img" 
-                    [alt]="selectedSlideHero.title" 
-                    [title]="selectedSlideHero.title" 
+                    [alt]="selectedSlideHero.title | translate" 
+                    [title]="selectedSlideHero.title | translate" 
                     class="img" />
             </div>
         </div>
@@ -119,8 +122,8 @@
                 <img 
                     *ngFor="let image of selectedSlideOpinator.image; let i = index"
                     [src]="image" 
-                    [alt]="selectedSlideOpinator.name" 
-                    [title]="selectedSlideOpinator.name" 
+                    [alt]="selectedSlideOpinator.name | translate" 
+                    [title]="selectedSlideOpinator.name | translate" 
                     class="img" />
             </div>
         </div>

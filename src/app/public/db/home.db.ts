@@ -1,8 +1,34 @@
 
 
+import { 
+    carrouselHero, 
+    carrouselOpinions, 
+    recomendationsHome 
+} from "../models/home/contentHomePage.interface"
 
 
-import { carrouselOpinions, recomendationsHome } from "../models/home/contentHomePage.interface"
+export const homePageCarouselHero: carrouselHero[] = [
+    {
+        title: "HOME.CAROUSEL_HERO.ITEM_1.TITLE",
+        description: "HOME.CAROUSEL_HERO.ITEM_1.DESCRIPTION",
+        img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
+    },
+    {
+        title: "HOME.CAROUSEL_HERO.ITEM_2.TITLE",
+        description: "HOME.CAROUSEL_HERO.ITEM_2.DESCRIPTION",
+        img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
+    },
+    {
+        title: "HOME.CAROUSEL_HERO.ITEM_3.TITLE",
+        description: "HOME.CAROUSEL_HERO.ITEM_3.DESCRIPTION",
+        img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
+    },
+    {
+        title: "HOME.CAROUSEL_HERO.ITEM_4.TITLE",
+        description: "HOME.CAROUSEL_HERO.ITEM_4.DESCRIPTION",
+        img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
+    }
+]
 
 
 export const homePageRecomendations: recomendationsHome[] = [

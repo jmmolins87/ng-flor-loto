@@ -27,6 +27,25 @@
         "BUTTON": "Accept"
     },
     "HOME": {
+        "CAROUSEL_HERO": {
+            "ITEM_1": {
+                "TITLE": "Slide 1",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
+            },
+            "ITEM_2": {
+                "TITLE": "Slide 2",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 2"
+            },
+            "ITEM_3": {
+                "TITLE": "Slide 3",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 3"
+            },
+            "ITEM_4": {
+                "TITLE": "Slide 4",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 4"
+            },
+            "BUTTON_READ_MORE": "Continue reading"
+        },
         "TITLE": "The art of flowers",
         "SUBTITLE": "Flowers are our best allies to surprise, excite and transmit emotions always with total attention to detail and finish.",
         "TEXT_PRESENTATION": "<h3 class='mb-0'>Our Specialties</h3><br> Our bouquets and floral arrangements are unique and tailored to each client. We create versatile compositions, starting with floral arrangements for weddings, including bridal bouquets, centerpiece arrangements, hair wreaths, boutonnieres, and more.<br> In addition to weddings, we also offer decoration services for other events, such as birthday parties, anniversaries, company celebrations, among other social events.<br> Our flowers and plants for the home are another of our specialties, we offer a selection of flowers and plants to decorate both indoors and outdoors.<br> We also offer floral arrangements for funerals, including funeral wreaths and celebration of life arrangements. If you want to surprise that special person, we offer home delivery, with the best care and attention.<br> Available 365 days a year.",

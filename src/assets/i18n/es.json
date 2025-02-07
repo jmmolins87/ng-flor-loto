@@ -27,6 +27,25 @@
         "BUTTON": "Aceptar"
     },
     "HOME": {
+        "CAROUSEL_HERO": {
+            "ITEM_1": {
+                "TITLE": "Slide 1",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
+            },
+            "ITEM_2": {
+                "TITLE": "Slide 2",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 2"
+            },
+            "ITEM_3": {
+                "TITLE": "Slide 3",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 3"
+            },
+            "ITEM_4": {
+                "TITLE": "Slide 4",
+                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 4"
+            },
+            "BUTTON_READ_MORE": "Seguir leyendo"
+        },
         "TITLE": "El arte de las flores",
         "SUBTITLE": "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado.",
         "TEXT_PRESENTATION": "<h3 class='mb-0'>Nuestras especialidades</h3><br> Nuestros ramos y arreglos florales son únicos y a medida para cada cliente. Creamos composiciones versátiles, empezando por arreglos florares para bodas, incluyendo ramos de novia, arreglos de centro de mesa, coronas de flores para el cabello, boutonnieres, y más.<br> Además de bodas, también ofrecemos servicios de decoración para otros eventos, como fiestas de cumpleaños, aniversarios, celebraciones de empresa, entre otros eventos sociales.<br>Nuestras flores y plantas para el hogar son otra de nuestras especialidades, ofrecemos una selección de flores y plantas ya sea para decorar tanto el interior como el exterior.<br> También ofrecemos arreglos florares para funerales, incluyendo coronas funerarias y arreglos para celebración de vida. Si lo que quieres es sorprender a esa persona especial, te ofrecemos la entrega a domicilio, con el mejor mimo y cuidado.<br> Disponible los 365 días del año.",

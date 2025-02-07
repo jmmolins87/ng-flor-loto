@@ -26,8 +26,9 @@ export class HomeComponent implements OnInit {
   public carrouselOpinator: carrouselOptions = carrouselOptions.isOpinator;
   public intervalCarrouselHero: number = 7500;
   public intervalCarrouselOpinions: number = 5000;
-  public recommendationsHome: recomendationsHome[] = []
-  public opinionsHome: carrouselOpinions[] = []
+  public itemsCarrouselHero: carrouselHero[] = [];
+  public recommendationsHome: recomendationsHome[] = [];
+  public opinionsHome: carrouselOpinions[] = [];
 
   constructor( private _pagesService: PagesService ) {}
 
@@ -37,6 +38,14 @@ export class HomeComponent implements OnInit {
     }, 1500)
     this.getRecommendations();
     this.getOpinions();
+    this.getSlidesHero();
+  }
+
+  getSlidesHero() {
+    this._pagesService.carouselHeroHome.subscribe(slide => {
+      this.itemsCarrouselHero = slide;
+    })
+    return this.itemsCarrouselHero;
   }
 
   getRecommendations() {
@@ -52,31 +61,5 @@ export class HomeComponent implements OnInit {
     });
     return this.opinionsHome;
   }
-
-
-  
-  // ********************* Data *********************
-  public itemsCarrouselHero: carrouselHero[] = [
-    {
-      title: "Slide 1",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1",
-      img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
-    },
-    {
-      title: "Slide 2",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 2",
-      img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
-    },
-    {
-      title: "Slide 3",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 3",
-      img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
-    }
-    , {
-      title: "Slide 4",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 4",
-      img: "https://primefaces.org/cdn/primeng/images/galleria/galleria11.jpg"
-    }
-  ];
 
 }
