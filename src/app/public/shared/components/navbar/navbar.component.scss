@@ -125,7 +125,7 @@
             }
         }
     }
-    &.end {
+    .end {
         display: flex;
         box-sizing: border-box;
         flex-direction: column;
@@ -133,11 +133,15 @@
         align-items: center;
         min-width: 100%;
         margin-top: 2rem;
+        padding: 2rem;
+        border-top: .02rem solid $white;
         @include min-responsive($tablet) {
             justify-content: flex-end;
             flex-direction: row;
             margin-top: 0;
             min-width: auto;
+            padding: 0;
+            border-top: none;
         }
         .wrap-change-language {
             display: flex;
@@ -160,7 +164,12 @@
                 font-size: $txt-main;
                 padding: 1rem;
                 margin-top: 1rem;
-                background: transparent;
+                background: rgba($white, .5);
+                backdrop-filter: blur(.5rem);
+                cursor: pointer;
+                color: $white;
+                background: $brand-primary;
+                text-align: center;
                 @include min-responsive($tablet) {
                     margin-top: 0;
                 }

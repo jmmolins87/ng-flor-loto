@@ -52,7 +52,7 @@
         [style]="{width: '75vw'}">
         <div *ngIf="selectedSlideHero" class="wrap-modal-slide">
             <h3 class="hero-modal-title">{{ selectedSlideHero.title | translate }}</h3>
-            <p [innerHtml]="selectedSlideHero.description" class="hero-modal-description mt-1"></p>
+            <p [innerHtml]="selectedSlideHero.description | translate" class="hero-modal-description mt-1"></p>
             <div class="wrap-img">
                 <img 
                     [src]="selectedSlideHero.img" 

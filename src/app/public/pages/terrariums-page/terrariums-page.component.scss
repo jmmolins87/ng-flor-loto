@@ -10,6 +10,9 @@
     .terrariums-wrap-cards {
         width: 100%;
         margin-bottom: 2rem;
+        @include min-responsive($mobile-large) {
+            @include gridMasonry(2, 2rem);
+        }
         @include min-responsive($tablet) {
             @include gridMasonry(3, 2rem);
         }

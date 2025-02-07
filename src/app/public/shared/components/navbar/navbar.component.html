@@ -5,12 +5,18 @@
             [attr.data-bs-toggle]="isTablet && !menuCollapsed ? 'collapse' : null"
             [attr.data-bs-target]="isTablet && !menuCollapsed ? '#navbarFlrLoto' : null"
             [attr.aria-controls]="isTablet && !menuCollapsed ? 'navbarFlrLoto' : null"
-            [attr.aria-expanded]="isTablet && !menuCollapsed ? 'false' : null" (click)="toggleMenu()"
+            [attr.aria-expanded]="isTablet && !menuCollapsed ? 'false' : null"
             class="navbar-brand collapsed">
             <img src="/assets/img/logo-loto.png" [alt]="'NAV_BAR.LOGO' | translate" [title]="'NAV_BAR.LOGO' | translate">
         </a>
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarFlrLoto" aria-controls="navbarFlrLoto"
-            aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler collapsed">
+        <button 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarFlrLoto" 
+            aria-controls="navbarFlrLoto"
+            aria-expanded="false" 
+            aria-label="Toggle navigation" 
+            class="navbar-toggler collapsed">
             <span></span>
             <span></span>
         </button>
@@ -65,9 +71,15 @@
             <!-- <div class="end">
                 <div class="wrap-change-language">
                     <span class="pi pi-fw pi-language icon-lang"></span>
-                    <select #langSelect (change)="changeLang( langSelect.value )" class="form-select" aria-label="change language">
+                    <select 
+                        #langSelect 
+                        (change)="changeLang( langSelect.value )" 
+                        class="form-select" 
+                        aria-label="change language">
                         <option selected disabled class>{{ "NAV_BAR.LANGUAGE" | translate }}</option>
-                        <option *ngFor="let lang of langs" [value]="lang.lang">
+                        <option 
+                            *ngFor="let lang of langs"  
+                            [value]="lang.lang">
                             {{ lang.name }}
                         </option>
                     </select>
