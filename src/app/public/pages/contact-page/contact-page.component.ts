@@ -8,11 +8,11 @@ import {
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 
 @Component({
-  selector: 'app-contact',
-  templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.scss']
+  selector: 'app-contact-page',
+  templateUrl: './contact-page.component.html',
+  styleUrls: ['./contact-page.component.scss']
 })
-export class ContactComponent implements OnInit {
+export class ContactPageComponent implements OnInit {
 
   public contactForm!: FormGroup;
   public showSkeleton: boolean = true;

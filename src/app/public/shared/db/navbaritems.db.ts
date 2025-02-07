@@ -6,8 +6,8 @@ import { NavBarInterface } from "../models/nav-bar.interface";
 
 export const navbarItems: NavBarInterface[] =  [
     {
-        label: "NAV_BAR.BUNCH_FLOWERS",
-        routerLink: ["/brunchflowers"]
+        label: "NAV_BAR.TERRARIUMS",
+        routerLink: ["/terrariums"]
     },
     {
         label: "NAV_BAR.BOUQUET_ROSES",

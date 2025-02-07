@@ -1,0 +1,20 @@
+
+
+<div class="wrap-card">
+    <div class="wrap-image">
+        <p-image 
+            *ngIf="!showSkeleton"
+            [src]="srcImg" 
+            [alt]="titleCard" 
+            [title]="titleCard"
+            [preview]="true" />
+        <p-skeleton *ngIf="showSkeleton" width="100%" height="20rem" />
+    </div>
+    <div *ngIf="titleCard && descriptionCard" class="wrap-info">
+        <h3 *ngIf="!showSkeleton">{{ titleCard }}</h3>
+        <p-skeleton *ngIf="showSkeleton" width="15rem" height="2rem" styleClass="mb-4" />
+        <p *ngIf="!showSkeleton">{{ descriptionCard }}</p>
+        <p-skeleton *ngIf="showSkeleton" width="100%" styleClass="mb-2" />
+        <p-skeleton *ngIf="showSkeleton" width="50%" styleClass="mb-2" />
+    </div>
+</div>

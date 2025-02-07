@@ -3,33 +3,39 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { ContactComponent } from './contact/contact.component';
-import { CookiePolicyComponent } from './policies/cookie-policy/cookie-policy.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
+import { CookiePolicyPageComponent } from './policies-pages/cookie-policy-page/cookie-policy-page.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
-import { HomeComponent } from './home/home.component';
-import { LegalNoticeComponent } from './policies/legal-notice/legal-notice.component';
-import { PrivacyPolicyComponent } from './policies/privacy-policy/privacy-policy.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { LegalNoticePageComponent } from './policies-pages/legal-notice-page/legal-notice-page.component';
+import { PrivacyPolicyPageComponent } from './policies-pages/privacy-policy-pages/privacy-policy-page.component';
+import { TerrariumsPageComponent } from './terrariums-page/terrariums-page.component';
+
 
 const routes: Routes = [
     {
         path: "",
-        component: HomeComponent
+        component: HomePageComponent
+    },
+    {
+        path: "terrariums",
+        component: TerrariumsPageComponent
     },
     {
         path: "contact",
-        component: ContactComponent
+        component: ContactPageComponent
     },
     {
         path: 'legal',
-        component: LegalNoticeComponent
+        component: LegalNoticePageComponent
     },
     {
         path: 'cookies',
-        component: CookiePolicyComponent
+        component: CookiePolicyPageComponent
     },
     {
         path: 'privacity',
-        component: PrivacyPolicyComponent
+        component: PrivacyPolicyPageComponent
     },
     {
         path: '404',

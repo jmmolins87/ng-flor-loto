@@ -16,7 +16,7 @@
     gap: $gap;
 }
 
-@mixin gridMasonry($colummns, $width, $gap ) {
-    columns: $colummns $width;
+@mixin gridMasonry($colummns, $gap) {
+    columns: $colummns;
     column-gap: $gap;
 }

@@ -10,23 +10,25 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 import { MessageService } from 'primeng/api';
 
-import { HomeComponent } from './home/home.component';
 import { ComponentsModule } from '../components/components.module';
-import { ContactComponent } from './contact/contact.component';
-import { CookiePolicyComponent } from './policies/cookie-policy/cookie-policy.component';
-import { LegalNoticeComponent } from './policies/legal-notice/legal-notice.component';
-import { PrivacyPolicyComponent } from './policies/privacy-policy/privacy-policy.component';
+import { ContactPageComponent } from './contact-page/contact-page.component';
+import { CookiePolicyPageComponent } from './policies-pages/cookie-policy-page/cookie-policy-page.component';
 import { ErrorPageComponent } from './error-page/error-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { LegalNoticePageComponent } from './policies-pages/legal-notice-page/legal-notice-page.component';
+import { PrivacyPolicyPageComponent } from './policies-pages/privacy-policy-pages/privacy-policy-page.component';
+import { TerrariumsPageComponent } from './terrariums-page/terrariums-page.component';
 
 
 @NgModule({
   declarations: [
-    HomeComponent,
-    ContactComponent,
-    CookiePolicyComponent,
-    LegalNoticeComponent,
-    PrivacyPolicyComponent,
-    ErrorPageComponent
+    ContactPageComponent,
+    CookiePolicyPageComponent,
+    ErrorPageComponent,
+    HomePageComponent,
+    LegalNoticePageComponent,
+    PrivacyPolicyPageComponent,
+    TerrariumsPageComponent
   ],
   imports: [
     CommonModule,

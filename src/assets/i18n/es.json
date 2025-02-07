@@ -1,7 +1,7 @@
 {
     "NAV_BAR": {
         "LOGO": "Flor de Loto Segovia",
-        "BUNCH_FLOWERS": "Ramo de flores",
+        "TERRARIUMS": "Terrarios",
         "BOUQUET_ROSES": "Ramo de rosas",
         "FLOORS": "Plantas",
         "WEDDING": "Bodas",
@@ -272,6 +272,9 @@
             },
             "BUTTON": "Leer más"
         }
+    },
+    "TERRARIUMS": {
+        "TITLE": "Nuestros Terrarios"
     },
     "CONTACT": {
         "TITLE": "¡Estamos para ayudarte!",

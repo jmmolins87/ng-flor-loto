@@ -15,11 +15,11 @@ import { carrouselOptions } from '../../components/carrousel/carrousel.config';
 
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-home-page',
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomePageComponent implements OnInit {
 
   public showSkeleton: boolean = true;
   public carrouselHero: any | carrouselOptions = carrouselOptions.isHero;
@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
 
   constructor( private _pagesService: PagesService ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     setTimeout(() => {
       this.showSkeleton = false;
     }, 1500)

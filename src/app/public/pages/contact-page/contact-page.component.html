@@ -1,9 +1,9 @@
 
-<div class="container">
+<div class="container m-container">
     <h1 *ngIf="!showSkeleton">{{ "CONTACT.TITLE" | translate }}</h1>
-    <p-skeleton *ngIf="showSkeleton" width="40rem" height="4rem" styleClass="mb-2 mt-2" />
+    <p-skeleton *ngIf="showSkeleton" width="40rem" height="4rem" styleClass="mb-5 mt-2" />
     <p *ngIf="!showSkeleton">{{ "CONTACT.DESCRIPTION" | translate }}</p>
-    <p-skeleton *ngIf="showSkeleton" height="15rem" styleClass="mb-2" />
+    <p-skeleton *ngIf="showSkeleton" height="15rem" styleClass="mb-5" />
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" (input)="onInput()" class="p-fluid p-formgrid p-grid mb-5">
         <div class="form-field">
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12 p-md-6">

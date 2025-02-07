@@ -6,18 +6,20 @@ import { TranslateModule } from '@ngx-translate/core';
 
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
-import { TypewriterAnimationComponent } from './typewriter-animation/typewriter-animation.component';
-import { FlowerBackgroundComponent } from './flower-background/flower-background.component';
+import { CardComponent } from './card/card.component';
 import { CarrouselComponent } from './carrousel/carrousel.component';
+import { FlowerBackgroundComponent } from './flower-background/flower-background.component';
+import { TypewriterAnimationComponent } from './typewriter-animation/typewriter-animation.component';
 
 
 
 
 @NgModule({
   declarations: [
-    TypewriterAnimationComponent,
+    CardComponent,
+    CarrouselComponent,
     FlowerBackgroundComponent,
-    CarrouselComponent
+    TypewriterAnimationComponent
   ],
   imports: [
     CommonModule,
@@ -26,9 +28,10 @@ import { CarrouselComponent } from './carrousel/carrousel.component';
     TranslateModule
   ], 
   exports: [
-    TypewriterAnimationComponent,
+    CardComponent,
+    CarrouselComponent,
     FlowerBackgroundComponent,
-    CarrouselComponent
+    TypewriterAnimationComponent
   ]
 })
 export class ComponentsModule { }

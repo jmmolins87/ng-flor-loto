@@ -1,0 +1,27 @@
+
+@import "/src/styles.scss";
+
+
+.wrap-card {
+    .wrap-image {
+        ::ng-deep {
+            p-image {
+                span {
+                    img {
+                        border-radius: $border-radius-05 $border-radius-05 0 0;
+                        overflow: hidden;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .wrap-info {
+        padding: 1rem;
+        border: .2rem solid $grey;
+        border-radius: 0 0 $border-radius-05 $border-radius-05;
+        background: rgba($white, .3);
+        backdrop-filter: blur(.5rem);
+    }
+}
