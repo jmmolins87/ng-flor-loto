@@ -8,7 +8,7 @@
             *ngIf="itemsCarrouselHero.length > 0"
             [carrouselOptions]="carrouselHero" 
             [itemsCarrouselHero]="itemsCarrouselHero" 
-            [intervalHero]="0" />
+            [intervalHero]="intervalCarrouselHero" />
     </div>
     <div [ngClass]="itemsCarrouselHero.length === 0 ? 'm-container' : 'mt-0'" class="container">
         <div class="wrap-title">
