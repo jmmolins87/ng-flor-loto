@@ -14,7 +14,10 @@
                         </h3>
                         <p-skeleton *ngIf="showSkeleton" height="2rem" styleClass="mb-5" />
                         <p *ngIf="!showSkeleton" [innerHtml]="slide.description | translate" class="hero-description"></p>
-                        <p-skeleton *ngIf="showSkeleton" height="10rem" styleClass="mb-2" />
+                        <p-skeleton *ngIf="showSkeleton" height="2rem" styleClass="mb-2" />
+                        <p-skeleton *ngIf="showSkeleton" height="2rem" styleClass="mb-2" />
+                        <p-skeleton *ngIf="showSkeleton" height="2rem" styleClass="mb-2" />
+                        <p-skeleton *ngIf="showSkeleton" height="2rem" styleClass="mb-2" />
                         <p-button 
                             *ngIf="!showSkeleton"
                             [outlined]="true" 

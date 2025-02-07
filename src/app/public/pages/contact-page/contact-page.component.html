@@ -3,7 +3,10 @@
     <h1 *ngIf="!showSkeleton">{{ "CONTACT.TITLE" | translate }}</h1>
     <p-skeleton *ngIf="showSkeleton" width="40rem" height="4rem" styleClass="mb-5 mt-2" />
     <p *ngIf="!showSkeleton">{{ "CONTACT.DESCRIPTION" | translate }}</p>
-    <p-skeleton *ngIf="showSkeleton" height="15rem" styleClass="mb-5" />
+    <p-skeleton *ngIf="showSkeleton" width="100%" height="2rem" styleClass="mb-2" />
+    <p-skeleton *ngIf="showSkeleton" width="100%" height="2rem" styleClass="mb-2" />
+    <p-skeleton *ngIf="showSkeleton" width="100%" height="2rem" styleClass="mb-2" />
+    <p-skeleton *ngIf="showSkeleton" width="25%" height="2rem" styleClass="mb-5" />
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" (input)="onInput()" class="p-fluid p-formgrid p-grid mb-5">
         <div class="form-field">
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12 p-md-6">
@@ -17,7 +20,7 @@
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_NAME_LENGTH" | translate }}
                 </span>
             </p-floatLabel>
-            <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-2" />
+            <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-5" />
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12 p-md-6">
                 <label for="email">{{ "CONTACT.FORM_FIEDS.EMAIL" | translate }}</label>
                 <input id="email" type="email" pInputText formControlName="email" />
@@ -28,7 +31,7 @@
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_EMAIL_FORMAT" | translate }}
                 </span>
             </p-floatLabel>
-            <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-2" />
+            <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-5" />
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12">
                 <label for="subject">{{ "CONTACT.FORM_FIEDS.SUBJECT" | translate }}</label>
                 <input id="subject" type="text" pInputText formControlName="subject" />
@@ -40,7 +43,7 @@
                     {{ "CONTACT.FORM_FIEDS.VALIDATION_SUBJECT_LENGTH" | translate }}
                 </span>
             </p-floatLabel>
-            <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-2" />
+            <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-5" />
         </div>
         <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12">
             <label for="message">{{ "CONTACT.FORM_FIEDS.MESSAGE" | translate }}</label>
@@ -54,7 +57,7 @@
                 {{ "CONTACT.FORM_FIEDS.VALIDATION_MESSAGE_LENGTH" | translate }}
             </span>
         </p-floatLabel>
-        <p-skeleton *ngIf="showSkeleton" width="85rem" height="20rem" styleClass="mb-2" />
+        <p-skeleton *ngIf="showSkeleton" width="100%" height="15rem" styleClass="mb-2" />
         <p-messages *ngIf="emailSent" severity="success">
             <ng-template pTemplate>
                 <span class="ml-2">{{ "CONTACT.MESSAGE_SUCCESS" | translate }}</span>
