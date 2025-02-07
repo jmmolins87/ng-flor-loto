@@ -4,13 +4,13 @@
 <app-cookies />
 
 <div *ngIf="!sharedService.isAdminRoute()">
-    <app-navbar  *ngIf="showNavbarFooter" />
+    <app-navbar *ngIf="showNavbarFooter" />
 </div>
 
 <router-outlet />
 
 <div *ngIf="!sharedService.isAdminRoute()">
-    <app-footer  *ngIf="showNavbarFooter" />
+    <app-footer *ngIf="showNavbarFooter" />
     <div class="wrap-shopping"  *ngIf="showNavbarFooter">
         <app-speed-dial [items]="itemsShop" showIcon="pi pi-shopping-cart" />
     </div>
@@ -28,6 +28,5 @@
 </div>
 
 <app-modal-message />
-
 
 <p-scrollTop />
