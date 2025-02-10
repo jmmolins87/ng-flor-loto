@@ -1,16 +1,13 @@
 {
     "NAV_BAR": {
         "LOGO": "Flor de Loto Segovia",
-        "TERRARIUMS": "Terrarios",
-        "BOUQUET_ROSES": "Ramo de rosas",
+        "BOUQUET_FLOWERS": "Ramo flores",
         "FLOORS": "Plantas",
-        "WEDDING": "Bodas",
+        "TERRARIUMS": "Terrarios",
+        "WEDDING": "Bodas y Eventos",
         "FUNERAL": "Funerales",
         "CONTACT": "Contacto",
-        "LANGUAGE": "Choose your language",
-        "SUBMENUS": {
-            "FLOORS_SUB": "Más flores"
-        }
+        "LANGUAGE": "Choose your language"
     },
     "FOOTER": {
         "LOCATION": "¿Dónde estamos?",

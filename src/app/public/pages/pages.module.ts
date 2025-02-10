@@ -18,6 +18,10 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { LegalNoticePageComponent } from './policies-pages/legal-notice-page/legal-notice-page.component';
 import { PrivacyPolicyPageComponent } from './policies-pages/privacy-policy-pages/privacy-policy-page.component';
 import { TerrariumsPageComponent } from './terrariums-page/terrariums-page.component';
+import { BouquetFlowersPageComponent } from './bouquet-flowers-page/bouquet-flowers-page.component';
+import { FloorsPageComponent } from './floors-page/floors-page.component';
+import { WeddingEventsPageComponent } from './wedding-events-page/wedding-events-page.component';
+import { FuneralsPageComponent } from './funerals-page/funerals-page.component';
 
 
 @NgModule({
@@ -28,7 +32,11 @@ import { TerrariumsPageComponent } from './terrariums-page/terrariums-page.compo
     HomePageComponent,
     LegalNoticePageComponent,
     PrivacyPolicyPageComponent,
-    TerrariumsPageComponent
+    TerrariumsPageComponent,
+    BouquetFlowersPageComponent,
+    FloorsPageComponent,
+    WeddingEventsPageComponent,
+    FuneralsPageComponent
   ],
   imports: [
     CommonModule,
