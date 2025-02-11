@@ -1,1 +1,17 @@
-<p>bouquet-flowers-page works!</p>
+
+
+<div class="container m-container">
+    <div class="wrap-boquets">
+        <div class="wrap-title">
+            <h1 *ngIf="!showSkeleton" class="title">{{ "BOUQETS.TITLE" | translate }}</h1>
+            <p-skeleton *ngIf="showSkeleton" width="40rem" height="5rem" styleClass="mb-2" />
+        </div>
+        <div class="boquets-wrap-cards">
+            <div *ngFor="let bouquet of bouquetsContent" class="wrap-card">
+                <app-card 
+                    [srcImg]="bouquet.srcImg" 
+                    [titleCard]="bouquet.titleCard" />
+            </div>
+        </div>
+    </div>
+</div>

@@ -46,13 +46,15 @@ export class HomePageComponent implements OnInit {
       this.itemsCarrouselHero = slide;
     })
     return this.itemsCarrouselHero;
+    this.showSkeleton = false;
   }
 
   getRecommendations() {
     this._pagesService.recommendationsHome.subscribe(recommendations => {
       this.recommendationsHome = recommendations;
     });
-    return this.recommendationsHome;  
+    return this.recommendationsHome; 
+    this.showSkeleton = false;
   }
 
   getOpinions() {
@@ -60,6 +62,7 @@ export class HomePageComponent implements OnInit {
       this.opinionsHome = opinions;
     });
     return this.opinionsHome;
+    this.showSkeleton = false;
   }
 
 }

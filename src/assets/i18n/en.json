@@ -7,7 +7,12 @@
         "WEDDING": "Weddings and Events",
         "FUNERAL": "Funeral",
         "CONTACT": "Contact",
-        "LANGUAGE": "Elija su idioma"
+        "LANGUAGE": "Elija su idioma",
+        "SUBMENUS": {
+            "ROUSES": "Rouses",
+            "ORCHIDS": "Orchids",
+            "MORE": "More"
+        }
     },
     "FOOTER": {
         "LOCATION": "Where are we?",
@@ -272,6 +277,66 @@
     },
     "TERRARIUMS": {
         "TITLE": "Our Terrariums"
+    },
+    "BOUQETS": {
+        "TITLE": "Our Bouquets of Flowers",
+        "ASSORTED_BOUQUET": {
+            "TITLE": "Assorted Bouquet"
+        },
+        "BOUQUET_PINK_TONES": {
+            "TITLE": "Bouquet Pink Tones"
+        },
+        "I_LOVE_YOU_BOUQUET": {
+            "TITLE": "I Love you Bouquet"
+        },
+        "ROMULUS_BRANCH": {
+            "TITLE": "Romulus Branch"
+        },
+        "EUCALYPTUS_BRANCH": {
+            "TITLE": "Eucalyptus Branch"
+        },
+        "RAFAELLA_BOUQUET_2": {
+            "TITLE": "Rafaella Bouquet 2"
+        },
+        "RAFAELLA_BOUQUET": {
+            "TITLE": "Rafaella Bouquet"
+        },
+        "RAFAELLA_BOUQUET_3": {
+            "TITLE": "Rafaella Bouquet 3"
+        },
+        "PARIS_BOUQUET": {
+            "TITLE": "Paris Bouquet"
+        },
+        "NAPOLES_BOUQUET": {
+            "TITLE": "Naples Bouquet"
+        },
+        "MARIAN_BOUQUET": {
+            "TITLE": "Marian Bouquet"
+        },
+        "MACARENA_BOUQUET": {
+            "TITLE": "Macarena Bouquet"
+        },
+        "BOUQUET_LILIES": {
+            "TITLE": "Bouquet of Lilies"
+        },
+        "BOUQUET_PINK_LILIES": {
+            "TITLE": "Bouquet of Pink Lilies"
+        },
+        "POMEGRANATE_BOUQUET": {
+            "TITLE": "Pomegranate Bouquet"
+        },
+        "COLORFUL_BOUQUET": {
+            "TITLE": "Colorful Bouquet"
+        },
+        "BOUQUET_TWELVE_TULIPS": {
+            "TITLE": "Bouquet of twelve Tulips"
+        },
+        "BOUQUET_TEN_SUNFLOWERS": {
+            "TITLE": "Bouquet of ten Sunflowers"
+        },
+        "BOUQUET_TEN_GERBERAS": {
+            "TITLE": "Bouquet of ten Gerberas"
+        }
     },
     "CONTACT": {
         "TITLE": "We are here to help you!",

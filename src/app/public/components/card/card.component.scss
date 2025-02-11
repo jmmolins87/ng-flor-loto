@@ -4,6 +4,9 @@
 
 .wrap-card {
     .wrap-image {
+        border: .2rem solid $grey;
+        border-bottom: none;
+        border-radius: $border-radius-05 $border-radius-05 0 0;
         ::ng-deep {
             p-image {
                 span {

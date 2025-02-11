@@ -11,7 +11,21 @@ export const navbarItems: NavBarInterface[] =  [
     },
     {
         label: "NAV_BAR.FLOORS",
-        routerLink: ["/floors"]
+        routerLink: ["/floors"],
+        subMenu: [
+            {
+                label: "NAV_BAR.SUBMENUS.ROUSES",
+                routerLink: ["/rouses"]
+            },
+            {
+                label: "NAV_BAR.SUBMENUS.ORCHIDS",
+                routerLink: ["/orchids"]
+            },
+            {
+                label: "NAV_BAR.SUBMENUS.MORE",
+                routerLink: ["/moreFloors"]
+            }
+        ]
     },
     {
         label: "NAV_BAR.TERRARIUMS",

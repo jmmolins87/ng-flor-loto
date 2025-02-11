@@ -22,6 +22,9 @@ import { BouquetFlowersPageComponent } from './bouquet-flowers-page/bouquet-flow
 import { FloorsPageComponent } from './floors-page/floors-page.component';
 import { WeddingEventsPageComponent } from './wedding-events-page/wedding-events-page.component';
 import { FuneralsPageComponent } from './funerals-page/funerals-page.component';
+import { RousesPageComponent } from './rouses-page/rouses-page.component';
+import { OrchidsPageComponent } from './orchids-page/orchids-page.component';
+import { MoreFloorsPageComponent } from './more-floors-page/more-floors-page.component';
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { FuneralsPageComponent } from './funerals-page/funerals-page.component';
     BouquetFlowersPageComponent,
     FloorsPageComponent,
     WeddingEventsPageComponent,
-    FuneralsPageComponent
+    FuneralsPageComponent,
+    RousesPageComponent,
+    OrchidsPageComponent,
+    MoreFloorsPageComponent
   ],
   imports: [
     CommonModule,

@@ -11,7 +11,10 @@ import { FloorsPageComponent } from './floors-page/floors-page.component';
 import { FuneralsPageComponent } from './funerals-page/funerals-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { LegalNoticePageComponent } from './policies-pages/legal-notice-page/legal-notice-page.component';
+import { MoreFloorsPageComponent } from './more-floors-page/more-floors-page.component';
+import { OrchidsPageComponent } from './orchids-page/orchids-page.component';
 import { PrivacyPolicyPageComponent } from './policies-pages/privacy-policy-pages/privacy-policy-page.component';
+import { RousesPageComponent } from './rouses-page/rouses-page.component';
 import { TerrariumsPageComponent } from './terrariums-page/terrariums-page.component';
 import { WeddingEventsPageComponent } from './wedding-events-page/wedding-events-page.component';
 
@@ -28,6 +31,18 @@ const routes: Routes = [
     {
         path: "floors",
         component: FloorsPageComponent
+    },
+    {
+        path: "rouses",
+        component: RousesPageComponent
+    },
+    {
+        path: "orchids",
+        component: OrchidsPageComponent
+    },
+    {
+        path: "moreFloors",
+        component: MoreFloorsPageComponent
     },
     {
         path: "terrariums",

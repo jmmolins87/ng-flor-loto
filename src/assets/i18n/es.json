@@ -7,7 +7,12 @@
         "WEDDING": "Bodas y Eventos",
         "FUNERAL": "Funerales",
         "CONTACT": "Contacto",
-        "LANGUAGE": "Choose your language"
+        "LANGUAGE": "Choose your language",
+        "SUBMENUS": {
+            "ROUSES": "Rosas",
+            "ORCHIDS": "Orquídeas",
+            "MORE": "Más flores"
+        }
     },
     "FOOTER": {
         "LOCATION": "¿Dónde estamos?",
@@ -272,6 +277,66 @@
     },
     "TERRARIUMS": {
         "TITLE": "Nuestros Terrarios"
+    },
+    "BOUQETS": {
+        "TITLE": "Nuestros Ramos de Flores",
+        "ASSORTED_BOUQUET": {
+            "TITLE": "Ramo Variado"
+        },
+        "BOUQUET_PINK_TONES": {
+            "TITLE": "Ramo Tonos Rosados"
+        },
+        "I_LOVE_YOU_BOUQUET": {
+            "TITLE": "Ramo Te Quiero"
+        },
+        "ROMULUS_BRANCH": {
+            "TITLE": "Ramo Rómulo"
+        },
+        "EUCALYPTUS_BRANCH": {
+            "TITLE": "Ramo de Eucalípto"
+        },
+        "RAFAELLA_BOUQUET_2": {
+            "TITLE": "Ramo Rafaella 2"
+        },
+        "RAFAELLA_BOUQUET": {
+            "TITLE": "Ramo Rafaella"
+        },
+        "RAFAELLA_BOUQUET_3": {
+            "TITLE": "Ramo Rafaella 3"
+        },
+        "PARIS_BOUQUET": {
+            "TITLE": "Ramo París"
+        },
+        "NAPOLES_BOUQUET": {
+            "TITLE": "Ramo Nápoles"
+        },
+        "MARIAN_BOUQUET": {
+            "TITLE": "Ramo Mariana"
+        },
+        "MACARENA_BOUQUET": {
+            "TITLE": "Ramo Macarena"
+        },
+        "BOUQUET_LILIES": {
+            "TITLE": "Ramo de Lírios"
+        },
+        "BOUQUET_PINK_LILIES": {
+            "TITLE": "Ramo de Lírios Rosas"
+        },
+        "POMEGRANATE_BOUQUET": {
+            "TITLE": "Ramo Granada"
+        },
+        "COLORFUL_BOUQUET": {
+            "TITLE": "Ramo Colorido"
+        },
+        "BOUQUET_TWELVE_TULIPS": {
+            "TITLE": "Ramo de doce Tulipanes"
+        },
+        "BOUQUET_TEN_SUNFLOWERS": {
+            "TITLE": "Ramo de diez Girasoles"
+        },
+        "BOUQUET_TEN_GERBERAS": {
+            "TITLE": "Ramo de diez Gerberas"
+        }
     },
     "CONTACT": {
         "TITLE": "¡Estamos para ayudarte!",
