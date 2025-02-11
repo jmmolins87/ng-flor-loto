@@ -27,5 +27,8 @@
         border-radius: 0 0 $border-radius-05 $border-radius-05;
         background: rgba($white, .3);
         backdrop-filter: blur(.3rem);
+        .title-card-product {
+            font-size: 1.8rem;
+        }
     }
 }

@@ -1,1 +1,17 @@
-<p>funerals-page works!</p>
+
+
+<div class="container m-container">
+    <div class="wrap-product">
+        <div class="wrap-title">
+            <h1 *ngIf="!showSkeletonTitle" class="title">{{ "TERRARIUMS.TITLE" | translate }}</h1>
+            <p-skeleton *ngIf="showSkeletonTitle" width="40rem" height="5rem" styleClass="mb-2" />
+        </div>
+        <div class="product-wrap-cards">
+            <div *ngFor="let funeral of funeralsContent" class="wrap-card">
+                <app-card 
+                    [srcImg]="funeral.srcImg" 
+                    [titleCard]="funeral.titleCard" />
+            </div>
+        </div>
+    </div>
+</div>

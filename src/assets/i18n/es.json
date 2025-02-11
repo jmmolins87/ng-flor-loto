@@ -275,9 +275,6 @@
             "BUTTON": "Leer más"
         }
     },
-    "TERRARIUMS": {
-        "TITLE": "Nuestros Terrarios"
-    },
     "BOUQETS": {
         "TITLE": "Nuestros Ramos de Flores",
         "ASSORTED_BOUQUET": {
@@ -336,6 +333,109 @@
         },
         "BOUQUET_TEN_GERBERAS": {
             "TITLE": "Ramo de diez Gerberas"
+        }
+    },
+    "FLOORS": {
+        "SUBMENU": {
+            "ROUSES": {
+                "TITLE_PAGE": "Nuestras Rosas",
+                "TWELVE_YELLOW_ROSES": {
+                    "TITLE": "Doce Rosas Amarillas"
+                },
+                "ETERNAL_ROSE": {
+                    "TITLE": "Rosa Eterna"
+                },
+                "TWO_ROSES_VASE": {
+                    "TITLE": "Dos Rosas Jarrón"
+                },
+                "TWELVE_BLUE_ROSES": {
+                    "TITLE": "Doce Rosas Azules" 
+                },
+                "TWELVE_WHITE_ROSES": {
+                    "TITLE": "Doce Rosas Blancas" 
+                },
+                "TWELVE_RED_ROSES": {
+                    "TITLE": "Doce Rosas Rojas" 
+                },
+                "TWELVE_ROSES_CATHERINE": {
+                    "TITLE": "Doce Rosas Catalina"
+                }
+            },
+            "ORCHIDS": {
+                "TITLE_PAGE": "Nuestras Orquídeas",
+                "YELLOW_ORCHID": {
+                    "TITLE": "Orquídea Amarilla"
+                },
+                "BLUE_ORCHID": {
+                    "TITLE": "Orquídea Azúl"
+                },
+                "WHITE_ORCHID": {
+                    "TITLE": "Orquídea Blanca"
+                },
+                "ROSE_ORCHID": {
+                    "TITLE": "Orquídea Rosa"
+                },
+                "ORCHID": {
+                    "TITLE": "Orquídea"
+                }
+            },
+            "MORE_FLOORS": {
+                "TITLE_PAGE": "Más de nuestras flores",
+                "ANTHURIUM": {
+                    "TITLE": "Anthurium"
+                },
+                "BASKET": {
+                    "TITLE": "Cesta"
+                },
+                "PLANTS_BASKET": {
+                    "TITLE": "Plantas en Cesta"
+                },
+                "MARANTA": {
+                    "TITLE": "Maranta"
+                },
+                "BROMELIA": {
+                    "TITLE": "Bromelia"
+                },
+                "EPATIFILIUM": {
+                    "TITLE": "Epatifilium"
+                }
+            }
+        }
+    },
+    "TERRARIUMS": {
+        "TITLE": "Nuestros Terrarios",
+        "BONSAI_TERRARIUM_ONE": {
+            "TITLE": "Terrario Bonsai"
+        },
+        "ETERNAL_ROSE_DOME_TERRARIUM": {
+            "TITLE": "Terrario de Cúpula con Rosa Eterna"
+        }
+    },
+    "FUNERALS": {
+        "TITLE": "Centros Funerarios",
+        "BLUE_AND_ORANGE_FUNERAL_CENTER": {
+            "TITLE": "Centro Funerario Azúl y Naranja"
+        },
+        "BIDASOA_FUNERAL_CENTER": {
+            "TITLE": "Centro Funerario Bidasoa"
+        },
+        "FUNERAL_CENTER_APPEARANCE": {
+            "TITLE": "Centro Funerario Semblante"
+        },
+        "F12_FUNERAL_CENTER": {
+            "TITLE": "Centro Funerario F12"
+        },
+        "FUNERAL_BOUQUET": {
+            "TITLE": "Ramo Funerario"
+        },
+        "SPAIN_FUNERAL_CENTER": {
+            "TITLE": "Centro Funerario España"
+        },
+        "FUNERAL_CENTER_F123": {
+            "TITLE": "Centro Funerario F123"
+        },
+        "LAUREL_CENTER_F111": {
+            "TITLE": "Centro de Laurel F111"
         }
     },
     "CONTACT": {

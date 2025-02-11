@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
+import { PagesService } from '../../../services/pages.service';
+
 import { cardsInterface } from '../../../models/cards/cards.interface';
 
 @Component({
@@ -8,55 +11,24 @@ import { cardsInterface } from '../../../models/cards/cards.interface';
 })
 export class TerrariumsPageComponent implements OnInit {
 
+  public showSkeletonTitle: boolean = true;
   public showSkeleton: boolean = true;
+  public terrariumContent: cardsInterface[] = [];
+
+  constructor( private _pagesService: PagesService ) { }
 
   ngOnInit(): void {
     setTimeout(() => {
-      this.showSkeleton = false;
-    }, 1500)
+      this.showSkeletonTitle = false;
+    }, 1500);
+    this.getTerrarium();
   }
 
-  cardContent: cardsInterface[] = [
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 1",
-      descriptionCard: "Description 1"
-    },
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 2",
-      descriptionCard: "Description 2"
-    },
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 3",
-      descriptionCard: "Description 3"
-    },
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 4",
-      descriptionCard: "Description 4"
-    },
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 5",
-      descriptionCard: "Description 5"
-    },
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 6",
-      descriptionCard: "Description 6"
-    },
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 7",
-      descriptionCard: "Description 7"
-    },
-    {
-      srcImg: "https://primefaces.org/cdn/primeng/images/galleria/galleria10.jpg",
-      titleCard: "Card 8",
-      descriptionCard: "Description 8"
-    }
-  ] 
-
+  getTerrarium() {
+    this._pagesService.terrariumPage.subscribe(terrarium=> {
+      this.terrariumContent = terrarium
+      this.showSkeleton = false;
+    })
+    return this.terrariumContent;
+  }
 }

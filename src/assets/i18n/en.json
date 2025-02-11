@@ -275,9 +275,6 @@
             "BUTTON": "Read more"
         }
     },
-    "TERRARIUMS": {
-        "TITLE": "Our Terrariums"
-    },
     "BOUQETS": {
         "TITLE": "Our Bouquets of Flowers",
         "ASSORTED_BOUQUET": {
@@ -336,6 +333,109 @@
         },
         "BOUQUET_TEN_GERBERAS": {
             "TITLE": "Bouquet of ten Gerberas"
+        }
+    },
+    "FLOORS": {
+        "SUBMENU": {
+            "ROUSES": {
+                "TITLE_PAGE": "Our Roses",
+                "TWELVE_YELLOW_ROSES": {
+                    "TITLE": "Twelve Yellow Roses"
+                },
+                "ETERNAL_ROSE": {
+                    "TITLE": "Eternal Rose"
+                },
+                "TWO_ROSES_VASE": {
+                    "TITLE": "Two Roses Vase"
+                },
+                "TWELVE_BLUE_ROSES": {
+                    "TITLE": "Twelve Blue Roses" 
+                },
+                "TWELVE_WHITE_ROSES": {
+                    "TITLE": "Twelve White Roses" 
+                },
+                "TWELVE_RED_ROSES": {
+                    "TITLE": "Twelve Red Roses" 
+                },
+                "TWELVE_ROSES_CATHERINE": {
+                    "TITLE": "Twelve Roses Catalina"
+                }
+            },
+            "ORCHIDS": {
+                "TITLE_PAGE": "Our Orchids",
+                "YELLOW_ORCHID": {
+                    "TITLE": "Yellow Orchid"
+                },
+                "BLUE_ORCHID": {
+                    "TITLE": "Blue Orchid"
+                },
+                "WHITE_ORCHID": {
+                    "TITLE": "White Orchid"
+                },
+                "ROSE_ORCHID": {
+                    "TITLE": "Rose Orchid"
+                },
+                "ORCHID": {
+                    "TITLE": "Orchid"
+                }
+            },
+            "MORE_FLOORS": {
+                "TITLE_PAGE": "More of our flowers",
+                "ANTHURIUM": {
+                    "TITLE": "Anthurium"
+                },
+                "BASKET": {
+                    "TITLE": "Basket"
+                },
+                "PLANTS_BASKET": {
+                    "TITLE": "Plants in Basket"
+                },
+                "MARANTA": {
+                    "TITLE": "Maranta"
+                },
+                "BROMELIA": {
+                    "TITLE": "Bromelia"
+                },
+                "EPATIFILIUM": {
+                    "TITLE": "Epatiphyllium"
+                }
+            }
+        }
+    },
+    "TERRARIUMS": {
+        "TITLE": "Our terrariums",
+        "BONSAI_TERRARIUM_ONE": {
+            "TITLE": "Bonsai Terrarium"
+        },
+        "ETERNAL_ROSE_DOME_TERRARIUM": {
+            "TITLE": "Eternal Rose Dome Terrarium"
+        }
+    },
+    "FUNERALS": {
+        "TITLE": "Centros Funerarios",
+        "BLUE_AND_ORANGE_FUNERAL_CENTER": {
+            "TITLE": "Blue and Orange Funeral Center"
+        },
+        "BIDASOA_FUNERAL_CENTER": {
+            "TITLE": "Bidasoa Funeral Center"
+        },
+        "FUNERAL_CENTER_APPEARANCE": {
+            "TITLE": "Funeral Center Appearance"
+        },
+        "F12_FUNERAL_CENTER": {
+            "TITLE": "F12 Funeral Center"
+        },
+        "FUNERAL_BOUQUET": {
+            "TITLE": "Funeral Bouquet"
+        },
+        "SPAIN_FUNERAL_CENTER": {
+            "TITLE": "Spain Funeral Center"
+        },
+        "FUNERAL_CENTER_F123": {
+            "TITLE": "Funeral Center F123"
+        },
+        "LAUREL_CENTER_F111": {
+            "TITLE": "Laurel Center F111"
         }
     },
     "CONTACT": {

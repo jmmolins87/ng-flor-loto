@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { cardsInterface } from '../../../models/cards/cards.interface';
 import { PagesService } from '../../../services/pages.service';
+
+import { cardsInterface } from '../../../models/cards/cards.interface';
 
 @Component({
   selector: 'app-bouquet-flowers-page',
@@ -10,6 +11,7 @@ import { PagesService } from '../../../services/pages.service';
 })
 export class BouquetFlowersPageComponent implements OnInit {
 
+  public showSkeletonTitle: boolean = true;
   public showSkeleton: boolean = true;
   public bouquetsContent: cardsInterface[] = [];
 
@@ -17,7 +19,7 @@ export class BouquetFlowersPageComponent implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      this.showSkeleton = false;
+      this.showSkeletonTitle = false;
     }, 1500);
     this.getBouquets();
   }
@@ -25,9 +27,9 @@ export class BouquetFlowersPageComponent implements OnInit {
   getBouquets() {
     this._pagesService.bouquetsPage.subscribe(bouquet => {
       this.bouquetsContent = bouquet;
+      this.showSkeleton = false;
     })
     return this.bouquetsContent;
-    this.showSkeleton = false;
   }
 
 }
