@@ -2,12 +2,12 @@
 
 
 <div class="container m-container">
-    <div class="wrap-terrariums">
+    <div class="wrap-product">
         <div class="wrap-title">
             <h1 *ngIf="!showSkeleton" class="title">{{ "TERRARIUMS.TITLE" | translate }}</h1>
             <p-skeleton *ngIf="showSkeleton" width="40rem" height="5rem" styleClass="mb-2" />
         </div>
-        <div class="terrariums-wrap-cards">
+        <div class="product-wrap-cards">
             <div *ngFor="let cardInfo of cardContent" class="wrap-card">
                 <app-card 
                     [srcImg]="cardInfo.srcImg" 

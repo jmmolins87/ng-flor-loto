@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { cardsInterface } from '../../models/cards/cards.interface';
+import { cardsInterface } from '../../../models/cards/cards.interface';
 
 @Component({
   selector: 'app-terrariums-page',
   templateUrl: './terrariums-page.component.html',
-  styleUrls: ['./terrariums-page.component.scss']
+  styleUrls: ['./../product-pages.component.scss']
 })
 export class TerrariumsPageComponent implements OnInit {
 

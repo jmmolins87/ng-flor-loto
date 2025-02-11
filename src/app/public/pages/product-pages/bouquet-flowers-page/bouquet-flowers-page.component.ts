@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
-import { cardsInterface } from '../../models/cards/cards.interface';
-import { PagesService } from '../../services/pages.service';
+import { cardsInterface } from '../../../models/cards/cards.interface';
+import { PagesService } from '../../../services/pages.service';
 
 @Component({
   selector: 'app-bouquet-flowers-page',
   templateUrl: './bouquet-flowers-page.component.html',
-  styleUrls: ['./bouquet-flowers-page.component.scss']
+  styleUrls: ['./../product-pages.component.scss']
 })
 export class BouquetFlowersPageComponent implements OnInit {
 

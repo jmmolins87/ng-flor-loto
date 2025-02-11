@@ -1,12 +1,15 @@
 
 
+
+
+
 @import "/src/styles.scss";
 
-.wrap-boquets {
+.wrap-product {
     .wrap-title {
         margin-bottom: 2rem;
     }
-    .boquets-wrap-cards {
+    .product-wrap-cards {
         width: 100%;
         margin-bottom: 2rem;
         @include min-responsive($mobile-large) {
