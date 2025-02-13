@@ -1,8 +1,8 @@
 
 <div class="container m-container">
-    <h1 *ngIf="!showSkeleton">{{ "CONTACT.TITLE" | translate }}</h1>
+    <h1 *ngIf="!showSkeleton">{{ "CONTACT_PAGE.TITLE" | translate }}</h1>
     <p-skeleton *ngIf="showSkeleton" width="40rem" height="4rem" styleClass="mb-5 mt-2" />
-    <p *ngIf="!showSkeleton">{{ "CONTACT.DESCRIPTION" | translate }}</p>
+    <p *ngIf="!showSkeleton">{{ "CONTACT_PAGE.DESCRIPTION" | translate }}</p>
     <p-skeleton *ngIf="showSkeleton" width="100%" height="2rem" styleClass="mb-2" />
     <p-skeleton *ngIf="showSkeleton" width="100%" height="2rem" styleClass="mb-2" />
     <p-skeleton *ngIf="showSkeleton" width="100%" height="2rem" styleClass="mb-2" />
@@ -10,62 +10,62 @@
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" (input)="onInput()" class="p-fluid p-formgrid p-grid mb-5">
         <div class="form-field">
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12 p-md-6">
-                <label for="name">{{ "CONTACT.FORM_FIEDS.NAME" | translate }}</label>
+                <label for="name">{{ "CONTACT_PAGE.FORM_FIEDS.NAME" | translate }}</label>
                 <input id="name" type="text" pInputText formControlName="name" />
                 <span *ngIf="contactForm.get('name')?.hasError('required') && contactForm.get('name')?.touched" class="p-error d-block">
-                    {{ "CONTACT.FORM_FIEDS.VALIDATION_NAME" | translate }}
+                    {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_NAME" | translate }}
                 </span>
                 <span *ngIf="contactForm.get('name')?.hasError('minlength') && contactForm.get('name')?.touched"
                 class="p-error d-block">
-                    {{ "CONTACT.FORM_FIEDS.VALIDATION_NAME_LENGTH" | translate }}
+                    {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_NAME_LENGTH" | translate }}
                 </span>
             </p-floatLabel>
             <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-5" />
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12 p-md-6">
-                <label for="email">{{ "CONTACT.FORM_FIEDS.EMAIL" | translate }}</label>
+                <label for="email">{{ "CONTACT_PAGE.FORM_FIEDS.EMAIL" | translate }}</label>
                 <input id="email" type="email" pInputText formControlName="email" />
                 <span *ngIf="contactForm.get('email')?.hasError('required') && contactForm.get('email')?.touched" class="p-error">
-                    {{ "CONTACT.FORM_FIEDS.VALIDATION_EMAIL" | translate }}
+                    {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_EMAIL" | translate }}
                 </span>
                 <span *ngIf="contactForm.get('email')?.hasError('email') && contactForm.get('email')?.touched" class="p-error">
-                    {{ "CONTACT.FORM_FIEDS.VALIDATION_EMAIL_FORMAT" | translate }}
+                    {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_EMAIL_FORMAT" | translate }}
                 </span>
             </p-floatLabel>
             <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-5" />
             <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12">
-                <label for="subject">{{ "CONTACT.FORM_FIEDS.SUBJECT" | translate }}</label>
+                <label for="subject">{{ "CONTACT_PAGE.FORM_FIEDS.SUBJECT" | translate }}</label>
                 <input id="subject" type="text" pInputText formControlName="subject" />
                 <span *ngIf="contactForm.get('subject')?.hasError('required') && contactForm.get('subject')?.touched" class="p-error">
-                    {{ "CONTACT.FORM_FIEDS.VALIDATION_SUBJECT" | translate }}
+                    {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_SUBJECT" | translate }}
                 </span>
                 <span *ngIf="contactForm.get('subject')?.hasError('minlength') && contactForm.get('subject')?.touched"
                 class="p-error d-block">
-                    {{ "CONTACT.FORM_FIEDS.VALIDATION_SUBJECT_LENGTH" | translate }}
+                    {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_SUBJECT_LENGTH" | translate }}
                 </span>
             </p-floatLabel>
             <p-skeleton *ngIf="showSkeleton" width="27rem" height="4rem" styleClass="mb-5" />
         </div>
         <p-floatLabel *ngIf="!showSkeleton" class="p-field p-col-12">
-            <label for="message">{{ "CONTACT.FORM_FIEDS.MESSAGE" | translate }}</label>
+            <label for="message">{{ "CONTACT_PAGE.FORM_FIEDS.MESSAGE" | translate }}</label>
             <textarea id="message" pInputTextarea formControlName="message" rows="6"></textarea>
             <span *ngIf="contactForm.get('message')?.hasError('required') && contactForm.get('message')?.touched"
                 class="p-error d-block">
-                {{ "CONTACT.FORM_FIEDS.VALIDATION_MESSAGE" | translate }}
+                {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_MESSAGE" | translate }}
             </span>
             <span *ngIf="contactForm.get('message')?.hasError('minlength') && contactForm.get('message')?.touched"
                 class="p-error d-block">
-                {{ "CONTACT.FORM_FIEDS.VALIDATION_MESSAGE_LENGTH" | translate }}
+                {{ "CONTACT_PAGE.FORM_FIEDS.VALIDATION_MESSAGE_LENGTH" | translate }}
             </span>
         </p-floatLabel>
         <p-skeleton *ngIf="showSkeleton" width="100%" height="15rem" styleClass="mb-2" />
         <p-messages *ngIf="emailSent" severity="success">
             <ng-template pTemplate>
-                <span class="ml-2">{{ "CONTACT.MESSAGE_SUCCESS" | translate }}</span>
+                <span class="ml-2">{{ "CONTACT_PAGE.MESSAGE_SUCCESS" | translate }}</span>
             </ng-template>
         </p-messages>
         <p-messages *ngIf="emailError" severity="error">
             <ng-template pTemplate>
-                <span class="ml-2">{{ "CONTACT.MESSAGE_ERROR" | translate }}</span>
+                <span class="ml-2">{{ "CONTACT_PAGE.MESSAGE_ERROR" | translate }}</span>
             </ng-template>
         </p-messages>
         <div class="p-field wrap-button p-col-12">
@@ -76,7 +76,7 @@
                 [outlined]="true"
                 [ngClass]="{'p-button-danger': contactForm.invalid, 'p-button-success': contactForm.valid}"
                 iconPos="right"
-                [label]="'CONTACT.SEND' | translate" 
+                [label]="'CONTACT_PAGE.SEND' | translate" 
                 [icon]="sendingEmail ? 'pi pi-spin pi-spinner' : (contactForm.invalid ? 'pi pi-ban' : 'pi pi-send')" 
                 [disabled]="contactForm.invalid">
             </button>

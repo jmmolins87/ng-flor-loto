@@ -28,9 +28,9 @@
         @include min-responsive($mobile-large) {
             @include grid(2, 2rem);
         }
-        @include min-responsive($desktop-laptop) {
-            @include grid(3, 2rem);
-        }
+        // @include min-responsive($desktop-laptop) {
+        //     @include grid(4, 2rem);
+        // }
         &__presentation {
             margin-top: 1rem;
             padding: 2rem;

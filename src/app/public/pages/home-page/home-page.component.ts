@@ -25,6 +25,7 @@ export class HomePageComponent implements OnInit {
   public carrouselHero: any | carrouselOptions = carrouselOptions.isHero;
   public carrouselOpinator: carrouselOptions = carrouselOptions.isOpinator;
   public intervalCarrouselHero: number = 7500;
+  public infinityIntervalCarrouselHero!: number;
   public intervalCarrouselOpinions: number = 5000;
   public itemsCarrouselHero: carrouselHero[] = [];
   public recommendationsHome: recomendationsHome[] = [];
@@ -36,6 +37,11 @@ export class HomePageComponent implements OnInit {
     setTimeout(() => {
       this.showSkeleton = false;
     }, 1500)
+    
+    setInterval(() => {
+      this.infinityIntervalCarrouselHero
+    }, Infinity);
+
     this.getRecommendations();
     this.getOpinions();
     this.getSlidesHero();
@@ -44,25 +50,25 @@ export class HomePageComponent implements OnInit {
   getSlidesHero() {
     this._pagesService.carouselHeroHome.subscribe(slide => {
       this.itemsCarrouselHero = slide;
+      this.showSkeleton = false;
     })
     return this.itemsCarrouselHero;
-    this.showSkeleton = false;
   }
 
   getRecommendations() {
     this._pagesService.recommendationsHome.subscribe(recommendations => {
       this.recommendationsHome = recommendations;
+      this.showSkeleton = false;
     });
     return this.recommendationsHome; 
-    this.showSkeleton = false;
   }
 
   getOpinions() {
     this._pagesService.opinionsHome.subscribe(opinions => {
       this.opinionsHome = opinions;
+      this.showSkeleton = false;
     });
     return this.opinionsHome;
-    this.showSkeleton = false;
   }
 
 }

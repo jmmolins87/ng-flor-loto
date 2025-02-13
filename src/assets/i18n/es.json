@@ -28,23 +28,11 @@
         "TEXT": "Utilizamos cookies para mejorar tu experiencia. Al utilizar nuestro sitio, aceptas el uso de cookies.",
         "BUTTON": "Aceptar"
     },
-    "HOME": {
+    "HOME_PAGE": {
         "CAROUSEL_HERO": {
             "ITEM_1": {
-                "TITLE": "Slide 1",
+                "TITLE": "San Valentín",
                 "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
-            },
-            "ITEM_2": {
-                "TITLE": "Slide 2",
-                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 2"
-            },
-            "ITEM_3": {
-                "TITLE": "Slide 3",
-                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 3"
-            },
-            "ITEM_4": {
-                "TITLE": "Slide 4",
-                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 4"
             },
             "BUTTON_READ_MORE": "Seguir leyendo"
         },
@@ -53,21 +41,21 @@
         "TEXT_PRESENTATION": "<h3 class='mb-0'>Nuestras especialidades</h3><br> Nuestros ramos y arreglos florales son únicos y a medida para cada cliente. Creamos composiciones versátiles, empezando por arreglos florares para bodas, incluyendo ramos de novia, arreglos de centro de mesa, coronas de flores para el cabello, boutonnieres, y más.<br> Además de bodas, también ofrecemos servicios de decoración para otros eventos, como fiestas de cumpleaños, aniversarios, celebraciones de empresa, entre otros eventos sociales.<br>Nuestras flores y plantas para el hogar son otra de nuestras especialidades, ofrecemos una selección de flores y plantas ya sea para decorar tanto el interior como el exterior.<br> También ofrecemos arreglos florares para funerales, incluyendo coronas funerarias y arreglos para celebración de vida. Si lo que quieres es sorprender a esa persona especial, te ofrecemos la entrega a domicilio, con el mejor mimo y cuidado.<br> Disponible los 365 días del año.",
         "RECOMENDATIONS_TITLE_SECTION": "Te recomendamos",
         "RECOMENDATIONS_SECTION": {
-            "PRESERVED_ROSES": {
-                "TITLE": "Rosas preservadas",
+            "ITEM_1": {
+                "TITLE": "¿Cómo elegir el ramo de flores perfecto para un aniversario?",
                 "DESCRIPTION": "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo."
             },
-            "BUNCH_FLOWERS": {
-                "TITLE": "Ramo de flores",
+            "ITEM_2": {
+                "TITLE": "Flores para funerales",
                 "DESCRIPTION": "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!"
             },
-            "BRIDAL_BOUQUETS": {
-                "TITLE": "Ramos de novia",
+            "ITEM_3": {
+                "TITLE": "Flores para eventos: opciones y recomendaciones",
                 "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
             },
-            "FLOWERS_BIRTHDAYS": {
-                "TITLE": "Flores para cumpleaños",
-                "DESCRIPTION": "¡Haz que el cumpleaños de esa persona especial sea inolvidable con nuestras flores frescas y vibrantes! Ofrecemos una amplia variedad de arreglos florales diseñados para sorprender y alegrar el día. Desde ramos coloridos y alegres hasta elegantes composiciones, tenemos la opción perfecta para cada celebración. ¡Entrega a domicilio disponible para que tu regalo llegue justo a tiempo!"
+            "ITEM_4": {
+                "TITLE": "¡¡Nuestras flores Segovianas!!",
+                "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
             }
         },
         "OPINIONS_TITLE_SECTION": "Las opiniones de nuestr@s clientes",
@@ -275,7 +263,7 @@
             "BUTTON": "Leer más"
         }
     },
-    "BOUQETS": {
+    "BOUQETS_PAGE": {
         "TITLE": "Nuestros Ramos de Flores",
         "ASSORTED_BOUQUET": {
             "TITLE": "Ramo Variado"
@@ -335,9 +323,9 @@
             "TITLE": "Ramo de diez Gerberas"
         }
     },
-    "FLOORS": {
+    "FLOORS_PAGE": {
         "SUBMENU": {
-            "ROUSES": {
+            "ROUSES_PAGE": {
                 "TITLE_PAGE": "Nuestras Rosas",
                 "TWELVE_YELLOW_ROSES": {
                     "TITLE": "Doce Rosas Amarillas"
@@ -361,7 +349,7 @@
                     "TITLE": "Doce Rosas Catalina"
                 }
             },
-            "ORCHIDS": {
+            "ORCHIDS_PAGE": {
                 "TITLE_PAGE": "Nuestras Orquídeas",
                 "YELLOW_ORCHID": {
                     "TITLE": "Orquídea Amarilla"
@@ -379,7 +367,7 @@
                     "TITLE": "Orquídea"
                 }
             },
-            "MORE_FLOORS": {
+            "MORE_FLOORS_PAGE": {
                 "TITLE_PAGE": "Más de nuestras flores",
                 "ANTHURIUM": {
                     "TITLE": "Anthurium"
@@ -402,7 +390,7 @@
             }
         }
     },
-    "TERRARIUMS": {
+    "TERRARIUMS_PAGE": {
         "TITLE": "Nuestros Terrarios",
         "BONSAI_TERRARIUM_ONE": {
             "TITLE": "Terrario Bonsai"
@@ -411,7 +399,7 @@
             "TITLE": "Terrario de Cúpula con Rosa Eterna"
         }
     },
-    "FUNERALS": {
+    "FUNERALS_PAGE": {
         "TITLE": "Centros Funerarios",
         "BLUE_AND_ORANGE_FUNERAL_CENTER": {
             "TITLE": "Centro Funerario Azúl y Naranja"
@@ -438,7 +426,7 @@
             "TITLE": "Centro de Laurel F111"
         }
     },
-    "CONTACT": {
+    "CONTACT_PAGE": {
         "TITLE": "¡Estamos para ayudarte!",
         "DESCRIPTION": "Si tienes alguna pregunta, consulta o deseas realizar un pedido personalizado, no dudes en contactarnos. Nuestro amable equipo de expertos floristas está listo para brindarte un servicio excepcional y asesoramiento personalizado. Puedes comunicarte con nosotros por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
         "FORM_FIEDS": {

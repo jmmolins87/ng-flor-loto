@@ -26,35 +26,35 @@ const routes: Routes = [
         component: HomePageComponent
     },
     {
-        path: "bouquetflower",
+        path: "ramos-flores-segovia",
         component: BouquetFlowersPageComponent
     },
     {
-        path: "floors",
+        path: "plantas-segovia",
         component: FloorsPageComponent
     },
     {
-        path: "rouses",
+        path: "rosas-segovia",
         component: RousesPageComponent
     },
     {
-        path: "orchids",
+        path: "orquideas-segovia",
         component: OrchidsPageComponent
     },
     {
-        path: "moreFloors",
+        path: "mas-flores-segovia",
         component: MoreFloorsPageComponent
     },
     {
-        path: "terrariums",
+        path: "terrarios-segovia",
         component: TerrariumsPageComponent
     },
     {
-        path: "wedding",
+        path: "bodas-eventos-segovia",
         component: WeddingEventsPageComponent
     },
     {
-        path: "funerals",
+        path: "funerales-segovia",
         component: FuneralsPageComponent
     },
     {

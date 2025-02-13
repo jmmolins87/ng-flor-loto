@@ -7,37 +7,37 @@ import { NavBarInterface } from "../models/nav-bar.interface";
 export const navbarItems: NavBarInterface[] =  [
     {
         label: "NAV_BAR.BOUQUET_FLOWERS",
-        routerLink: ["/bouquetflower"]
+        routerLink: ["/ramos-flores-segovia"]
     },
     {
         label: "NAV_BAR.FLOORS",
-        routerLink: ["/floors"],
+        routerLink: ["/plantas-segovia"],
         subMenu: [
             {
                 label: "NAV_BAR.SUBMENUS.ROUSES",
-                routerLink: ["/rouses"]
+                routerLink: ["/rosas-segovia"]
             },
             {
                 label: "NAV_BAR.SUBMENUS.ORCHIDS",
-                routerLink: ["/orchids"]
+                routerLink: ["/orquideas-segovia"]
             },
             {
                 label: "NAV_BAR.SUBMENUS.MORE",
-                routerLink: ["/moreFloors"]
+                routerLink: ["/mas-flores-segovia"]
             }
         ]
     },
     {
         label: "NAV_BAR.TERRARIUMS",
-        routerLink: ["/terrariums"]
+        routerLink: ["/terrarios-segovia"]
     },
     {
         label: "NAV_BAR.WEDDING",
-        routerLink: ["/wedding"]
+        routerLink: ["/bodas-eventos-segovia"]
     },
     {
         label: "NAV_BAR.FUNERAL",
-        routerLink: ["/funerals"]
+        routerLink: ["/funerales-segovia"]
     },
     {
         label: "NAV_BAR.CONTACT",

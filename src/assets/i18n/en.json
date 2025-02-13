@@ -28,23 +28,11 @@
         "TEXT": "We use cookies to improve your experience. By using our site, you agree to our use of cookies.",
         "BUTTON": "Accept"
     },
-    "HOME": {
+    "HOME_PAGE": {
         "CAROUSEL_HERO": {
             "ITEM_1": {
-                "TITLE": "Slide 1",
+                "TITLE": "Valentine's Day",
                 "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
-            },
-            "ITEM_2": {
-                "TITLE": "Slide 2",
-                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 2"
-            },
-            "ITEM_3": {
-                "TITLE": "Slide 3",
-                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 3"
-            },
-            "ITEM_4": {
-                "TITLE": "Slide 4",
-                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 4"
             },
             "BUTTON_READ_MORE": "Continue reading"
         },
@@ -53,21 +41,23 @@
         "TEXT_PRESENTATION": "<h3 class='mb-0'>Our Specialties</h3><br> Our bouquets and floral arrangements are unique and tailored to each client. We create versatile compositions, starting with floral arrangements for weddings, including bridal bouquets, centerpiece arrangements, hair wreaths, boutonnieres, and more.<br> In addition to weddings, we also offer decoration services for other events, such as birthday parties, anniversaries, company celebrations, among other social events.<br> Our flowers and plants for the home are another of our specialties, we offer a selection of flowers and plants to decorate both indoors and outdoors.<br> We also offer floral arrangements for funerals, including funeral wreaths and celebration of life arrangements. If you want to surprise that special person, we offer home delivery, with the best care and attention.<br> Available 365 days a year.",
         "RECOMENDATIONS_TITLE_SECTION": "We recommend you",
         "RECOMENDATIONS_SECTION": {
-            "PRESERVED_ROSES": {
-                "TITLE": "Preserved roses",
-                "DESCRIPTION": "Preserved flowers are the perfect choice for those looking for a long-lasting and charming gift. Presented in elegant containers such as glass domes, wooden boxes and teapots, our preserved roses maintain their beauty and freshness for years without the need for special care. Surprise someone special with a keepsake that will last a lifetime."
-            },
-            "BUNCH_FLOWERS": {
-                "TITLE": "Bunch of flowers",
-                "DESCRIPTION": "Perfect for gift giving, surprising and creating unforgettable sensations! Our bouquets are designed for every occasion, from seasonal bouquets full of color to classic and modern compositions. Each bouquet is made with fresh flowers of the highest quality, ensuring that your gift is always special. Make every moment memorable with a beautiful bouquet of flowers!"
-            },
-            "BRIDAL_BOUQUETS": {
-                "TITLE": "Bridal bouquets",
-                "DESCRIPTION": "Make your special day even more memorable with our wedding flowers! We offer a wide range of custom floral arrangements for every aspect of your wedding, from bridal bouquets and boutonnieres to table decorations and floral arches. Our expert florists will work with you to create unique arrangements that reflect your style and wedding theme. Delivery and setup available to ensure everything is perfect on your big day!"
-            },
-            "FLOWERS_BIRTHDAYS": {
-                "TITLE": "Flowers for birthdays",
-                "DESCRIPTION": "Make that special someone's birthday one to remember with our fresh and vibrant flowers! We offer a wide variety of floral arrangements designed to surprise and brighten the day. From colorful and cheerful bouquets to elegant compositions, we have the perfect option for every celebration. Home delivery available so your gift arrives just in time!"
+                "RECOMENDATIONS_SECTION": {
+                "ITEM_1": {
+                    "TITLE": "How to choose the perfect bouquet for an anniversary?",
+                    "DESCRIPTION": "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo."
+                },
+                "ITEM_2": {
+                    "TITLE": "Funeral flowers",
+                    "DESCRIPTION": "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!"
+                },
+                "ITEM_3": {
+                    "TITLE": "Flowers for events: options and recommendations",
+                    "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+                },
+                "ITEM_4": {
+                    "TITLE": "Our Segovian flowers!!",
+                    "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+                }
             }
         },
         "OPINIONS_TITLE_SECTION": "Our customer's opinions",
@@ -275,7 +265,7 @@
             "BUTTON": "Read more"
         }
     },
-    "BOUQETS": {
+    "BOUQETS_PAGE": {
         "TITLE": "Our Bouquets of Flowers",
         "ASSORTED_BOUQUET": {
             "TITLE": "Assorted Bouquet"
@@ -335,9 +325,9 @@
             "TITLE": "Bouquet of ten Gerberas"
         }
     },
-    "FLOORS": {
+    "FLOORS_PAGE": {
         "SUBMENU": {
-            "ROUSES": {
+            "ROUSES_PAGE": {
                 "TITLE_PAGE": "Our Roses",
                 "TWELVE_YELLOW_ROSES": {
                     "TITLE": "Twelve Yellow Roses"
@@ -361,7 +351,7 @@
                     "TITLE": "Twelve Roses Catalina"
                 }
             },
-            "ORCHIDS": {
+            "ORCHIDS_PAGE": {
                 "TITLE_PAGE": "Our Orchids",
                 "YELLOW_ORCHID": {
                     "TITLE": "Yellow Orchid"
@@ -379,7 +369,7 @@
                     "TITLE": "Orchid"
                 }
             },
-            "MORE_FLOORS": {
+            "MORE_FLOORS_PAGE": {
                 "TITLE_PAGE": "More of our flowers",
                 "ANTHURIUM": {
                     "TITLE": "Anthurium"
@@ -402,7 +392,7 @@
             }
         }
     },
-    "TERRARIUMS": {
+    "TERRARIUMS_PAGE": {
         "TITLE": "Our terrariums",
         "BONSAI_TERRARIUM_ONE": {
             "TITLE": "Bonsai Terrarium"
@@ -411,7 +401,7 @@
             "TITLE": "Eternal Rose Dome Terrarium"
         }
     },
-    "FUNERALS": {
+    "FUNERALS_PAGE": {
         "TITLE": "Centros Funerarios",
         "BLUE_AND_ORANGE_FUNERAL_CENTER": {
             "TITLE": "Blue and Orange Funeral Center"
@@ -438,7 +428,7 @@
             "TITLE": "Laurel Center F111"
         }
     },
-    "CONTACT": {
+    "CONTACT_PAGE": {
         "TITLE": "We are here to help you!",
         "DESCRIPTION": "If you have any questions, queries or would like to place a custom order, please do not hesitate to contact us. Our friendly team of expert florists are ready to provide you with exceptional service and personalized advice. You can reach us by phone, email or visit us in our store. We would love to be a part of your special moments and make them unforgettable with our beautiful flowers. por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
         "FORM_FIEDS": {
