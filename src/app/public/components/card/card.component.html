@@ -7,6 +7,8 @@
             [src]="srcImg" 
             [alt]="titleCard | translate" 
             [title]="titleCard | translate"
+            [ngStyle]="{'display': !showSkeleton ? 'block' : 'none'}"
+            (load)="onLoad()"
             loading="lazy"
             [preview]="true" />
         <p-skeleton *ngIf="showSkeleton" width="100%" height="20rem" />

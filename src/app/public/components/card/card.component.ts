@@ -22,4 +22,8 @@ export class CardComponent implements OnInit {
     }, 1500)
   }
 
+  onLoad() {
+    this.showSkeleton = false;
+  }
+
 }
