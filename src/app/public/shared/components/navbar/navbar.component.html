@@ -1,7 +1,7 @@
 <nav [ngClass]="scrolled ? 'scroll' : ''" #navbarContainer class="navbar navbar-expand-xl">
     <div class="container-fluid wrap-navbar">
-        <a 
-            [routerLink]="['/']" 
+        <a
+            [routerLink]="['/']"
             [attr.data-bs-toggle]="isTablet && !menuCollapsed ? 'collapse' : null"
             [attr.data-bs-target]="isTablet && !menuCollapsed ? '#navbarFlrLoto' : null"
             [attr.aria-controls]="isTablet && !menuCollapsed ? 'navbarFlrLoto' : null"
@@ -9,56 +9,56 @@
             class="navbar-brand collapsed">
             <img src="/assets/img/logo-loto.png" [alt]="'NAV_BAR.LOGO' | translate" [title]="'NAV_BAR.LOGO' | translate">
         </a>
-        <button 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbarFlrLoto" 
+        <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarFlrLoto"
             aria-controls="navbarFlrLoto"
-            aria-expanded="false" 
-            aria-label="Toggle navigation" 
+            aria-expanded="false"
+            aria-label="Toggle navigation"
             class="navbar-toggler collapsed">
             <span></span>
             <span></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarFlrLoto">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li     
-                    *ngFor="let item of menuItems" 
-                    [routerLinkActive]="['active']" 
+                <li
+                    *ngFor="let item of menuItems"
+                    [routerLinkActive]="['active']"
                     class="nav-item dropdown"
                     [ngClass]="{'dropdown': item.subMenu}">
-                    <a 
-                        *ngIf="!item.subMenu; else dropdownTemplate" 
+                    <a
+                        *ngIf="!item.subMenu; else dropdownTemplate"
                         [routerLink]="item.routerLink"
                         [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
                         [attr.data-bs-target]="isTablet ? '' : '#navbarFlrLoto'"
-                        [attr.aria-controls]="isTablet ? '' : 'navbarFlrLoto'" 
+                        [attr.aria-controls]="isTablet ? '' : 'navbarFlrLoto'"
                         [attr.aria-expanded]="isTablet ? '' : 'false'"
-                        [title]="item.label | translate" 
-                        aria-current="page" 
+                        [title]="item.label | translate"
+                        aria-current="page"
                         class="nav-link">
                         {{ item.label | translate }}
                     </a>
                     <ng-template #dropdownTemplate>
-                        <a 
-                            href="javascript:void(0)" 
-                            [title]="item.label | translate" 
+                        <a
+                            href="javascript:void(0)"
+                            [title]="item.label | translate"
                             aria-current="page"
-                            class="nav-link dropdown-toggle" 
+                            class="nav-link dropdown-toggle"
                             [attr.data-bs-toggle]="item.subMenu ? 'dropdown' : null">
                             {{ item.label | translate }}
                         </a>
                     </ng-template>
                     <ul *ngIf="item.subMenu" class="dropdown-menu">
-                        <li 
-                            *ngFor="let subItem of item.subMenu" 
+                        <li
+                            *ngFor="let subItem of item.subMenu"
                             class="dropdown-menu-item">
-                            <a 
-                                [routerLink]="subItem.routerLink" 
+                            <a
+                                [routerLink]="subItem.routerLink"
                                 [title]="subItem.label | translate"
                                 [attr.data-bs-toggle]="isTablet ? '' : 'collapse'"
                                 [attr.data-bs-target]="isTablet ? '' : '#navbarFlrLoto'"
-                                [attr.aria-controls]="isTablet ? '' : 'navbarFlrLoto'" 
+                                [attr.aria-controls]="isTablet ? '' : 'navbarFlrLoto'"
                                 [attr.aria-expanded]="isTablet ? '' : 'false'"
                                 class="dropdown-item">
                                 {{ subItem.label | translate }}
@@ -68,23 +68,23 @@
                 </li>
             </ul>
             <!-- TODO -->
-            <div class="end">
+            <!-- <div class="end">
                 <div class="wrap-change-language">
                     <span class="pi pi-fw pi-language icon-lang"></span>
-                    <select 
-                        #langSelect 
-                        (change)="changeLang( langSelect.value )" 
-                        class="form-select" 
+                    <select
+                        #langSelect
+                        (change)="changeLang( langSelect.value )"
+                        class="form-select"
                         aria-label="change language">
                         <option selected disabled class>{{ "NAV_BAR.LANGUAGE" | translate }}</option>
-                        <option 
-                            *ngFor="let lang of langs"  
+                        <option
+                            *ngFor="let lang of langs"
                             [value]="lang.lang">
                             {{ lang.name }}
                         </option>
                     </select>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </nav>

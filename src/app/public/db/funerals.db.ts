@@ -36,5 +36,10 @@ export const funerals: cardsInterface[] = [
     {
         srcImg: "/assets/img/products/funerals/funeral-centro-F111.jpeg",
         titleCard: "FUNERALS_PAGE.LAUREL_CENTER_F111.TITLE"
-    }
+  },
+  {
+    srcImg: "/assets/img/products/funerals/funeral-corona_lisboa.jpeg",
+    titleCard: "FUNERALS_PAGE.LAUREL_CENTER_LISBOA.TITLE",
+    descriptionCard: "FUNERALS_PAGE.LAUREL_CENTER_LISBOA.DESCRIPTION"
+  }
 ]

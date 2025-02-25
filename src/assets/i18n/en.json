@@ -1,530 +1,534 @@
 {
-    "NAV_BAR": {
-        "LOGO": "Flor de Loto Segovia",
-        "BOUQUET_FLOWERS": "Bouquet of flowers",
-        "FLOORS": "Floors",
-        "TERRARIUMS": "Terrariums",
-        "WEDDING": "Weddings and Events",
-        "FUNERAL": "Funeral",
-        "CONTACT": "Contact",
-        "LANGUAGE": "Elija su idioma",
-        "SUBMENUS": {
-            "ROUSES": "Rouses",
-            "ORCHIDS": "Orchids",
-            "MORE": "More"
-        }
-    },
-    "FOOTER": {
-        "LOCATION": "Where are we?",
-        "MAIL": "Do you want to tell us something?",
-        "PHONE": "Call us!!",
-        "RIGHTS": "All rights reserved",
-        "MY_SITE": "Site created with a lot",
-        "LEGAL": "Legal notice",
-        "COOKIES": "Cookie Policy",
-        "PRIVACITY": "Privacy Policy"
-    },
-    "COOKIES": {
-        "TEXT": "We use cookies to improve your experience. By using our site, you agree to our use of cookies.",
-        "BUTTON": "Accept"
-    },
-    "HOME_PAGE": {
-        "CAROUSEL_HERO": {
-            "ITEM_1": {
-                "TITLE": "Valentine's Day",
-                "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
-            },
-            "BUTTON_READ_MORE": "Continue reading"
-        },
-        "TITLE": "The art of flowers",
-        "SUBTITLE": "Flowers are our best allies to surprise, excite and transmit emotions always with total attention to detail and finish.",
-        "TEXT_PRESENTATION": "<h3 class='mb-0'>Our Specialties</h3><br> Our bouquets and floral arrangements are unique and tailored to each client. We create versatile compositions, starting with floral arrangements for weddings, including bridal bouquets, centerpiece arrangements, hair wreaths, boutonnieres, and more.<br> In addition to weddings, we also offer decoration services for other events, such as birthday parties, anniversaries, company celebrations, among other social events.<br> Our flowers and plants for the home are another of our specialties, we offer a selection of flowers and plants to decorate both indoors and outdoors.<br> We also offer floral arrangements for funerals, including funeral wreaths and celebration of life arrangements. If you want to surprise that special person, we offer home delivery, with the best care and attention.<br> Available 365 days a year.",
-        "RECOMENDATIONS_TITLE_SECTION": "We recommend you",
-        "RECOMENDATIONS_SECTION": {
-                "RECOMENDATIONS_SECTION": {
-                "ITEM_1": {
-                    "TITLE": "How to choose the perfect bouquet for an anniversary?",
-                    "DESCRIPTION": "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo."
-                },
-                "ITEM_2": {
-                    "TITLE": "Funeral flowers",
-                    "DESCRIPTION": "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!"
-                },
-                "ITEM_3": {
-                    "TITLE": "Flowers for events: options and recommendations",
-                    "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
-                },
-                "ITEM_4": {
-                    "TITLE": "Our Segovian flowers!!",
-                    "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
-                }
-            }
-        },
-        "OPINIONS_TITLE_SECTION": "Our customer's opinions",
-        "OPINIONS_SECTION": {
-            "OPINION_1": {
-                "AUTHOR_NAME": "Gloria",
-                "DESCRIPTION": "Today is the first time I've been there and it certainly won't be the last! Rafaela (I'll remember her name) has lovingly prepared a beautiful bouquet of multicoloured carnations for me. <br>She has also been very attentive and patient because I couldn't decide on one flower or another and I wanted to stick to a budget :). <br>Thank you Rafaela! My friend loved her bouquet!"
-            },
-            "OPINION_2": {
-                "AUTHOR_NAME": "Cielo mr (Quispe)",
-                "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
-            },
-            "OPINION_3": {
-                "AUTHOR_NAME": "Cielo mr (Quispe)",
-                "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
-            },
-            "OPINION_4": {
-                "AUTHOR_NAME": "Lu RqV",
-                "DESCRIPTION": "It's a pleasure to work with such professional people like Rafaela... everything is perfect! With great detail and taste! You can tell when someone enjoys their work! Thank you!<br> I will definitely be back."
-            },
-            "OPINION_5": {
-                "AUTHOR_NAME": "Chema Durán",
-                "DESCRIPTION": "Fantastic service from Rafaela, super attentive and kind. I called by phone for a home delivery and they delivered it very quickly and a beautiful bouquet that I left to her liking. 100% recommended."
-            },
-            "OPINION_6": {
-                "AUTHOR_NAME": "Marvin Bonilla",
-                "DESCRIPTION": "I placed an order with Flor de Loto and was delighted. The flowers arrived beautifully and perfectly arranged, but what really made the difference was Rafaella's attention. She was attentive, kind, and made sure everything was perfect. Definitely an excellent service that I would recommend to anyone. Thank you, Rafaella and Flor de Loto for making this order such a special experience!"
-            },
-            "OPINION_7": {
-                "AUTHOR_NAME": "Mayreni Garcia Almonte",
-                "DESCRIPTION": "Excellent service and attention from Rafaela, the flowers are beautiful, but above all the love and dedication that this girl put into my purchase made my day. Highly recommended!"
-            },
-            "OPINION_8": {
-                "AUTHOR_NAME": "Cecilia Gómez Gascueña",
-                "DESCRIPTION": "Rafaella is an excellent professional. Incredible treatment, fantastic attention and quality 10. I don't plan on ever changing stores!"
-            },
-            "OPINION_9": {
-                "AUTHOR_NAME": "Angelica Muñoz Pascual",
-                "DESCRIPTION": "I ordered a gift to thank a colleague. <br>The treatment from the first moment was exquisite, with incomparable attention and dedication. I have never received such kindness from a person in any of the establishments I go to. The gift was beautiful. <br> They are amazing professionals. <br> Thank you very much for everything."
-            },
-            "OPINION_10": {
-                "AUTHOR_NAME": "Estefany Rodriguez Garcia",
-                "DESCRIPTION": "They have treated me super well, Rafaela has done a super nice job with my mother's gift, thank you very much."
-            },
-            "OPINION_11": {
-                "AUTHOR_NAME": "Blanca B",
-                "DESCRIPTION": "Very good service from Rafaela at all times. I didn't like the paper on the bouquet, and she exchanged it for another one without any problem. <br>I recommend it."
-            },
-            "OPINION_12": {
-                "AUTHOR_NAME": "Valeri Radev Yankov",
-                "DESCRIPTION": "Magnificent treatment by RAFAELA, who made a magnificent and beautiful order."
-            },
-            "OPINION_13": {
-                "AUTHOR_NAME": "Jesus david Rolong arrieta",
-                "DESCRIPTION": "I ordered a bouquet of flowers for my wife's birthday and the person who helped me, Rafaela, did it with great kindness. The service was excellent. I really give this flower shop a 10 out of 10 for both service and product quality. It's really great. <br>100% recommended. Thank you!"
-            },
-            "OPINION_14": {
-                "AUTHOR_NAME": "Yolanda Sanz",
-                "DESCRIPTION": "I can only say that Rafaela's attention was wonderful, the treatment was exquisite, the bouquet she made for my mother was beautiful. <br>I recommend it 100%."
-            },
-            "OPINION_15": {
-                "AUTHOR_NAME": "beatriz cruz",
-                "DESCRIPTION": "I contacted this florist from Madrid to send an orchid to a relative hospitalized in Segovia. Rafaela helped me and gave me all the possible facilities. Thank you very much for your efficiency. I was delighted."
-            },
-            "OPINION_16": {
-                "AUTHOR_NAME": "María Bernabé",
-                "DESCRIPTION": "The person who served me talked non-stop to the point of overwhelming me. I asked for some bamboo sticks that had a blackboard with the price on them and when I went to pay he overcharged me, taking me for a fool. He gave me the bill and was so pleased... I didn't say anything because he kept talking as if to distract me. It was €2.50 that didn't go anywhere, but I left upset and indignant that someone would lose a customer for €2.50."
-            },
-            "OPINION_17": {
-                "AUTHOR_NAME": "Ana",
-                "DESCRIPTION": "Always attentive to your needs. <br>Rafaela is charming. Great service. She tries to help you with what you are looking for. <br>A 10 in every way."
-            },
-            "OPINION_18": {
-                "AUTHOR_NAME": "Editorial SHB",
-                "DESCRIPTION": "This is my second time shopping here and besides the beauty of the store and its products, it is worth highlighting, above all, Rafaella's loving treatment. I declare myself a new customer!! ❤"
-            },
-            "OPINION_19": {
-                "AUTHOR_NAME": "Aurora Allas Jorge",
-                "DESCRIPTION": "I always go there because I am always very satisfied with the result. The service is great. They give you lots of ideas. <br>Very professional, as well as very friendly and approachable."
-            },
-            "OPINION_20": {
-                "AUTHOR_NAME": "Maria Alvarez",
-                "DESCRIPTION": "We love this flower shop! Rafaela is super friendly and makes beautiful bouquets. She gives you advice on how to make your gift special."
-            },
-            "OPINION_21": {
-                "AUTHOR_NAME": "Inmaculada Pérez",
-                "DESCRIPTION": "Exquisite and very professional service. The birthday bouquet was beautiful, it was a surprise and she loved it. And they brought it to the place of the celebration. Thank you for everything."
-            },
-            "OPINION_22": {
-                "AUTHOR_NAME": "Alberto Acebes",
-                "DESCRIPTION": "Raul is a great florist! He is always willing to help, giving good advice on how to care for plants. Whenever I have questions, he answers them quickly and helps me keep my plants healthy. <br> He also has some of the most original species, like the one you can see in the photo, that look great at home and are easy to care for. <br> Highly recommended!"
-            },
-            "OPINION_23": {
-                "AUTHOR_NAME": "Macarena Cabello Obrecht",
-                "DESCRIPTION": "Even though we came at the last minute, Rafaela was very attentive and took the time to make us a wonderful bouquet. <br>Thank you very much."
-            },
-            "OPINION_24": {
-                "AUTHOR_NAME": "Nuria Sacristán",
-                "DESCRIPTION": "Terrible. First they forget about the order and, when an hour later it was claimed, it took them another hour to deliver it. A bouquet of yellow roses was ordered and the one in the photo arrived... When I reported the error again, and another 45 minutes later, they changed it for the bouquet that was supposed to be correct. <br>Yellow roses? No, a tiny one of white roses painted with yellow spray... I will not recommend or return to a place where it seems that they are dedicated to laughing at the client."
-            },
-            "OPINION_25": {
-                "AUTHOR_NAME": "Isabel Vallejo",
-                "DESCRIPTION": "Totally recommendable, I love shopping here, we had already bought before, Rafaela is so nice and attentive, today we went to buy a flower arrangement and she also gave us some flowers that she prepared for us with all her love, we are so grateful, it was a lovely detail on her part, now in these difficult times for us...... <br>I wish they would serve us the same everywhere..."
-            },
-            "OPINION_26": {
-                "AUTHOR_NAME": "Elisa de la Cruz",
-                "DESCRIPTION": "The flower shop is great, but above all Rafaela's service, she is attentive, delicate, she gives you very good advice and is super affectionate. <br>Thank you very much Rafaela."
-            },
-            "OPINION_27": {
-                "AUTHOR_NAME": "Nila Montero",
-                "DESCRIPTION": "Today my partner surprised me with a SPECTACULAR bouquet of flowers from this store. Thank you so much Rafaela for your attention and service. <br><It was exciting ❤️."
-            },
-            "OPINION_28": {
-                "AUTHOR_NAME": "Daniel Muñoz Perez",
-                "DESCRIPTION": "First class service, fast and very professional, giving advice. It's a pleasure to deal with people who like what they do. Thank you very much Rafaela, a wonderful person."
-            },
-            "OPINION_29": {
-                "AUTHOR_NAME": "jenny lilieth bermejo",
-                "DESCRIPTION": "The customer service was very good, Rafaela was very kind and attentive."
-            },
-            "OPINION_30": {
-                "AUTHOR_NAME": "ANA ROBLEDO BARROSO",
-                "DESCRIPTION": "Today I bought a beautiful bouquet of flowers at the Lotus Flower flower shop. The girl who helped me made the bouquet with great art and taste, with great detail and lots of kindness and friendliness. I totally recommend it, a great place."
-            },
-            "OPINION_31": {
-                "AUTHOR_NAME": "Fernando de Frutos García",
-                "DESCRIPTION": "By far the best flower shop in Segovia in terms of quality, service and price. <br>The unbeatable hours with Raul and Rafaela always ready to provide a service that interflora is not capable of providing. <br>An excellent solution for Sundays and holidays that are always open for your surprise gift for a visit to your family or friends in the form of a floral gift. <br>Keep up the good work."
-            },
-            "OPINION_32": {
-                "AUTHOR_NAME": "adrian sanchez",
-                "DESCRIPTION": "It is the first time I buy from the flower shop and I definitely loved the service and the bouquet is beautiful. My mother loved it and Rafaela is a super good host. I do not hesitate to recommend her."
-            },
-            "OPINION_33": {
-                "AUTHOR_NAME": "lilibeth montenegro londoño",
-                "DESCRIPTION": "I have bought several times and I think it is wonderful, Rafaela is a very attentive and kind girl. I was very pleased with each visit, highly recommended."
-            },
-            "OPINION_34": {
-                "AUTHOR_NAME": "Maria Yolanda Hernandez",
-                "DESCRIPTION": "I went to buy a center and Rafaela helped me, she treated me specially and was super friendly and nice...and the center was beautiful. <br>I will return."
-            },
-            "OPINION_35": {
-                "AUTHOR_NAME": "Eliezer Leonardo Garcia aponte",
-                "DESCRIPTION": "Super delighted with the arrangements, they are very detailed and attentive, I loved their services and attention, especially to Rafaela, a great, kind and charismatic person."
-            },
-            "OPINION_36": {
-                "AUTHOR_NAME": "Alejandra Herraiz Moya",
-                "DESCRIPTION": "I came on a trip to Segovia and we returned with two beautiful bouquets of roses and wonderful service from Rafaela."
-            },
-            "OPINION_37": {
-                "AUTHOR_NAME": "Rubiela Petrelpetrel",
-                "DESCRIPTION": "Rafaela's service is excellent 👌 she makes beautiful bouquets."
-            },
-            "OPINION_38": {
-                "AUTHOR_NAME": "Cristina CC",
-                "DESCRIPTION": "I went on Mother's Day to get a gift for 3 people. The person who helped me insisted on selling me €40 bouquets without listening to what I was saying, showing me options that didn't fit what I was saying. All in such a hurry and in such a way that I wanted to leave without buying anything. But I didn't have many other options either... In the end I ended up buying and when I gave the flowers I saw that one was missing the ribbon, another was missing the card... In short, a disaster. The workers who were in the establishment at that time didn't seem to understand each other very well either."
-            },
-            "OPINION_39": {
-                "AUTHOR_NAME": "Lisbeth Pamela",
-                "DESCRIPTION": "The arrangement he made me was very beautiful and the service was super good. Everything was great."
-            },
-            "OPINION_40": {
-                "AUTHOR_NAME": "Arantxa Sacristán",
-                "DESCRIPTION": "Rafaela has treated us very well. She was kind and made the bouquet very pretty. We will return."
-            },
-            "OPINION_41": {
-                "AUTHOR_NAME": "homeguitarclass Clases de guitarra",
-                "DESCRIPTION": "Rafaella is always attentive and professional!!! A cheerful, simple and authentic flower shop. 10/10!!!"
-            },
-            "OPINION_42": {
-                "AUTHOR_NAME": "Adal MG88",
-                "DESCRIPTION": "Good service from Rafaela and beautiful bouquet of roses with its balloon and stuffed animal❤️."
-            },
-            "OPINION_43": {
-                "AUTHOR_NAME": "Pilar Montes",
-                "DESCRIPTION": "Rafaela is a charming girl and she prepares bouquets of roses for me with her stuffed animal and I love Rafaela's attention 🍀🍀🍀💋."
-            },
-            "OPINION_44": {
-                "AUTHOR_NAME": "Deriva_78",
-                "DESCRIPTION": "Muy buen gusto, me prepararon un ramo precioso en un momento, con todo detalle y ajustado al presupuesto. La chica es muy profesional y cuida cada detalle. <br>Volveré a comprar allí"
-            },
-            "OPINION_45": {
-                "AUTHOR_NAME": "Damaris Dorscht",
-                "DESCRIPTION": "Siempre elijo Flor de Loto ya sea para agasajar a mis santos o dar un bonito regalo, la atención de Raúl tanto como Rafaela es genial!!!!! <br>Gracias!"
-            },
-            "OPINION_46": {
-                "AUTHOR_NAME": "Bego Isabel",
-                "DESCRIPTION": "Rafaela came to bring a pothos and transplanted it, she did an excellent job, very kind and very professional, I recommend 100%."
-            },
-            "OPINION_47": {
-                "AUTHOR_NAME": "Elisa Pascual González",
-                "DESCRIPTION": "Whenever we need a flower item, whether it be a bouquet, plant or gift, we do not hesitate to go to their flower shop. We have always had great service (with very long hours, even on holidays) and quality flowers that have filled our home and our family with colour. <br>The private delivery has also been to our liking on all occasions, (also at no additional cost) <br>We will definitely continue to go to this flower shop, both for quality and proximity!"
-            },
-            "OPINION_48": {
-                "AUTHOR_NAME": "Raquel Bermejo De La Puente",
-                "DESCRIPTION": "Rafaela is wonderful, kind, friendly, very nice and a good saleswoman, I recommend her, I took home a beautiful plant!!!!!"
-            },
-            "OPINION_49": {
-                "AUTHOR_NAME": "N KN",
-                "DESCRIPTION": "A bad experience... We have been clients of this flower shop for many years and we liked it very much, but the truth is that it is not like it used to be. A few days ago I made a purchase and it is assumed that an establishment is there to attend to the needs/requests of the client, in this case it was not, they do not listen to the requests but rather they go a bit on their own (the service is not the best) and the truth is that one is left unhappy and about the prices no comments, each time a different one... It is a shame because the owner has always treated us very well and with great kindness, but we will certainly not return..."
-            },
-            "OPINION_50": {
-                "AUTHOR_NAME": "Gebris ester Jiménez sanmartin",
-                "DESCRIPTION": "Very good service, excellent, I recommend it. Greetings Rafaela, I love you and the owner."
-            },
-            "BUTTON": "Read more"
-        }
-    },
-    "BOUQETS_PAGE": {
-        "TITLE": "Our Bouquets of Flowers",
-        "ASSORTED_BOUQUET": {
-            "TITLE": "Assorted Bouquet"
-        },
-        "BOUQUET_PINK_TONES": {
-            "TITLE": "Bouquet Pink Tones"
-        },
-        "I_LOVE_YOU_BOUQUET": {
-            "TITLE": "I Love you Bouquet"
-        },
-        "ROMULUS_BRANCH": {
-            "TITLE": "Romulus Branch"
-        },
-        "EUCALYPTUS_BRANCH": {
-            "TITLE": "Eucalyptus Branch"
-        },
-        "RAFAELLA_BOUQUET_2": {
-            "TITLE": "Rafaella Bouquet 2"
-        },
-        "RAFAELLA_BOUQUET": {
-            "TITLE": "Rafaella Bouquet"
-        },
-        "RAFAELLA_BOUQUET_3": {
-            "TITLE": "Rafaella Bouquet 3"
-        },
-        "PARIS_BOUQUET": {
-            "TITLE": "Paris Bouquet"
-        },
-        "NAPOLES_BOUQUET": {
-            "TITLE": "Naples Bouquet"
-        },
-        "MARIAN_BOUQUET": {
-            "TITLE": "Marian Bouquet"
-        },
-        "MACARENA_BOUQUET": {
-            "TITLE": "Macarena Bouquet"
-        },
-        "BOUQUET_LILIES": {
-            "TITLE": "Bouquet of Lilies"
-        },
-        "BOUQUET_PINK_LILIES": {
-            "TITLE": "Bouquet of Pink Lilies"
-        },
-        "POMEGRANATE_BOUQUET": {
-            "TITLE": "Pomegranate Bouquet"
-        },
-        "COLORFUL_BOUQUET": {
-            "TITLE": "Colorful Bouquet"
-        },
-        "BOUQUET_TWELVE_TULIPS": {
-            "TITLE": "Bouquet of twelve Tulips"
-        },
-        "BOUQUET_TEN_SUNFLOWERS": {
-            "TITLE": "Bouquet of ten Sunflowers"
-        },
-        "BOUQUET_TEN_GERBERAS": {
-            "TITLE": "Bouquet of ten Gerberas"
-        }
-    },
-    "FLOORS_PAGE": {
-        "SUBMENU": {
-            "ROUSES_PAGE": {
-                "TITLE_PAGE": "Our Roses",
-                "TWELVE_YELLOW_ROSES": {
-                    "TITLE": "Twelve Yellow Roses"
-                },
-                "ETERNAL_ROSE": {
-                    "TITLE": "Eternal Rose"
-                },
-                "TWO_ROSES_VASE": {
-                    "TITLE": "Two Roses Vase"
-                },
-                "TWELVE_BLUE_ROSES": {
-                    "TITLE": "Twelve Blue Roses" 
-                },
-                "TWELVE_WHITE_ROSES": {
-                    "TITLE": "Twelve White Roses" 
-                },
-                "TWELVE_RED_ROSES": {
-                    "TITLE": "Twelve Red Roses" 
-                },
-                "TWELVE_ROSES_CATHERINE": {
-                    "TITLE": "Twelve Roses Catalina"
-                }
-            },
-            "ORCHIDS_PAGE": {
-                "TITLE_PAGE": "Our Orchids",
-                "YELLOW_ORCHID": {
-                    "TITLE": "Yellow Orchid"
-                },
-                "BLUE_ORCHID": {
-                    "TITLE": "Blue Orchid"
-                },
-                "WHITE_ORCHID": {
-                    "TITLE": "White Orchid"
-                },
-                "ROSE_ORCHID": {
-                    "TITLE": "Rose Orchid"
-                },
-                "ORCHID": {
-                    "TITLE": "Orchid"
-                }
-            },
-            "MORE_FLOORS_PAGE": {
-                "TITLE_PAGE": "More of our flowers",
-                "ANTHURIUM": {
-                    "TITLE": "Anthurium"
-                },
-                "BASKET": {
-                    "TITLE": "Basket"
-                },
-                "PLANTS_BASKET": {
-                    "TITLE": "Plants in Basket"
-                },
-                "MARANTA": {
-                    "TITLE": "Maranta"
-                },
-                "BROMELIA": {
-                    "TITLE": "Bromelia"
-                },
-                "EPATIFILIUM": {
-                    "TITLE": "Epatiphyllium"
-                }
-            }
-        }
-    },
-    "TERRARIUMS_PAGE": {
-        "TITLE": "Our terrariums",
-        "BONSAI_TERRARIUM_ONE": {
-            "TITLE": "Bonsai Terrarium"
-        },
-        "ETERNAL_ROSE_DOME_TERRARIUM": {
-            "TITLE": "Eternal Rose Dome Terrarium"
-        }
-    },
-    "FUNERALS_PAGE": {
-        "TITLE": "Centros Funerarios",
-        "BLUE_AND_ORANGE_FUNERAL_CENTER": {
-            "TITLE": "Blue and Orange Funeral Center"
-        },
-        "BIDASOA_FUNERAL_CENTER": {
-            "TITLE": "Bidasoa Funeral Center"
-        },
-        "FUNERAL_CENTER_APPEARANCE": {
-            "TITLE": "Funeral Center Appearance"
-        },
-        "F12_FUNERAL_CENTER": {
-            "TITLE": "F12 Funeral Center"
-        },
-        "FUNERAL_BOUQUET": {
-            "TITLE": "Funeral Bouquet"
-        },
-        "SPAIN_FUNERAL_CENTER": {
-            "TITLE": "Spain Funeral Center"
-        },
-        "FUNERAL_CENTER_F123": {
-            "TITLE": "Funeral Center F123"
-        },
-        "LAUREL_CENTER_F111": {
-            "TITLE": "Laurel Center F111"
-        }
-    },
-    "CONTACT_PAGE": {
-        "TITLE": "We are here to help you!",
-        "DESCRIPTION": "If you have any questions, queries or would like to place a custom order, please do not hesitate to contact us. Our friendly team of expert florists are ready to provide you with exceptional service and personalized advice. You can reach us by phone, email or visit us in our store. We would love to be a part of your special moments and make them unforgettable with our beautiful flowers. por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
-        "FORM_FIEDS": {
-            "NAME": "Name",
-            "VALIDATION_NAME": "Name is required.",
-            "VALIDATION_NAME_LENGTH": "The message must be at least 3 characters.",
-            "EMAIL": "E-mail",
-            "VALIDATION_EMAIL": "Email is required.",
-            "VALIDATION_EMAIL_FORMAT": "Please enter a valid email.",
-            "SUBJECT": "Subject",
-            "VALIDATION_SUBJECT": "Subject is required.",
-            "VALIDATION_SUBJECT_LENGTH": "The subject must be at least 3 characters.",
-            "MESSAGE": "Message",
-            "VALIDATION_MESSAGE": "Message is required.",
-            "VALIDATION_MESSAGE_LENGTH": "The message must be at least 15 characters."
-        },
-        "MESSAGE_SUCCESS": "Thank you for contacting us! We will get back to you as soon as possible.",
-        "MESSAGE_ERROR": "Oops! Something went wrong. Please try again later.",
-        "SEND": "Send"
-    },
-    "ERROR_PAGE": {
-        "TITLE": "This is not the right way!!",
-        "GO_BACK": "We rewind?"
-    },
-    "OTHERS": {
-        "ORDER_MESSAGES": "Place your order here!!",
-        "FORM_ORDER": {
-            "TITLE": "Place your order here!!",
-            "LABEL_NAME": "Write your name",
-            "VALIDATION_NAME": "The name is required.",
-            "VALIDATION_NAME_LENGTH": "The name must contain at least 3 characters.",
-            "LABEL_PHONE": "Write your phone",
-            "VALIDATION_PHONE": "Phone is required..",
-            "VALIDATION_PHONE_LENGTH": "The phone number must contain at least 9 characters.",
-            "LABEL_MESSAGE": "Tell us, what do you want?",
-            "VALIDATION_MESSAGE": "Order is required.",
-            "VALIDATION_MESSAGE_LENGTH": "The order must be at least 15 characters.",
-            "BUTTON_WHATSAPP": "Send order by WhatsApp",
-            "BUTTON_SMS": "Send order by SMS"
-        }
-    },
-    "POLICIES": {
-        "COOKIES": {
-            "TITLE": "Cookie Policy",
-            "WHAT_ARE_COOKIES_TITLE": "What are cookies?",
-            "WHAT_ARE_COOKIES_DESCRIPTION": "Cookies are small text files that are stored on your device when you visit a website. They are used to remember your activity and preferences.",
-            "HOW_DO_WE_USE_COOKIES_TITLE": "How do we use cookies?",
-            "HOW_DO_WE_USE_COOKIES_DESCRIPTION": "At [Company Name], we use cookies for the following purposes:",
-            "HOW_DO_WE_USE_COOKIES_LIST": {
-                "REMEMBER": "· Remember your user preferences.",
-                "ANALYZE": "· Analyze traffic on our website.",
-                "PROVIDE": "· Provide personalized content."
-            },
-            "TYPES_OF_COOKIES_WE_USE_TITLE": "Types of cookies we use",
-            "TYPES_OF_COOKIES_WE_USE_LIST": {
-                "ESSENTIAL": "<li><strong>· Essential cookies:</strong> They are necessary for the operation of the website.</li>",
-                "ANALYTICS": "<li><strong>· Analysis cookies:</strong> They help us understand how users interact with our site.</li>",
-                "FUNCTIONALITY": "<li><strong>· Functionality cookies:</strong> They improve your experience by remembering your preferences.</li>",
-                "PUBLISHING": "<li><strong>· Advertising cookies:</strong> Used to display relevant ads.</li>"
-            },
-            "MANAGE_TITLE": "Cookie management",
-            "MANAGE_DESCRIPTION": "You can manage cookies through your browser settings. Here are the links for the most common browsers:",
-            "MORE_INFORMATION_TITLE": "More information",
-            "MORE_INFORMATION_DESCRIPTION": "If you have any questions about our cookie policy, you can contact us at:"
-        },
-        "LEGAL": {
-            "TITLE": "Legal Notice",
-            "DESCRIPTION": "This website is operated by [Company Name]. By accessing or using this website, you agree to be bound by the following terms and conditions.",
-            "IDENTIFICATION_TITLE": "Identification of the Responsible Party",
-            "IDENTIFICATION_DESCRIPTION": "Company Name: [Company Name<br>CIF/NIF: [Number] <br>Address: [Full Address]<br>Email: [Email] <br>Telephone: [Telephone Number]",
-            "CONDITIONS_TITLE": "Terms of Use",
-            "CONDITIONS_DESCRIPTION": "By accessing this website, the user undertakes to use it in accordance with the law, morality, public order and these conditions of use.",
-            "PROPERTY_TITLE": "Intellectual and Industrial Property",
-            "PROPERTY_DESCRIPTION": "All content on this website (texts, images, logos, design, etc.) is protected by intellectual property rights belonging to [Company Name] or its licensors.",
-            "EXCLUSION_TITLE": "Disclaimer",
-            "EXCLUSION_DESCRIPTION": "[Company Name] is not responsible for any damages or losses that may arise from the use of the website.",
-            "LEGISLATION_TITLE": "Applicable Legislation",
-            "LEGISLATION_DESCRIPTION": "These conditions shall be governed by Spanish law. For any dispute, the parties shall submit to the courts and tribunals of [City]."
-        },
-        "PRIVACY": {
-            "TITLE": "Privacy Policy",
-            "INTRO_TITLE": "Introduction",
-            "INTRO_DESCRIPTION": "At [Company Name], we take the privacy of our users very seriously. This privacy policy describes how we collect, use, and protect your personal information.",
-            "INFORMATION_TITLE": "Information we collect",
-            "INFORMATION_DESCRIPTION": "<li>· Information provided directly by the user, such as name, email and phone number.</li><li>· Information collected automatically, such as browsing data and IP address.</li><li>· Information from third parties when you interact with our services.</li>",
-            "USE_TITLE": "How we use your information",
-            "USE_DESCRIPTION": "The information collected is used for the following purposes:",
-            "USE_LIST": "<li>· Improve user experience on our website.</li><li>Process requests and provide customer support.</li><li>· Send communications related to our services.</li>",
-            "SHARING_TITLE": "Sharing your information",
-            "SHARING_DESCRIPTION": "We do not share your personal information with third parties except when necessary to comply with the law, protect our rights, or provide the requested services.",
-            "SECURITY_TITLE": "Protecting your information",
-            "SECURITY_DESCRIPTION": "We implement security measures to protect your personal information from unauthorized access, alteration, disclosure or destruction.",
-            "RIGHTS_TITLE": "Your rights",
-            "RIGHTS_DESCRIPTION": "You have the right to access, correct or delete your personal information. To exercise these rights, please contact us at ",
-            "UPDATES_TITLE": "Updates to this policy",
-            "UPDATES_DESCRIPTION": "We reserve the right to update this privacy policy at any time. Changes will be posted on this page with the corresponding update date."
-        }
+  "NAV_BAR": {
+    "LOGO": "Flor de Loto Segovia",
+    "BOUQUET_FLOWERS": "Bouquet of flowers",
+    "FLOORS": "Floors",
+    "TERRARIUMS": "Terrariums",
+    "WEDDING": "Weddings and Events",
+    "FUNERAL": "Funeral",
+    "CONTACT": "Contact",
+    "LANGUAGE": "Elija su idioma",
+    "SUBMENUS": {
+      "ROUSES": "Rouses",
+      "ORCHIDS": "Orchids",
+      "MORE": "More"
     }
+  },
+  "FOOTER": {
+    "LOCATION": "Where are we?",
+    "MAIL": "Do you want to tell us something?",
+    "PHONE": "Call us!!",
+    "RIGHTS": "All rights reserved",
+    "MY_SITE": "Site created with a lot",
+    "LEGAL": "Legal notice",
+    "COOKIES": "Cookie Policy",
+    "PRIVACITY": "Privacy Policy"
+  },
+  "COOKIES": {
+    "TEXT": "We use cookies to improve your experience. By using our site, you agree to our use of cookies.",
+    "BUTTON": "Accept"
+  },
+  "HOME_PAGE": {
+    "CAROUSEL_HERO": {
+      "ITEM_1": {
+        "TITLE": "Valentine's Day",
+        "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
+      },
+      "BUTTON_READ_MORE": "Continue reading"
+    },
+    "TITLE": "The art of flowers",
+    "SUBTITLE": "Flowers are our best allies to surprise, excite and transmit emotions always with total attention to detail and finish.",
+    "TEXT_PRESENTATION": "<h3 class='mb-0'>Our Specialties</h3><br> Our bouquets and floral arrangements are unique and tailored to each client. We create versatile compositions, starting with floral arrangements for weddings, including bridal bouquets, centerpiece arrangements, hair wreaths, boutonnieres, and more.<br> In addition to weddings, we also offer decoration services for other events, such as birthday parties, anniversaries, company celebrations, among other social events.<br> Our flowers and plants for the home are another of our specialties, we offer a selection of flowers and plants to decorate both indoors and outdoors.<br> We also offer floral arrangements for funerals, including funeral wreaths and celebration of life arrangements. If you want to surprise that special person, we offer home delivery, with the best care and attention.<br> Available 365 days a year.",
+    "RECOMENDATIONS_TITLE_SECTION": "We recommend you",
+    "RECOMENDATIONS_SECTION": {
+      "RECOMENDATIONS_SECTION": {
+        "ITEM_1": {
+          "TITLE": "How to choose the perfect bouquet for an anniversary?",
+          "DESCRIPTION": "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo."
+        },
+        "ITEM_2": {
+          "TITLE": "Funeral flowers",
+          "DESCRIPTION": "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!"
+        },
+        "ITEM_3": {
+          "TITLE": "Flowers for events: options and recommendations",
+          "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+        },
+        "ITEM_4": {
+          "TITLE": "Our Segovian flowers!!",
+          "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+        }
+      }
+    },
+    "OPINIONS_TITLE_SECTION": "Our customer's opinions",
+    "OPINIONS_SECTION": {
+      "OPINION_1": {
+        "AUTHOR_NAME": "Gloria",
+        "DESCRIPTION": "Today is the first time I've been there and it certainly won't be the last! Rafaela (I'll remember her name) has lovingly prepared a beautiful bouquet of multicoloured carnations for me. <br>She has also been very attentive and patient because I couldn't decide on one flower or another and I wanted to stick to a budget :). <br>Thank you Rafaela! My friend loved her bouquet!"
+      },
+      "OPINION_2": {
+        "AUTHOR_NAME": "Cielo mr (Quispe)",
+        "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
+      },
+      "OPINION_3": {
+        "AUTHOR_NAME": "Cielo mr (Quispe)",
+        "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
+      },
+      "OPINION_4": {
+        "AUTHOR_NAME": "Lu RqV",
+        "DESCRIPTION": "It's a pleasure to work with such professional people like Rafaela... everything is perfect! With great detail and taste! You can tell when someone enjoys their work! Thank you!<br> I will definitely be back."
+      },
+      "OPINION_5": {
+        "AUTHOR_NAME": "Chema Durán",
+        "DESCRIPTION": "Fantastic service from Rafaela, super attentive and kind. I called by phone for a home delivery and they delivered it very quickly and a beautiful bouquet that I left to her liking. 100% recommended."
+      },
+      "OPINION_6": {
+        "AUTHOR_NAME": "Marvin Bonilla",
+        "DESCRIPTION": "I placed an order with Flor de Loto and was delighted. The flowers arrived beautifully and perfectly arranged, but what really made the difference was Rafaella's attention. She was attentive, kind, and made sure everything was perfect. Definitely an excellent service that I would recommend to anyone. Thank you, Rafaella and Flor de Loto for making this order such a special experience!"
+      },
+      "OPINION_7": {
+        "AUTHOR_NAME": "Mayreni Garcia Almonte",
+        "DESCRIPTION": "Excellent service and attention from Rafaela, the flowers are beautiful, but above all the love and dedication that this girl put into my purchase made my day. Highly recommended!"
+      },
+      "OPINION_8": {
+        "AUTHOR_NAME": "Cecilia Gómez Gascueña",
+        "DESCRIPTION": "Rafaella is an excellent professional. Incredible treatment, fantastic attention and quality 10. I don't plan on ever changing stores!"
+      },
+      "OPINION_9": {
+        "AUTHOR_NAME": "Angelica Muñoz Pascual",
+        "DESCRIPTION": "I ordered a gift to thank a colleague. <br>The treatment from the first moment was exquisite, with incomparable attention and dedication. I have never received such kindness from a person in any of the establishments I go to. The gift was beautiful. <br> They are amazing professionals. <br> Thank you very much for everything."
+      },
+      "OPINION_10": {
+        "AUTHOR_NAME": "Estefany Rodriguez Garcia",
+        "DESCRIPTION": "They have treated me super well, Rafaela has done a super nice job with my mother's gift, thank you very much."
+      },
+      "OPINION_11": {
+        "AUTHOR_NAME": "Blanca B",
+        "DESCRIPTION": "Very good service from Rafaela at all times. I didn't like the paper on the bouquet, and she exchanged it for another one without any problem. <br>I recommend it."
+      },
+      "OPINION_12": {
+        "AUTHOR_NAME": "Valeri Radev Yankov",
+        "DESCRIPTION": "Magnificent treatment by RAFAELA, who made a magnificent and beautiful order."
+      },
+      "OPINION_13": {
+        "AUTHOR_NAME": "Jesus david Rolong arrieta",
+        "DESCRIPTION": "I ordered a bouquet of flowers for my wife's birthday and the person who helped me, Rafaela, did it with great kindness. The service was excellent. I really give this flower shop a 10 out of 10 for both service and product quality. It's really great. <br>100% recommended. Thank you!"
+      },
+      "OPINION_14": {
+        "AUTHOR_NAME": "Yolanda Sanz",
+        "DESCRIPTION": "I can only say that Rafaela's attention was wonderful, the treatment was exquisite, the bouquet she made for my mother was beautiful. <br>I recommend it 100%."
+      },
+      "OPINION_15": {
+        "AUTHOR_NAME": "beatriz cruz",
+        "DESCRIPTION": "I contacted this florist from Madrid to send an orchid to a relative hospitalized in Segovia. Rafaela helped me and gave me all the possible facilities. Thank you very much for your efficiency. I was delighted."
+      },
+      "OPINION_16": {
+        "AUTHOR_NAME": "María Bernabé",
+        "DESCRIPTION": "The person who served me talked non-stop to the point of overwhelming me. I asked for some bamboo sticks that had a blackboard with the price on them and when I went to pay he overcharged me, taking me for a fool. He gave me the bill and was so pleased... I didn't say anything because he kept talking as if to distract me. It was €2.50 that didn't go anywhere, but I left upset and indignant that someone would lose a customer for €2.50."
+      },
+      "OPINION_17": {
+        "AUTHOR_NAME": "Ana",
+        "DESCRIPTION": "Always attentive to your needs. <br>Rafaela is charming. Great service. She tries to help you with what you are looking for. <br>A 10 in every way."
+      },
+      "OPINION_18": {
+        "AUTHOR_NAME": "Editorial SHB",
+        "DESCRIPTION": "This is my second time shopping here and besides the beauty of the store and its products, it is worth highlighting, above all, Rafaella's loving treatment. I declare myself a new customer!! ❤"
+      },
+      "OPINION_19": {
+        "AUTHOR_NAME": "Aurora Allas Jorge",
+        "DESCRIPTION": "I always go there because I am always very satisfied with the result. The service is great. They give you lots of ideas. <br>Very professional, as well as very friendly and approachable."
+      },
+      "OPINION_20": {
+        "AUTHOR_NAME": "Maria Alvarez",
+        "DESCRIPTION": "We love this flower shop! Rafaela is super friendly and makes beautiful bouquets. She gives you advice on how to make your gift special."
+      },
+      "OPINION_21": {
+        "AUTHOR_NAME": "Inmaculada Pérez",
+        "DESCRIPTION": "Exquisite and very professional service. The birthday bouquet was beautiful, it was a surprise and she loved it. And they brought it to the place of the celebration. Thank you for everything."
+      },
+      "OPINION_22": {
+        "AUTHOR_NAME": "Alberto Acebes",
+        "DESCRIPTION": "Raul is a great florist! He is always willing to help, giving good advice on how to care for plants. Whenever I have questions, he answers them quickly and helps me keep my plants healthy. <br> He also has some of the most original species, like the one you can see in the photo, that look great at home and are easy to care for. <br> Highly recommended!"
+      },
+      "OPINION_23": {
+        "AUTHOR_NAME": "Macarena Cabello Obrecht",
+        "DESCRIPTION": "Even though we came at the last minute, Rafaela was very attentive and took the time to make us a wonderful bouquet. <br>Thank you very much."
+      },
+      "OPINION_24": {
+        "AUTHOR_NAME": "Nuria Sacristán",
+        "DESCRIPTION": "Terrible. First they forget about the order and, when an hour later it was claimed, it took them another hour to deliver it. A bouquet of yellow roses was ordered and the one in the photo arrived... When I reported the error again, and another 45 minutes later, they changed it for the bouquet that was supposed to be correct. <br>Yellow roses? No, a tiny one of white roses painted with yellow spray... I will not recommend or return to a place where it seems that they are dedicated to laughing at the client."
+      },
+      "OPINION_25": {
+        "AUTHOR_NAME": "Isabel Vallejo",
+        "DESCRIPTION": "Totally recommendable, I love shopping here, we had already bought before, Rafaela is so nice and attentive, today we went to buy a flower arrangement and she also gave us some flowers that she prepared for us with all her love, we are so grateful, it was a lovely detail on her part, now in these difficult times for us...... <br>I wish they would serve us the same everywhere..."
+      },
+      "OPINION_26": {
+        "AUTHOR_NAME": "Elisa de la Cruz",
+        "DESCRIPTION": "The flower shop is great, but above all Rafaela's service, she is attentive, delicate, she gives you very good advice and is super affectionate. <br>Thank you very much Rafaela."
+      },
+      "OPINION_27": {
+        "AUTHOR_NAME": "Nila Montero",
+        "DESCRIPTION": "Today my partner surprised me with a SPECTACULAR bouquet of flowers from this store. Thank you so much Rafaela for your attention and service. <br><It was exciting ❤️."
+      },
+      "OPINION_28": {
+        "AUTHOR_NAME": "Daniel Muñoz Perez",
+        "DESCRIPTION": "First class service, fast and very professional, giving advice. It's a pleasure to deal with people who like what they do. Thank you very much Rafaela, a wonderful person."
+      },
+      "OPINION_29": {
+        "AUTHOR_NAME": "jenny lilieth bermejo",
+        "DESCRIPTION": "The customer service was very good, Rafaela was very kind and attentive."
+      },
+      "OPINION_30": {
+        "AUTHOR_NAME": "ANA ROBLEDO BARROSO",
+        "DESCRIPTION": "Today I bought a beautiful bouquet of flowers at the Lotus Flower flower shop. The girl who helped me made the bouquet with great art and taste, with great detail and lots of kindness and friendliness. I totally recommend it, a great place."
+      },
+      "OPINION_31": {
+        "AUTHOR_NAME": "Fernando de Frutos García",
+        "DESCRIPTION": "By far the best flower shop in Segovia in terms of quality, service and price. <br>The unbeatable hours with Raul and Rafaela always ready to provide a service that interflora is not capable of providing. <br>An excellent solution for Sundays and holidays that are always open for your surprise gift for a visit to your family or friends in the form of a floral gift. <br>Keep up the good work."
+      },
+      "OPINION_32": {
+        "AUTHOR_NAME": "adrian sanchez",
+        "DESCRIPTION": "It is the first time I buy from the flower shop and I definitely loved the service and the bouquet is beautiful. My mother loved it and Rafaela is a super good host. I do not hesitate to recommend her."
+      },
+      "OPINION_33": {
+        "AUTHOR_NAME": "lilibeth montenegro londoño",
+        "DESCRIPTION": "I have bought several times and I think it is wonderful, Rafaela is a very attentive and kind girl. I was very pleased with each visit, highly recommended."
+      },
+      "OPINION_34": {
+        "AUTHOR_NAME": "Maria Yolanda Hernandez",
+        "DESCRIPTION": "I went to buy a center and Rafaela helped me, she treated me specially and was super friendly and nice...and the center was beautiful. <br>I will return."
+      },
+      "OPINION_35": {
+        "AUTHOR_NAME": "Eliezer Leonardo Garcia aponte",
+        "DESCRIPTION": "Super delighted with the arrangements, they are very detailed and attentive, I loved their services and attention, especially to Rafaela, a great, kind and charismatic person."
+      },
+      "OPINION_36": {
+        "AUTHOR_NAME": "Alejandra Herraiz Moya",
+        "DESCRIPTION": "I came on a trip to Segovia and we returned with two beautiful bouquets of roses and wonderful service from Rafaela."
+      },
+      "OPINION_37": {
+        "AUTHOR_NAME": "Rubiela Petrelpetrel",
+        "DESCRIPTION": "Rafaela's service is excellent 👌 she makes beautiful bouquets."
+      },
+      "OPINION_38": {
+        "AUTHOR_NAME": "Cristina CC",
+        "DESCRIPTION": "I went on Mother's Day to get a gift for 3 people. The person who helped me insisted on selling me €40 bouquets without listening to what I was saying, showing me options that didn't fit what I was saying. All in such a hurry and in such a way that I wanted to leave without buying anything. But I didn't have many other options either... In the end I ended up buying and when I gave the flowers I saw that one was missing the ribbon, another was missing the card... In short, a disaster. The workers who were in the establishment at that time didn't seem to understand each other very well either."
+      },
+      "OPINION_39": {
+        "AUTHOR_NAME": "Lisbeth Pamela",
+        "DESCRIPTION": "The arrangement he made me was very beautiful and the service was super good. Everything was great."
+      },
+      "OPINION_40": {
+        "AUTHOR_NAME": "Arantxa Sacristán",
+        "DESCRIPTION": "Rafaela has treated us very well. She was kind and made the bouquet very pretty. We will return."
+      },
+      "OPINION_41": {
+        "AUTHOR_NAME": "homeguitarclass Clases de guitarra",
+        "DESCRIPTION": "Rafaella is always attentive and professional!!! A cheerful, simple and authentic flower shop. 10/10!!!"
+      },
+      "OPINION_42": {
+        "AUTHOR_NAME": "Adal MG88",
+        "DESCRIPTION": "Good service from Rafaela and beautiful bouquet of roses with its balloon and stuffed animal❤️."
+      },
+      "OPINION_43": {
+        "AUTHOR_NAME": "Pilar Montes",
+        "DESCRIPTION": "Rafaela is a charming girl and she prepares bouquets of roses for me with her stuffed animal and I love Rafaela's attention 🍀🍀🍀💋."
+      },
+      "OPINION_44": {
+        "AUTHOR_NAME": "Deriva_78",
+        "DESCRIPTION": "Muy buen gusto, me prepararon un ramo precioso en un momento, con todo detalle y ajustado al presupuesto. La chica es muy profesional y cuida cada detalle. <br>Volveré a comprar allí"
+      },
+      "OPINION_45": {
+        "AUTHOR_NAME": "Damaris Dorscht",
+        "DESCRIPTION": "Siempre elijo Flor de Loto ya sea para agasajar a mis santos o dar un bonito regalo, la atención de Raúl tanto como Rafaela es genial!!!!! <br>Gracias!"
+      },
+      "OPINION_46": {
+        "AUTHOR_NAME": "Bego Isabel",
+        "DESCRIPTION": "Rafaela came to bring a pothos and transplanted it, she did an excellent job, very kind and very professional, I recommend 100%."
+      },
+      "OPINION_47": {
+        "AUTHOR_NAME": "Elisa Pascual González",
+        "DESCRIPTION": "Whenever we need a flower item, whether it be a bouquet, plant or gift, we do not hesitate to go to their flower shop. We have always had great service (with very long hours, even on holidays) and quality flowers that have filled our home and our family with colour. <br>The private delivery has also been to our liking on all occasions, (also at no additional cost) <br>We will definitely continue to go to this flower shop, both for quality and proximity!"
+      },
+      "OPINION_48": {
+        "AUTHOR_NAME": "Raquel Bermejo De La Puente",
+        "DESCRIPTION": "Rafaela is wonderful, kind, friendly, very nice and a good saleswoman, I recommend her, I took home a beautiful plant!!!!!"
+      },
+      "OPINION_49": {
+        "AUTHOR_NAME": "N KN",
+        "DESCRIPTION": "A bad experience... We have been clients of this flower shop for many years and we liked it very much, but the truth is that it is not like it used to be. A few days ago I made a purchase and it is assumed that an establishment is there to attend to the needs/requests of the client, in this case it was not, they do not listen to the requests but rather they go a bit on their own (the service is not the best) and the truth is that one is left unhappy and about the prices no comments, each time a different one... It is a shame because the owner has always treated us very well and with great kindness, but we will certainly not return..."
+      },
+      "OPINION_50": {
+        "AUTHOR_NAME": "Gebris ester Jiménez sanmartin",
+        "DESCRIPTION": "Very good service, excellent, I recommend it. Greetings Rafaela, I love you and the owner."
+      },
+      "BUTTON": "Read more"
+    }
+  },
+  "BOUQETS_PAGE": {
+    "TITLE": "Our Bouquets of Flowers",
+    "ASSORTED_BOUQUET": {
+      "TITLE": "Assorted Bouquet"
+    },
+    "BOUQUET_PINK_TONES": {
+      "TITLE": "Bouquet Pink Tones"
+    },
+    "I_LOVE_YOU_BOUQUET": {
+      "TITLE": "I Love you Bouquet"
+    },
+    "ROMULUS_BRANCH": {
+      "TITLE": "Romulus Branch"
+    },
+    "EUCALYPTUS_BRANCH": {
+      "TITLE": "Eucalyptus Branch"
+    },
+    "RAFAELLA_BOUQUET_2": {
+      "TITLE": "Rafaella Bouquet 2"
+    },
+    "RAFAELLA_BOUQUET": {
+      "TITLE": "Rafaella Bouquet"
+    },
+    "RAFAELLA_BOUQUET_3": {
+      "TITLE": "Rafaella Bouquet 3"
+    },
+    "PARIS_BOUQUET": {
+      "TITLE": "Paris Bouquet"
+    },
+    "NAPOLES_BOUQUET": {
+      "TITLE": "Naples Bouquet"
+    },
+    "MARIAN_BOUQUET": {
+      "TITLE": "Marian Bouquet"
+    },
+    "MACARENA_BOUQUET": {
+      "TITLE": "Macarena Bouquet"
+    },
+    "BOUQUET_LILIES": {
+      "TITLE": "Bouquet of Lilies"
+    },
+    "BOUQUET_PINK_LILIES": {
+      "TITLE": "Bouquet of Pink Lilies"
+    },
+    "POMEGRANATE_BOUQUET": {
+      "TITLE": "Pomegranate Bouquet"
+    },
+    "COLORFUL_BOUQUET": {
+      "TITLE": "Colorful Bouquet"
+    },
+    "BOUQUET_TWELVE_TULIPS": {
+      "TITLE": "Bouquet of twelve Tulips"
+    },
+    "BOUQUET_TEN_SUNFLOWERS": {
+      "TITLE": "Bouquet of ten Sunflowers"
+    },
+    "BOUQUET_TEN_GERBERAS": {
+      "TITLE": "Bouquet of ten Gerberas"
+    }
+  },
+  "FLOORS_PAGE": {
+    "SUBMENU": {
+      "ROUSES_PAGE": {
+        "TITLE_PAGE": "Our Roses",
+        "TWELVE_YELLOW_ROSES": {
+          "TITLE": "Twelve Yellow Roses"
+        },
+        "ETERNAL_ROSE": {
+          "TITLE": "Eternal Rose"
+        },
+        "TWO_ROSES_VASE": {
+          "TITLE": "Two Roses Vase"
+        },
+        "TWELVE_BLUE_ROSES": {
+          "TITLE": "Twelve Blue Roses"
+        },
+        "TWELVE_WHITE_ROSES": {
+          "TITLE": "Twelve White Roses"
+        },
+        "TWELVE_RED_ROSES": {
+          "TITLE": "Twelve Red Roses"
+        },
+        "TWELVE_ROSES_CATHERINE": {
+          "TITLE": "Twelve Roses Catalina"
+        }
+      },
+      "ORCHIDS_PAGE": {
+        "TITLE_PAGE": "Our Orchids",
+        "YELLOW_ORCHID": {
+          "TITLE": "Yellow Orchid"
+        },
+        "BLUE_ORCHID": {
+          "TITLE": "Blue Orchid"
+        },
+        "WHITE_ORCHID": {
+          "TITLE": "White Orchid"
+        },
+        "ROSE_ORCHID": {
+          "TITLE": "Rose Orchid"
+        },
+        "ORCHID": {
+          "TITLE": "Orchid"
+        }
+      },
+      "MORE_FLOORS_PAGE": {
+        "TITLE_PAGE": "More of our flowers",
+        "ANTHURIUM": {
+          "TITLE": "Anthurium"
+        },
+        "BASKET": {
+          "TITLE": "Basket"
+        },
+        "PLANTS_BASKET": {
+          "TITLE": "Plants in Basket"
+        },
+        "MARANTA": {
+          "TITLE": "Maranta"
+        },
+        "BROMELIA": {
+          "TITLE": "Bromelia"
+        },
+        "EPATIFILIUM": {
+          "TITLE": "Epatiphyllium"
+        }
+      }
+    }
+  },
+  "TERRARIUMS_PAGE": {
+    "TITLE": "Our terrariums",
+    "BONSAI_TERRARIUM_ONE": {
+      "TITLE": "Bonsai Terrarium"
+    },
+    "ETERNAL_ROSE_DOME_TERRARIUM": {
+      "TITLE": "Eternal Rose Dome Terrarium"
+    }
+  },
+  "FUNERALS_PAGE": {
+    "TITLE": "Centros Funerarios",
+    "BLUE_AND_ORANGE_FUNERAL_CENTER": {
+      "TITLE": "Blue and Orange Funeral Center"
+    },
+    "BIDASOA_FUNERAL_CENTER": {
+      "TITLE": "Bidasoa Funeral Center"
+    },
+    "FUNERAL_CENTER_APPEARANCE": {
+      "TITLE": "Funeral Center Appearance"
+    },
+    "F12_FUNERAL_CENTER": {
+      "TITLE": "F12 Funeral Center"
+    },
+    "FUNERAL_BOUQUET": {
+      "TITLE": "Funeral Bouquet"
+    },
+    "SPAIN_FUNERAL_CENTER": {
+      "TITLE": "Spain Funeral Center"
+    },
+    "FUNERAL_CENTER_F123": {
+      "TITLE": "Funeral Center F123"
+    },
+    "LAUREL_CENTER_F111": {
+      "TITLE": "Laurel Center F111"
+    },
+    "LAUREL_CENTER_LISBOA": {
+      "TITLE": "Corona de Flores Lisboa",
+      "DESCRIPTION": "Es un arreglo confeccionado. Flores variadas: Rosas, Lírios, Gerberas y verdes tropicales."
+    }
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "We are here to help you!",
+    "DESCRIPTION": "If you have any questions, queries or would like to place a custom order, please do not hesitate to contact us. Our friendly team of expert florists are ready to provide you with exceptional service and personalized advice. You can reach us by phone, email or visit us in our store. We would love to be a part of your special moments and make them unforgettable with our beautiful flowers. por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
+    "FORM_FIEDS": {
+      "NAME": "Name",
+      "VALIDATION_NAME": "Name is required.",
+      "VALIDATION_NAME_LENGTH": "The message must be at least 3 characters.",
+      "EMAIL": "E-mail",
+      "VALIDATION_EMAIL": "Email is required.",
+      "VALIDATION_EMAIL_FORMAT": "Please enter a valid email.",
+      "SUBJECT": "Subject",
+      "VALIDATION_SUBJECT": "Subject is required.",
+      "VALIDATION_SUBJECT_LENGTH": "The subject must be at least 3 characters.",
+      "MESSAGE": "Message",
+      "VALIDATION_MESSAGE": "Message is required.",
+      "VALIDATION_MESSAGE_LENGTH": "The message must be at least 15 characters."
+    },
+    "MESSAGE_SUCCESS": "Thank you for contacting us! We will get back to you as soon as possible.",
+    "MESSAGE_ERROR": "Oops! Something went wrong. Please try again later.",
+    "SEND": "Send"
+  },
+  "ERROR_PAGE": {
+    "TITLE": "This is not the right way!!",
+    "GO_BACK": "We rewind?"
+  },
+  "OTHERS": {
+    "ORDER_MESSAGES": "Place your order here!!",
+    "FORM_ORDER": {
+      "TITLE": "Place your order here!!",
+      "LABEL_NAME": "Write your name",
+      "VALIDATION_NAME": "The name is required.",
+      "VALIDATION_NAME_LENGTH": "The name must contain at least 3 characters.",
+      "LABEL_PHONE": "Write your phone",
+      "VALIDATION_PHONE": "Phone is required..",
+      "VALIDATION_PHONE_LENGTH": "The phone number must contain at least 9 characters.",
+      "LABEL_MESSAGE": "Tell us, what do you want?",
+      "VALIDATION_MESSAGE": "Order is required.",
+      "VALIDATION_MESSAGE_LENGTH": "The order must be at least 15 characters.",
+      "BUTTON_WHATSAPP": "Send order by WhatsApp",
+      "BUTTON_SMS": "Send order by SMS"
+    }
+  },
+  "POLICIES": {
+    "COOKIES": {
+      "TITLE": "Cookie Policy",
+      "WHAT_ARE_COOKIES_TITLE": "What are cookies?",
+      "WHAT_ARE_COOKIES_DESCRIPTION": "Cookies are small text files that are stored on your device when you visit a website. They are used to remember your activity and preferences.",
+      "HOW_DO_WE_USE_COOKIES_TITLE": "How do we use cookies?",
+      "HOW_DO_WE_USE_COOKIES_DESCRIPTION": "At [Company Name], we use cookies for the following purposes:",
+      "HOW_DO_WE_USE_COOKIES_LIST": {
+        "REMEMBER": "· Remember your user preferences.",
+        "ANALYZE": "· Analyze traffic on our website.",
+        "PROVIDE": "· Provide personalized content."
+      },
+      "TYPES_OF_COOKIES_WE_USE_TITLE": "Types of cookies we use",
+      "TYPES_OF_COOKIES_WE_USE_LIST": {
+        "ESSENTIAL": "<li><strong>· Essential cookies:</strong> They are necessary for the operation of the website.</li>",
+        "ANALYTICS": "<li><strong>· Analysis cookies:</strong> They help us understand how users interact with our site.</li>",
+        "FUNCTIONALITY": "<li><strong>· Functionality cookies:</strong> They improve your experience by remembering your preferences.</li>",
+        "PUBLISHING": "<li><strong>· Advertising cookies:</strong> Used to display relevant ads.</li>"
+      },
+      "MANAGE_TITLE": "Cookie management",
+      "MANAGE_DESCRIPTION": "You can manage cookies through your browser settings. Here are the links for the most common browsers:",
+      "MORE_INFORMATION_TITLE": "More information",
+      "MORE_INFORMATION_DESCRIPTION": "If you have any questions about our cookie policy, you can contact us at:"
+    },
+    "LEGAL": {
+      "TITLE": "Legal Notice",
+      "DESCRIPTION": "This website is operated by [Company Name]. By accessing or using this website, you agree to be bound by the following terms and conditions.",
+      "IDENTIFICATION_TITLE": "Identification of the Responsible Party",
+      "IDENTIFICATION_DESCRIPTION": "Company Name: [Company Name<br>CIF/NIF: [Number] <br>Address: [Full Address]<br>Email: [Email] <br>Telephone: [Telephone Number]",
+      "CONDITIONS_TITLE": "Terms of Use",
+      "CONDITIONS_DESCRIPTION": "By accessing this website, the user undertakes to use it in accordance with the law, morality, public order and these conditions of use.",
+      "PROPERTY_TITLE": "Intellectual and Industrial Property",
+      "PROPERTY_DESCRIPTION": "All content on this website (texts, images, logos, design, etc.) is protected by intellectual property rights belonging to [Company Name] or its licensors.",
+      "EXCLUSION_TITLE": "Disclaimer",
+      "EXCLUSION_DESCRIPTION": "[Company Name] is not responsible for any damages or losses that may arise from the use of the website.",
+      "LEGISLATION_TITLE": "Applicable Legislation",
+      "LEGISLATION_DESCRIPTION": "These conditions shall be governed by Spanish law. For any dispute, the parties shall submit to the courts and tribunals of [City]."
+    },
+    "PRIVACY": {
+      "TITLE": "Privacy Policy",
+      "INTRO_TITLE": "Introduction",
+      "INTRO_DESCRIPTION": "At [Company Name], we take the privacy of our users very seriously. This privacy policy describes how we collect, use, and protect your personal information.",
+      "INFORMATION_TITLE": "Information we collect",
+      "INFORMATION_DESCRIPTION": "<li>· Information provided directly by the user, such as name, email and phone number.</li><li>· Information collected automatically, such as browsing data and IP address.</li><li>· Information from third parties when you interact with our services.</li>",
+      "USE_TITLE": "How we use your information",
+      "USE_DESCRIPTION": "The information collected is used for the following purposes:",
+      "USE_LIST": "<li>· Improve user experience on our website.</li><li>Process requests and provide customer support.</li><li>· Send communications related to our services.</li>",
+      "SHARING_TITLE": "Sharing your information",
+      "SHARING_DESCRIPTION": "We do not share your personal information with third parties except when necessary to comply with the law, protect our rights, or provide the requested services.",
+      "SECURITY_TITLE": "Protecting your information",
+      "SECURITY_DESCRIPTION": "We implement security measures to protect your personal information from unauthorized access, alteration, disclosure or destruction.",
+      "RIGHTS_TITLE": "Your rights",
+      "RIGHTS_DESCRIPTION": "You have the right to access, correct or delete your personal information. To exercise these rights, please contact us at ",
+      "UPDATES_TITLE": "Updates to this policy",
+      "UPDATES_DESCRIPTION": "We reserve the right to update this privacy policy at any time. Changes will be posted on this page with the corresponding update date."
+    }
+  }
 }
