@@ -397,6 +397,10 @@
     },
     "ETERNAL_ROSE_DOME_TERRARIUM": {
       "TITLE": "Terrario de Cúpula con Rosa Eterna"
+    },
+    "BONSAI_ECOSYSTEM": {
+      "TITLE": "Ecosistema Bonsái",
+      "DESCRIPTION": "Terrario compuesto por bonsái, un trozo de naturaleza autosuficiente en tu hogar, solo necesita mantenimiento cada 6 meses."
     }
   },
   "FUNERALS_PAGE": {

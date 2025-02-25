@@ -7,14 +7,15 @@
 <div class="container m-container">
     <div class="wrap-product">
         <div class="wrap-title">
-            <h1 *ngIf="!showSkeletonTitle" class="title">{{ "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.TITLE_PAGE" | translate }}</h1>
-            <p-skeleton *ngIf="showSkeletonTitle" width="40rem" height="5rem" styleClass="mb-2" />
+          <h1 *ngIf="!showSkeletonTitle" class="title">{{ "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.TITLE_PAGE" | translate }}</h1>
+          <p-skeleton *ngIf="showSkeletonTitle" width="40rem" height="5rem" styleClass="mb-2" />
         </div>
         <div class="product-wrap-cards">
             <div *ngFor="let rouse of rousesContent" class="wrap-card">
                 <app-card 
-                    [srcImg]="rouse.srcImg" 
-                    [titleCard]="rouse.titleCard" />
+                  [srcImg]="rouse.srcImg" 
+                  [titleCard]="rouse.titleCard"
+                  [descriptionCard]="rouse.descriptionCard || ''" />
             </div>
         </div>
     </div>

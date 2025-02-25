@@ -1,7 +1,5 @@
 import { Injectable } from '@angular/core';
-
 import { Observable } from 'rxjs';
-
 import { 
   homePageCarouselHero, 
   homePageOpinions, 
@@ -15,7 +13,6 @@ import {
 } from '../db/floors.db';
 import { terrarium } from '../db/terrarium.db';
 import { funerals } from '../db/funerals.db';
-
 import { 
   carrouselHero, 
   carrouselOpinions, 

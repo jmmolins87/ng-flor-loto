@@ -14,7 +14,8 @@
             <div *ngFor="let orchid of orchidsContent" class="wrap-card">
                 <app-card 
                     [srcImg]="orchid.srcImg" 
-                    [titleCard]="orchid.titleCard" />
+                    [titleCard]="orchid.titleCard"
+                    [descriptionCard]="orchid.descriptionCard || ''" />
             </div>
         </div>
     </div>

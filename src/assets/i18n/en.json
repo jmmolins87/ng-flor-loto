@@ -399,6 +399,10 @@
     },
     "ETERNAL_ROSE_DOME_TERRARIUM": {
       "TITLE": "Eternal Rose Dome Terrarium"
+    },
+    "BONSAI_ECOSYSTEM": {
+      "TITLE": "Bonsai ecosystem",
+      "DESCRIPTION": "Terrarium composed of bonsai, a self-sufficient piece of nature in your home, it only needs maintenance every 6 months."
     }
   },
   "FUNERALS_PAGE": {
@@ -428,8 +432,8 @@
       "TITLE": "Laurel Center F111"
     },
     "LAUREL_CENTER_LISBOA": {
-      "TITLE": "Corona de Flores Lisboa",
-      "DESCRIPTION": "Es un arreglo confeccionado. Flores variadas: Rosas, Lírios, Gerberas y verdes tropicales."
+      "TITLE": "Lisbon Flower Crown",
+      "DESCRIPTION": "It is a ready-made arrangement. Various flowers: Roses, Lilies, Gerberas and tropical greens."
     }
   },
   "CONTACT_PAGE": {
