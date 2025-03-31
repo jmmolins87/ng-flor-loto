@@ -351,6 +351,10 @@
         "NATURAL_AROMAS_BASKET": {
           "TITLE": "Cesta 'Aromas Naturales'",
           "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 20 ud. cesta - 1 ud.<br> <strong>Dimensiones:</strong><br> 50 cm de anchura y 30 cm de altura.<hr>Un arreglo encantador y fresco de eucalipto presentado en una cesta de mimbre, ideal para decorar cualquier espacio y aportar un aroma natural relajante. Perfecto para aquellos que buscan un detalle elegante, ecológico y de fácil mantenimiento."
+        },
+        "NATURAL_AROMAS_VASE": {
+          "TITLE": "Jarron 'Aromas Naturales'",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 20 ud. Cesta - 1 ud.<br> <strong>Dimensiones:</strong><br> 50 cm de anchura y 70 cm de altura.<hr>Un arreglo encantador y fresco de eucalipto presentado en una cesta de mimbre, ideal para decorar cualquier espacio y aportar un aroma natural relajante. Perfecto para aquellos que buscan un detalle elegante, ecológico y de fácil mantenimiento."
         }
       }
     }

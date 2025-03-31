@@ -353,6 +353,10 @@
         "NATURAL_AROMAS_BASKET": {
           "TITLE": "'Natural Aromas' Basket",
           "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 20 units, basket - 1 unit.<br> <strong>Dimensions:</strong><br> 50 cm wide and 30 cm high.<hr>A charming and fresh eucalyptus arrangement presented in a wicker basket, ideal for decorating any space and providing a relaxing natural aroma. Perfect for those looking for an elegant, ecological, and easy-maintenance detail."
+        },
+        "NATURAL_AROMAS_VASE": {
+          "TITLE": "'Natural Aromas' Vase",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 20 units. Basket - 1 unit.<br> <strong>Dimensions:</strong><br> 50 cm wide and 70 cm high.<hr>A charming and fresh eucalyptus arrangement presented in a wicker basket, ideal for decorating any space and providing a relaxing natural aroma. Perfect for those looking for an elegant, ecological, and easy-to-maintain detail."
         }
       }
     }

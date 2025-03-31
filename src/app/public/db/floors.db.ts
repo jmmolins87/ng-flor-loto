@@ -85,6 +85,15 @@ export const moreFloors: cardsInterface[] = [
     ],
     titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_BASKET.TITLE",
     descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_BASKET.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/more/planta-jarron_aromas_naturales_1.jpg",
+      "/assets/img/products/floors/more/planta-jarron_aromas_naturales_2.jpg",
+      "/assets/img/products/floors/more/planta-jarron_aromas_naturales_3.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_VASE.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_VASE.DESCRIPTION"
   }
 ]
 
