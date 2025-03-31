@@ -1,21 +1,41 @@
+
+
+
+
+
+
+
+
 <div class="card">
   <div class="carousel">
     <div class="carousel-track" [style.transform]="getTransformStyle()">
       <img
         *ngFor="let image of images"
         [src]="image | appDefaultImage"
-        alt="Image"
+        [alt]="altImg | translate"
+        [title]="altImg | translate"
         class="carousel-image"
       />
     </div>
-    <button *ngIf="images.length > 1" class="prev" (click)="prevImage()">&#10094;</button>
-    <button *ngIf="images.length > 1" class="next" (click)="nextImage()">&#10095;</button>
+    <button
+      *ngIf="images.length > 1"
+      (click)="prevImage()"
+      class="prev" >
+      &#10094;
+    </button>
+    <button
+      *ngIf="images.length > 1"
+      (click)="nextImage()"
+      class="next" >
+      &#10095;
+    </button>
   </div>
   <div *ngIf="images.length > 1" class="thumbnails">
     <img
       *ngFor="let image of images; let i = index"
       [src]="image | appDefaultImage"
-      alt="Thumbnail"
+      [alt]="altImg"
+      [title]="altImg"
       [class.active]="i === currentImageIndex"
       (click)="goToImage(i)"
       class="thumbnail-image"

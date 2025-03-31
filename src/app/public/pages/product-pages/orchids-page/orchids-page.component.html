@@ -12,8 +12,10 @@
         </div>
         <div class="product-wrap-cards">
             <div *ngFor="let orchid of orchidsContent" class="wrap-card">
-                <app-card 
-                    [srcImg]="orchid.srcImg" 
+                <app-card
+                    [srcImg]="orchid.srcImg"
+                    [altImg]="orchid.titleCard"
+                    [title]="orchid.titleCard"
                     [titleCard]="orchid.titleCard"
                     [descriptionCard]="orchid.descriptionCard || ''" />
             </div>

@@ -15,6 +15,8 @@ export class GalleryImageComponent implements OnInit, OnDestroy {
 
   @Input()
   public images: string[] = [];
+  @Input()
+  public altImg!: string;
 
   public currentImageIndex: number = 0;
   private autoSlideInterval!: any;

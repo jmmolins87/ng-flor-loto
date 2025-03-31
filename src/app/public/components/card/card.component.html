@@ -2,7 +2,10 @@
 
 <div class="wrap-card">
     <div class="wrap-image">
-        <app-gallery-image [images]="srcImg" *ngIf="!showSkeleton" />
+        <app-gallery-image
+          [images]="srcImg"
+          [altImg]="titleCard"
+          *ngIf="!showSkeleton" />
         <p-skeleton *ngIf="showSkeleton" width="100%" height="20rem" />
     </div>
     <div *ngIf="titleCard" class="wrap-info">

@@ -14,8 +14,10 @@
         </div>
         <div class="product-wrap-cards">
             <div *ngFor="let moreFloors of moreFloorsContent" class="wrap-card">
-                <app-card 
-                  [srcImg]="moreFloors.srcImg" 
+                <app-card
+                  [srcImg]="moreFloors.srcImg"
+                  [altImg]="moreFloors.titleCard"
+                  [title]="moreFloors.titleCard"
                   [titleCard]="moreFloors.titleCard"
                   [descriptionCard]="moreFloors.descriptionCard || ''" />
             </div>

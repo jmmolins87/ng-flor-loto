@@ -35,6 +35,21 @@ export const orchids: cardsInterface[] = [
     ],
     titleCard: "FLOORS_PAGE.SUBMENU.ORCHIDS_PAGE.PHALAENOPSIS_ORCHID.TITLE",
     descriptionCard: "FLOORS_PAGE.SUBMENU.ORCHIDS_PAGE.PHALAENOPSIS_ORCHID.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/orchid/orquidea-orquidea-phalaenopsis_1.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.ORCHIDS_PAGE.PHALAENOPSIS_ORCHID_ORCHID.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.ORCHIDS_PAGE.PHALAENOPSIS_ORCHID_ORCHID.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/orchid/planta-phalaenospsis_1.jpg",
+      "/assets/img/products/floors/orchid/planta-phalaenospsis_2.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.ORCHIDS_PAGE.PHALAENOPSIS_PLANT.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.ORCHIDS_PAGE.PHALAENOPSIS_PLANT.DESCRIPTION"
   }
 ]
 
@@ -63,6 +78,13 @@ export const moreFloors: cardsInterface[] = [
     ],
     titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.YUCCA_PLANT.TITLE",
     descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.YUCCA_PLANT.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/more/cesta-aromas_naturales_1.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_BASKET.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_BASKET.DESCRIPTION"
   }
 ]
 

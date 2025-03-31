@@ -1,5 +1,10 @@
 
 
+
+
+
+
+
 <div class="container m-container">
     <div class="wrap-product">
         <div class="wrap-title">
@@ -10,6 +15,8 @@
             <div *ngFor="let bouquet of bouquetsContent" class="wrap-card">
               <app-card
                 [srcImg]="bouquet.srcImg"
+                [altImg]="bouquet.titleCard"
+                [title]="bouquet.titleCard"
                 [titleCard]="bouquet.titleCard"
                 [descriptionCard]="bouquet.descriptionCard || ''" />
             </div>

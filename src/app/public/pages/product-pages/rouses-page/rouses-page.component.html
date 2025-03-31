@@ -12,8 +12,10 @@
         </div>
         <div class="product-wrap-cards">
             <div *ngFor="let rouse of rousesContent" class="wrap-card">
-                <app-card 
-                  [srcImg]="rouse.srcImg" 
+                <app-card
+                  [srcImg]="rouse.srcImg"
+                  [altImg]="rouse.titleCard"
+                  [title]="rouse.titleCard"
                   [titleCard]="rouse.titleCard"
                   [descriptionCard]="rouse.descriptionCard || ''" />
             </div>

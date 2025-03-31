@@ -9,8 +9,10 @@
         </div>
         <div class="product-wrap-cards">
           <div *ngFor="let terrarium of terrariumContent" class="wrap-card">
-            <app-card 
-              [srcImg]="terrarium.srcImg" 
+            <app-card
+              [srcImg]="terrarium.srcImg"
+              [altImg]="terrarium.titleCard"
+              [title]="terrarium.titleCard"
               [titleCard]="terrarium.titleCard"
               [descriptionCard]="terrarium.descriptionCard || ''" />
           </div>

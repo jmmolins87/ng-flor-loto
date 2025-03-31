@@ -296,6 +296,10 @@
     "BOUQUET_DAISIES": {
       "TITLE": "Ramo de Margaritas",
       "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 5 ud. Margaritas - 10 ud. Solidago amarillo - 3 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 55 cm de altura.<hr> ✨ Un ramo lleno de luz y frescura para alegrar cualquier ocasión especial. ✨"
+    },
+    "BOUQUET_24_RED_ROSES": {
+      "TITLE": "Ramo de 24 Rosas Rojasa",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Paniculata - 4 ud. Rosas rojas - 24 ud. Solidago amarillo - 3 ud. Helechos y follaje decorativo - 10 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 55 cm de altura.<hr>Un ramo elegante y sofisticado que simboliza amor y pasión. Diseñado con rosas rojas intensas, acompañado de delicados toques blancos y verdes que realzan su belleza. Perfecto para aniversarios, declaraciones de amor y momentos especiales."
     }
   },
   "FLOORS_PAGE": {
@@ -320,6 +324,14 @@
         "PHALAENOPSIS_ORCHID": {
           "TITLE": "Orquidea Phalaenopsis",
           "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>4 veces en mes<br><strong>Composición:</strong><br>Eucalipto - 4 ud. Paniculata - 2 ud. Rosa roja - 1 ud. Jarrón de vidrio - 1 ud.<br><strong>Dimensiones:</strong><br> 25 cm de anchura y 70 cm de altura.<hr>Colócala en un lugar con luz indirecta brillante, riega la planta una vez a la semana en verano y cada dos semanas en invierno, manténla en un ambiente húmedo y ventilado, pónle fertilizante cada 2-3 semanas durante el crecimiento."
+        },
+        "PHALAENOPSIS_ORCHID_ORCHID": {
+          "TITLE": "Orquidea orquidea Phalaenospsis",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>1 veces semanal<br><strong>Dimensiones:</strong><br> 25 cm de anchura y 70 cm de altura.<hr>Las orquídeas luz solar no directadirecta. Coloca tus orquídeas en un lugar interior donde reciban luz indirecta durante la mayor parte del día.<br> El riego es uno de los aspectos más importantes del cuidado de las orquídeas, sumerge la maceta en agua tibia durante unos minutos una vez por semana, asegurándote de que las raíces se hidraten bien antes de drenar el exceso de agua."
+        },
+        "PHALAENOPSIS_PLANT": {
+          "TITLE": "Planta Phalaenospsis",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>1 veces semanal<br><strong>Dimensiones:</strong><br> 25 cm de anchura y 70 cm de altura.<br><strong>Guía de cuidados</strong><br> Las Orquídeas Phalaenopsis planta de interior la luz indirecta , por lo que es preferiblemente colocarlas cerca de una ventana.<hr>Planta de Orquídea Phalaenopsis Color Rosa con 3 tallos y una altura de 75cm. Esta planta de interior originaria del sudeste asiático, una planta para expresar tu afecto a esa persona."
         }
       },
       "MORE_FLOORS_PAGE": {
@@ -335,6 +347,10 @@
         "YUCCA_PLANT": {
           "TITLE": "Planta Yucca",
           "DESCRIPTION": "<strong>Frecuencia de riego:</strong><br>1 veces en semanal<strong>Dimensiones:</strong><br> 25 cm de anchura y 1 m de altura.<hr>Envoltorio para regalo gratuito.<br><hr><strong>Guía de cuidados:</strong><br>Una planta de cultivó fácil y muy resistente a la sequía, qué vive muchos años en casa, si se puede colocar a plena luz, incluso en verano. Riegos: el sustrato debe secarse entre riegos y riegos."
+        },
+        "NATURAL_AROMAS_BASKET": {
+          "TITLE": "Cesta 'Aromas Naturales'",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 20 ud. cesta - 1 ud.<br> <strong>Dimensiones:</strong><br> 50 cm de anchura y 30 cm de altura.<hr>Un arreglo encantador y fresco de eucalipto presentado en una cesta de mimbre, ideal para decorar cualquier espacio y aportar un aroma natural relajante. Perfecto para aquellos que buscan un detalle elegante, ecológico y de fácil mantenimiento."
         }
       }
     }

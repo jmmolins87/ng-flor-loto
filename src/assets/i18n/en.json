@@ -298,6 +298,10 @@
       "BOUQUET_DAISIES": {
       "TITLE": "Daisy Bouquet",
       "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 5 pcs. Daisies - 10 pcs. Yellow Solidago - 3 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 55 cm high.<hr> ✨ A bouquet full of light and freshness to brighten up any special occasion. ✨"
+    },
+    "BOUQUET_24_RED_ROSES": {
+      "TITLE": "Bouquet of 24 Red Roses",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Paniculata - 4 pcs. Red roses - 24 pcs. Yellow solidago - 3 pcs. Ferns and decorative foliage - 10 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 55 cm high.<hr>An elegant and sophisticated bouquet that symbolizes love and passion. Designed with intense red roses, accompanied by delicate white and green touches that enhance their beauty. Perfect for anniversaries, declarations of love, and special moments."
     }
   },
   "FLOORS_PAGE": {
@@ -322,6 +326,14 @@
         "PHALAENOPSIS_ORCHID": {
           "TITLE": "Phalaenopsis Orchid",
           "DESCRIPTION": "<strong>Watering frequency</strong><br>4 times a month<br><strong>Composition:</strong><br>Eucalyptus - 4 pcs. Paniculata - 2 pcs. Red rose - 1 pc. Glass vase - 1 pc.<br> <strong>Dimensions:</strong><br> 25 cm wide and 70 cm high.<hr>Place it in a place with bright indirect light, water the plant once a week in summer and every two weeks in winter, keep it in a humid and ventilated environment, and fertilize it every 2-3 weeks during growth."
+        },
+        "PHALAENOPSIS_ORCHID_ORCHID": {
+          "TITLE": "Orchid Phalaenospsis orchid",
+          "DESCRIPTION": "<strong>Watering Frequency</strong><br>Once a week<br><strong>Dimensions:</strong><br> 25 cm wide and 70 cm high.<hr>Orchids do not like direct sunlight. Place your orchids indoors where they receive indirect light for most of the day.<br>Watering is one of the most important aspects of orchid care. Submerge the pot in warm water for a few minutes once a week, making sure the roots are well hydrated before draining off any excess water."
+        },
+        "PHALAENOPSIS_PLANT": {
+          "TITLE": "Phalaenospsis Plant",
+          "DESCRIPTION": "<strong>Watering Frequency</strong><br>1 time per week<br><strong>Dimensions:</strong><br> 25 cm wide and 70 cm high.<br><strong>Care Guide</strong><br> Phalaenopsis Orchids prefer indirect light, so it is best to place them near a window.<hr>Pink Phalaenopsis Orchid Plant with 3 stems and a height of 75 cm. This indoor plant native to Southeast Asia, a plant to express your affection to that someone."
         }
       },
       "MORE_FLOORS_PAGE": {
@@ -337,6 +349,10 @@
         "YUCCA_PLANT": {
           "TITLE": "Yucca Plant",
           "DESCRIPTION": "<strong>Watering Frequency:</strong><br>1 time per week<strong>Dimensions:</strong><br>25 cm wide and 1 m high.<hr>Free gift wrapping.<strong>.<br><hr>Care Guide:</strong><br>An easy-to-grow and very drought-resistant plant that will live for many years at home if placed in full light, even in summer. Watering: The substrate should dry out between waterings."
+        },
+        "NATURAL_AROMAS_BASKET": {
+          "TITLE": "'Natural Aromas' Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 20 units, basket - 1 unit.<br> <strong>Dimensions:</strong><br> 50 cm wide and 30 cm high.<hr>A charming and fresh eucalyptus arrangement presented in a wicker basket, ideal for decorating any space and providing a relaxing natural aroma. Perfect for those looking for an elegant, ecological, and easy-maintenance detail."
         }
       }
     }
