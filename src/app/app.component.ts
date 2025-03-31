@@ -1,12 +1,12 @@
-import { 
-  Component, 
-  OnInit, 
-  ViewChild 
+import {
+  Component,
+  OnInit,
+  ViewChild
 } from '@angular/core';
-import { 
-  NavigationEnd, 
-  Router, 
-  Event 
+import {
+  NavigationEnd,
+  Router,
+  Event
 } from '@angular/router';
 
 import { MenuItem, PrimeNGConfig } from 'primeng/api';
@@ -30,14 +30,14 @@ export class AppComponent implements OnInit {
   // Hide Navbar and footer component
   public showNavbarFooter: boolean = true;
 
-  @ViewChild(ModalMessageComponent) 
+  @ViewChild(ModalMessageComponent)
   public modalMessageComponent!: ModalMessageComponent;
 
   constructor(
-    public sharedService: SharedService, 
+    public sharedService: SharedService,
     private primengConfig: PrimeNGConfig,
     private _router: Router,
-    private _cookieService: CookieService, 
+    private _cookieService: CookieService,
   ) {}
 
   ngOnInit() {
@@ -96,6 +96,13 @@ export class AppComponent implements OnInit {
         image: 'assets/img/icons-dial/just-eat.svg',
         command: () => {
           window.open('https://www.just-eat.es/restaurants-flor-de-loto-segovia/menu?utm_source=google&utm_medium=organic&utm_campaign=orderaction', '_blank');
+        }
+      },
+      {
+        label: 'Flowmeow',
+        image: 'assets/img/icons-dial/flowwow.webp',
+        command: () => {
+          window.open('https://flowwow.es/shop/flor-de-loto/', '_blank');
         }
       }
     ];

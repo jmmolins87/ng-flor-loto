@@ -1,73 +1,70 @@
-
-
-
 @import "/src/styles.scss";
 
 .wrap-shopping,
 .wrap-social {
-    position: fixed;
-    bottom: calc(9.5rem + 17.25rem);
+  position: fixed;
 }
 .wrap-shopping {
-    right: 7rem;
+  right: 7rem;
+  bottom: calc(11rem + 20.25rem);
 }
 .wrap-social {
-    left: 2rem;
+  left: 2rem;
+  bottom: calc(9.5rem + 17.25rem);
 }
 .wrap-message-btn {
-    position: fixed;
-    left: 2rem;
-    bottom: 5rem;
+  position: fixed;
+  left: 2rem;
+  bottom: 5rem;
 }
-
-.wrap-message-btn  {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-    &:hover > span {
-        opacity: 1;
+.wrap-message-btn {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  &:hover>span {
+    opacity: 1;
+  }
+  ::ng-deep .p-button {
+    background: transparent;
+    border-radius: $border-radius-50;
+    border: none;
+    background: rgba($brand-primary-light, .5);
+    backdrop-filter: blur(1.5rem);
+    width: 5rem;
+    height: 5rem;
+    color: $black;
+    text-shadow: 0 0 .5rem $white;
+    animation: blink-shadow 2s infinite;
+    &:hover,
+    &:focus {
+      box-shadow: $dialShadow;
     }
-    ::ng-deep .p-button {
-        background: transparent;
-        border-radius: $border-radius-50;
-        border: none;
-        background: rgba($brand-primary-light, .5);
-        backdrop-filter: blur(1.5rem);
-        width: 5rem;
-        height: 5rem;
-        color: $black;
-        text-shadow: 0 0 .5rem $white;
-        animation: blink-shadow 2s infinite;
-        &:hover,
-        &:focus {
-            box-shadow: $dialShadow;
-        }
-        .pi-whatsapp {
-            font-size: $icon-dial;
-        }
+    .pi-whatsapp {
+      font-size: $icon-dial;
     }
-    span {
-        flex: 1 1 100%;
-        background: rgba($white, .5);
-        backdrop-filter: blur(1rem);
-        padding: .5rem;
-        border-radius: $border-radius-10;
-        opacity: 0;
-        transition: opacity .2s ease-in-out;
-        display: none;
-        @include min-responsive($tablet) {
-            display: block;
-        }
+  }
+  span {
+    flex: 1 1 100%;
+    background: rgba($white, .5);
+    backdrop-filter: blur(1rem);
+    padding: .5rem;
+    border-radius: $border-radius-10;
+    opacity: 0;
+    transition: opacity .2s ease-in-out;
+    display: none;
+    @include min-responsive($tablet) {
+      display: block;
     }
-    @keyframes blink-shadow {
-        0%,
-        100% {
-            box-shadow: 0 0 1rem .2rem $success-light-alert;
-        }
-        50% {
-            box-shadow: 0 0 2rem .5rem $success-alert;
-        }
+  }
+  @keyframes blink-shadow {
+    0%,
+    100% {
+      box-shadow: 0 0 1rem .2rem $success-light-alert;
     }
+    50% {
+      box-shadow: 0 0 2rem .5rem $success-alert;
+    }
+  }
 }
