@@ -38,7 +38,7 @@
     },
     "TITLE": "The art of flowers",
     "SUBTITLE": "Flowers are our best allies to surprise, excite and transmit emotions always with total attention to detail and finish.",
-    "TEXT_PRESENTATION": "<h3 class='mb-0'>Our Specialties</h3><br> Our bouquets and floral arrangements are unique and tailored to each client. We create versatile compositions, starting with floral arrangements for weddings, including bridal bouquets, centerpiece arrangements, hair wreaths, boutonnieres, and more.<br> In addition to weddings, we also offer decoration services for other events, such as birthday parties, anniversaries, company celebrations, among other social events.<br> Our flowers and plants for the home are another of our specialties, we offer a selection of flowers and plants to decorate both indoors and outdoors.<br> We also offer floral arrangements for funerals, including funeral wreaths and celebration of life arrangements. If you want to surprise that special person, we offer home delivery, with the best care and attention.<br> Available 365 days a year.",
+    "TEXT_PRESENTATION": "<p>Our florist specializes in offering a carefully curated selection of classic floral arrangements and indoor plants that combine elegance and freshness. From bouquets of roses and eucalyptus to more striking options like our Phalaenopsis orchids, each product is designed with attention to detail, ideal for gifting or decorating any space with style and distinction. We work with fresh flowers and quality plants, presented in harmonious and modern designs.</p> <p>We also offer potted plants, such as our decorative aloe vera, perfect for indoors and easy to care for. Our goal is to provide a complete floral experience, both in design and convenience for our customers. We take great care in the presentation and finishes, and offer products ready for delivery or gifting. Visit us and discover how our flowers and plants can transform your space.</p>",
     "RECOMENDATIONS_TITLE_SECTION": "We recommend you",
     "RECOMENDATIONS_SECTION": {
       "RECOMENDATIONS_SECTION": {
@@ -267,127 +267,76 @@
   },
   "BOUQETS_PAGE": {
     "TITLE": "Our Bouquets of Flowers",
-    "ASSORTED_BOUQUET": {
-      "TITLE": "Assorted Bouquet"
+    "ARMONIA_BOUQUET": {
+      "TITLE": "Armoia Branch",
+      "DESCRIPTION": "<strong>Composition:</strong><br> White aniculata - 12 units and Ferns - 7 units. <br> <strong>Dimensions:</strong><br> 40 cm wide and 45 cm high.<hr> Bouquet of freshly cut natural Paniculata, also called Gypsopila"
     },
-    "BOUQUET_PINK_TONES": {
-      "TITLE": "Bouquet Pink Tones"
+    "BOUQUET_OF_SUNFLOWERS_TEMPERANCE": {
+      "TITLE": "Temperance Sunflower Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br> Eucalyptus - 5 pcs. Ferns - 4 pcs. Yellow Solidago - 5 pcs. Teddy Sunflower - 6 pcs. Decorative Red Foliage - 6 pcs. <br> <strong>Dimensions:</strong><br> 45 cm wide and 45 cm high.<hr> This vibrant bouquet radiates joy and energy with its bright yellow sunflowers, symbolizing happiness and vitality. Accompanied by red foliage for a dynamic contrast and eucalyptus that adds a fresh and elegant touch, it is perfect for brightening up any space and conveying good wishes."
     },
-    "I_LOVE_YOU_BOUQUET": {
-      "TITLE": "I Love you Bouquet"
+    "BOUQUET_OF_RED_CARNATIONS": {
+      "TITLE": "Red Carnation Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Gypsophila - 6 pcs. Columbian carnations - 12 pcs. Ferns - 7 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 45 cm high.<hr> This beautiful bouquet symbolizes passion and devotion, with vibrant red carnations evoking love and strength, while the white gypsophila adds a touch of purity and sweetness. A classic and elegant design that is perfectly suited to romantic occasions, anniversaries or to express admiration and respect."
     },
-    "ROMULUS_BRANCH": {
-      "TITLE": "Romulus Branch"
+    "AMANTINA_BOUQUET": {
+      "TITLE": "Amantina Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>White roses - 6 pcs. Ferns - 5 pcs. Aspidistra leaves - 4 pcs. Green solidago - 3 pcs.<br> <strong>Dimensions:</strong><br> 40 cm wide and 50 cm high.<hr> ✨ A classic and refined design that symbolizes peace, love, and respect. 🕊️💖"
     },
-    "EUCALYPTUS_BRANCH": {
-      "TITLE": "Eucalyptus Branch"
+    "SPRING_BOUQUET": {
+      "TITLE": "Spring Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Lilies - 11 pcs. White Paniculata - 4 pcs. Tropical Green - 8 pcs.<br> <strong>Dimensions:</strong><br> 55 cm wide and 55 cm high.<hr> Lovely bouquet of large lilies! Spectacular colors, the best gift for a special occasion."
     },
-    "RAFAELLA_BOUQUET_2": {
-      "TITLE": "Rafaella Bouquet 2"
+    "BOUQUET_ROSES_EUCALYPTUS": {
+      "TITLE": "Rose and Eucalyptus Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 8 pcs. Roses - 12 pcs. Gypsophila - 2 pcs. Yellow Solidago - 1 pcs. Ferns and decorative leaves - 5 pcs.<br> <strong>Dimensions:</strong><br> 55 cm wide and 60 cm high.<hr> This elegant bouquet of roses in pastel tones is a symbol of tenderness, love, and delicacy. Perfect for romantic moments, anniversaries, or simply to express sincere affection. Its harmonious combination with green foliage and eucalyptus brings freshness and sophistication."
     },
-    "RAFAELLA_BOUQUET": {
-      "TITLE": "Rafaella Bouquet"
+    "GERBERA_BOUQUET": {
+      "TITLE": "Gerbera Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Gerbera - 10 pcs. Gypsophila - 2 pcs. Yellow Solidago - 3 pcs. Ferns and decorative foliage - 6 pcs.<br> <strong>Dimensions:</strong><br> 40 cm wide and 55 cm high.<hr> ✨ A bouquet full of life and color to spread joy on every occasion. ✨"
     },
-    "RAFAELLA_BOUQUET_3": {
-      "TITLE": "Rafaella Bouquet 3"
-    },
-    "PARIS_BOUQUET": {
-      "TITLE": "Paris Bouquet"
-    },
-    "NAPOLES_BOUQUET": {
-      "TITLE": "Naples Bouquet"
-    },
-    "MARIAN_BOUQUET": {
-      "TITLE": "Marian Bouquet"
-    },
-    "MACARENA_BOUQUET": {
-      "TITLE": "Macarena Bouquet"
-    },
-    "BOUQUET_LILIES": {
-      "TITLE": "Bouquet of Lilies"
-    },
-    "BOUQUET_PINK_LILIES": {
-      "TITLE": "Bouquet of Pink Lilies"
-    },
-    "POMEGRANATE_BOUQUET": {
-      "TITLE": "Pomegranate Bouquet"
-    },
-    "COLORFUL_BOUQUET": {
-      "TITLE": "Colorful Bouquet"
-    },
-    "BOUQUET_TWELVE_TULIPS": {
-      "TITLE": "Bouquet of twelve Tulips"
-    },
-    "BOUQUET_TEN_SUNFLOWERS": {
-      "TITLE": "Bouquet of ten Sunflowers"
-    },
-    "BOUQUET_TEN_GERBERAS": {
-      "TITLE": "Bouquet of ten Gerberas"
+      "BOUQUET_DAISIES": {
+      "TITLE": "Daisy Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 5 pcs. Daisies - 10 pcs. Yellow Solidago - 3 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 55 cm high.<hr> ✨ A bouquet full of light and freshness to brighten up any special occasion. ✨"
     }
   },
   "FLOORS_PAGE": {
     "SUBMENU": {
       "ROUSES_PAGE": {
         "TITLE_PAGE": "Our Roses",
-        "TWELVE_YELLOW_ROSES": {
-          "TITLE": "Twelve Yellow Roses"
+        "MULTICOLOR_ROSES": {
+          "TITLE": "Multicolor Roses",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 5 pcs. Gypsophila - 3 pcs. Multicolor roses - 10 pcs. Yellow solidago - 3 pcs. Ferns and decorative foliage - 6 pcs.<br> <strong>Dimensions:</strong><br> 60 cm wide and 60 cm high.<hr>This vibrant bouquet is an explosion of color and joy, ideal for transmitting positive energy and sincere emotions. Its combination of multicolored roses together with the delicate touch of gypsophila and the freshness of eucalyptus make it the perfect gift for any special occasion."
         },
-        "ETERNAL_ROSE": {
-          "TITLE": "Eternal Rose"
+        "SINGLE_ROSE_VASE": {
+          "TITLE": "Single Rose with Vase",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 4 pcs. Gypsophila - 2 pcs. Red rose - 1 pc. Glass vase - 1 pc.<br> <strong>Dimensions:</strong><br> 12 cm wide and 40 cm high.<hr>This beautiful floral arrangement is an elegant and meaningful gesture, ideal for expressing love, admiration, or gratitude. Featuring a single red rose as the centerpiece, accompanied by delicate accessories and presented in a fine glass vase, it's perfect for surprising anyone on any occasion."
         },
-        "TWO_ROSES_VASE": {
-          "TITLE": "Two Roses Vase"
-        },
-        "TWELVE_BLUE_ROSES": {
-          "TITLE": "Twelve Blue Roses"
-        },
-        "TWELVE_WHITE_ROSES": {
-          "TITLE": "Twelve White Roses"
-        },
-        "TWELVE_RED_ROSES": {
-          "TITLE": "Twelve Red Roses"
-        },
-        "TWELVE_ROSES_CATHERINE": {
-          "TITLE": "Twelve Roses Catalina"
+        "DOME_3_PRESERVED_ROSES": {
+          "TITLE": "DOME 3 Preserved Roses",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome without requiring water or special care."
         }
       },
       "ORCHIDS_PAGE": {
         "TITLE_PAGE": "Our Orchids",
-        "YELLOW_ORCHID": {
-          "TITLE": "Yellow Orchid"
-        },
-        "BLUE_ORCHID": {
-          "TITLE": "Blue Orchid"
-        },
-        "WHITE_ORCHID": {
-          "TITLE": "White Orchid"
-        },
-        "ROSE_ORCHID": {
-          "TITLE": "Rose Orchid"
-        },
-        "ORCHID": {
-          "TITLE": "Orchid"
+        "PHALAENOPSIS_ORCHID": {
+          "TITLE": "Phalaenopsis Orchid",
+          "DESCRIPTION": "<strong>Watering frequency</strong><br>4 times a month<br><strong>Composition:</strong><br>Eucalyptus - 4 pcs. Paniculata - 2 pcs. Red rose - 1 pc. Glass vase - 1 pc.<br> <strong>Dimensions:</strong><br> 25 cm wide and 70 cm high.<hr>Place it in a place with bright indirect light, water the plant once a week in summer and every two weeks in winter, keep it in a humid and ventilated environment, and fertilize it every 2-3 weeks during growth."
         }
       },
       "MORE_FLOORS_PAGE": {
         "TITLE_PAGE": "More of our flowers",
-        "ANTHURIUM": {
-          "TITLE": "Anthurium"
+        "SCHEFFLERA": {
+          "TITLE": "Schefflera",
+          "DESCRIPTION": "<strong>Watering frequency</strong><br>3 times a month<br><strong>Composition:</strong><br>Eucalyptus - 4 pcs. Paniculata - 2 pcs. Red rose - 1 pc. Glass vase - 1 pc.<br> <strong>Dimensions:</strong><br> 45 cm wide and 130 cm high.<br><strong>Care guide:</strong><br>Light: intense Fertilizer: from May to September Watering: every 12 days, let it dry between waterings Temperature: 10° to 25°<hr>Origin: Taiwan Leaves 15 cm in diameter, palmate and glossy, shiny dark green, composed of seven to eight long, oval leaflets"
         },
-        "BASKET": {
-          "TITLE": "Basket"
+        "OLIVE_CUP": {
+          "TITLE": "Olivo Copa",
+          "DESCRIPTION": "<strong>The plant has already been transplanted. It is not necessary to repot immediately after purchase.</strong><br><hr><strong>Watering frequency:</strong><br>1 time per week<strong>Dimensions:</strong><br>30 cm wide and 1 m high.<hr>Olea europaea, commonly known as the olive tree, is ideal as an ornamental plant. This olive tree stands out for its elegance and adaptability to different climates. Its rustic leaves and twisted, grayish trunk provide elegance as an ornamental plant."
         },
-        "PLANTS_BASKET": {
-          "TITLE": "Plants in Basket"
-        },
-        "MARANTA": {
-          "TITLE": "Maranta"
-        },
-        "BROMELIA": {
-          "TITLE": "Bromelia"
-        },
-        "EPATIFILIUM": {
-          "TITLE": "Epatiphyllium"
+        "YUCCA_PLANT": {
+          "TITLE": "Yucca Plant",
+          "DESCRIPTION": "<strong>Watering Frequency:</strong><br>1 time per week<strong>Dimensions:</strong><br>25 cm wide and 1 m high.<hr>Free gift wrapping.<strong>.<br><hr>Care Guide:</strong><br>An easy-to-grow and very drought-resistant plant that will live for many years at home if placed in full light, even in summer. Watering: The substrate should dry out between waterings."
         }
       }
     }
@@ -395,14 +344,8 @@
   "TERRARIUMS_PAGE": {
     "TITLE": "Our terrariums",
     "BONSAI_TERRARIUM_ONE": {
-      "TITLE": "Bonsai Terrarium"
-    },
-    "ETERNAL_ROSE_DOME_TERRARIUM": {
-      "TITLE": "Eternal Rose Dome Terrarium"
-    },
-    "BONSAI_ECOSYSTEM": {
-      "TITLE": "Bonsai ecosystem",
-      "DESCRIPTION": "Terrarium composed of bonsai, a self-sufficient piece of nature in your home, it only needs maintenance every 6 months."
+      "TITLE": "3 Preserved Roses Dome",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome without requiring water or special care."
     }
   },
   "FUNERALS_PAGE": {

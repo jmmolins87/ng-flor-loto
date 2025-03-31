@@ -38,7 +38,7 @@
     },
     "TITLE": "El arte de las flores",
     "SUBTITLE": "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado.",
-    "TEXT_PRESENTATION": "<h3 class='mb-0'>Nuestras especialidades</h3><br> Nuestros ramos y arreglos florales son únicos y a medida para cada cliente. Creamos composiciones versátiles, empezando por arreglos florares para bodas, incluyendo ramos de novia, arreglos de centro de mesa, coronas de flores para el cabello, boutonnieres, y más.<br> Además de bodas, también ofrecemos servicios de decoración para otros eventos, como fiestas de cumpleaños, aniversarios, celebraciones de empresa, entre otros eventos sociales.<br>Nuestras flores y plantas para el hogar son otra de nuestras especialidades, ofrecemos una selección de flores y plantas ya sea para decorar tanto el interior como el exterior.<br> También ofrecemos arreglos florares para funerales, incluyendo coronas funerarias y arreglos para celebración de vida. Si lo que quieres es sorprender a esa persona especial, te ofrecemos la entrega a domicilio, con el mejor mimo y cuidado.<br> Disponible los 365 días del año.",
+    "TEXT_PRESENTATION": "<p>Nuestra floristería se especializa en ofrecer una cuidada selección de arreglos florales clásicos y plantas de interior que combinan elegancia y frescura. Desde ramos de rosas y eucalipto hasta opciones más llamativas como nuestras orquídeas Phalaenopsis, cada producto está diseñado con atención al detalle, ideal para regalar o decorar cualquier espacio con estilo y distinción. Trabajamos con flores frescas y plantas de calidad, presentadas en diseños armónicos y modernos.</p> <p>Contamos también con plantas en macetero, como nuestra aloe vera decorativa, perfecta para interiores y fácil de cuidar. Nuestro objetivo es brindar una experiencia floral completa, tanto en diseño como en comodidad para el cliente. Cuidamos la presentación, los acabados y ofrecemos productos listos para entregar o regalar. Visítanos y descubre cómo nuestras flores y plantas pueden transformar tu ambiente.</p>",
     "RECOMENDATIONS_TITLE_SECTION": "Te recomendamos",
     "RECOMENDATIONS_SECTION": {
       "ITEM_1": {
@@ -265,127 +265,76 @@
   },
   "BOUQETS_PAGE": {
     "TITLE": "Nuestros Ramos de Flores",
-    "ASSORTED_BOUQUET": {
-      "TITLE": "Ramo Variado"
+    "ARMONIA_BOUQUET": {
+      "TITLE": "Ramo Armoia",
+      "DESCRIPTION": "<strong>Composición:</strong><br> Aniculata blanca - 12 ud. y Helechos - 7 ud. <br> <strong>Dimensiones:</strong><br> 40 cm de anchura y 45 cm de altura.<hr> Ramo de Paniculata natural recién cortada, también llamada Gypsopila"
     },
-    "BOUQUET_PINK_TONES": {
-      "TITLE": "Ramo Tonos Rosados"
+    "BOUQUET_OF_SUNFLOWERS_TEMPERANCE": {
+      "TITLE": "Ramo de girasoles Templanza",
+      "DESCRIPTION": "<strong>Composición:</strong><br> Eucalipto - 5 ud. Helechos - 4 ud. Solidago amarillo - 5 ud. Girasol teddy - 6 ud. Follaje rojo decorativo - 6 ud. <br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 45 cm de altura.<hr> Este vibrante ramo irradia alegría y energía con sus brillantes girasoles amarillos, simbolizando la felicidad y la vitalidad. Acompañado de follaje rojo para un contraste dinámico y eucalipto que añade un toque fresco y elegante, es perfecto para iluminar cualquier espacio y transmitir buenos deseos."
     },
-    "I_LOVE_YOU_BOUQUET": {
-      "TITLE": "Ramo Te Quiero"
+    "BOUQUET_OF_RED_CARNATIONS": {
+      "TITLE": "Ramo de Claveles Rojos",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Gypsophila - 6 ud. Clavel columbiano - 12 ud. Helechos - 7 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 45 cm de altura.<hr> Este hermoso ramo simboliza la pasión y la devoción, con claveles rojos vibrantes que evocan amor y fuerza, mientras que el gypsophila blanco añade un toque de pureza y dulzura. Un diseño clásico y elegante que se adapta perfectamente a ocasiones románticas, aniversarios o para expresar admiración y respeto."
     },
-    "ROMULUS_BRANCH": {
-      "TITLE": "Ramo Rómulo"
+    "AMANTINA_BOUQUET": {
+      "TITLE": "Ramo Amantina",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas blancas - 6 ud. Helechos - 5 ud. Hojas de aspidistra - 4 ud. Solidago verde - 3 ud.<br> <strong>Dimensiones:</strong><br> 40 cm de anchura y 50 cm de altura.<hr> ✨ Un diseño clásico y refinado que simboliza paz, amor y respeto. 🕊️💖"
     },
-    "EUCALYPTUS_BRANCH": {
-      "TITLE": "Ramo de Eucalípto"
+    "SPRING_BOUQUET": {
+      "TITLE": "Ramo primavera",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Lirios - 11 ud. Paniculata blanca - 4 ud. Verde tropical - 8 ud.<br> <strong>Dimensiones:</strong><br> 55 cm de anchura y 55 cm de altura.<hr> Precioso ramo de lirios de gran tamaño! Espectacular Colorido, el mejor regalo para una ocasión especial."
     },
-    "RAFAELLA_BOUQUET_2": {
-      "TITLE": "Ramo Rafaella 2"
+    "BOUQUET_ROSES_EUCALYPTUS": {
+      "TITLE": "Ramo de Rosas y Eucalipto",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 8 ud. Rosas - 12 ud. Paniculata - 2 ud. Solidago amarillo - 1 ud. Helechos y hojas decorativas - 5 ud.<br> <strong>Dimensiones:</strong><br> 55 cm de anchura y 60 cm de altura.<hr> Este elegante ramo de rosas en tonos pastel es un símbolo de ternura, amor y delicadeza. Perfecto para momentos románticos, aniversarios o simplemente para expresar cariño sincero. Su armoniosa combinación con follaje verde y eucalipto aporta frescura y sofisticación."
     },
-    "RAFAELLA_BOUQUET": {
-      "TITLE": "Ramo Rafaella"
+    "GERBERA_BOUQUET": {
+      "TITLE": "Ramo de Gerber",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Gerbera - 10 ud. Paniculata - 2 ud. Solidago amarillo - 3 ud. Helechos y follaje decorativo - 6 ud.<br> <strong>Dimensiones:</strong><br> 40 cm de anchura y 55 cm de altura.<hr> ✨ Un ramo lleno de vida y color para transmitir alegría en cada ocasión. ✨"
     },
-    "RAFAELLA_BOUQUET_3": {
-      "TITLE": "Ramo Rafaella 3"
-    },
-    "PARIS_BOUQUET": {
-      "TITLE": "Ramo París"
-    },
-    "NAPOLES_BOUQUET": {
-      "TITLE": "Ramo Nápoles"
-    },
-    "MARIAN_BOUQUET": {
-      "TITLE": "Ramo Mariana"
-    },
-    "MACARENA_BOUQUET": {
-      "TITLE": "Ramo Macarena"
-    },
-    "BOUQUET_LILIES": {
-      "TITLE": "Ramo de Lírios"
-    },
-    "BOUQUET_PINK_LILIES": {
-      "TITLE": "Ramo de Lírios Rosas"
-    },
-    "POMEGRANATE_BOUQUET": {
-      "TITLE": "Ramo Granada"
-    },
-    "COLORFUL_BOUQUET": {
-      "TITLE": "Ramo Colorido"
-    },
-    "BOUQUET_TWELVE_TULIPS": {
-      "TITLE": "Ramo de doce Tulipanes"
-    },
-    "BOUQUET_TEN_SUNFLOWERS": {
-      "TITLE": "Ramo de diez Girasoles"
-    },
-    "BOUQUET_TEN_GERBERAS": {
-      "TITLE": "Ramo de diez Gerberas"
+    "BOUQUET_DAISIES": {
+      "TITLE": "Ramo de Margaritas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 5 ud. Margaritas - 10 ud. Solidago amarillo - 3 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 55 cm de altura.<hr> ✨ Un ramo lleno de luz y frescura para alegrar cualquier ocasión especial. ✨"
     }
   },
   "FLOORS_PAGE": {
     "SUBMENU": {
       "ROUSES_PAGE": {
         "TITLE_PAGE": "Nuestras Rosas",
-        "TWELVE_YELLOW_ROSES": {
-          "TITLE": "Doce Rosas Amarillas"
+        "MULTICOLOR_ROSES": {
+          "TITLE": "Rosas Multicolor",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 5 ud. Paniculata - 3 ud. Rosas multicolor - 10 ud. Solidago amarillo - 3 ud. Helechos y follaje decorativo - - 6 ud.<br> <strong>Dimensiones:</strong><br> 60 cm de anchura y 60 cm de altura.<hr>Este vibrante ramo es una explosión de color y alegría, ideal para transmitir energía positiva y emociones sinceras. Su combinación de rosas multicolor junto con el delicado toque de la paniculata y el frescor del eucalipto lo convierten en el regalo perfecto para cualquier ocasión especial."
         },
-        "ETERNAL_ROSE": {
-          "TITLE": "Rosa Eterna"
+        "SINGLE_ROSE_VASE": {
+          "TITLE": "Rosa única con Jarrón",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 4 ud. Paniculata - 2 ud. Rosa roja - 1 ud. Jarrón de vidrio - 1 ud.<br> <strong>Dimensiones:</strong><br> 12 cm de anchura y 40 cm de altura.<hr>Este hermoso detalle floral es un gesto elegante y significativo, ideal para expresar amor, admiración o gratitud. Con una sola rosa roja como protagonista, acompañada de delicados complementos y presentado en un fino jarrón de vidrio, es perfecto para sorprender en cualquier ocasión."
         },
-        "TWO_ROSES_VASE": {
-          "TITLE": "Dos Rosas Jarrón"
-        },
-        "TWELVE_BLUE_ROSES": {
-          "TITLE": "Doce Rosas Azules"
-        },
-        "TWELVE_WHITE_ROSES": {
-          "TITLE": "Doce Rosas Blancas"
-        },
-        "TWELVE_RED_ROSES": {
-          "TITLE": "Doce Rosas Rojas"
-        },
-        "TWELVE_ROSES_CATHERINE": {
-          "TITLE": "Doce Rosas Catalina"
+        "DOME_3_PRESERVED_ROSES": {
+          "TITLE": "Cupula 3 Rosas Preservadas",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
         }
       },
       "ORCHIDS_PAGE": {
         "TITLE_PAGE": "Nuestras Orquídeas",
-        "YELLOW_ORCHID": {
-          "TITLE": "Orquídea Amarilla"
-        },
-        "BLUE_ORCHID": {
-          "TITLE": "Orquídea Azúl"
-        },
-        "WHITE_ORCHID": {
-          "TITLE": "Orquídea Blanca"
-        },
-        "ROSE_ORCHID": {
-          "TITLE": "Orquídea Rosa"
-        },
-        "ORCHID": {
-          "TITLE": "Orquídea"
+        "PHALAENOPSIS_ORCHID": {
+          "TITLE": "Orquidea Phalaenopsis",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>4 veces en mes<br><strong>Composición:</strong><br>Eucalipto - 4 ud. Paniculata - 2 ud. Rosa roja - 1 ud. Jarrón de vidrio - 1 ud.<br><strong>Dimensiones:</strong><br> 25 cm de anchura y 70 cm de altura.<hr>Colócala en un lugar con luz indirecta brillante, riega la planta una vez a la semana en verano y cada dos semanas en invierno, manténla en un ambiente húmedo y ventilado, pónle fertilizante cada 2-3 semanas durante el crecimiento."
         }
       },
       "MORE_FLOORS_PAGE": {
         "TITLE_PAGE": "Más de nuestras flores",
-        "ANTHURIUM": {
-          "TITLE": "Anthurium"
+        "SCHEFFLERA": {
+          "TITLE": "Schefflera",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>3 veces en mes<br><strong>Composición:</strong><br>Eucalipto - 4 ud. Paniculata - 2 ud. Rosa roja - 1 ud. Jarrón de vidrio - 1 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 130 cm de altura.<br><strong>Guía de cuidados:</strong><br>Luz: intensa Abono: desde Mayo a septiembre Riegos: cada 12 días, que se seque entre riegos y riegos Temperatura: 10° a 25°<hr>Orígen: Taiwán Hojas de 15 cm de diámetro, palmados y lustrosos verde oscuro brillante, compuestos de siete y ocho foliolos ovalados y largos."
         },
-        "BASKET": {
-          "TITLE": "Cesta"
+        "OLIVE_CUP": {
+          "TITLE": "Olivo Copa",
+          "DESCRIPTION": "<strong>Ya se ha trasplantado la planta. No es necesario trasplantar justo después de la compra.</strong><br><hr><strong>Frecuencia de riego:</strong><br>1 veces en semanal<strong>Dimensiones:</strong><br> 30 cm de anchura y 1 m de altura.<hr>Olea europaea llamado comúnmente Olivo y Oliveira, ideal como planta ornamental. Esta Olivera destaca por su elegancia, y su adaptabilidad a diferentes climas, con hojas rusticas que y un tronco grisáceo y retorcido aportan una elegancia como planta ornamental."
         },
-        "PLANTS_BASKET": {
-          "TITLE": "Plantas en Cesta"
-        },
-        "MARANTA": {
-          "TITLE": "Maranta"
-        },
-        "BROMELIA": {
-          "TITLE": "Bromelia"
-        },
-        "EPATIFILIUM": {
-          "TITLE": "Epatifilium"
+        "YUCCA_PLANT": {
+          "TITLE": "Planta Yucca",
+          "DESCRIPTION": "<strong>Frecuencia de riego:</strong><br>1 veces en semanal<strong>Dimensiones:</strong><br> 25 cm de anchura y 1 m de altura.<hr>Envoltorio para regalo gratuito.<br><hr><strong>Guía de cuidados:</strong><br>Una planta de cultivó fácil y muy resistente a la sequía, qué vive muchos años en casa, si se puede colocar a plena luz, incluso en verano. Riegos: el sustrato debe secarse entre riegos y riegos."
         }
       }
     }
@@ -393,14 +342,8 @@
   "TERRARIUMS_PAGE": {
     "TITLE": "Nuestros Terrarios",
     "BONSAI_TERRARIUM_ONE": {
-      "TITLE": "Terrario Bonsai"
-    },
-    "ETERNAL_ROSE_DOME_TERRARIUM": {
-      "TITLE": "Terrario de Cúpula con Rosa Eterna"
-    },
-    "BONSAI_ECOSYSTEM": {
-      "TITLE": "Ecosistema Bonsái",
-      "DESCRIPTION": "Terrario compuesto por bonsái, un trozo de naturaleza autosuficiente en tu hogar, solo necesita mantenimiento cada 6 meses."
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
     }
   },
   "FUNERALS_PAGE": {

@@ -1,0 +1,83 @@
+
+
+@import "/src/styles.scss";
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: button .2s ease-in-out;
+}
+
+.carousel:hover button {
+  visibility: visible;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+  width: 100%;
+  flex-shrink: 0;
+  max-height: 40rem;
+  object-fit: cover;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+  position: absolute;
+  bottom: 0;
+  padding: .5rem;
+  background-color: rgba($white, 0.8);
+  backdrop-filter: blur(1.5rem);
+  min-width: 100%;
+}
+
+.thumbnail-image {
+  width: 4.5rem;
+  height: 4.5rem;
+  object-fit: cover;
+  cursor: pointer;
+  border: .2rem solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.thumbnail-image.active {
+  border-color: $brand-primary-light;
+  /* Color de borde para la miniatura activa */
+}
+
+.thumbnail-image:hover {
+  border-color: $brand-primary;
+  /* Color de borde al pasar el mouse */
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  z-index: 1;
+  visibility: hidden;
+}
+
+button.prev {
+  left: 1rem;
+}
+
+button.next {
+  right: 1rem;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

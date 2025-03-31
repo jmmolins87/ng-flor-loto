@@ -42,7 +42,7 @@ import { MoreFloorsPageComponent } from './product-pages/more-floors-page/more-f
     FuneralsPageComponent,
     RousesPageComponent,
     OrchidsPageComponent,
-    MoreFloorsPageComponent
+    MoreFloorsPageComponent,
   ],
   imports: [
     CommonModule,

@@ -9,17 +9,17 @@
                 </li>
             </ul>
             <div [routerLink]="['/']" class="wrap-logo">
-                <img 
-                    src="/assets/img/logo-loto.png" 
-                    alt="Logo flor de loto" 
+                <img
+                    src="/assets/img/logo-new-loto.jpg"
+                    alt="Logo flor de loto"
                     title="Logo flor de loto">
             </div>
             <ul class="wrap-location">
                 <li *ngFor="let contact of footerContact">
-                    <a 
-                        target="_blank" 
+                    <a
+                        target="_blank"
                         [href]="contact.link">
-                        <i class="pi {{ contact.icon }}"></i> 
+                        <i class="pi {{ contact.icon }}"></i>
                         {{ contact.label | translate }}
                     </a>
                 </li>

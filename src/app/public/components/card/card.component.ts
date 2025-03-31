@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input()
-  public srcImg!: string;
+  public srcImg!: string[];
   @Input()
   public titleCard!: string;
   @Input()
@@ -18,7 +18,7 @@ export class CardComponent implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      this.showSkeleton = false; 
+      this.showSkeleton = false;
     }, 1500)
   }
 

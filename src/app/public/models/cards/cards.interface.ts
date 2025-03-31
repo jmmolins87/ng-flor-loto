@@ -1,7 +1,7 @@
 
 
 export interface cardsInterface {
-    srcImg: string;
+    srcImg: string[];
     titleCard: string;
     descriptionCard?: string;
 }
