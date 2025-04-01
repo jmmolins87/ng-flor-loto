@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { 
-  FormBuilder, 
-  FormGroup, 
-  Validators 
+import {
+  FormBuilder,
+  FormGroup,
+  Validators
 } from '@angular/forms';
 
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
@@ -53,7 +53,7 @@ export class ContactPageComponent implements OnInit {
         message: this.contactForm.value.message,
         to_email: 'flordelotosegovia@gmail.com'
       };
-      emailjs.send('service_6tb3ps3', 'template_dpt3vlk', templateParams, '_JM6-N2BcvGJM05T_')
+      emailjs.send('service_xi63c1h', 'template_jwnasja', templateParams, '_JM6-N2BcvGJM05T_')
         .then((response: EmailJSResponseStatus) => {
           console.log('Email sent successfully', response.status, response.text);
           setTimeout(() => {
