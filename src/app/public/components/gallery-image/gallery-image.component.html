@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 <div class="card">
   <div class="carousel">
     <div class="carousel-track" [style.transform]="getTransformStyle()">
@@ -15,18 +7,19 @@
         [alt]="altImg | translate"
         [title]="altImg | translate"
         class="carousel-image"
+        (click)="openPreview(image)"
       />
     </div>
     <button
       *ngIf="images.length > 1"
       (click)="prevImage()"
-      class="prev" >
+      class="prev">
       &#10094;
     </button>
     <button
       *ngIf="images.length > 1"
       (click)="nextImage()"
-      class="next" >
+      class="next">
       &#10095;
     </button>
   </div>
@@ -34,11 +27,25 @@
     <img
       *ngFor="let image of images; let i = index"
       [src]="image | appDefaultImage"
-      [alt]="altImg"
-      [title]="altImg"
+      [alt]="altImg | translate"
+      [title]="altImg | translate"
       [class.active]="i === currentImageIndex"
       (click)="goToImage(i)"
       class="thumbnail-image"
     />
+  </div>
+
+  <!-- Modal for Image Preview -->
+  <div *ngIf="isPreviewOpen" class="image-preview-modal">
+    <span class="close" (click)="closePreview()">&times;</span>
+    <div class="modal-content">
+      <img [src]="currentPreviewImage" class="preview-image" />
+      <button (click)="prevPreviewImage()" class="prev">&#10094;</button>
+      <button (click)="nextPreviewImage()" class="next">&#10095;</button>
+      <div class="modal-thumbnails">
+        <img *ngFor="let image of images; let i = index" [src]="image | appDefaultImage" [alt]="altImg"
+          [class.active]="image === currentPreviewImage" (click)="selectPreviewImage(image)" class="thumbnail-image" />
+      </div>
+    </div>
   </div>
 </div>
