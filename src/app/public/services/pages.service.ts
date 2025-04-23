@@ -1,22 +1,24 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { 
-  homePageCarouselHero, 
-  homePageOpinions, 
-  homePageRecomendations 
+import {
+  homePageCarouselHero,
+  homePageOpinions,
+  homePageRecomendations,
+  homeServices
 } from '../db/home.db';
 import { bouquetFlower } from '../db/bouquetFlowers.db';
-import { 
-  rouses, 
-  orchids, 
-  moreFloors 
+import {
+  rouses,
+  orchids,
+  moreFloors
 } from '../db/floors.db';
 import { terrarium } from '../db/terrarium.db';
 import { funerals } from '../db/funerals.db';
-import { 
-  carrouselHero, 
-  carrouselOpinions, 
-  recomendationsHome 
+import {
+  carrouselHero,
+  carrouselOpinions,
+  recomendationsHome,
+  servicesHome
 } from '../models/home/contentHomePage.interface';
 import { cardsInterface } from '../models/cards/cards.interface';
 
@@ -49,7 +51,17 @@ export class PagesService {
     });
   }
 
-  // ** Get recommendations **
+  // ** Get services **
+  get servicesHome() {
+    return new Observable<servicesHome[]>(observer => {
+      // Get items from db
+      observer.next(homeServices);
+      // Complete observable
+      observer.complete();
+    });
+  }
+
+  // ** Get opinions **
   get opinionsHome() {
     return new Observable<carrouselOpinions[]>(observer => {
       // Get items from db
@@ -58,7 +70,7 @@ export class PagesService {
       observer.complete();
     });
   }
-  
+
   // ** Bouquets Page **
   // Get recommendations
   get bouquetsPage() {

@@ -13,6 +13,7 @@
         <div class="product-wrap-cards">
             <div *ngFor="let rouse of rousesContent" class="wrap-card">
                 <app-card
+                  [gallery]="true"
                   [srcImg]="rouse.srcImg"
                   [altImg]="rouse.titleCard"
                   [title]="rouse.titleCard"

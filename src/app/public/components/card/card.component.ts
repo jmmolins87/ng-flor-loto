@@ -13,6 +13,8 @@ export class CardComponent implements OnInit {
   public titleCard!: string;
   @Input()
   public descriptionCard!: string;
+  @Input()
+  public gallery!: boolean;
 
   public showSkeleton: boolean = true;
 

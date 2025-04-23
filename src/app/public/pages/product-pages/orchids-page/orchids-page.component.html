@@ -13,6 +13,7 @@
         <div class="product-wrap-cards">
             <div *ngFor="let orchid of orchidsContent" class="wrap-card">
                 <app-card
+                    [gallery]="true"
                     [srcImg]="orchid.srcImg"
                     [altImg]="orchid.titleCard"
                     [title]="orchid.titleCard"

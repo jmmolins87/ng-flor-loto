@@ -13,6 +13,12 @@ export interface recomendationsHome {
     img: string;
 }
 
+export interface servicesHome {
+  srcImg: string;
+  title: string;
+  description: string;
+}
+
 export interface carrouselOpinions {
     name: string;
     description: string;

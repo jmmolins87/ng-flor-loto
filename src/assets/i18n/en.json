@@ -60,6 +60,13 @@
         }
       }
     },
+    "SERVICES_TITLE_SECTION": "Our Services",
+    "SERVICE_SECTION": {
+      "ITEM_1": {
+        "TITLE": "Home delivery",
+        "DESCRIPTION": "We offer home delivery of flowers and plants."
+      }
+    },
     "OPINIONS_TITLE_SECTION": "Our customer's opinions",
     "OPINIONS_SECTION": {
       "OPINION_1": {

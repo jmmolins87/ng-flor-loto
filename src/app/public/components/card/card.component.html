@@ -5,10 +5,17 @@
         <app-gallery-image
           [images]="srcImg"
           [altImg]="titleCard"
-          *ngIf="!showSkeleton" />
+          *ngIf="!showSkeleton && gallery" />
         <p-skeleton *ngIf="showSkeleton" width="100%" height="20rem" />
     </div>
     <div *ngIf="titleCard" class="wrap-info">
+      <div class="wrap-icon">
+        <img
+          *ngIf="!showSkeleton && !gallery"
+          [src]="srcImg"
+          [alt]="titleCard"
+          [title]="titleCard">
+      </div>
       <h3 *ngIf="!showSkeleton" class="title-card-product">{{ titleCard | translate }}</h3>
       <p-skeleton *ngIf="showSkeleton" width="15rem" height="2rem" styleClass="mb-4" />
       <p *ngIf="!showSkeleton" [innerHTML]="descriptionCard | translate"></p>

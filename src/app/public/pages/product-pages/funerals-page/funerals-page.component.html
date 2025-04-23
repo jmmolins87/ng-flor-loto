@@ -9,6 +9,7 @@
         <div class="product-wrap-cards">
           <div *ngFor="let funeral of funeralsContent" class="wrap-card">
             <app-card
+              [gallery]="true"
               [srcImg]="funeral.srcImg"
               [titleCard]="funeral.titleCard"
               [descriptionCard]="funeral.descriptionCard || ''" />

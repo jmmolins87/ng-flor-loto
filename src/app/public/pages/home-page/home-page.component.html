@@ -1,10 +1,10 @@
 <div class="wrap-home">
     <div class="wrap-carrousel-hero" *ngIf="itemsCarrouselHero.length > 0">
-        <app-carrousel 
-            [carrouselOptions]="carrouselHero" 
+        <app-carrousel
+            [carrouselOptions]="carrouselHero"
             [itemsCarrouselHero]="itemsCarrouselHero"
             [intervalHero]="itemsCarrouselHero.length === 1 ?
-            infinityIntervalCarrouselHero : 
+            infinityIntervalCarrouselHero :
             intervalCarrouselHero" />
     </div>
     <div [ngClass]="itemsCarrouselHero.length === 0 ? 'm-container' : 'mt-0'" class="container">
@@ -17,9 +17,9 @@
             <p-skeleton *ngIf="showSkeleton" height="2rem" width="25%" class="d-block mt-1" />
         </div>
         <div class="wrap-presentation">
-            <app-typewriter-animation 
-                [text]="'HOME_PAGE.TEXT_PRESENTATION' | translate" 
-                [typingSpeed]="100" 
+            <app-typewriter-animation
+                [text]="'HOME_PAGE.TEXT_PRESENTATION' | translate"
+                [typingSpeed]="100"
                 [height]="200" />
         </div>
         <!-- Skeleton Presentation -->
@@ -27,12 +27,16 @@
             <h3 *ngIf="!showSkeleton" class="subtitle mb-0 ">{{ "HOME_PAGE.RECOMENDATIONS_TITLE_SECTION" | translate }}</h3>
             <p-skeleton *ngIf="showSkeleton" width="30rem" height="5rem" />
         </div>
+        <!-- Recomendations -->
         <div class="wrap-recommends">
             <div *ngFor="let recomendation of recommendationsHome" class="wrap-recommends__presentation">
                 <h3 *ngIf="!showSkeleton">{{ recomendation.title | translate }}</h3>
                 <div *ngIf="!showSkeleton" class="wrap-image">
-                    <p-image [src]="recomendation.img" [alt]="recomendation.title" [title]="recomendation.title"
-                        width="100%" loading="lazy" />
+                    <p-image
+                      [src]="recomendation.img"
+                      [alt]="recomendation.title"
+                      [title]="recomendation.title"
+                      width="100%" loading="lazy" />
                 </div>
                 <p *ngIf="!showSkeleton" class="mt-2">{{ recomendation.description | translate }}</p>
                 <p-skeleton *ngIf="showSkeleton" height="40rem" />
@@ -42,13 +46,28 @@
                 <p-skeleton *ngIf="showSkeleton" width="50%" height="2rem" styleClass="mb-2" />
             </div>
         </div>
+        <!-- Services -->
+        <div class="wrap-title mt-3 mb-3">
+          <h3 *ngIf="!showSkeleton" class="subtitle mb-0 ">{{ "HOME_PAGE.SERVICES_TITLE_SECTION" | translate }}</h3>
+          <p-skeleton *ngIf="showSkeleton" width="30rem" height="5rem" />
+        </div>
+         <div class="wrap-services">
+          <div *ngFor="let service of servicesHome" class="wrap-service">
+            <app-card
+              [gallery]="false"
+              [srcImg]="[service.srcImg]"
+              [titleCard]="service.title"
+              [descriptionCard]="service.description" />
+          </div>
+         </div>
+        <!-- Opinions -->
         <div class="wrap-title mt-3">
             <h3 *ngIf="!showSkeleton" class="subtitle mb-0">{{ "HOME_PAGE.OPINIONS_TITLE_SECTION" | translate }}</h3>
             <p-skeleton *ngIf="showSkeleton" width="50rem" height="5rem" />
         </div>
         <div class="wrap-carrousel-opinions mb-3">
-            <app-carrousel 
-                [carrouselOptions]="carrouselOpinator" 
+            <app-carrousel
+                [carrouselOptions]="carrouselOpinator"
                 [homePageOpinions]="opinionsHome"
                 [intervalOpinions]="intervalCarrouselOpinions" />
         </div>

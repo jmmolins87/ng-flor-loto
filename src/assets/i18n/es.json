@@ -58,6 +58,13 @@
         "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
       }
     },
+    "SERVICES_TITLE_SECTION": "Nuestros servicios",
+    "SERVICE_SECTION": {
+      "ITEM_1": {
+        "TITLE": "Servicio a domicilio",
+        "DESCRIPTION": "Ofrecemos el envío de flores y plantas a domicilio"
+      }
+    },
     "OPINIONS_TITLE_SECTION": "Las opiniones de nuestr@s clientes",
     "OPINIONS_SECTION": {
       "OPINION_1": {

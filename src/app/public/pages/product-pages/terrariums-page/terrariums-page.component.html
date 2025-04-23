@@ -10,6 +10,7 @@
         <div class="product-wrap-cards">
           <div *ngFor="let terrarium of terrariumContent" class="wrap-card">
             <app-card
+              [gallery]="true"
               [srcImg]="terrarium.srcImg"
               [altImg]="terrarium.titleCard"
               [title]="terrarium.titleCard"

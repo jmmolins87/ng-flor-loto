@@ -15,6 +15,7 @@
         <div class="product-wrap-cards">
             <div *ngFor="let moreFloors of moreFloorsContent" class="wrap-card">
                 <app-card
+                  [gallery]="true"
                   [srcImg]="moreFloors.srcImg"
                   [altImg]="moreFloors.titleCard"
                   [title]="moreFloors.titleCard"

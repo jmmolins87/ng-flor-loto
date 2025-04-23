@@ -30,6 +30,15 @@
         border-radius: 0 0 $border-radius-05 $border-radius-05;
         background: rgba($white, .3);
         backdrop-filter: blur(.3rem);
+        .wrap-icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 7.5rem;
+            height: auto;
+          }
+        }
         .title-card-product {
             font-size: 3rem;
         }

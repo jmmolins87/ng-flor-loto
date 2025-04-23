@@ -5,10 +5,11 @@ import { Component, OnInit } from '@angular/core';
 
 import { PagesService } from '../../services/pages.service';
 
-import { 
-  carrouselHero, 
-  carrouselOpinions, 
-  recomendationsHome 
+import {
+  carrouselHero,
+  carrouselOpinions,
+  recomendationsHome,
+  servicesHome
 } from '../../models/home/contentHomePage.interface';
 
 import { carrouselOptions } from '../../components/carrousel/carrousel.config';
@@ -29,6 +30,7 @@ export class HomePageComponent implements OnInit {
   public intervalCarrouselOpinions: number = 5000;
   public itemsCarrouselHero: carrouselHero[] = [];
   public recommendationsHome: recomendationsHome[] = [];
+  public servicesHome: servicesHome[] = [];
   public opinionsHome: carrouselOpinions[] = [];
 
   constructor( private _pagesService: PagesService ) {}
@@ -37,7 +39,7 @@ export class HomePageComponent implements OnInit {
     setTimeout(() => {
       this.showSkeleton = false;
     }, 1500)
-    
+
     setInterval(() => {
       this.infinityIntervalCarrouselHero
     }, Infinity);
@@ -45,6 +47,7 @@ export class HomePageComponent implements OnInit {
     this.getRecommendations();
     this.getOpinions();
     this.getSlidesHero();
+    this.getServices();
   }
 
   getSlidesHero() {
@@ -60,7 +63,15 @@ export class HomePageComponent implements OnInit {
       this.recommendationsHome = recommendations;
       this.showSkeleton = false;
     });
-    return this.recommendationsHome; 
+    return this.recommendationsHome;
+  }
+
+  getServices() {
+    this._pagesService.servicesHome.subscribe(services => {
+      this.servicesHome = services;
+      this.showSkeleton = false;
+    });
+    return this.servicesHome;
   }
 
   getOpinions() {
