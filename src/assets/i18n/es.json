@@ -62,7 +62,15 @@
     "SERVICE_SECTION": {
       "ITEM_1": {
         "TITLE": "Servicio a domicilio",
-        "DESCRIPTION": "Ofrecemos el envío de flores y plantas a domicilio"
+        "DESCRIPTION": "Ofrecemos el envío de flores y plantas a domicilio."
+      },
+      "ITEM_2": {
+        "TITLE": "Servicio de mantenimiento",
+        "DESCRIPTION": "Ofrecemos el servicio de mantenimiento de plantas a domicilio."
+      },
+      "ITEM_3": {
+        "TITLE": "Asesoramiento",
+        "DESCRIPTION": "Ofrecemos asesoramiento a los clientes sobre el cuidado de las plantas, la elección de las flores adecuadas para cada ocasión, y la realización de arreglos florales."
       }
     },
     "OPINIONS_TITLE_SECTION": "Las opiniones de nuestr@s clientes",
@@ -368,7 +376,15 @@
   },
   "TERRARIUMS_PAGE": {
     "TITLE": "Nuestros Terrarios",
-    "BONSAI_TERRARIUM_ONE": {
+    "BONSAI_TERRARIUM_1": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "BONSAI_TERRARIUM_2": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "BONSAI_TERRARIUM_3": {
       "TITLE": "Cupula 3 Rosas Preservadas",
       "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
     }
@@ -376,13 +392,16 @@
   "FUNERALS_PAGE": {
     "TITLE": "Centros Funerarios",
     "BLUE_AND_ORANGE_FUNERAL_CENTER": {
-      "TITLE": "Centro Funerario Azúl y Naranja"
+      "TITLE": "Centro Funerario Azúl y Naranja",
+      "DESCRIPTION": "Arreglo floral funerario de forma triangular y equilibrada, con una base ancha y un punto focal alto. El arreglo está compuesto por flores de diversos colores y tamaños: <br>Rosas azules (color teñido), de tamaño mediano, distribuidas por todo el arreglo para resaltar visualmente. <br>Gerberas naranjas, de tamaño grande, ubicadas principalmente en la parte central y superior, dando altura al conjunto.<br>Claveles color durazno, de tamaño mediano, aportando volumen y contraste suave.<br>Lirios blancos, de gran tamaño y elegancia, sobresaliendo en la parte superior central.<br>Pequeñas rosas o minirosas anaranjadas, que añaden detalle y profundidad.<br>Hojas verdes grandes (posiblemente aspidistra o monstera) en la parte trasera, utilizadas como fondo y estructura.<br>Cinta funeraria lila con texto negro, con el nombre “SERRANO”, indicando que es un tributo funerario personalizado."
     },
     "BIDASOA_FUNERAL_CENTER": {
-      "TITLE": "Centro Funerario Bidasoa"
+      "TITLE": "Centro Funerario Bidasoa",
+      "DESCRIPTION": "Centro funerario redondo y frondoso, con un diseño tradicional y simétrico, ideal para expresar condolencias con elegancia y respeto. Las flores utilizadas son variadas en tamaño y color: <br>Claveles rojos y blancos, de tamaño mediano, distribuidos de forma homogénea por todo el arreglo, dando volumen y textura. <br>Rosas rojas y blancas, de tamaño mediano a grande, que aportan distinción y contraste cromático. <br>Gerberas naranjas, grandes y vibrantes, colocadas en pequeños grupos que rompen la uniformidad y añaden calidez visual. <br>Crisantemos blancos, de tamaño medio, que complementan el volumen general con su forma redondeada y pétalos abundantes.<br> Hojas verdes ornamentales (como helechos y hojas variegadas), que enmarcan el conjunto y dan un acabado natural y elegante.<br> Lleva una cinta blanca decorativa en el centro, destinada a incluir un mensaje personalizado o nombre del remitente."
     },
     "FUNERAL_CENTER_APPEARANCE": {
-      "TITLE": "Centro Funerario Semblante"
+      "TITLE": "Centro Funerario Semblante",
+      "DESCRIPTION": "Corona funeraria clásica, con forma circular y una composición equilibrada, ideal para rendir homenaje con elegancia y serenidad. Está formada por una variedad de flores frescas de distintos tamaños:<br> Rosas rojas, de tamaño mediano, distribuidas de manera uniforme para dar un toque de amor y solemnidad.<br> Margaritas blancas con centro amarillo, pequeñas y abundantes, que aportan frescura y luminosidad al conjunto.<br> Lirios blancos y rosas, de gran tamaño y presencia, ubicados en puntos clave para dar protagonismo y elegancia.<br> Botones de lirio sin abrir, que añaden textura y simbolismo de pureza y esperanza.<br> Helechos y hojas verdes ornamentales, que enmarcan la corona y aportan profundidad y estructura.<br> Una cinta blanca con bordes dorados, que cuelga al centro para colocar dedicatorias personalizadas.<br> El diseño transmite paz, respeto y ternura, ideal para acompañar una despedida sentida."
     },
     "F12_FUNERAL_CENTER": {
       "TITLE": "Centro Funerario F12"
@@ -402,6 +421,36 @@
     "LAUREL_CENTER_LISBOA": {
       "TITLE": "Corona de Flores Lisboa",
       "DESCRIPTION": "Es un arreglo confeccionado. Flores variadas: Rosas, Lírios, Gerberas y verdes tropicales."
+    }
+  },
+  "WEDDINGS_PAGE": {
+    "TITLE": "Las flores que necesitas para tus eventos",
+    "WEDDING_TAB": "Bodas",
+    "EVENTS_TAB": "Eventos",
+    "DESCRIPTION_WEDDING": "En Flor de Loto queremos que el día de vuestra celebración sea único e inolvidable, por eso os ofrecerán una amplia gama de arreglos florales, ya sea para bodas tradicionales como para enlaces temáticos.",
+    "WEDDING_1": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_2": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_3": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_4": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_5": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_6": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
     }
   },
   "CONTACT_PAGE": {

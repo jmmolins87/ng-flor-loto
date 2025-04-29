@@ -15,6 +15,8 @@ export class CardComponent implements OnInit {
   public descriptionCard!: string;
   @Input()
   public gallery!: boolean;
+  @Input()
+  public services: boolean = false;
 
   public showSkeleton: boolean = true;
 

@@ -1,6 +1,4 @@
-
 @import "/src/styles.scss";
-
 
 .wrap-card {
     .wrap-image {
@@ -41,6 +39,18 @@
         }
         .title-card-product {
             font-size: 3rem;
+        }
+        .wrap-description {
+          max-height: 25rem;
+          overflow-y: scroll;
+          overflow-x: hidden;
+          padding-right: 1rem;
+          &.services {
+            max-height: 100%;
+            overflow-y: auto;
+            overflow-x: auto;
+            padding-right: 0;
+          }
         }
     }
 }

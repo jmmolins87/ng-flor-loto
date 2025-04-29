@@ -63,8 +63,16 @@
     "SERVICES_TITLE_SECTION": "Our Services",
     "SERVICE_SECTION": {
       "ITEM_1": {
-        "TITLE": "Home delivery",
+        "TITLE": "Home Delivery",
         "DESCRIPTION": "We offer home delivery of flowers and plants."
+      },
+      "ITEM_2": {
+        "TITLE": "Maintenance Service",
+        "DESCRIPTION": "We offer home plant maintenance services."
+      },
+      "ITEM_3": {
+        "TITLE": "Advice",
+        "DESCRIPTION": "We offer advice to customers on plant care, choosing the right flowers for every occasion, and creating floral arrangements."
       }
     },
     "OPINIONS_TITLE_SECTION": "Our customer's opinions",
@@ -369,8 +377,16 @@
     }
   },
   "TERRARIUMS_PAGE": {
-    "TITLE": "Our terrariums",
-    "BONSAI_TERRARIUM_ONE": {
+    "TITLE": "Our Terrariums",
+    "BONSAI_TERRARIUM_1": {
+      "TITLE": "3 Preserved Roses Dome",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome with no water or special care required."
+    },
+    "BONSAI_TERRARIUM_2": {
+      "TITLE": "3 Preserved Roses Dome",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome with no water or special care required."
+    },
+    "BONSAI_TERRARIUM_3": {
       "TITLE": "3 Preserved Roses Dome",
       "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome without requiring water or special care."
     }
@@ -378,13 +394,16 @@
   "FUNERALS_PAGE": {
     "TITLE": "Centros Funerarios",
     "BLUE_AND_ORANGE_FUNERAL_CENTER": {
-      "TITLE": "Blue and Orange Funeral Center"
+      "TITLE": "Blue and Orange Funeral Centerpiece",
+      "DESCRIPTION": "A balanced, triangular funeral flower arrangement with a wide base and a tall focal point. The arrangement is composed of flowers of various colors and sizes: <br>Medium-sized blue roses (tinted color) distributed throughout the arrangement for visual highlighting. <br>Large orange gerberas placed mainly in the center and top, giving height to the arrangement. <br>Medium-sized peach carnations providing volume and soft contrast. <br>Large and elegant white lilies standing out in the top center. <br>Small orange roses or mini roses adding detail and depth. <br>Large green leaves (possibly aspidistra or monstera) in the back, used as a background and structure. <br>Lilac funeral ribbon with text black, with the name 'SERRANO', indicating that it is a personalized funeral tribute." 
     },
     "BIDASOA_FUNERAL_CENTER": {
-      "TITLE": "Bidasoa Funeral Center"
+      "TITLE": "Bidasoa Funeral Center",
+      "DESCRIPTION": "A round, leafy funeral centerpiece with a traditional, symmetrical design, ideal for expressing condolences with elegance and respect. The flowers used are varied in size and color: <br>Medium-sized red and white carnations, evenly distributed throughout the arrangement, giving volume and texture. <br>Medium-to-large red and white roses, providing distinction and chromatic contrast. <br>Large, vibrant orange gerberas, placed in small groups that break up the uniformity and add visual warmth. <br>Medium-sized white chrysanthemums complement the overall volume with their rounded shape and abundant petals. <br>Ornamental green leaves (such as ferns and variegated leaves) frame the arrangement and give a natural, elegant finish. <br>It features A decorative white ribbon in the center, designed to include a personalized message or the sender's name."
     },
     "FUNERAL_CENTER_APPEARANCE": {
-      "TITLE": "Funeral Center Appearance"
+      "TITLE": "Semblante Funeral Centerpiece",
+      "DESCRIPTION": "A classic funeral wreath, with a circular shape and a balanced composition, ideal for paying tribute with elegance and serenity. It is made up of a variety of fresh flowers of different sizes:<br> Medium-sized red roses, evenly distributed to give a touch of love and solemnity.<br> Small and abundant white daisies with yellow centers, which bring freshness and luminosity to the ensemble.<br> Large and presentable white and pink lilies, located in key points to give prominence and elegance.<br> Unopened lily buds, which add texture and symbolism of purity and hope.<br> Ornamental green ferns and leaves, which frame the wreath and provide depth and structure.<br> A white ribbon with gold edges, which hangs in the center to place personalized dedications.<br> The design conveys peace, respect, and Tenderness, ideal for accompanying a heartfelt farewell."
     },
     "F12_FUNERAL_CENTER": {
       "TITLE": "F12 Funeral Center"
@@ -404,6 +423,36 @@
     "LAUREL_CENTER_LISBOA": {
       "TITLE": "Lisbon Flower Crown",
       "DESCRIPTION": "It is a ready-made arrangement. Various flowers: Roses, Lilies, Gerberas and tropical greens."
+    }
+  },
+  "WEDDINGS_PAGE": {
+    "TITLE": "Las flores que necesitas para tus eventos",
+    "WEDDING_TAB": "Weddings",
+    "EVENTS_TAB": "Events",
+    "DESCRIPTION_WEDDING": "En Flor de Loto queremos que el día de vuestra celebración sea único e inolvidable, por eso os ofrecerán una amplia gama de arreglos florales, ya sea para bodas tradicionales como para enlaces temáticos.",
+    "WEDDING_1": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_2": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_3": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_4": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_5": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_6": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
     }
   },
   "CONTACT_PAGE": {

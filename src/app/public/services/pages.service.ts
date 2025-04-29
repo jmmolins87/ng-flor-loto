@@ -14,6 +14,7 @@ import {
 } from '../db/floors.db';
 import { terrarium } from '../db/terrarium.db';
 import { funerals } from '../db/funerals.db';
+import { weddings } from '../db/events.db';
 import {
   carrouselHero,
   carrouselOpinions,
@@ -127,6 +128,16 @@ export class PagesService {
     return new Observable<cardsInterface[]>(observer => {
       // Get items from db
       observer.next(funerals);
+      // Complete observable
+      observer.complete();
+    })
+  }
+
+  // ** Weddings Page **
+  get weddingsPage() {
+    return new Observable<cardsInterface[]>(observer => {
+      // Get items from db
+      observer.next(weddings);
       // Complete observable
       observer.complete();
     })

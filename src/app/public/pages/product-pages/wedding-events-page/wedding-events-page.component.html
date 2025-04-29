@@ -1,1 +1,39 @@
-<p>wedding-events-page works!</p>
+
+
+
+
+<div class="container m-container">
+    <div class="wrap-product">
+        <div class="wrap-title">
+          <h1 *ngIf="!showSkeletonTitle" class="title">{{ "WEDDINGS_PAGE.TITLE" | translate }}</h1>
+          <p-skeleton *ngIf="showSkeletonTitle" width="80rem" height="5rem" styleClass="mb-2" />
+        </div>
+        <p-tabView>
+          <p-tabPanel [header]="'WEDDINGS_PAGE.WEDDING_TAB' | translate">
+            <p *ngIf="!showSkeletonTitle">{{ "WEDDINGS_PAGE.DESCRIPTION_WEDDING" | translate }}</p>
+            <p-skeleton *ngIf="showSkeletonTitle" width="100rem" height="2rem" styleClass="mb-2 mt-3" />
+            <p-skeleton *ngIf="showSkeletonTitle" width="100rem" height="2rem" styleClass="mb-2" />
+            <div class="product-wrap-cards">
+              <div *ngFor="let wedding of weddingsContent" class="wrap-card">
+                <app-card 
+                  [gallery]="true" 
+                  [srcImg]="wedding.srcImg" 
+                  [altImg]="wedding.titleCard" 
+                  [title]="wedding.titleCard"
+                  [titleCard]="wedding.titleCard" 
+                  [descriptionCard]="wedding.descriptionCard || ''" />
+              </div>
+            </div>
+          </p-tabPanel>
+          <p-tabPanel [header]="'WEDDINGS_PAGE.EVENTS_TAB' | translate">
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
+              enim
+              ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+              ratione voluptatem sequi nesciunt. Consectetur, adipisci velit, sed quia non numquam eius modi.
+            </p>
+          </p-tabPanel>
+        </p-tabView>
+    </div>
+</div>

@@ -25,7 +25,7 @@ export class TerrariumsPageComponent implements OnInit {
   }
 
   getTerrarium() {
-    this._pagesService.terrariumPage.subscribe(terrarium=> {
+    this._pagesService.terrariumPage.subscribe(terrarium => {
       this.terrariumContent = terrarium
       this.showSkeleton = false;
     })

@@ -54,6 +54,7 @@
          <div class="wrap-services">
           <div *ngFor="let service of servicesHome" class="wrap-service">
             <app-card
+              [services]="true"
               [gallery]="false"
               [srcImg]="[service.srcImg]"
               [titleCard]="service.title"

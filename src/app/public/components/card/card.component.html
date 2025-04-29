@@ -17,8 +17,10 @@
           [title]="titleCard">
       </div>
       <h3 *ngIf="!showSkeleton" class="title-card-product">{{ titleCard | translate }}</h3>
+      <div *ngIf="descriptionCard" [ngClass]="services ? 'services' : ''" class="wrap-description">
+        <p *ngIf="!showSkeleton" [innerHTML]="descriptionCard | translate"></p>
+      </div>
       <p-skeleton *ngIf="showSkeleton" width="15rem" height="2rem" styleClass="mb-4" />
-      <p *ngIf="!showSkeleton" [innerHTML]="descriptionCard | translate"></p>
       <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
       <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
       <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />

@@ -47,13 +47,13 @@ export const homeServices: servicesHome[] = [
   },
   {
     srcImg: "/assets/img/icons-services/charm-plant.svg",
-    title: "Servicio a domicilio",
-    description: "Ofrecemos el servicio de mantenimiento de plantas a domicilio."
+    title: "HOME_PAGE.SERVICE_SECTION.ITEM_2.TITLE",
+    description: "HOME_PAGE.SERVICE_SECTION.ITEM_2.DESCRIPTION"
   },
   {
     srcImg: "/assets/img/icons-services/advice.svg",
-    title: "Asesoramiento",
-    description: "Ofrecemos asesoramiento a los clientes sobre el cuidado de las plantas, la elección de las flores adecuadas para cada ocasión, y la realización de arreglos florales."
+    title: "HOME_PAGE.SERVICE_SECTION.ITEM_3.TITLE",
+    description: "HOME_PAGE.SERVICE_SECTION.ITEM_3.DESCRIPTION"
   }
 ]
 
