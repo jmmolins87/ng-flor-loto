@@ -10,17 +10,17 @@
         </div>
         <p-tabView>
           <p-tabPanel [header]="'WEDDINGS_PAGE.WEDDING_TAB' | translate">
-            <p *ngIf="!showSkeletonTitle">{{ "WEDDINGS_PAGE.DESCRIPTION_WEDDING" | translate }}</p>
-            <p-skeleton *ngIf="showSkeletonTitle" width="100rem" height="2rem" styleClass="mb-2 mt-3" />
-            <p-skeleton *ngIf="showSkeletonTitle" width="100rem" height="2rem" styleClass="mb-2" />
+            <p *ngIf="!showSkeleton">{{ "WEDDINGS_PAGE.DESCRIPTION_WEDDING" | translate }}</p>
+            <p-skeleton *ngIf="showSkeleton" width="100rem" height="2rem" styleClass="mb-2 mt-3" />
+            <p-skeleton *ngIf="showSkeleton" width="100rem" height="2rem" styleClass="mb-2" />
             <div class="product-wrap-cards">
               <div *ngFor="let wedding of weddingsContent" class="wrap-card">
-                <app-card 
-                  [gallery]="true" 
-                  [srcImg]="wedding.srcImg" 
-                  [altImg]="wedding.titleCard" 
+                <app-card
+                  [gallery]="true"
+                  [srcImg]="wedding.srcImg"
+                  [altImg]="wedding.titleCard"
                   [title]="wedding.titleCard"
-                  [titleCard]="wedding.titleCard" 
+                  [titleCard]="wedding.titleCard"
                   [descriptionCard]="wedding.descriptionCard || ''" />
               </div>
             </div>

@@ -13,20 +13,13 @@
         width: 100%;
         margin-bottom: 2rem;
         @include min-responsive($mobile-large) {
-            @include gridMasonry(2, 2rem);
+            @include grid(2, 2rem);
         }
         @include min-responsive($tablet) {
-            @include gridMasonry(3, 2rem);
+            @include grid(3, 2rem);
         }
         @include min-responsive($desktop-laptop) {
-            @include gridMasonry(4, 2rem);
-        }
-        .wrap-card {
-            break-inside: avoid;
-            margin-top: 2rem;
-            &:first-of-type {
-                margin-top: 0;
-            }   
+            @include grid(4, 2rem);
         }
     }
 }

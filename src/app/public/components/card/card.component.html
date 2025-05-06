@@ -1,33 +1,34 @@
 
 
-<div class="wrap-card">
-    <div class="wrap-image">
+<div class="wrap-card mt-1">
+    <div *ngIf="!showSkeleton && gallery" class="wrap-image">
         <app-gallery-image
           [images]="srcImg"
           [altImg]="titleCard"
           *ngIf="!showSkeleton && gallery" />
-        <p-skeleton *ngIf="showSkeleton" width="100%" height="20rem" />
+        <p-skeleton *ngIf="showSkeleton" width="20rem" height="20rem" />
     </div>
-    <div *ngIf="titleCard" class="wrap-info">
+    <div *ngIf="titleCard"  [ngClass]="gallery ? 'wrap-info' : 'wrap-info no-border'">
       <div class="wrap-icon">
         <img
           *ngIf="!showSkeleton && !gallery"
           [src]="srcImg"
           [alt]="titleCard"
           [title]="titleCard">
+        <p-skeleton *ngIf="showSkeleton" width="25rem" height="25rem" styleClass="mb-4" />
       </div>
       <h3 *ngIf="!showSkeleton" class="title-card-product">{{ titleCard | translate }}</h3>
       <div *ngIf="descriptionCard" [ngClass]="services ? 'services' : ''" class="wrap-description">
         <p *ngIf="!showSkeleton" [innerHTML]="descriptionCard | translate"></p>
       </div>
       <p-skeleton *ngIf="showSkeleton" width="15rem" height="2rem" styleClass="mb-4" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mb-2" />
-      <p-skeleton *ngIf="showSkeleton" height="15px" width="50%" styleClass="mb-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mt-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mt-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mt-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mt-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mt-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mt-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="100%" styleClass="mt-2" />
+      <p-skeleton *ngIf="showSkeleton" height="15px" width="50%" styleClass="mt-2" />
     </div>
 </div>

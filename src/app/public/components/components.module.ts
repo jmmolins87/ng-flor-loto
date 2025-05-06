@@ -36,7 +36,8 @@ import { PipesModule } from '../pipes/pipes.module';
     CardComponent,
     CarrouselComponent,
     FlowerBackgroundComponent,
-    TypewriterAnimationComponent
+    TypewriterAnimationComponent,
+    GalleryImageComponent,
   ]
 })
 export class ComponentsModule { }

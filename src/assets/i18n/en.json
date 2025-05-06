@@ -64,15 +64,15 @@
     "SERVICE_SECTION": {
       "ITEM_1": {
         "TITLE": "Home Delivery",
-        "DESCRIPTION": "We offer home delivery of flowers and plants."
+        "DESCRIPTION": "Do you want to surprise someone special or simply decorate your home without leaving your couch? At Flor de Loto, we'll take your flowers wherever you want. <br>💐 Personalized bouquets<br>🚚 Same-day deliveries (subject to availability)<br>📍 Service in Segovia and surrounding areas<br>🎁 Options with a dedication card and special packaging<br>Place your order online or by phone and we'll take care of the rest. Fast, beautiful, and hassle-free!"
       },
       "ITEM_2": {
         "TITLE": "Maintenance Service",
-        "DESCRIPTION": "We offer home plant maintenance services."
+        "DESCRIPTION": "At Flor de Loto, we don't just create floral arrangements: we also take care of them so they always look perfect.<br>We offer a personalized floral maintenance service, ideal for:<br>Offices and offices<br>Hotels and restaurants<br>Event or reception spaces<br>Homes with a vibrant and elegant decor<br>🔄 Regular visits to renew or maintain arrangements<br>💧 Watering, cleaning, and replacing flowers as needed<br>🌸 Designs adapted to the season and the style of the place.<br>📅 Total flexibility: weekly, biweekly, or monthly<br>Trust us to keep your space always full of life, color, and freshness"
       },
       "ITEM_3": {
-        "TITLE": "Advice",
-        "DESCRIPTION": "We offer advice to customers on plant care, choosing the right flowers for every occasion, and creating floral arrangements."
+        "TITLE": "Personalized Advice",
+        "DESCRIPTION": "At Flor de Loto, we help you choose the perfect flowers for every occasion, space, or person. Our floral advice service is designed for those looking for more than just a bouquet: they want to convey emotions, decorate with meaning, or make a moment unforgettable. <br>👩‍🎨 Floral decoration advice for events, weddings, and celebrations <br>🏡 Ideas to decorate your home or business with flowers and plants <br>🎨 Color combinations, flower types, and styles that suit you <br>🪴 Advice on care, maintenance, and longevity <br>Tell us what you need, and we will put all our experience and floral sensitivity at your service."
       }
     },
     "OPINIONS_TITLE_SECTION": "Our customer's opinions",
@@ -395,7 +395,7 @@
     "TITLE": "Centros Funerarios",
     "BLUE_AND_ORANGE_FUNERAL_CENTER": {
       "TITLE": "Blue and Orange Funeral Centerpiece",
-      "DESCRIPTION": "A balanced, triangular funeral flower arrangement with a wide base and a tall focal point. The arrangement is composed of flowers of various colors and sizes: <br>Medium-sized blue roses (tinted color) distributed throughout the arrangement for visual highlighting. <br>Large orange gerberas placed mainly in the center and top, giving height to the arrangement. <br>Medium-sized peach carnations providing volume and soft contrast. <br>Large and elegant white lilies standing out in the top center. <br>Small orange roses or mini roses adding detail and depth. <br>Large green leaves (possibly aspidistra or monstera) in the back, used as a background and structure. <br>Lilac funeral ribbon with text black, with the name 'SERRANO', indicating that it is a personalized funeral tribute." 
+      "DESCRIPTION": "A balanced, triangular funeral flower arrangement with a wide base and a tall focal point. The arrangement is composed of flowers of various colors and sizes: <br>Medium-sized blue roses (tinted color) distributed throughout the arrangement for visual highlighting. <br>Large orange gerberas placed mainly in the center and top, giving height to the arrangement. <br>Medium-sized peach carnations providing volume and soft contrast. <br>Large and elegant white lilies standing out in the top center. <br>Small orange roses or mini roses adding detail and depth. <br>Large green leaves (possibly aspidistra or monstera) in the back, used as a background and structure. <br>Lilac funeral ribbon with text black, with the name 'SERRANO', indicating that it is a personalized funeral tribute."
     },
     "BIDASOA_FUNERAL_CENTER": {
       "TITLE": "Bidasoa Funeral Center",
