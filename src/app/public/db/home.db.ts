@@ -8,13 +8,7 @@ import {
 } from "../models/home/contentHomePage.interface"
 
 
-export const homePageCarouselHero: carrouselHero[] = [
-  {
-    title: "HOME_PAGE.CAROUSEL_HERO.ITEM_1.TITLE",
-    description: "HOME_PAGE.CAROUSEL_HERO.ITEM_1.DESCRIPTION",
-    img: "assets/img/products/bouquet/ramo-te_quiero.jpeg"
-  }
-]
+export const homePageCarouselHero: carrouselHero[] = [ ]
 
 export const homePageRecomendations: recomendationsHome[] = [
   {

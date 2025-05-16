@@ -22,13 +22,14 @@
                 [typingSpeed]="100"
                 [height]="200" />
         </div>
+        <!-- !De momento se quita por recomendación del cliente -->
         <!-- Skeleton Presentation -->
-        <div class="wrap-title mt-3 mb-3">
+        <!-- <div class="wrap-title mt-3 mb-3">
             <h3 *ngIf="!showSkeleton" class="subtitle mb-0 ">{{ "HOME_PAGE.RECOMENDATIONS_TITLE_SECTION" | translate }}</h3>
             <p-skeleton *ngIf="showSkeleton" width="30rem" height="5rem" />
-        </div>
+        </div> -->
         <!-- Recomendations -->
-        <div class="wrap-recommends">
+        <!-- <div class="wrap-recommends">
             <div *ngFor="let recomendation of recommendationsHome" class="wrap-recommends__presentation">
                 <h3 *ngIf="!showSkeleton">{{ recomendation.title | translate }}</h3>
                 <div *ngIf="!showSkeleton" class="wrap-image">
@@ -45,7 +46,7 @@
                 <p-skeleton *ngIf="showSkeleton" width="100%" height="2rem" styleClass="mb-2" />
                 <p-skeleton *ngIf="showSkeleton" width="50%" height="2rem" styleClass="mb-2" />
             </div>
-        </div>
+        </div> -->
         <!-- Services -->
         <div class="wrap-title mt-3 mb-3">
           <h3 *ngIf="!showSkeleton" class="subtitle mb-0 ">{{ "HOME_PAGE.SERVICES_TITLE_SECTION" | translate }}</h3>

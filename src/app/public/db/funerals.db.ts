@@ -22,23 +22,28 @@ export const funerals: cardsInterface[] = [
   },
   {
     srcImg: ["/assets/img/products/funerals/funeral-centro_funerario-F12.jpeg"],
-    titleCard: "FUNERALS_PAGE.F12_FUNERAL_CENTER.TITLE"
+    titleCard: "FUNERALS_PAGE.F12_FUNERAL_CENTER.TITLE",
+    descriptionCard: "FUNERALS_PAGE.F12_FUNERAL_CENTER.DESCRIPTION"
   },
   {
     srcImg: ["/assets/img/products/funerals/ramo_funerario.jpeg"],
-    titleCard: "FUNERALS_PAGE.FUNERAL_BOUQUET.TITLE"
+    titleCard: "FUNERALS_PAGE.FUNERAL_BOUQUET.TITLE",
+    descriptionCard: "FUNERALS_PAGE.FUNERAL_BOUQUET.DESCRIPTION"
   },
   {
     srcImg: ["/assets/img/products/funerals/funeral-centro_funerario_espana.jpeg"],
-    titleCard: "FUNERALS_PAGE.SPAIN_FUNERAL_CENTER.TITLE"
+    titleCard: "FUNERALS_PAGE.SPAIN_FUNERAL_CENTER.TITLE",
+    descriptionCard: "FUNERALS_PAGE.SPAIN_FUNERAL_CENTER.DESCRIPTION"
   },
   {
     srcImg: ["/assets/img/products/funerals/funeral-centro-F123.jpeg"],
-    titleCard: "FUNERALS_PAGE.FUNERAL_CENTER_F123.TITLE"
+    titleCard: "FUNERALS_PAGE.FUNERAL_CENTER_F123.TITLE",
+    descriptionCard: "FUNERALS_PAGE.FUNERAL_CENTER_F123.DESCRIPTION"
   },
   {
     srcImg: ["/assets/img/products/funerals/funeral-centro-F111.jpeg"],
-    titleCard: "FUNERALS_PAGE.LAUREL_CENTER_F111.TITLE"
+    titleCard: "FUNERALS_PAGE.LAUREL_CENTER_F111.TITLE",
+    descriptionCard: "FUNERALS_PAGE.LAUREL_CENTER_F111.DESCRIPTION"
   },
   {
     srcImg: ["/assets/img/products/funerals/funeral-corona_lisboa.jpeg"],

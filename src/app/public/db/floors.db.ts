@@ -24,6 +24,34 @@ export const rouses: cardsInterface[] = [
     ],
     titleCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.DOME_3_PRESERVED_ROSES.TITLE",
     descriptionCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.DOME_3_PRESERVED_ROSES.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/rouses/rosas-damita.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_DAMITA.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_DAMITA.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/rouses/rosas-pack_amor.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_LOVE_PACK.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_LOVE_PACK.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/rouses/rosas-pack_siempre_juntos.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_ALWAYS_TOGETHER.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_ALWAYS_TOGETHER.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/rouses/rosas-te_amo.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_IN_LOVE.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.ROUSES_PAGE.ROUSES_IN_LOVE.DESCRIPTION"
   }
 ]
 
@@ -94,6 +122,41 @@ export const moreFloors: cardsInterface[] = [
     ],
     titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_VASE.TITLE",
     descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.NATURAL_AROMAS_VASE.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/more/cesta-alegria.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.HAPPINESS.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.HAPPINESS.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/more/cesta-nacimientos.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.BIRTH_BASKET.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.BIRTH_BASKET.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/more/cesta-plantas_madrid.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.MADRID_BASKET.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.MADRID_BASKET.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/more/terrario-pareja_feliz.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.HAPPY_COUPLE_TERRARIUM.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.HAPPY_COUPLE_TERRARIUM.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/floors/more/terrario-pareja.jpg"
+    ],
+    titleCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.HAPPY_TERRARIUM.TITLE",
+    descriptionCard: "FLOORS_PAGE.SUBMENU.MORE_FLOORS_PAGE.HAPPY_TERRARIUM.DESCRIPTION"
   }
 ]
 

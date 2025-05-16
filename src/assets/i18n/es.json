@@ -61,7 +61,7 @@
     "SERVICES_TITLE_SECTION": "Nuestros servicios",
     "SERVICE_SECTION": {
       "ITEM_1": {
-        "TITLE": "Servicio a domicilio",
+        "TITLE": "Servicio a domicilio Premium",
         "DESCRIPTION": "¿Quieres sorprender a alguien especial o simplemente decorar tu hogar sin moverte del sofá? En Flor de Loto, llevamos tus flores donde tú nos digas. <br>💐 Ramos personalizados<br>🚚 Entregas en el mismo día (según disponibilidad)<br>📍 Servicio en Segovia y alrededores<br>🎁 Opciones con tarjeta dedicatoria y envoltorios especiales<br>Haz tu pedido online o por teléfono y nosotros nos encargamos del resto. ¡Rápido, bonito y sin complicaciones!"
       },
       "ITEM_2": {
@@ -313,8 +313,20 @@
       "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 5 ud. Margaritas - 10 ud. Solidago amarillo - 3 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 55 cm de altura.<hr> ✨ Un ramo lleno de luz y frescura para alegrar cualquier ocasión especial. ✨"
     },
     "BOUQUET_24_RED_ROSES": {
-      "TITLE": "Ramo de 24 Rosas Rojasa",
+      "TITLE": "Ramo de 24 Rosas Rojas",
       "DESCRIPTION": "<strong>Composición:</strong><br>Paniculata - 4 ud. Rosas rojas - 24 ud. Solidago amarillo - 3 ud. Helechos y follaje decorativo - 10 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 55 cm de altura.<hr>Un ramo elegante y sofisticado que simboliza amor y pasión. Diseñado con rosas rojas intensas, acompañado de delicados toques blancos y verdes que realzan su belleza. Perfecto para aniversarios, declaraciones de amor y momentos especiales."
+    },
+    "BOUQUET_AMSTERDAM": {
+      "TITLE": "Ramo Amsterdam",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Gerberas fucsias, Lirios orientales rosados (algunos en botón), Iris azules, Crisantemos morados claros, Clavel amarillo, Pompones verdes (Crisantemo botón), Flor de cera blanca o paniculata, Eucalipto (follaje fresco y aromático), Astromelias blancas y lilas, Margaritas mini blancas, Verdes ornamentales (helecho, ruscus, etc.)<br> <strong>Dimensiones:</strong><br> 30-40 cm de anchura y 40-45 cm de altura.<hr>El ramo Amsterdam es un bouquet vibrante y elegante, ideal para celebraciones alegres o para transmitir cariño. Con una armoniosa mezcla de tonos fucsias, lilas, blancos, verdes y azules, está pensado para transmitir frescura, energía y buen gusto. Presentado sobre una base de papel amarillo mostaza que realza el colorido general."
+    },
+    "BOUQUET_COLOMBIA": {
+      "TITLE": "Ramo Colombia",
+      "DESCRIPTION": "<strong>Composición:</strong><br>El ramo está compuesto por una variedad de flores de colores vibrantes, envueltas en papel blanco y hojas verdes.Lirios blancos, algunos abiertos y otros en capullo. Gerberas amarillas con centros oscuros. Rosas amarillas. Claveles rosados y púrpuras. Flores pequeñas de color púrpura (posiblemente crisantemos). Una rosa azul (probablemente teñida artificialmente) Hojas verdes y helechos como relleno.<br> <strong>Dimensiones:</strong><br> 40-50 cm y una altura de 60-70 cm, incluyendo las hojas y el envoltorio.<hr>El ramo Amsterdam es un bouquet vibrante y elegante, ideal para celebraciones alegres o para transmitir cariño. Con una armoniosa mezcla de tonos fucsias, lilas, blancos, verdes y azules, está pensado para transmitir frescura, energía y buen gusto. Presentado sobre una base de papel amarillo mostaza que realza el colorido general. Un ramo colorido y variado de flores frescas, con lirios blancos, gerberas amarillas, claveles rosados y púrpuras, y una rosa azul, envuelto en papel blanco con hojas verdes. Es sostenido por una persona frente a una mesa de madera sobre un fondo blanco."
+    },
+    "BOUQUET_MALAGA": {
+      "TITLE": "Ramo Malaga",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Ramo de flores envuelto en papel blanco con un lazo verde, colocado sobre un fondo blanco puro, sin otros elementos visibles. Una rosa grande de color naranja como punto focal. Lirios amarillos, algunos en capullo. Crisantemos amarillos. Claveles rosados y púrpuras. Alstroemerias blancas con detalles rosados. Flores pequeñas blancas y amarillas como relleno. Hojas verdes y helechos para dar volumen y contraste.<br> <strong>Dimensiones:</strong><br> el diámetro del ramo es de aproximadamente 40-45 cm, y la altura, incluyendo las flores y el envoltorio, es de unos 50-60 cm.<hr>Un ramo vibrante de flores frescas con una rosa naranja central, lirios amarillos, crisantemos, claveles rosados y púrpuras, alstroemerias blancas y verdes de relleno, envuelto en papel blanco con un lazo verde, sobre un fondo blanco."
     }
   },
   "FLOORS_PAGE": {
@@ -332,6 +344,22 @@
         "DOME_3_PRESERVED_ROSES": {
           "TITLE": "Cupula 3 Rosas Preservadas",
           "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+        },
+        "ROUSES_DAMITA": {
+          "TITLE": "Rosas Damita",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja rectangular con un diseño colorido que incluye la palabra 'LOVE' y detalles como estrellas y salpicaduras de pintura. Dentro de la caja, hay varios bombones Ferrero Rocher envueltos en papel dorado. Un oso de peluche marrón sosteniendo un corazón rosa claro, colocado en el centro. Cinco rosas azules (probablemente teñidas artificialmente) a la derecha del oso. Una botella de vino tinto (etiquetada como Merlot) a la izquierda. Un globo rojo en forma de corazón con el nombre 'DAMITA' escrito en blanco, flotando sobre el arreglo. Hojas verdes y helechos como relleno decorativo. Una tarjeta roja con un diseño floral y el texto 'La Isla Segunda' en el frente.<br> <strong>Dimensiones:</strong><br>La caja mide aproximadamente 30 cm de largo, 20 cm de ancho y 10 cm de alto. El arreglo total, incluyendo el globo y la botella, tiene una altura de unos 50-60 cm y un ancho de 40-45 cm.<hr>Un regalo romántico en una caja decorativa con la palabra 'LOVE', que contiene bombones Ferrero Rocher, un oso de peluche con un corazón, rosas azules, una botella de vino tinto Merlot, un globo rojo con el nombre 'DAMITA' y una tarjeta, todo adornado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "ROUSES_LOVE_PACK": {
+          "TITLE": "Pack Amor",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja negra con una cinta roja de puntos blancos atada en un lazo. Dentro de la caja, hay varios bombones Ferrero Rocher envueltos en papel dorado. Una botella de vino tinto (etiquetada como 'Viña Ardanza Reserva') inclinada a la izquierda. Flores variadas, incluyendo: Rosas rojas. Lirios blancos, algunos en capullo. Margaritas blancas con centros verdes. Hojas verdes como relleno decorativo.<br> <strong>Dimensiones:</strong><br>la caja mide aproximadamente 30 cm de largo, 20 cm de ancho y 10 cm de alto. El arreglo total, incluyendo la botella y las flores, tiene una altura de unos 40-50 cm y un ancho de 35-40 cm.<hr>Un regalo elegante en una caja negra con cinta roja, que contiene bombones Ferrero Rocher, una botella de vino tinto Viña Ardanza Reserva, rosas rojas, lirios blancos y margaritas blancas, decorado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "ROUSES_ALWAYS_TOGETHER": {
+          "TITLE": "Pack Siempre Juntos",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja roja en forma de corazón como base. Rosas rojas, lirios blancos (algunos en capullo), margaritas blancas, y flores pequeñas blancas (posiblemente gypsophila) como arreglo floral principal. Hojas verdes y helechos para relleno. Un oso de peluche marrón sosteniendo un corazón rojo, colocado a la derecha. Una botella de vino tinto (etiquetada con un diseño de 'Happy Valentine's Day' y corazones) con un lazo rojo, ubicada al centro-izquierda. Una caja de bombones Nestlé 'Caja Roja' a la derecha del centro. Un globo rojo en forma de corazón con la palabra 'LOVE' escrita en blanco, flotando sobre el arreglo.<br> <strong>Dimensiones:</strong><br>La caja en forma de corazón mide aproximadamente 35 cm de ancho, 30 cm de largo y 10 cm de alto. El arreglo total, incluyendo el globo y la botella, tiene una altura de unos 50-60 cm y un ancho de 40-45 cm.<hr>Un regalo romántico en una caja roja en forma de corazón, con rosas rojas, lirios blancos, margaritas, un oso de peluche con un corazón, una botella de vino tinto con temática de San Valentín, una caja de bombones Nestlé Caja Roja, y un globo rojo con la palabra 'LOVE', decorado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "ROUSES_IN_LOVE": {
+          "TITLE": "Pack Te Amo",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja roja con un patrón de corazones blancos y una cinta blanca atada en un lazo. Rosas blancas como flores principales, acompañadas de hojas verdes y helechos. Un oso de peluche marrón sosteniendo un corazón rojo, ubicado en el centro del arreglo. Un globo rojo en forma de corazón con la inscripción 'te amo' en blanco, flotando a la derecha. Un pequeño letrero rojo con la palabra 'LOVE' en blanco, colocado entre las flores.<br> <strong>Dimensiones:</strong><br>La caja mide aproximadamente 25 cm de ancho, 20 cm de largo y 10 cm de alto. El arreglo total, incluyendo el globo, tiene una altura de unos 40-50 cm y un ancho de 30-35 cm.<hr>Un regalo romántico en una caja roja con corazones blancos, decorada con rosas blancas, un oso de peluche con un corazón rojo, un globo rojo con 'te amo' y un letrero 'LOVE', adornado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
         }
       },
       "ORCHIDS_PAGE": {
@@ -370,6 +398,26 @@
         "NATURAL_AROMAS_VASE": {
           "TITLE": "Jarron 'Aromas Naturales'",
           "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 20 ud. Cesta - 1 ud.<br> <strong>Dimensiones:</strong><br> 50 cm de anchura y 70 cm de altura.<hr>Un arreglo encantador y fresco de eucalipto presentado en una cesta de mimbre, ideal para decorar cualquier espacio y aportar un aroma natural relajante. Perfecto para aquellos que buscan un detalle elegante, ecológico y de fácil mantenimiento."
+        },
+        "HAPPINESS": {
+          "TITLE": "Cesta Alegría'",
+          "DESCRIPTION": "<strong>Composición:</strong><br>EUna canasta de mimbre blanco que sirve como base.Orquídeas amarillas (Phalaenopsis) con tallos largos y hojas verdes. Bromelias naranjas con hojas espinosas. Plantas de flores de color púrpura, rosa y blanco (posiblemente violetas africanas o primulas) con follaje verde. Una cinta amarilla atada en un lazo decorativo alrededor de la canasta.<br> <strong>Dimensiones:</strong><br> La canasta tiene un diámetro aproximado de 25-30 cm y una altura de unos 20-25 cm, incluyendo las plantas. El arreglo total, con las flores más altas (orquídeas), alcanza una altura de aproximadamente 40-50 cm.<hr>Un arreglo floral vibrante en una canasta de mimbre blanco, con orquídeas amarillas, bromelias naranjas, flores púrpuras, rosas y blancas, y follaje verde, decorado con una cinta amarilla, sobre un fondo blanco."
+        },
+        "BIRTH_BASKET": {
+          "TITLE": "Cesta Nacimientos",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Un recipiente blanco con el texto 'COTTON TAIL FARM CARROT PATCH' y dibujos de zanahorias, con las frases 'LOCALLY GROWN' y 'ALWAYS FRESH'. Plantas variadas, incluyendo: Anthuriums rojos con espádices amarillos. Una planta de hojas grandes y verdes con rayas claras (posiblemente un Calathea). Una planta de flores amarillas pequeñas (posiblemente Kalanchoe). Una planta con hojas blancas y verdes moteadas (posiblemente un Hypoestes). Una planta con hojas largas y verdes (posiblemente un Spathiphyllum). Hojas de helecho y otras plantas verdes como relleno.<br> <strong>Dimensions:</strong><br> El recipiente tiene un diámetro de aproximadamente 25-30 cm y una altura de unos 15-20 cm. El arreglo total, incluyendo las plantas más altas, alcanza una altura de aproximadamente 40-50 cm.<hr>Un arreglo de plantas en un recipiente blanco decorado con el texto 'COTTON TAIL FARM CARROT PATCH', que contiene anthuriums rojos, un Calathea de hojas rayadas, flores amarillas, plantas moteadas y follaje verde, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "MADRID_BASKET": {
+          "TITLE": "Cesta Nacimientos",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Una caja rectangular blanca con un diseño pintado de cactus verdes con flores rosadas y detalles rojos. Plantas variadas, incluyendo: Hojas grandes de una planta con variegación verde y amarilla (posiblemente un Croton). Hojas largas y finas de una planta verde (posiblemente un Areca o similar). Flores rosadas y púrpuras (posiblemente Cyclamen o Primula). Hiedra verde que cae por los lados de la caja. Otras plantas verdes de follaje denso como relleno.<br> <strong>Dimensions:</strong><br> La caja mide aproximadamente 30 cm de largo, 20 cm de ancho y 15 cm de alto. El arreglo total, incluyendo las plantas más altas, alcanza una altura de unos 40-50 cm.<hr>Un arreglo de plantas en una caja blanca decorada con cactus pintados, que contiene un Croton con hojas variegadas, una planta de hojas finas, flores rosadas y púrpuras, hiedra colgante y follaje verde, sobre una mesa blanca frente a una pared de ladrillos blancos."
+        },
+        "HAPPY_COUPLE_TERRARIUM": {
+          "TITLE": "Terrario Pareja Feliz",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Un terrario de vidrio con forma geométrica (hexagonal) y bordes de color verde. Dentro del terrario: Una planta pequeña con hojas verdes (posiblemente un Ficus pumila o similar). Musgo verde cubriendo el suelo. Una pequeña figura decorativa de dos niños (uno con un impermeable amarillo y otro con un vestido rosa) frente a un árbol. Piedras pequeñas y un poco de tierra como base. Suculentas pequeñas y otras plantas verdes alrededor.<br> <strong>Dimensions:</strong><br>El terrario tiene un diámetro de aproximadamente 20-25 cm en su base y una altura de unos 25-30 cm, incluyendo la planta más alta.<hr>Un terrario de vidrio hexagonal con bordes verdes, que contiene una planta verde, musgo, suculentas, piedras y una figura decorativa de dos niños, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "HAPPY_TERRARIUM": {
+          "TITLE": "Couple Terrarium",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A domed glass terrarium, decorated with a string at the top and a red ribbon with white hearts tied at the base. Inside the terrarium: A green plant with shiny leaves (possibly a Ficus pumila or similar). Green moss covering the soil. A decorative figurine of two children (one wearing a yellow raincoat and the other a pink dress and blue hat). Layers of soil, sand, and small stones at the base.<br> <strong>Dimensions:</strong><br>The terrarium has a diameter of approximately 20-25 cm at the base and a height of approximately 25-30 cm, including the dome and the plant.<hr>The terrarium has a diameter of approximately 20-25 cm at the base and a height of approximately 25-30 cm, including the dome and the plant."
         }
       }
     }
@@ -404,23 +452,28 @@
       "DESCRIPTION": "Corona funeraria clásica, con forma circular y una composición equilibrada, ideal para rendir homenaje con elegancia y serenidad. Está formada por una variedad de flores frescas de distintos tamaños:<br> Rosas rojas, de tamaño mediano, distribuidas de manera uniforme para dar un toque de amor y solemnidad.<br> Margaritas blancas con centro amarillo, pequeñas y abundantes, que aportan frescura y luminosidad al conjunto.<br> Lirios blancos y rosas, de gran tamaño y presencia, ubicados en puntos clave para dar protagonismo y elegancia.<br> Botones de lirio sin abrir, que añaden textura y simbolismo de pureza y esperanza.<br> Helechos y hojas verdes ornamentales, que enmarcan la corona y aportan profundidad y estructura.<br> Una cinta blanca con bordes dorados, que cuelga al centro para colocar dedicatorias personalizadas.<br> El diseño transmite paz, respeto y ternura, ideal para acompañar una despedida sentida."
     },
     "F12_FUNERAL_CENTER": {
-      "TITLE": "Centro Funerario F12"
+      "TITLE": "Centro Funerario F12",
+      "DESCRIPTION": "El ramo incluye rosas rojas y blancas, lirios blancos, gerberas rosadas y amarillas, hortensias blancas, y otras flores pequeñas de colores variados, con hojas verdes como relleno. La persona viste un top negro sin mangas, y el fondo es blanco."
     },
     "FUNERAL_BOUQUET": {
-      "TITLE": "Ramo Funerario"
+      "TITLE": "Ramo Funerario",
+      "DESCRIPTION": "El ramo incluye rosas rojas y blancas, lirios blancos, gerberas rosadas y amarillas, hortensias blancas, y otras flores pequeñas de colores variados, con hojas verdes como relleno. La persona viste un top negro sin mangas, y el fondo es blanco."
     },
     "SPAIN_FUNERAL_CENTER": {
-      "TITLE": "Centro Funerario España"
+      "TITLE": "Centro Funerario España",
+      "DESCRIPTION": "Corona con una cruz de madera en el centro, decorado con rosas rojas, naranjas y rosadas, gerberas de varios colores, flores pequeñas blancas y púrpuras, y follaje verde, sobre un fondo blanco."
     },
     "FUNERAL_CENTER_F123": {
-      "TITLE": "Centro Funerario F123"
+      "TITLE": "Centro Funerario F123",
+      "DESCRIPTION": "Una corona floral circular con una cruz de madera en el centro, adornada con rosas rojas, naranjas y rosadas, gerberas de varios colores, flores pequeñas blancas y púrpuras, y follaje verde, sobre un fondo blanco."
     },
     "LAUREL_CENTER_F111": {
-      "TITLE": "Centro de Laurel F111"
+      "TITLE": "Centro de Laurel F111",
+      "DESCRIPTION": "Una corona funeraria circular hecha de hojas verdes, decorada con una cinta roja y amarilla atada en un lazo, sobre un fondo negro."
     },
     "LAUREL_CENTER_LISBOA": {
       "TITLE": "Corona de Flores Lisboa",
-      "DESCRIPTION": "Es un arreglo confeccionado. Flores variadas: Rosas, Lírios, Gerberas y verdes tropicales."
+      "DESCRIPTION": "Una corona floral circular con una cruz de madera en el centro, decorada con rosas rojas, naranjas y rosadas, gerberas de varios colores, flores pequeñas blancas y púrpuras, y follaje verde, sobre un fondo blanco."
     }
   },
   "WEDDINGS_PAGE": {

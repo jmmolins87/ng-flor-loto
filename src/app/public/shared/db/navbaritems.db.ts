@@ -27,10 +27,11 @@ export const navbarItems: NavBarInterface[] =  [
             }
         ]
     },
-    {
-        label: "NAV_BAR.TERRARIUMS",
-        routerLink: ["/terrarios-segovia"]
-    },
+    // !Se quita por petición del cliente y los terrarios se ponen en plantas
+    // {
+    //     label: "NAV_BAR.TERRARIUMS",
+    //     routerLink: ["/terrarios-segovia"]
+    // },
     {
         label: "NAV_BAR.WEDDING",
         routerLink: ["/bodas-eventos-segovia"]

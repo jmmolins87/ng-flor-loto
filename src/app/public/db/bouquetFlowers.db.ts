@@ -80,5 +80,26 @@ export const bouquetFlower: cardsInterface[] = [
     ],
     titleCard: "BOUQETS_PAGE.BOUQUET_24_RED_ROSES.TITLE",
     descriptionCard: "BOUQETS_PAGE.BOUQUET_24_RED_ROSES.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/bouquet/ramo-amsterdam.jpg",
+    ],
+    titleCard: "BOUQETS_PAGE.BOUQUET_AMSTERDAM.TITLE",
+    descriptionCard: "BOUQETS_PAGE.BOUQUET_AMSTERDAM.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/bouquet/ramo-colombia.jpg",
+    ],
+    titleCard: "BOUQETS_PAGE.BOUQUET_COLOMBIA.TITLE",
+    descriptionCard: "BOUQETS_PAGE.BOUQUET_COLOMBIA.DESCRIPTION"
+  },
+  {
+    srcImg: [
+      "/assets/img/products/bouquet/ramo-malaga.jpg",
+    ],
+    titleCard: "BOUQETS_PAGE.BOUQUET_MALAGA.TITLE",
+    descriptionCard: "BOUQETS_PAGE.BOUQUET_MALAGA.DESCRIPTION"
   }
 ]

@@ -317,6 +317,18 @@
     "BOUQUET_24_RED_ROSES": {
       "TITLE": "Bouquet of 24 Red Roses",
       "DESCRIPTION": "<strong>Composition:</strong><br>Paniculata - 4 pcs. Red roses - 24 pcs. Yellow solidago - 3 pcs. Ferns and decorative foliage - 10 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 55 cm high.<hr>An elegant and sophisticated bouquet that symbolizes love and passion. Designed with intense red roses, accompanied by delicate white and green touches that enhance their beauty. Perfect for anniversaries, declarations of love, and special moments."
+    },
+    "BOUQUET_AMSTERDAM": {
+      "TITLE": "Amsterdam Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Fuchsia gerberas, pink oriental lilies (some in bud), blue irises, light purple chrysanthemums, yellow carnations, green pompoms (button chrysanthemums), white wax flowers or paniculata, eucalyptus (fresh and aromatic foliage), white and lilac alstroemerias, white mini daisies, ornamental greens (fern, ruscus, etc.)<br> <strong>Dimensions:</strong><br> 30-40 cm wide and 40-45 cm high.<hr>The Amsterdam bouquet is a vibrant and elegant bouquet, ideal for joyful celebrations or to convey affection. With a harmonious blend of fuchsia, lilac, white, green, and blue tones, it is designed to convey freshness, energy, and good taste. Presented on a paper base Mustard yellow that enhances the overall color. A colorful and varied bouquet of fresh flowers, including white lilies, yellow gerberas, pink and purple carnations, and a blue rose, wrapped in white paper with green leaves. It is held by a person in front of a wooden table against a white background."
+    },
+    "BOUQUET_COLOMBIA": {
+      "TITLE": "Bouquet Colombia",
+      "DESCRIPTION": "<strong>Composition:</strong><br>The bouquet is made up of a variety of vibrantly colored flowers, wrapped in white paper and green leaves. White lilies, some open and others in bud. Yellow gerberas with dark centers. Yellow roses. Pink and purple carnations. Small purple flowers (possibly chrysanthemums). A blue rose (probably artificially dyed). Green leaves and ferns as filler. <br> <strong>Dimensions:</strong><br> 40-50 cm and a height of 60-70 cm, including leaves and wrapping. <hr>The Amsterdam bouquet is a vibrant and elegant bouquet, ideal for joyful celebrations or to express affection. With a harmonious blend of fuchsia, lilac, white, green, and blue tones, it is designed to convey freshness, energy, and good taste. Presented on A mustard yellow paper base that enhances the overall color."
+    },
+    "BOUQUET_MALAGA": {
+      "TITLE": "Malaga Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Bouquet of flowers wrapped in white paper with a green ribbon, placed on a pure white background, with no other visible elements. A large orange rose as the focal point. Yellow lilies, some in bud. Yellow chrysanthemums. Pink and purple carnations. White alstroemerias with pink details. Small white and yellow flowers as filler. Green leaves and ferns for volume and contrast.<br> <strong>Dimensions:</strong><br>The diameter of the bouquet is approximately 40-45 cm, and the height, including the flowers and wrapping, is about 50-60 cm.<hr>A vibrant bouquet of fresh flowers with a central orange rose, yellow lilies, chrysanthemums, pink and purple carnations, white alstroemerias and filler greens, wrapped in white paper with a green bow, on a white background."
     }
   },
   "FLOORS_PAGE": {
@@ -334,6 +346,18 @@
         "DOME_3_PRESERVED_ROSES": {
           "TITLE": "DOME 3 Preserved Roses",
           "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome without requiring water or special care."
+        },
+        "ROUSES_LOVE_PACK": {
+          "TITLE": "Love Pack",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A black box with a red ribbon with white dots tied in a bow. Inside the box are several Ferrero Rocher chocolates wrapped in gold paper. A bottle of red wine (labeled 'Viña Ardanza Reserva') tilted to the left. Assorted flowers, including: Red roses. White lilies, some in bud. White daisies with green centers. Green leaves as decorative filler. <br> <strong>Dimensions:</strong><br>The box measures approximately 30 cm long, 20 cm wide, and 10 cm high. The total arrangement, including the bottle and flowers, is about 40-50 cm high and 35-40 cm wide. <hr>An elegant gift in a black box with red ribbon, containing Ferrero Rocher chocolates, a bottle of Viña Ardanza red wine Ardanza Reserva, red roses, white lilies, and white daisies, decorated with green leaves, on a light surface in front of a white brick wall."
+        },
+        "ROUSES_ALWAYS_TOGETHER": {
+          "TITLE": "Always Together Pack",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A red heart-shaped box as the base. Red roses, white lilies (some in bud), white daisies, and small white flowers (possibly gypsophila) as the main floral arrangement. Green leaves and ferns for filler. A brown teddy bear holding a red heart, placed on the right. A bottle of red wine (labeled with a 'Happy Valentine's Day' design and hearts) with a red bow, placed center-left. A box of Nestlé 'Red Box' chocolates is on the right of center. A red heart-shaped balloon with the word 'LOVE' written in white, floating above the arrangement. <br> <strong>Dimensions:</strong><br>The heart-shaped box measures approximately 35 cm wide, 30 cm long, and 10 cm high. The arrangement The total height, including the balloon and bottle, is about 50-60 cm and 40-45 cm wide. <hr>A romantic gift in a red heart-shaped box, with red roses, white lilies, daisies, a teddy bear holding a heart, a Valentine's Day-themed bottle of red wine, a box of Nestlé Red Box chocolates, and a red balloon with the word 'LOVE', decorated with green leaves, on a light surface in front of a white brick wall."
+        },
+        "ROUSES_IN_LOVE": {
+          "TITLE": "I Love You Pack",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A red box with a pattern of white hearts and a white ribbon tied in a bow. White roses as the main flowers, accompanied by green leaves and ferns. A brown teddy bear holding a red heart, located in the center of the arrangement. A red heart-shaped balloon with the inscription 'I love you' in white, floating to the right. A small red sign with the word 'LOVE' in white, placed between the flowers. <br> <strong>Dimensions:</strong><br>The box measures approximately 25 cm wide, 20 cm long, and 10 cm high. The total arrangement, including the balloon, is about 40-50 cm high and 30-35 cm wide. <hr>A romantic gift in a red box with white hearts, decorated with white roses, a teddy bear with a red heart, A red balloon with 'I love you' and a 'LOVE' sign, adorned with green leaves, on a light surface in front of a white brick wall."
         }
       },
       "ORCHIDS_PAGE": {
@@ -372,6 +396,22 @@
         "NATURAL_AROMAS_VASE": {
           "TITLE": "'Natural Aromas' Vase",
           "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 20 units. Basket - 1 unit.<br> <strong>Dimensions:</strong><br> 50 cm wide and 70 cm high.<hr>A charming and fresh eucalyptus arrangement presented in a wicker basket, ideal for decorating any space and providing a relaxing natural aroma. Perfect for those looking for an elegant, ecological, and easy-to-maintain detail."
+        },
+        "HAPPINESS": {
+          "TITLE": "Joy Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A white wicker basket serving as a base. Yellow orchids (Phalaenopsis) with long stems and green leaves. Orange bromeliads with thorny leaves. Purple, pink, and white flowering plants (possibly African violets or primulas) with green foliage. A yellow ribbon tied in a decorative bow around the basket. <br> <strong>Dimensions:</strong><br> The basket has an approximate diameter of 25-30 cm and a height of about 20-25 cm, including the plants. The total arrangement, with the tallest flowers (orchids), reaches a height of approximately 40-50 cm. <hr>A vibrant floral arrangement in a white wicker basket, with yellow orchids, orange bromeliads, flowers purple, pink, and white, and green foliage, decorated with a yellow ribbon, on a white background."
+        },
+        "BIRTH_BASKET": {
+          "TITLE": "Birth Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A white container with the text 'COTTON TAIL FARM CARROT PATCH' and pictures of carrots, with the phrases 'LOCALLY GROWN' and 'ALWAYS FRESH'. Assorted plants, including: Red anthuriums with yellow spadices. A plant with large, light-striped green leaves (possibly a Calathea). A plant with small yellow flowers (possibly a Kalanchoe). A plant with mottled white and green leaves (possibly a Hypoestes). A plant with long, green leaves (possibly a Spathiphyllum). Fern leaves and other green plants as filler. <br> <strong>Dimensions:</strong><br>The container has a diameter of approximately 25-30 cm and a height of about 15-20 cm. The total arrangement, including the Taller plants, reaching a height of approximately 40-50 cm. <hr>A plant arrangement in a white container decorated with the text 'COTTON TAIL FARM CARROT PATCH', containing red anthuriums, a striped-leaf Calathea, yellow flowers, variegated plants, and green foliage, on a light surface in front of a white brick wall."
+        },
+        "MADRID_BASKET": {
+          "TITLE": "Birth Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A white rectangular box with a painted design of green cacti with pink flowers and red details. Assorted plants, including: Large leaves of a plant with green and yellow variegation (possibly a Croton). Long, thin leaves of a green plant (possibly an Areca or similar). Pink and purple flowers (possibly Cyclamen or Primula). Green ivy draping over the sides of the box. Other green plants with dense foliage as filler. <br> <strong>Dimensions:</strong><br>The box measures approximately 30 cm long, 20 cm wide, and 15 cm high. The total arrangement, including the tallest plants, reaches a height of about 40-50 cm. <hr>A plant arrangement in a white box decorated with painted cacti, containing a Croton with variegated leaves, A plant with fine leaves, pink and purple flowers, trailing ivy, and green foliage, on a white table in front of a white brick wall."
+        },
+        "HAPPY_COUPLE_TERRARIUM": {
+          "TITLE": "Happy Couple Terrarium",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A geometrically shaped (hexagonal) glass terrarium with green edges. Inside the terrarium: A small plant with green leaves (possibly a Ficus pumila or similar). Green moss covering the soil. A small decorative figurine of two children (one in a yellow raincoat and one in a pink dress) standing in front of a tree. Small stones and some soil as a base. Small succulents and other green plants all around.<br> <strong>Dimensions:</strong><br>The terrarium has a diameter of approximately 20-25 cm at its base and a height of about 25-30 cm, including the tallest plant.<hr>A hexagonal glass terrarium with green edges, containing a green plant, moss, succulents, stones, and a decorative figurine of two children, stands on a light surface in front of a wooden wall. white bricks."
         }
       }
     }
@@ -406,23 +446,28 @@
       "DESCRIPTION": "A classic funeral wreath, with a circular shape and a balanced composition, ideal for paying tribute with elegance and serenity. It is made up of a variety of fresh flowers of different sizes:<br> Medium-sized red roses, evenly distributed to give a touch of love and solemnity.<br> Small and abundant white daisies with yellow centers, which bring freshness and luminosity to the ensemble.<br> Large and presentable white and pink lilies, located in key points to give prominence and elegance.<br> Unopened lily buds, which add texture and symbolism of purity and hope.<br> Ornamental green ferns and leaves, which frame the wreath and provide depth and structure.<br> A white ribbon with gold edges, which hangs in the center to place personalized dedications.<br> The design conveys peace, respect, and Tenderness, ideal for accompanying a heartfelt farewell."
     },
     "F12_FUNERAL_CENTER": {
-      "TITLE": "F12 Funeral Center"
-    },
-    "FUNERAL_BOUQUET": {
-      "TITLE": "Funeral Bouquet"
+      "TITLE": "F12 Funeral Center",
+      "DESCRIPTION": "The bouquet includes red and white roses, white lilies, pink and yellow gerberas, white hydrangeas, and other small flowers of various colors, with green leaves as filler. The person is wearing a sleeveless black top, and the background is white."
+      },
+      "FUNERAL_BOUQUET": {
+      "TITLE": "Funeral Bouquet",
+      "DESCRIPTION": "The bouquet includes red and white roses, white lilies, pink and yellow gerberas, white hydrangeas, and other small flowers of various colors, with green leaves as filler. The person is wearing a sleeveless black top, and the background is white."
     },
     "SPAIN_FUNERAL_CENTER": {
-      "TITLE": "Spain Funeral Center"
+      "TITLE": "Spain Funeral Center",
+      "DESCRIPTION": "Wreath with a wooden cross in the center, decorated with red, orange, and pink roses, multi-colored gerberas, small white and purple flowers, and green foliage, on a white background."
     },
     "FUNERAL_CENTER_F123": {
-      "TITLE": "Funeral Center F123"
+      "TITLE": "Funeral Center F123",
+      "DESCRIPTION": "A circular floral wreath with a wooden cross in the center, adorned with red, orange, and pink roses, multi-colored gerberas, small white and purple flowers, and green foliage, on a white background."
     },
     "LAUREL_CENTER_F111": {
-      "TITLE": "Laurel Center F111"
+      "TITLE": "Laurel Centerpiece F111",
+      "DESCRIPTION": "A circular funeral wreath made of green leaves, decorated with a red and yellow ribbon tied in a bow, on a black background."
     },
     "LAUREL_CENTER_LISBOA": {
-      "TITLE": "Lisbon Flower Crown",
-      "DESCRIPTION": "It is a ready-made arrangement. Various flowers: Roses, Lilies, Gerberas and tropical greens."
+      "TITLE": "Lisbon Flower Wreath",
+      "DESCRIPTION": "A circular floral wreath with a wooden cross in the center, decorated with red, orange, and pink roses, multi-colored gerberas, small white and purple flowers, and green foliage, on a white background."
     }
   },
   "WEDDINGS_PAGE": {

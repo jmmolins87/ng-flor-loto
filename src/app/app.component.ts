@@ -104,6 +104,13 @@ export class AppComponent implements OnInit {
         command: () => {
           window.open('https://flowwow.es/shop/flor-de-loto/', '_blank');
         }
+      },
+      {
+        label: 'Bodas.net',
+        image: 'assets/img/icons-dial/bodasnet.svg',
+        command: () => {
+          window.open('https://www.bodas.net/floristerias/flor-de-loto--e123285/', '_blank');
+        }
       }
     ];
   }
