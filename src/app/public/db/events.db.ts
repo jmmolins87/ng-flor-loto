@@ -9,7 +9,7 @@ export const weddings: cardsInterface[] = [
     descriptionCard: "WEDDINGS_PAGE.WEDDING_1.DESCRIPTION",
   },
   {
-    srcImg: ["/assets/img/products/events/wedding_2.webp"],
+    srcImg: ["/assets/img/products/events/wedding_1.webp"],
     titleCard: "WEDDINGS_PAGE.WEDDING_2.TITLE",
     descriptionCard: "WEDDINGS_PAGE.WEDDING_2.DESCRIPTION",
   },
