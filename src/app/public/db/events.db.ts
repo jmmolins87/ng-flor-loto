@@ -4,7 +4,7 @@ import { cardsInterface } from "../models/cards/cards.interface";
 
 export const weddings: cardsInterface[] = [
   {
-    srcImg: ["/assets/img/products/events/wedding_2.webp"],
+    srcImg: ["/assets/img/products/events/wedding_1.webp"],
     titleCard: "WEDDINGS_PAGE.WEDDING_1.TITLE",
     descriptionCard: "WEDDINGS_PAGE.WEDDING_1.DESCRIPTION",
   },
