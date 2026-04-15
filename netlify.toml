@@ -4,5 +4,6 @@
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 200
+  to = "https://flordlotosegovia.free.nf/:splat"
+  status = 301
+  force = true
