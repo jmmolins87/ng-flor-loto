@@ -3,14 +3,13 @@
 .wrap-shopping,
 .wrap-social {
   position: fixed;
+  bottom: 11.5rem;
 }
 .wrap-shopping {
-  right: 7rem;
-  bottom: calc(15rem + 20.25rem);
+  right: 2rem;
 }
 .wrap-social {
   left: 2rem;
-  bottom: calc(9.5rem + 17.25rem);
 }
 .wrap-message-btn {
   position: fixed;

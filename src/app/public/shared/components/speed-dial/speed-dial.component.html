@@ -1,24 +1,29 @@
+<div class="speed-dial" [class.speed-dial--open]="isOpen">
+    <button
+        type="button"
+        class="speed-dial__toggle"
+        (click)="toggle($event)"
+        [attr.aria-expanded]="isOpen"
+        aria-haspopup="true">
+        <i [ngClass]="isOpen ? 'pi pi-times' : showIcon"></i>
+    </button>
 
-
-
-<p-speedDial 
-    [model]="items || null" 
-    direction="up" 
-    transitionDelay="80" 
-    [showIcon]="showIcon" 
-    hideIcon="pi pi-times"
-    buttonClassName="p-button-outlined" >
-    <ng-template let-item pTemplate="item">
-        <button 
-            pRipple 
-            type="button" 
-            [ngClass]="'p-speeddial-action'" 
-            (click)="item.command?.()">
-            <img 
-                [src]="item.image" 
-                [alt]="item.label" 
-                [title]="item.label"
-                class="speed-dial-image" />
-        </button>
-    </ng-template>
-</p-speedDial>
+    <button
+        *ngFor="let item of items; let i = index"
+        type="button"
+        class="speed-dial__item"
+        [class.speed-dial__item--open]="isOpen"
+        [style.transform]="isOpen ? getItemTransform(i) : 'translateY(0)'"
+        [style.opacity]="isOpen ? 1 : 0"
+        [style.pointerEvents]="isOpen ? 'auto' : 'none'"
+        [style.transitionDelay]="isOpen ? (i * 60) + 'ms' : '0ms'"
+        [attr.aria-label]="item.label"
+        [title]="item.label || ''"
+        (click)="onItemClick($event, item)">
+        <img
+            *ngIf="item.image"
+            [src]="item.image"
+            [alt]="item.label || ''"
+            class="speed-dial__image" />
+    </button>
+</div>

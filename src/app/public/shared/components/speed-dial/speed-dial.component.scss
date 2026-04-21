@@ -2,12 +2,68 @@
 
 @import "/src/styles.scss";
 
-.p-speeddial-action {
-    border: none;
+:host {
+    display: block;
 }
-.speed-dial-image {
+
+.speed-dial {
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+}
+
+.speed-dial__toggle,
+.speed-dial__item {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: $border-radius-50;
+    background: rgba($brand-primary-light, .5);
+    backdrop-filter: blur(1.5rem);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: $dialShadow;
+    transition: transform .24s ease, opacity .18s ease, box-shadow .2s ease;
+}
+
+.speed-dial__toggle {
+    z-index: 2;
+    color: $black;
+    text-shadow: 0 0 .5rem $white;
+    cursor: pointer;
+}
+
+.speed-dial__toggle:hover,
+.speed-dial__toggle:focus,
+.speed-dial__item:hover,
+.speed-dial__item:focus {
+    box-shadow: 0 0 1.5rem rgba($brand-primary, .35);
+}
+
+.speed-dial__toggle i {
+    font-size: $icon-dial;
+}
+
+.speed-dial__item {
+    z-index: 1;
+    cursor: pointer;
+}
+
+.speed-dial__image {
     width: 3rem;
-    svg {
-        fill: whitesmoke !important;
-    }
+    height: 3rem;
+    object-fit: contain;
+    display: block;
+}
+
+.speed-dial__item:not(.speed-dial__item--open) {
+    box-shadow: none;
+}
+
+.speed-dial__item--open {
+    box-shadow: $dialShadow;
 }
