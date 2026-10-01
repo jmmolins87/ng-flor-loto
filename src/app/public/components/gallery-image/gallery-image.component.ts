@@ -64,7 +64,7 @@ export class GalleryImageComponent implements OnInit, OnDestroy {
 
   onImageError(event: Event): void {
     const target = event.target as HTMLImageElement;
-    target.src = '/assets/img/logo-new-loto.jpg';
+    target.src = '/assets/img/logo-nuevo.jpeg';
   }
 
   prevPreviewImage(): void {
