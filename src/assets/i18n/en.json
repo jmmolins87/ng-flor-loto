@@ -1,0 +1,602 @@
+{
+  "NAV_BAR": {
+    "LOGO": "Flor de Loto Segovia",
+    "BOUQUET_FLOWERS": "Bouquet of flowers",
+    "FLOORS": "Floors",
+    "TERRARIUMS": "Terrariums",
+    "WEDDING": "Weddings and Events",
+    "FUNERAL": "Funeral",
+    "CONTACT": "Contact",
+    "LANGUAGE": "Elija su idioma",
+    "SUBMENUS": {
+      "ROUSES": "Rouses",
+      "ORCHIDS": "Orchids",
+      "MORE": "More"
+    }
+  },
+  "FOOTER": {
+    "LOCATION": "Where are we?",
+    "MAIL": "Do you want to tell us something?",
+    "PHONE": "Call us!!",
+    "RIGHTS": "All rights reserved",
+    "MY_SITE": "Site created with a lot",
+    "LEGAL": "Legal notice",
+    "COOKIES": "Cookie Policy",
+    "PRIVACITY": "Privacy Policy"
+  },
+  "COOKIES": {
+    "TEXT": "We use cookies to improve your experience. By using our site, you agree to our use of cookies.",
+    "BUTTON": "Accept"
+  },
+  "HOME_PAGE": {
+    "CAROUSEL_HERO": {
+      "ITEM_1": {
+        "TITLE": "Valentine's Day",
+        "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
+      },
+      "BUTTON_READ_MORE": "Continue reading"
+    },
+    "TITLE": "The art of flowers",
+    "SUBTITLE": "Flowers are our best allies to surprise, excite and transmit emotions always with total attention to detail and finish.",
+    "TEXT_PRESENTATION": "<p>Our florist specializes in offering a carefully curated selection of classic floral arrangements and indoor plants that combine elegance and freshness. From bouquets of roses and eucalyptus to more striking options like our Phalaenopsis orchids, each product is designed with attention to detail, ideal for gifting or decorating any space with style and distinction. We work with fresh flowers and quality plants, presented in harmonious and modern designs.</p> <p>We also offer potted plants, such as our decorative aloe vera, perfect for indoors and easy to care for. Our goal is to provide a complete floral experience, both in design and convenience for our customers. We take great care in the presentation and finishes, and offer products ready for delivery or gifting. Visit us and discover how our flowers and plants can transform your space.</p>",
+    "RECOMENDATIONS_TITLE_SECTION": "We recommend you",
+    "RECOMENDATIONS_SECTION": {
+      "RECOMENDATIONS_SECTION": {
+        "ITEM_1": {
+          "TITLE": "How to choose the perfect bouquet for an anniversary?",
+          "DESCRIPTION": "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo."
+        },
+        "ITEM_2": {
+          "TITLE": "Funeral flowers",
+          "DESCRIPTION": "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!"
+        },
+        "ITEM_3": {
+          "TITLE": "Flowers for events: options and recommendations",
+          "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+        },
+        "ITEM_4": {
+          "TITLE": "Our Segovian flowers!!",
+          "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+        }
+      }
+    },
+    "SERVICES_TITLE_SECTION": "Our Services",
+    "SERVICE_SECTION": {
+      "ITEM_1": {
+        "TITLE": "Home Delivery",
+        "DESCRIPTION": "Do you want to surprise someone special or simply decorate your home without leaving your couch? At Flor de Loto, we'll take your flowers wherever you want. <br>💐 Personalized bouquets<br>🚚 Same-day deliveries (subject to availability)<br>📍 Service in Segovia and surrounding areas<br>🎁 Options with a dedication card and special packaging<br>Place your order online or by phone and we'll take care of the rest. Fast, beautiful, and hassle-free!"
+      },
+      "ITEM_2": {
+        "TITLE": "Maintenance Service",
+        "DESCRIPTION": "At Flor de Loto, we don't just create floral arrangements: we also take care of them so they always look perfect.<br>We offer a personalized floral maintenance service, ideal for:<br>Offices and offices<br>Hotels and restaurants<br>Event or reception spaces<br>Homes with a vibrant and elegant decor<br>🔄 Regular visits to renew or maintain arrangements<br>💧 Watering, cleaning, and replacing flowers as needed<br>🌸 Designs adapted to the season and the style of the place.<br>📅 Total flexibility: weekly, biweekly, or monthly<br>Trust us to keep your space always full of life, color, and freshness"
+      },
+      "ITEM_3": {
+        "TITLE": "Personalized Advice",
+        "DESCRIPTION": "At Flor de Loto, we help you choose the perfect flowers for every occasion, space, or person. Our floral advice service is designed for those looking for more than just a bouquet: they want to convey emotions, decorate with meaning, or make a moment unforgettable. <br>👩‍🎨 Floral decoration advice for events, weddings, and celebrations <br>🏡 Ideas to decorate your home or business with flowers and plants <br>🎨 Color combinations, flower types, and styles that suit you <br>🪴 Advice on care, maintenance, and longevity <br>Tell us what you need, and we will put all our experience and floral sensitivity at your service."
+      }
+    },
+    "OPINIONS_TITLE_SECTION": "Our customer's opinions",
+    "OPINIONS_SECTION": {
+      "OPINION_1": {
+        "AUTHOR_NAME": "Gloria",
+        "DESCRIPTION": "Today is the first time I've been there and it certainly won't be the last! Rafaela (I'll remember her name) has lovingly prepared a beautiful bouquet of multicoloured carnations for me. <br>She has also been very attentive and patient because I couldn't decide on one flower or another and I wanted to stick to a budget :). <br>Thank you Rafaela! My friend loved her bouquet!"
+      },
+      "OPINION_2": {
+        "AUTHOR_NAME": "Cielo mr (Quispe)",
+        "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
+      },
+      "OPINION_3": {
+        "AUTHOR_NAME": "Cielo mr (Quispe)",
+        "DESCRIPTION": "I have been there several times and have been served by both Rafaela and the owner, in all cases a great deal, very friendly, always with a smile and beautiful bouquets! < br > Totally recommended!!"
+      },
+      "OPINION_4": {
+        "AUTHOR_NAME": "Lu RqV",
+        "DESCRIPTION": "It's a pleasure to work with such professional people like Rafaela... everything is perfect! With great detail and taste! You can tell when someone enjoys their work! Thank you!<br> I will definitely be back."
+      },
+      "OPINION_5": {
+        "AUTHOR_NAME": "Chema Durán",
+        "DESCRIPTION": "Fantastic service from Rafaela, super attentive and kind. I called by phone for a home delivery and they delivered it very quickly and a beautiful bouquet that I left to her liking. 100% recommended."
+      },
+      "OPINION_6": {
+        "AUTHOR_NAME": "Marvin Bonilla",
+        "DESCRIPTION": "I placed an order with Flor de Loto and was delighted. The flowers arrived beautifully and perfectly arranged, but what really made the difference was Rafaella's attention. She was attentive, kind, and made sure everything was perfect. Definitely an excellent service that I would recommend to anyone. Thank you, Rafaella and Flor de Loto for making this order such a special experience!"
+      },
+      "OPINION_7": {
+        "AUTHOR_NAME": "Mayreni Garcia Almonte",
+        "DESCRIPTION": "Excellent service and attention from Rafaela, the flowers are beautiful, but above all the love and dedication that this girl put into my purchase made my day. Highly recommended!"
+      },
+      "OPINION_8": {
+        "AUTHOR_NAME": "Cecilia Gómez Gascueña",
+        "DESCRIPTION": "Rafaella is an excellent professional. Incredible treatment, fantastic attention and quality 10. I don't plan on ever changing stores!"
+      },
+      "OPINION_9": {
+        "AUTHOR_NAME": "Angelica Muñoz Pascual",
+        "DESCRIPTION": "I ordered a gift to thank a colleague. <br>The treatment from the first moment was exquisite, with incomparable attention and dedication. I have never received such kindness from a person in any of the establishments I go to. The gift was beautiful. <br> They are amazing professionals. <br> Thank you very much for everything."
+      },
+      "OPINION_10": {
+        "AUTHOR_NAME": "Estefany Rodriguez Garcia",
+        "DESCRIPTION": "They have treated me super well, Rafaela has done a super nice job with my mother's gift, thank you very much."
+      },
+      "OPINION_11": {
+        "AUTHOR_NAME": "Blanca B",
+        "DESCRIPTION": "Very good service from Rafaela at all times. I didn't like the paper on the bouquet, and she exchanged it for another one without any problem. <br>I recommend it."
+      },
+      "OPINION_12": {
+        "AUTHOR_NAME": "Valeri Radev Yankov",
+        "DESCRIPTION": "Magnificent treatment by RAFAELA, who made a magnificent and beautiful order."
+      },
+      "OPINION_13": {
+        "AUTHOR_NAME": "Jesus david Rolong arrieta",
+        "DESCRIPTION": "I ordered a bouquet of flowers for my wife's birthday and the person who helped me, Rafaela, did it with great kindness. The service was excellent. I really give this flower shop a 10 out of 10 for both service and product quality. It's really great. <br>100% recommended. Thank you!"
+      },
+      "OPINION_14": {
+        "AUTHOR_NAME": "Yolanda Sanz",
+        "DESCRIPTION": "I can only say that Rafaela's attention was wonderful, the treatment was exquisite, the bouquet she made for my mother was beautiful. <br>I recommend it 100%."
+      },
+      "OPINION_15": {
+        "AUTHOR_NAME": "beatriz cruz",
+        "DESCRIPTION": "I contacted this florist from Madrid to send an orchid to a relative hospitalized in Segovia. Rafaela helped me and gave me all the possible facilities. Thank you very much for your efficiency. I was delighted."
+      },
+      "OPINION_16": {
+        "AUTHOR_NAME": "María Bernabé",
+        "DESCRIPTION": "The person who served me talked non-stop to the point of overwhelming me. I asked for some bamboo sticks that had a blackboard with the price on them and when I went to pay he overcharged me, taking me for a fool. He gave me the bill and was so pleased... I didn't say anything because he kept talking as if to distract me. It was €2.50 that didn't go anywhere, but I left upset and indignant that someone would lose a customer for €2.50."
+      },
+      "OPINION_17": {
+        "AUTHOR_NAME": "Ana",
+        "DESCRIPTION": "Always attentive to your needs. <br>Rafaela is charming. Great service. She tries to help you with what you are looking for. <br>A 10 in every way."
+      },
+      "OPINION_18": {
+        "AUTHOR_NAME": "Editorial SHB",
+        "DESCRIPTION": "This is my second time shopping here and besides the beauty of the store and its products, it is worth highlighting, above all, Rafaella's loving treatment. I declare myself a new customer!! ❤"
+      },
+      "OPINION_19": {
+        "AUTHOR_NAME": "Aurora Allas Jorge",
+        "DESCRIPTION": "I always go there because I am always very satisfied with the result. The service is great. They give you lots of ideas. <br>Very professional, as well as very friendly and approachable."
+      },
+      "OPINION_20": {
+        "AUTHOR_NAME": "Maria Alvarez",
+        "DESCRIPTION": "We love this flower shop! Rafaela is super friendly and makes beautiful bouquets. She gives you advice on how to make your gift special."
+      },
+      "OPINION_21": {
+        "AUTHOR_NAME": "Inmaculada Pérez",
+        "DESCRIPTION": "Exquisite and very professional service. The birthday bouquet was beautiful, it was a surprise and she loved it. And they brought it to the place of the celebration. Thank you for everything."
+      },
+      "OPINION_22": {
+        "AUTHOR_NAME": "Alberto Acebes",
+        "DESCRIPTION": "Raul is a great florist! He is always willing to help, giving good advice on how to care for plants. Whenever I have questions, he answers them quickly and helps me keep my plants healthy. <br> He also has some of the most original species, like the one you can see in the photo, that look great at home and are easy to care for. <br> Highly recommended!"
+      },
+      "OPINION_23": {
+        "AUTHOR_NAME": "Macarena Cabello Obrecht",
+        "DESCRIPTION": "Even though we came at the last minute, Rafaela was very attentive and took the time to make us a wonderful bouquet. <br>Thank you very much."
+      },
+      "OPINION_24": {
+        "AUTHOR_NAME": "Nuria Sacristán",
+        "DESCRIPTION": "Terrible. First they forget about the order and, when an hour later it was claimed, it took them another hour to deliver it. A bouquet of yellow roses was ordered and the one in the photo arrived... When I reported the error again, and another 45 minutes later, they changed it for the bouquet that was supposed to be correct. <br>Yellow roses? No, a tiny one of white roses painted with yellow spray... I will not recommend or return to a place where it seems that they are dedicated to laughing at the client."
+      },
+      "OPINION_25": {
+        "AUTHOR_NAME": "Isabel Vallejo",
+        "DESCRIPTION": "Totally recommendable, I love shopping here, we had already bought before, Rafaela is so nice and attentive, today we went to buy a flower arrangement and she also gave us some flowers that she prepared for us with all her love, we are so grateful, it was a lovely detail on her part, now in these difficult times for us...... <br>I wish they would serve us the same everywhere..."
+      },
+      "OPINION_26": {
+        "AUTHOR_NAME": "Elisa de la Cruz",
+        "DESCRIPTION": "The flower shop is great, but above all Rafaela's service, she is attentive, delicate, she gives you very good advice and is super affectionate. <br>Thank you very much Rafaela."
+      },
+      "OPINION_27": {
+        "AUTHOR_NAME": "Nila Montero",
+        "DESCRIPTION": "Today my partner surprised me with a SPECTACULAR bouquet of flowers from this store. Thank you so much Rafaela for your attention and service. <br><It was exciting ❤️."
+      },
+      "OPINION_28": {
+        "AUTHOR_NAME": "Daniel Muñoz Perez",
+        "DESCRIPTION": "First class service, fast and very professional, giving advice. It's a pleasure to deal with people who like what they do. Thank you very much Rafaela, a wonderful person."
+      },
+      "OPINION_29": {
+        "AUTHOR_NAME": "jenny lilieth bermejo",
+        "DESCRIPTION": "The customer service was very good, Rafaela was very kind and attentive."
+      },
+      "OPINION_30": {
+        "AUTHOR_NAME": "ANA ROBLEDO BARROSO",
+        "DESCRIPTION": "Today I bought a beautiful bouquet of flowers at the Lotus Flower flower shop. The girl who helped me made the bouquet with great art and taste, with great detail and lots of kindness and friendliness. I totally recommend it, a great place."
+      },
+      "OPINION_31": {
+        "AUTHOR_NAME": "Fernando de Frutos García",
+        "DESCRIPTION": "By far the best flower shop in Segovia in terms of quality, service and price. <br>The unbeatable hours with Raul and Rafaela always ready to provide a service that interflora is not capable of providing. <br>An excellent solution for Sundays and holidays that are always open for your surprise gift for a visit to your family or friends in the form of a floral gift. <br>Keep up the good work."
+      },
+      "OPINION_32": {
+        "AUTHOR_NAME": "adrian sanchez",
+        "DESCRIPTION": "It is the first time I buy from the flower shop and I definitely loved the service and the bouquet is beautiful. My mother loved it and Rafaela is a super good host. I do not hesitate to recommend her."
+      },
+      "OPINION_33": {
+        "AUTHOR_NAME": "lilibeth montenegro londoño",
+        "DESCRIPTION": "I have bought several times and I think it is wonderful, Rafaela is a very attentive and kind girl. I was very pleased with each visit, highly recommended."
+      },
+      "OPINION_34": {
+        "AUTHOR_NAME": "Maria Yolanda Hernandez",
+        "DESCRIPTION": "I went to buy a center and Rafaela helped me, she treated me specially and was super friendly and nice...and the center was beautiful. <br>I will return."
+      },
+      "OPINION_35": {
+        "AUTHOR_NAME": "Eliezer Leonardo Garcia aponte",
+        "DESCRIPTION": "Super delighted with the arrangements, they are very detailed and attentive, I loved their services and attention, especially to Rafaela, a great, kind and charismatic person."
+      },
+      "OPINION_36": {
+        "AUTHOR_NAME": "Alejandra Herraiz Moya",
+        "DESCRIPTION": "I came on a trip to Segovia and we returned with two beautiful bouquets of roses and wonderful service from Rafaela."
+      },
+      "OPINION_37": {
+        "AUTHOR_NAME": "Rubiela Petrelpetrel",
+        "DESCRIPTION": "Rafaela's service is excellent 👌 she makes beautiful bouquets."
+      },
+      "OPINION_38": {
+        "AUTHOR_NAME": "Cristina CC",
+        "DESCRIPTION": "I went on Mother's Day to get a gift for 3 people. The person who helped me insisted on selling me €40 bouquets without listening to what I was saying, showing me options that didn't fit what I was saying. All in such a hurry and in such a way that I wanted to leave without buying anything. But I didn't have many other options either... In the end I ended up buying and when I gave the flowers I saw that one was missing the ribbon, another was missing the card... In short, a disaster. The workers who were in the establishment at that time didn't seem to understand each other very well either."
+      },
+      "OPINION_39": {
+        "AUTHOR_NAME": "Lisbeth Pamela",
+        "DESCRIPTION": "The arrangement he made me was very beautiful and the service was super good. Everything was great."
+      },
+      "OPINION_40": {
+        "AUTHOR_NAME": "Arantxa Sacristán",
+        "DESCRIPTION": "Rafaela has treated us very well. She was kind and made the bouquet very pretty. We will return."
+      },
+      "OPINION_41": {
+        "AUTHOR_NAME": "homeguitarclass Clases de guitarra",
+        "DESCRIPTION": "Rafaella is always attentive and professional!!! A cheerful, simple and authentic flower shop. 10/10!!!"
+      },
+      "OPINION_42": {
+        "AUTHOR_NAME": "Adal MG88",
+        "DESCRIPTION": "Good service from Rafaela and beautiful bouquet of roses with its balloon and stuffed animal❤️."
+      },
+      "OPINION_43": {
+        "AUTHOR_NAME": "Pilar Montes",
+        "DESCRIPTION": "Rafaela is a charming girl and she prepares bouquets of roses for me with her stuffed animal and I love Rafaela's attention 🍀🍀🍀💋."
+      },
+      "OPINION_44": {
+        "AUTHOR_NAME": "Deriva_78",
+        "DESCRIPTION": "Muy buen gusto, me prepararon un ramo precioso en un momento, con todo detalle y ajustado al presupuesto. La chica es muy profesional y cuida cada detalle. <br>Volveré a comprar allí"
+      },
+      "OPINION_45": {
+        "AUTHOR_NAME": "Damaris Dorscht",
+        "DESCRIPTION": "Siempre elijo Flor de Loto ya sea para agasajar a mis santos o dar un bonito regalo, la atención de Raúl tanto como Rafaela es genial!!!!! <br>Gracias!"
+      },
+      "OPINION_46": {
+        "AUTHOR_NAME": "Bego Isabel",
+        "DESCRIPTION": "Rafaela came to bring a pothos and transplanted it, she did an excellent job, very kind and very professional, I recommend 100%."
+      },
+      "OPINION_47": {
+        "AUTHOR_NAME": "Elisa Pascual González",
+        "DESCRIPTION": "Whenever we need a flower item, whether it be a bouquet, plant or gift, we do not hesitate to go to their flower shop. We have always had great service (with very long hours, even on holidays) and quality flowers that have filled our home and our family with colour. <br>The private delivery has also been to our liking on all occasions, (also at no additional cost) <br>We will definitely continue to go to this flower shop, both for quality and proximity!"
+      },
+      "OPINION_48": {
+        "AUTHOR_NAME": "Raquel Bermejo De La Puente",
+        "DESCRIPTION": "Rafaela is wonderful, kind, friendly, very nice and a good saleswoman, I recommend her, I took home a beautiful plant!!!!!"
+      },
+      "OPINION_49": {
+        "AUTHOR_NAME": "N KN",
+        "DESCRIPTION": "A bad experience... We have been clients of this flower shop for many years and we liked it very much, but the truth is that it is not like it used to be. A few days ago I made a purchase and it is assumed that an establishment is there to attend to the needs/requests of the client, in this case it was not, they do not listen to the requests but rather they go a bit on their own (the service is not the best) and the truth is that one is left unhappy and about the prices no comments, each time a different one... It is a shame because the owner has always treated us very well and with great kindness, but we will certainly not return..."
+      },
+      "OPINION_50": {
+        "AUTHOR_NAME": "Gebris ester Jiménez sanmartin",
+        "DESCRIPTION": "Very good service, excellent, I recommend it. Greetings Rafaela, I love you and the owner."
+      },
+      "BUTTON": "Read more"
+    }
+  },
+  "BOUQETS_PAGE": {
+    "TITLE": "Our Bouquets of Flowers",
+    "ARMONIA_BOUQUET": {
+      "TITLE": "Armoia Branch",
+      "DESCRIPTION": "<strong>Composition:</strong><br> White aniculata - 12 units and Ferns - 7 units. <br> <strong>Dimensions:</strong><br> 40 cm wide and 45 cm high.<hr> Bouquet of freshly cut natural Paniculata, also called Gypsopila"
+    },
+    "BOUQUET_OF_SUNFLOWERS_TEMPERANCE": {
+      "TITLE": "Temperance Sunflower Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br> Eucalyptus - 5 pcs. Ferns - 4 pcs. Yellow Solidago - 5 pcs. Teddy Sunflower - 6 pcs. Decorative Red Foliage - 6 pcs. <br> <strong>Dimensions:</strong><br> 45 cm wide and 45 cm high.<hr> This vibrant bouquet radiates joy and energy with its bright yellow sunflowers, symbolizing happiness and vitality. Accompanied by red foliage for a dynamic contrast and eucalyptus that adds a fresh and elegant touch, it is perfect for brightening up any space and conveying good wishes."
+    },
+    "BOUQUET_OF_RED_CARNATIONS": {
+      "TITLE": "Red Carnation Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Gypsophila - 6 pcs. Columbian carnations - 12 pcs. Ferns - 7 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 45 cm high.<hr> This beautiful bouquet symbolizes passion and devotion, with vibrant red carnations evoking love and strength, while the white gypsophila adds a touch of purity and sweetness. A classic and elegant design that is perfectly suited to romantic occasions, anniversaries or to express admiration and respect."
+    },
+    "AMANTINA_BOUQUET": {
+      "TITLE": "Amantina Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>White roses - 6 pcs. Ferns - 5 pcs. Aspidistra leaves - 4 pcs. Green solidago - 3 pcs.<br> <strong>Dimensions:</strong><br> 40 cm wide and 50 cm high.<hr> ✨ A classic and refined design that symbolizes peace, love, and respect. 🕊️💖"
+    },
+    "SPRING_BOUQUET": {
+      "TITLE": "Spring Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Lilies - 11 pcs. White Paniculata - 4 pcs. Tropical Green - 8 pcs.<br> <strong>Dimensions:</strong><br> 55 cm wide and 55 cm high.<hr> Lovely bouquet of large lilies! Spectacular colors, the best gift for a special occasion."
+    },
+    "BOUQUET_ROSES_EUCALYPTUS": {
+      "TITLE": "Rose and Eucalyptus Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 8 pcs. Roses - 12 pcs. Gypsophila - 2 pcs. Yellow Solidago - 1 pcs. Ferns and decorative leaves - 5 pcs.<br> <strong>Dimensions:</strong><br> 55 cm wide and 60 cm high.<hr> This elegant bouquet of roses in pastel tones is a symbol of tenderness, love, and delicacy. Perfect for romantic moments, anniversaries, or simply to express sincere affection. Its harmonious combination with green foliage and eucalyptus brings freshness and sophistication."
+    },
+    "GERBERA_BOUQUET": {
+      "TITLE": "Gerbera Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Gerbera - 10 pcs. Gypsophila - 2 pcs. Yellow Solidago - 3 pcs. Ferns and decorative foliage - 6 pcs.<br> <strong>Dimensions:</strong><br> 40 cm wide and 55 cm high.<hr> ✨ A bouquet full of life and color to spread joy on every occasion. ✨"
+    },
+      "BOUQUET_DAISIES": {
+      "TITLE": "Daisy Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 5 pcs. Daisies - 10 pcs. Yellow Solidago - 3 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 55 cm high.<hr> ✨ A bouquet full of light and freshness to brighten up any special occasion. ✨"
+    },
+    "BOUQUET_24_RED_ROSES": {
+      "TITLE": "Bouquet of 24 Red Roses",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Paniculata - 4 pcs. Red roses - 24 pcs. Yellow solidago - 3 pcs. Ferns and decorative foliage - 10 pcs.<br> <strong>Dimensions:</strong><br> 45 cm wide and 55 cm high.<hr>An elegant and sophisticated bouquet that symbolizes love and passion. Designed with intense red roses, accompanied by delicate white and green touches that enhance their beauty. Perfect for anniversaries, declarations of love, and special moments."
+    },
+    "BOUQUET_AMSTERDAM": {
+      "TITLE": "Amsterdam Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Fuchsia gerberas, pink oriental lilies (some in bud), blue irises, light purple chrysanthemums, yellow carnations, green pompoms (button chrysanthemums), white wax flowers or paniculata, eucalyptus (fresh and aromatic foliage), white and lilac alstroemerias, white mini daisies, ornamental greens (fern, ruscus, etc.)<br> <strong>Dimensions:</strong><br> 30-40 cm wide and 40-45 cm high.<hr>The Amsterdam bouquet is a vibrant and elegant bouquet, ideal for joyful celebrations or to convey affection. With a harmonious blend of fuchsia, lilac, white, green, and blue tones, it is designed to convey freshness, energy, and good taste. Presented on a paper base Mustard yellow that enhances the overall color. A colorful and varied bouquet of fresh flowers, including white lilies, yellow gerberas, pink and purple carnations, and a blue rose, wrapped in white paper with green leaves. It is held by a person in front of a wooden table against a white background."
+    },
+    "BOUQUET_COLOMBIA": {
+      "TITLE": "Bouquet Colombia",
+      "DESCRIPTION": "<strong>Composition:</strong><br>The bouquet is made up of a variety of vibrantly colored flowers, wrapped in white paper and green leaves. White lilies, some open and others in bud. Yellow gerberas with dark centers. Yellow roses. Pink and purple carnations. Small purple flowers (possibly chrysanthemums). A blue rose (probably artificially dyed). Green leaves and ferns as filler. <br> <strong>Dimensions:</strong><br> 40-50 cm and a height of 60-70 cm, including leaves and wrapping. <hr>The Amsterdam bouquet is a vibrant and elegant bouquet, ideal for joyful celebrations or to express affection. With a harmonious blend of fuchsia, lilac, white, green, and blue tones, it is designed to convey freshness, energy, and good taste. Presented on A mustard yellow paper base that enhances the overall color."
+    },
+    "BOUQUET_MALAGA": {
+      "TITLE": "Malaga Bouquet",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Bouquet of flowers wrapped in white paper with a green ribbon, placed on a pure white background, with no other visible elements. A large orange rose as the focal point. Yellow lilies, some in bud. Yellow chrysanthemums. Pink and purple carnations. White alstroemerias with pink details. Small white and yellow flowers as filler. Green leaves and ferns for volume and contrast.<br> <strong>Dimensions:</strong><br>The diameter of the bouquet is approximately 40-45 cm, and the height, including the flowers and wrapping, is about 50-60 cm.<hr>A vibrant bouquet of fresh flowers with a central orange rose, yellow lilies, chrysanthemums, pink and purple carnations, white alstroemerias and filler greens, wrapped in white paper with a green bow, on a white background."
+    }
+  },
+  "FLOORS_PAGE": {
+    "SUBMENU": {
+      "ROUSES_PAGE": {
+        "TITLE_PAGE": "Our Roses",
+        "MULTICOLOR_ROSES": {
+          "TITLE": "Multicolor Roses",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 5 pcs. Gypsophila - 3 pcs. Multicolor roses - 10 pcs. Yellow solidago - 3 pcs. Ferns and decorative foliage - 6 pcs.<br> <strong>Dimensions:</strong><br> 60 cm wide and 60 cm high.<hr>This vibrant bouquet is an explosion of color and joy, ideal for transmitting positive energy and sincere emotions. Its combination of multicolored roses together with the delicate touch of gypsophila and the freshness of eucalyptus make it the perfect gift for any special occasion."
+        },
+        "SINGLE_ROSE_VASE": {
+          "TITLE": "Single Rose with Vase",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 4 pcs. Gypsophila - 2 pcs. Red rose - 1 pc. Glass vase - 1 pc.<br> <strong>Dimensions:</strong><br> 12 cm wide and 40 cm high.<hr>This beautiful floral arrangement is an elegant and meaningful gesture, ideal for expressing love, admiration, or gratitude. Featuring a single red rose as the centerpiece, accompanied by delicate accessories and presented in a fine glass vase, it's perfect for surprising anyone on any occasion."
+        },
+        "DOME_3_PRESERVED_ROSES": {
+          "TITLE": "DOME 3 Preserved Roses",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome without requiring water or special care."
+        },
+        "ROUSES_LOVE_PACK": {
+          "TITLE": "Love Pack",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A black box with a red ribbon with white dots tied in a bow. Inside the box are several Ferrero Rocher chocolates wrapped in gold paper. A bottle of red wine (labeled 'Viña Ardanza Reserva') tilted to the left. Assorted flowers, including: Red roses. White lilies, some in bud. White daisies with green centers. Green leaves as decorative filler. <br> <strong>Dimensions:</strong><br>The box measures approximately 30 cm long, 20 cm wide, and 10 cm high. The total arrangement, including the bottle and flowers, is about 40-50 cm high and 35-40 cm wide. <hr>An elegant gift in a black box with red ribbon, containing Ferrero Rocher chocolates, a bottle of Viña Ardanza red wine Ardanza Reserva, red roses, white lilies, and white daisies, decorated with green leaves, on a light surface in front of a white brick wall."
+        },
+        "ROUSES_ALWAYS_TOGETHER": {
+          "TITLE": "Always Together Pack",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A red heart-shaped box as the base. Red roses, white lilies (some in bud), white daisies, and small white flowers (possibly gypsophila) as the main floral arrangement. Green leaves and ferns for filler. A brown teddy bear holding a red heart, placed on the right. A bottle of red wine (labeled with a 'Happy Valentine's Day' design and hearts) with a red bow, placed center-left. A box of Nestlé 'Red Box' chocolates is on the right of center. A red heart-shaped balloon with the word 'LOVE' written in white, floating above the arrangement. <br> <strong>Dimensions:</strong><br>The heart-shaped box measures approximately 35 cm wide, 30 cm long, and 10 cm high. The arrangement The total height, including the balloon and bottle, is about 50-60 cm and 40-45 cm wide. <hr>A romantic gift in a red heart-shaped box, with red roses, white lilies, daisies, a teddy bear holding a heart, a Valentine's Day-themed bottle of red wine, a box of Nestlé Red Box chocolates, and a red balloon with the word 'LOVE', decorated with green leaves, on a light surface in front of a white brick wall."
+        },
+        "ROUSES_IN_LOVE": {
+          "TITLE": "I Love You Pack",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A red box with a pattern of white hearts and a white ribbon tied in a bow. White roses as the main flowers, accompanied by green leaves and ferns. A brown teddy bear holding a red heart, located in the center of the arrangement. A red heart-shaped balloon with the inscription 'I love you' in white, floating to the right. A small red sign with the word 'LOVE' in white, placed between the flowers. <br> <strong>Dimensions:</strong><br>The box measures approximately 25 cm wide, 20 cm long, and 10 cm high. The total arrangement, including the balloon, is about 40-50 cm high and 30-35 cm wide. <hr>A romantic gift in a red box with white hearts, decorated with white roses, a teddy bear with a red heart, A red balloon with 'I love you' and a 'LOVE' sign, adorned with green leaves, on a light surface in front of a white brick wall."
+        }
+      },
+      "ORCHIDS_PAGE": {
+        "TITLE_PAGE": "Our Orchids",
+        "PHALAENOPSIS_ORCHID": {
+          "TITLE": "Phalaenopsis Orchid",
+          "DESCRIPTION": "<strong>Watering frequency</strong><br>4 times a month<br><strong>Composition:</strong><br>Eucalyptus - 4 pcs. Paniculata - 2 pcs. Red rose - 1 pc. Glass vase - 1 pc.<br> <strong>Dimensions:</strong><br> 25 cm wide and 70 cm high.<hr>Place it in a place with bright indirect light, water the plant once a week in summer and every two weeks in winter, keep it in a humid and ventilated environment, and fertilize it every 2-3 weeks during growth."
+        },
+        "PHALAENOPSIS_ORCHID_ORCHID": {
+          "TITLE": "Orchid Phalaenospsis orchid",
+          "DESCRIPTION": "<strong>Watering Frequency</strong><br>Once a week<br><strong>Dimensions:</strong><br> 25 cm wide and 70 cm high.<hr>Orchids do not like direct sunlight. Place your orchids indoors where they receive indirect light for most of the day.<br>Watering is one of the most important aspects of orchid care. Submerge the pot in warm water for a few minutes once a week, making sure the roots are well hydrated before draining off any excess water."
+        },
+        "PHALAENOPSIS_PLANT": {
+          "TITLE": "Phalaenospsis Plant",
+          "DESCRIPTION": "<strong>Watering Frequency</strong><br>1 time per week<br><strong>Dimensions:</strong><br> 25 cm wide and 70 cm high.<br><strong>Care Guide</strong><br> Phalaenopsis Orchids prefer indirect light, so it is best to place them near a window.<hr>Pink Phalaenopsis Orchid Plant with 3 stems and a height of 75 cm. This indoor plant native to Southeast Asia, a plant to express your affection to that someone."
+        }
+      },
+      "MORE_FLOORS_PAGE": {
+        "TITLE_PAGE": "More of our flowers",
+        "SCHEFFLERA": {
+          "TITLE": "Schefflera",
+          "DESCRIPTION": "<strong>Watering frequency</strong><br>3 times a month<br><strong>Composition:</strong><br>Eucalyptus - 4 pcs. Paniculata - 2 pcs. Red rose - 1 pc. Glass vase - 1 pc.<br> <strong>Dimensions:</strong><br> 45 cm wide and 130 cm high.<br><strong>Care guide:</strong><br>Light: intense Fertilizer: from May to September Watering: every 12 days, let it dry between waterings Temperature: 10° to 25°<hr>Origin: Taiwan Leaves 15 cm in diameter, palmate and glossy, shiny dark green, composed of seven to eight long, oval leaflets"
+        },
+        "OLIVE_CUP": {
+          "TITLE": "Olivo Copa",
+          "DESCRIPTION": "<strong>The plant has already been transplanted. It is not necessary to repot immediately after purchase.</strong><br><hr><strong>Watering frequency:</strong><br>1 time per week<strong>Dimensions:</strong><br>30 cm wide and 1 m high.<hr>Olea europaea, commonly known as the olive tree, is ideal as an ornamental plant. This olive tree stands out for its elegance and adaptability to different climates. Its rustic leaves and twisted, grayish trunk provide elegance as an ornamental plant."
+        },
+        "YUCCA_PLANT": {
+          "TITLE": "Yucca Plant",
+          "DESCRIPTION": "<strong>Watering Frequency:</strong><br>1 time per week<strong>Dimensions:</strong><br>25 cm wide and 1 m high.<hr>Free gift wrapping.<strong>.<br><hr>Care Guide:</strong><br>An easy-to-grow and very drought-resistant plant that will live for many years at home if placed in full light, even in summer. Watering: The substrate should dry out between waterings."
+        },
+        "NATURAL_AROMAS_BASKET": {
+          "TITLE": "'Natural Aromas' Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 20 units, basket - 1 unit.<br> <strong>Dimensions:</strong><br> 50 cm wide and 30 cm high.<hr>A charming and fresh eucalyptus arrangement presented in a wicker basket, ideal for decorating any space and providing a relaxing natural aroma. Perfect for those looking for an elegant, ecological, and easy-maintenance detail."
+        },
+        "NATURAL_AROMAS_VASE": {
+          "TITLE": "'Natural Aromas' Vase",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Eucalyptus - 20 units. Basket - 1 unit.<br> <strong>Dimensions:</strong><br> 50 cm wide and 70 cm high.<hr>A charming and fresh eucalyptus arrangement presented in a wicker basket, ideal for decorating any space and providing a relaxing natural aroma. Perfect for those looking for an elegant, ecological, and easy-to-maintain detail."
+        },
+        "HAPPINESS": {
+          "TITLE": "Joy Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A white wicker basket serving as a base. Yellow orchids (Phalaenopsis) with long stems and green leaves. Orange bromeliads with thorny leaves. Purple, pink, and white flowering plants (possibly African violets or primulas) with green foliage. A yellow ribbon tied in a decorative bow around the basket. <br> <strong>Dimensions:</strong><br> The basket has an approximate diameter of 25-30 cm and a height of about 20-25 cm, including the plants. The total arrangement, with the tallest flowers (orchids), reaches a height of approximately 40-50 cm. <hr>A vibrant floral arrangement in a white wicker basket, with yellow orchids, orange bromeliads, flowers purple, pink, and white, and green foliage, decorated with a yellow ribbon, on a white background."
+        },
+        "BIRTH_BASKET": {
+          "TITLE": "Birth Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A white container with the text 'COTTON TAIL FARM CARROT PATCH' and pictures of carrots, with the phrases 'LOCALLY GROWN' and 'ALWAYS FRESH'. Assorted plants, including: Red anthuriums with yellow spadices. A plant with large, light-striped green leaves (possibly a Calathea). A plant with small yellow flowers (possibly a Kalanchoe). A plant with mottled white and green leaves (possibly a Hypoestes). A plant with long, green leaves (possibly a Spathiphyllum). Fern leaves and other green plants as filler. <br> <strong>Dimensions:</strong><br>The container has a diameter of approximately 25-30 cm and a height of about 15-20 cm. The total arrangement, including the Taller plants, reaching a height of approximately 40-50 cm. <hr>A plant arrangement in a white container decorated with the text 'COTTON TAIL FARM CARROT PATCH', containing red anthuriums, a striped-leaf Calathea, yellow flowers, variegated plants, and green foliage, on a light surface in front of a white brick wall."
+        },
+        "MADRID_BASKET": {
+          "TITLE": "Birth Basket",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A white rectangular box with a painted design of green cacti with pink flowers and red details. Assorted plants, including: Large leaves of a plant with green and yellow variegation (possibly a Croton). Long, thin leaves of a green plant (possibly an Areca or similar). Pink and purple flowers (possibly Cyclamen or Primula). Green ivy draping over the sides of the box. Other green plants with dense foliage as filler. <br> <strong>Dimensions:</strong><br>The box measures approximately 30 cm long, 20 cm wide, and 15 cm high. The total arrangement, including the tallest plants, reaches a height of about 40-50 cm. <hr>A plant arrangement in a white box decorated with painted cacti, containing a Croton with variegated leaves, A plant with fine leaves, pink and purple flowers, trailing ivy, and green foliage, on a white table in front of a white brick wall."
+        },
+        "HAPPY_COUPLE_TERRARIUM": {
+          "TITLE": "Happy Couple Terrarium",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A geometrically shaped (hexagonal) glass terrarium with green edges. Inside the terrarium: A small plant with green leaves (possibly a Ficus pumila or similar). Green moss covering the soil. A small decorative figurine of two children (one in a yellow raincoat and one in a pink dress) standing in front of a tree. Small stones and some soil as a base. Small succulents and other green plants all around.<br> <strong>Dimensions:</strong><br>The terrarium has a diameter of approximately 20-25 cm at its base and a height of about 25-30 cm, including the tallest plant.<hr>A hexagonal glass terrarium with green edges, containing a green plant, moss, succulents, stones, and a decorative figurine of two children, stands on a light surface in front of a wooden wall. white bricks."
+        }
+      }
+    }
+  },
+  "TERRARIUMS_PAGE": {
+    "TITLE": "Our Terrariums",
+    "BONSAI_TERRARIUM_1": {
+      "TITLE": "3 Preserved Roses Dome",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome with no water or special care required."
+    },
+    "BONSAI_TERRARIUM_2": {
+      "TITLE": "3 Preserved Roses Dome",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome with no water or special care required."
+    },
+    "BONSAI_TERRARIUM_3": {
+      "TITLE": "3 Preserved Roses Dome",
+      "DESCRIPTION": "<strong>Composition:</strong><br>Eternal roses in a glass dome - 1 unit.<br> <strong>Dimensions:</strong><br> 21 cm wide and 34 cm high.<hr>Natural preserved rose, long-lasting and in pink colors in a long-lasting glass dome without requiring water or special care."
+    }
+  },
+  "FUNERALS_PAGE": {
+    "TITLE": "Centros Funerarios",
+    "BLUE_AND_ORANGE_FUNERAL_CENTER": {
+      "TITLE": "Blue and Orange Funeral Centerpiece",
+      "DESCRIPTION": "A balanced, triangular funeral flower arrangement with a wide base and a tall focal point. The arrangement is composed of flowers of various colors and sizes: <br>Medium-sized blue roses (tinted color) distributed throughout the arrangement for visual highlighting. <br>Large orange gerberas placed mainly in the center and top, giving height to the arrangement. <br>Medium-sized peach carnations providing volume and soft contrast. <br>Large and elegant white lilies standing out in the top center. <br>Small orange roses or mini roses adding detail and depth. <br>Large green leaves (possibly aspidistra or monstera) in the back, used as a background and structure. <br>Lilac funeral ribbon with text black, with the name 'SERRANO', indicating that it is a personalized funeral tribute."
+    },
+    "BIDASOA_FUNERAL_CENTER": {
+      "TITLE": "Bidasoa Funeral Center",
+      "DESCRIPTION": "A round, leafy funeral centerpiece with a traditional, symmetrical design, ideal for expressing condolences with elegance and respect. The flowers used are varied in size and color: <br>Medium-sized red and white carnations, evenly distributed throughout the arrangement, giving volume and texture. <br>Medium-to-large red and white roses, providing distinction and chromatic contrast. <br>Large, vibrant orange gerberas, placed in small groups that break up the uniformity and add visual warmth. <br>Medium-sized white chrysanthemums complement the overall volume with their rounded shape and abundant petals. <br>Ornamental green leaves (such as ferns and variegated leaves) frame the arrangement and give a natural, elegant finish. <br>It features A decorative white ribbon in the center, designed to include a personalized message or the sender's name."
+    },
+    "FUNERAL_CENTER_APPEARANCE": {
+      "TITLE": "Semblante Funeral Centerpiece",
+      "DESCRIPTION": "A classic funeral wreath, with a circular shape and a balanced composition, ideal for paying tribute with elegance and serenity. It is made up of a variety of fresh flowers of different sizes:<br> Medium-sized red roses, evenly distributed to give a touch of love and solemnity.<br> Small and abundant white daisies with yellow centers, which bring freshness and luminosity to the ensemble.<br> Large and presentable white and pink lilies, located in key points to give prominence and elegance.<br> Unopened lily buds, which add texture and symbolism of purity and hope.<br> Ornamental green ferns and leaves, which frame the wreath and provide depth and structure.<br> A white ribbon with gold edges, which hangs in the center to place personalized dedications.<br> The design conveys peace, respect, and Tenderness, ideal for accompanying a heartfelt farewell."
+    },
+    "F12_FUNERAL_CENTER": {
+      "TITLE": "F12 Funeral Center",
+      "DESCRIPTION": "The bouquet includes red and white roses, white lilies, pink and yellow gerberas, white hydrangeas, and other small flowers of various colors, with green leaves as filler. The person is wearing a sleeveless black top, and the background is white."
+      },
+      "FUNERAL_BOUQUET": {
+      "TITLE": "Funeral Bouquet",
+      "DESCRIPTION": "The bouquet includes red and white roses, white lilies, pink and yellow gerberas, white hydrangeas, and other small flowers of various colors, with green leaves as filler. The person is wearing a sleeveless black top, and the background is white."
+    },
+    "SPAIN_FUNERAL_CENTER": {
+      "TITLE": "Spain Funeral Center",
+      "DESCRIPTION": "Wreath with a wooden cross in the center, decorated with red, orange, and pink roses, multi-colored gerberas, small white and purple flowers, and green foliage, on a white background."
+    },
+    "FUNERAL_CENTER_F123": {
+      "TITLE": "Funeral Center F123",
+      "DESCRIPTION": "A circular floral wreath with a wooden cross in the center, adorned with red, orange, and pink roses, multi-colored gerberas, small white and purple flowers, and green foliage, on a white background."
+    },
+    "LAUREL_CENTER_F111": {
+      "TITLE": "Laurel Centerpiece F111",
+      "DESCRIPTION": "A circular funeral wreath made of green leaves, decorated with a red and yellow ribbon tied in a bow, on a black background."
+    },
+    "LAUREL_CENTER_LISBOA": {
+      "TITLE": "Lisbon Flower Wreath",
+      "DESCRIPTION": "A circular floral wreath with a wooden cross in the center, decorated with red, orange, and pink roses, multi-colored gerberas, small white and purple flowers, and green foliage, on a white background."
+    }
+  },
+  "WEDDINGS_PAGE": {
+    "TITLE": "Las flores que necesitas para tus eventos",
+    "WEDDING_TAB": "Weddings",
+    "EVENTS_TAB": "Events",
+    "DESCRIPTION_WEDDING": "En Flor de Loto queremos que el día de vuestra celebración sea único e inolvidable, por eso os ofrecerán una amplia gama de arreglos florales, ya sea para bodas tradicionales como para enlaces temáticos.",
+    "WEDDING_1": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_2": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_3": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_4": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_5": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_6": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    }
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "We are here to help you!",
+    "DESCRIPTION": "If you have any questions, queries or would like to place a custom order, please do not hesitate to contact us. Our friendly team of expert florists are ready to provide you with exceptional service and personalized advice. You can reach us by phone, email or visit us in our store. We would love to be a part of your special moments and make them unforgettable with our beautiful flowers. por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
+    "FORM_FIEDS": {
+      "NAME": "Name",
+      "VALIDATION_NAME": "Name is required.",
+      "VALIDATION_NAME_LENGTH": "The message must be at least 3 characters.",
+      "EMAIL": "E-mail",
+      "VALIDATION_EMAIL": "Email is required.",
+      "VALIDATION_EMAIL_FORMAT": "Please enter a valid email.",
+      "SUBJECT": "Subject",
+      "VALIDATION_SUBJECT": "Subject is required.",
+      "VALIDATION_SUBJECT_LENGTH": "The subject must be at least 3 characters.",
+      "MESSAGE": "Message",
+      "VALIDATION_MESSAGE": "Message is required.",
+      "VALIDATION_MESSAGE_LENGTH": "The message must be at least 15 characters."
+    },
+    "MESSAGE_SUCCESS": "Thank you for contacting us! We will get back to you as soon as possible.",
+    "MESSAGE_ERROR": "Oops! Something went wrong. Please try again later.",
+    "SEND": "Send"
+  },
+  "ERROR_PAGE": {
+    "TITLE": "This is not the right way!!",
+    "GO_BACK": "We rewind?"
+  },
+  "OTHERS": {
+    "ORDER_MESSAGES": "Place your order here!!",
+    "FORM_ORDER": {
+      "TITLE": "Place your order here!!",
+      "LABEL_NAME": "Write your name",
+      "VALIDATION_NAME": "The name is required.",
+      "VALIDATION_NAME_LENGTH": "The name must contain at least 3 characters.",
+      "LABEL_PHONE": "Write your phone",
+      "VALIDATION_PHONE": "Phone is required..",
+      "VALIDATION_PHONE_LENGTH": "The phone number must contain at least 9 characters.",
+      "LABEL_MESSAGE": "Tell us, what do you want?",
+      "VALIDATION_MESSAGE": "Order is required.",
+      "VALIDATION_MESSAGE_LENGTH": "The order must be at least 15 characters.",
+      "BUTTON_WHATSAPP": "Send order by WhatsApp",
+      "BUTTON_SMS": "Send order by SMS"
+    }
+  },
+  "POLICIES": {
+    "COOKIES": {
+      "TITLE": "Cookie Policy",
+      "WHAT_ARE_COOKIES_TITLE": "What are cookies?",
+      "WHAT_ARE_COOKIES_DESCRIPTION": "Cookies are small text files that are stored on your device when you visit a website. They are used to remember your activity and preferences.",
+      "HOW_DO_WE_USE_COOKIES_TITLE": "How do we use cookies?",
+      "HOW_DO_WE_USE_COOKIES_DESCRIPTION": "At [Company Name], we use cookies for the following purposes:",
+      "HOW_DO_WE_USE_COOKIES_LIST": {
+        "REMEMBER": "· Remember your user preferences.",
+        "ANALYZE": "· Analyze traffic on our website.",
+        "PROVIDE": "· Provide personalized content."
+      },
+      "TYPES_OF_COOKIES_WE_USE_TITLE": "Types of cookies we use",
+      "TYPES_OF_COOKIES_WE_USE_LIST": {
+        "ESSENTIAL": "<li><strong>· Essential cookies:</strong> They are necessary for the operation of the website.</li>",
+        "ANALYTICS": "<li><strong>· Analysis cookies:</strong> They help us understand how users interact with our site.</li>",
+        "FUNCTIONALITY": "<li><strong>· Functionality cookies:</strong> They improve your experience by remembering your preferences.</li>",
+        "PUBLISHING": "<li><strong>· Advertising cookies:</strong> Used to display relevant ads.</li>"
+      },
+      "MANAGE_TITLE": "Cookie management",
+      "MANAGE_DESCRIPTION": "You can manage cookies through your browser settings. Here are the links for the most common browsers:",
+      "MORE_INFORMATION_TITLE": "More information",
+      "MORE_INFORMATION_DESCRIPTION": "If you have any questions about our cookie policy, you can contact us at:"
+    },
+    "LEGAL": {
+      "TITLE": "Legal Notice",
+      "DESCRIPTION": "This website is operated by [Company Name]. By accessing or using this website, you agree to be bound by the following terms and conditions.",
+      "IDENTIFICATION_TITLE": "Identification of the Responsible Party",
+      "IDENTIFICATION_DESCRIPTION": "Company Name: [Company Name<br>CIF/NIF: [Number] <br>Address: [Full Address]<br>Email: [Email] <br>Telephone: [Telephone Number]",
+      "CONDITIONS_TITLE": "Terms of Use",
+      "CONDITIONS_DESCRIPTION": "By accessing this website, the user undertakes to use it in accordance with the law, morality, public order and these conditions of use.",
+      "PROPERTY_TITLE": "Intellectual and Industrial Property",
+      "PROPERTY_DESCRIPTION": "All content on this website (texts, images, logos, design, etc.) is protected by intellectual property rights belonging to [Company Name] or its licensors.",
+      "EXCLUSION_TITLE": "Disclaimer",
+      "EXCLUSION_DESCRIPTION": "[Company Name] is not responsible for any damages or losses that may arise from the use of the website.",
+      "LEGISLATION_TITLE": "Applicable Legislation",
+      "LEGISLATION_DESCRIPTION": "These conditions shall be governed by Spanish law. For any dispute, the parties shall submit to the courts and tribunals of [City]."
+    },
+    "PRIVACY": {
+      "TITLE": "Privacy Policy",
+      "INTRO_TITLE": "Introduction",
+      "INTRO_DESCRIPTION": "At [Company Name], we take the privacy of our users very seriously. This privacy policy describes how we collect, use, and protect your personal information.",
+      "INFORMATION_TITLE": "Information we collect",
+      "INFORMATION_DESCRIPTION": "<li>· Information provided directly by the user, such as name, email and phone number.</li><li>· Information collected automatically, such as browsing data and IP address.</li><li>· Information from third parties when you interact with our services.</li>",
+      "USE_TITLE": "How we use your information",
+      "USE_DESCRIPTION": "The information collected is used for the following purposes:",
+      "USE_LIST": "<li>· Improve user experience on our website.</li><li>Process requests and provide customer support.</li><li>· Send communications related to our services.</li>",
+      "SHARING_TITLE": "Sharing your information",
+      "SHARING_DESCRIPTION": "We do not share your personal information with third parties except when necessary to comply with the law, protect our rights, or provide the requested services.",
+      "SECURITY_TITLE": "Protecting your information",
+      "SECURITY_DESCRIPTION": "We implement security measures to protect your personal information from unauthorized access, alteration, disclosure or destruction.",
+      "RIGHTS_TITLE": "Your rights",
+      "RIGHTS_DESCRIPTION": "You have the right to access, correct or delete your personal information. To exercise these rights, please contact us at ",
+      "UPDATES_TITLE": "Updates to this policy",
+      "UPDATES_DESCRIPTION": "We reserve the right to update this privacy policy at any time. Changes will be posted on this page with the corresponding update date."
+    }
+  }
+}

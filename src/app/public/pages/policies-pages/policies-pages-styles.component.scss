@@ -1,0 +1,36 @@
+
+
+
+@import "/src/styles.scss";
+
+.wrap-policies {
+    margin: 18rem 0 5rem;
+    main {
+        @include min-responsive($tablet) {
+            @include grid(2, 2.5rem);
+            min-height: calc(100vh - 39.8rem);
+        }
+        @include min-responsive($desktop-laptop) {
+            @include grid(3, 2.5rem);
+            min-height: calc(100vh - 39.8rem);
+        }
+        section {
+            background-color: rgba($white, .7);
+            backdrop-filter: blur(1rem);
+            padding: 1rem;
+            border-radius: $border-radius-10;
+            border: .2rem solid $grey;
+            margin-top: 2rem;
+            @include min-responsive($tablet) {
+                margin-top: 0;
+            }
+            a {
+                color: $brand-primary;
+                transition: color .2s ease-in-out;
+                &:hover {
+                    color: $brand-primary-dark;
+                }
+            }
+        }
+    }
+}

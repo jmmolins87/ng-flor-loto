@@ -1,0 +1,153 @@
+
+
+
+
+::ng-deep {
+    // * To top button
+    .p-scrolltop {
+        position: fixed;
+        right: 2rem;
+        bottom: 5rem;
+        border-radius: $border-radius-50;
+        border: none;
+        background: rgba($brand-primary-light, .5);
+        backdrop-filter: blur(1.5rem);
+        width: 5rem;
+        height: 5rem;
+        box-shadow: 0 0 1.5rem $white;
+        z-index: 1002;
+        transition: box-shadow .2s ease-in-out;
+        &:hover,
+        &:focus {
+            box-shadow: $dialShadow;
+        }
+        .p-icon-wrapper {
+            text-shadow: 0 0 .5rem $white;
+            svg {
+                color: $black;
+            }
+        }
+        @include min-responsive($tablet) {
+            .pi {
+                &.pi-icon {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+    }
+    // * Carrousel
+    .p-carousel-indicator.p-highlight {
+        .p-link {
+            background-color: $brand-primary;
+        }
+    }
+    .p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+        color: $brand-secondary-dark;
+    }
+    .p-carousel-items-container {
+        margin-bottom: 1rem;
+    }
+    .p-carousel-content {
+        overflow: hidden;
+    }
+    ul.p-carousel-indicators {
+        display: none;
+    }
+    .p-carousel-next,
+    .p-carousel-prev {
+        svg {
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+    // * SpeedDial Shop
+    .p-speeddial {
+        .p-button-icon-only {
+            color: $black;
+            background: rgba($brand-primary-light, .5);
+            backdrop-filter: blur(1.5rem);
+            border-radius: $border-radius-50;
+            border: none;
+            width: 5rem;
+            height: 5rem;
+            z-index: 1002;
+            text-shadow: 0 0 .5rem $white;
+            box-shadow: 0 0 1.5rem $white;
+            transition: box-shadow .2s ease-in-out;
+            &:hover,
+            &:focus {
+                box-shadow: $dialShadow;
+            }
+            .pi::before {
+                color: $black;
+                font-size: 2rem;
+            }
+        }
+        .p-speeddial-action {
+            text-decoration: none;
+            padding: 2rem;
+            background: rgba($grey, .1);
+            backdrop-filter: blur(1.5rem);
+            border-radius: $border-radius-50;
+        }
+    }
+    // * Dialog
+        .p-element {
+        .p-dialog-mask {
+            .p-dialog-header-icons {
+                .p-dialog-header-icon  {
+                    .p-dialog-header-close-icon  {
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                }
+            }
+        }
+        .p-dialog-title {
+            font-size: $h3-mob;
+            color: $brand-secondary;
+            @include min-responsive($tablet) {
+                font-size: $h3-tab;
+            }
+            @include min-responsive($desktop-laptop) {
+                font-size: $h3-desk;
+            }
+        }
+    }
+    // * Toast
+    .p-toast-message-text {
+        font-size: 1.4rem;
+    }
+    // * Tabs
+    .p-tabview .p-tabview-nav {
+        border: none;
+        background: transparent;
+        padding: 0;
+        .p-tabview-title {
+            color: $brand-secondary;
+        }
+        li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+            border-color: transparent;
+        }
+    }
+      .p-tabview-nav-link {
+        &:hover {
+            border-color: transparent;
+          }
+          &::before {
+            color: $brand-primary;
+        }
+        a:not(.p-speeddial-action):hover {
+            color: $brand-primary;
+            border-color: transparent;
+        }
+    }
+    .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+        border-color: $brand-secondary;
+    }
+    .p-tabview .p-tabview-panels {
+        background: transparent; 
+        padding: 0;
+    }
+}

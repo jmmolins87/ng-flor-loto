@@ -1,0 +1,608 @@
+{
+  "NAV_BAR": {
+    "LOGO": "Flor de Loto Segovia",
+    "BOUQUET_FLOWERS": "Ramo flores",
+    "FLOORS": "Plantas",
+    "TERRARIUMS": "Terrarios",
+    "WEDDING": "Bodas y Eventos",
+    "FUNERAL": "Funerales",
+    "CONTACT": "Contacto",
+    "LANGUAGE": "Choose your language",
+    "SUBMENUS": {
+      "ROUSES": "Rosas",
+      "ORCHIDS": "Orquídeas",
+      "MORE": "Más flores"
+    }
+  },
+  "FOOTER": {
+    "LOCATION": "¿Dónde estamos?",
+    "MAIL": "¿Nos quieres contar algo?",
+    "PHONE": "¡¡Llámanos!!",
+    "RIGHTS": "Todos los derechos reservados",
+    "MY_SITE": "Sitio creado con mucho",
+    "LEGAL": "Aviso legal",
+    "COOKIES": "Política de cookies",
+    "PRIVACITY": "Política de privacidad"
+  },
+  "COOKIES": {
+    "TEXT": "Utilizamos cookies para mejorar tu experiencia. Al utilizar nuestro sitio, aceptas el uso de cookies.",
+    "BUTTON": "Aceptar"
+  },
+  "HOME_PAGE": {
+    "CAROUSEL_HERO": {
+      "ITEM_1": {
+        "TITLE": "San Valentín",
+        "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin faucibus eros ac velit fringilla fermentum. Sed eget leo molestie justo malesuada mattis. In aliquam lobortis diam, nec tempus libero molestie eu. Vivamus elementum massa ut ligula convallis, sit amet imperdiet mi rhoncus. Donec tristique ultricies metus, eget egestas augue 1"
+      },
+      "BUTTON_READ_MORE": "Seguir leyendo"
+    },
+    "TITLE": "El arte de las flores",
+    "SUBTITLE": "Las flores son nuestros mejores aliadas para sorprender, emocionar y transmitir emociones siempre con total atención aldetalle y su acabado.",
+    "TEXT_PRESENTATION": "<p>Nuestra floristería se especializa en ofrecer una cuidada selección de arreglos florales clásicos y plantas de interior que combinan elegancia y frescura. Desde ramos de rosas y eucalipto hasta opciones más llamativas como nuestras orquídeas Phalaenopsis, cada producto está diseñado con atención al detalle, ideal para regalar o decorar cualquier espacio con estilo y distinción. Trabajamos con flores frescas y plantas de calidad, presentadas en diseños armónicos y modernos.</p> <p>Contamos también con plantas en macetero, como nuestra aloe vera decorativa, perfecta para interiores y fácil de cuidar. Nuestro objetivo es brindar una experiencia floral completa, tanto en diseño como en comodidad para el cliente. Cuidamos la presentación, los acabados y ofrecemos productos listos para entregar o regalar. Visítanos y descubre cómo nuestras flores y plantas pueden transformar tu ambiente.</p>",
+    "RECOMENDATIONS_TITLE_SECTION": "Te recomendamos",
+    "RECOMENDATIONS_SECTION": {
+      "ITEM_1": {
+        "TITLE": "¿Cómo elegir el ramo de flores perfecto para un aniversario?",
+        "DESCRIPTION": "Las flores preservadas son la opción perfecta para quienes buscan un regalo duradero y lleno de encanto. Presentadas en elegantes recipientes como cúpulas de cristal, cajitas de madera y teteras, nuestras rosas preservadas mantienen su belleza y frescura durante años sin necesidad de cuidados especiales. Sorprende a alguien especial con un recuerdo que perdurará en el tiempo."
+      },
+      "ITEM_2": {
+        "TITLE": "Flores para funerales",
+        "DESCRIPTION": "¡Perfecto para regalar, sorprender y crear sensaciones inolvidables! Nuestros ramos de flores están diseñados para cada ocasión, desde ramos de temporada llenos de color hasta composiciones clásicas y modernas. Cada ramo es elaborado con flores frescas y de la mejor calidad, asegurando que tu regalo sea siempre especial. ¡Haz que cada momento sea memorable con un hermoso ramo de flores!"
+      },
+      "ITEM_3": {
+        "TITLE": "Flores para eventos: opciones y recomendaciones",
+        "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+      },
+      "ITEM_4": {
+        "TITLE": "¡¡Nuestras flores Segovianas!!",
+        "DESCRIPTION": "¡Haz que tu día especial sea aún más memorable con nuestras flores para bodas! Ofrecemos una amplia gama de arreglos florales personalizados para cada aspecto de tu boda, desde ramos de novia y boutonnieres hasta decoraciones de mesa y arcos florales. Nuestros expertos floristas trabajarán contigo para crear composiciones únicas que reflejen tu estilo y tema de boda. ¡Entrega y montaje disponibles para asegurar que todo sea perfecto en tu gran día!"
+      }
+    },
+    "SERVICES_TITLE_SECTION": "Nuestros servicios",
+    "SERVICE_SECTION": {
+      "ITEM_1": {
+        "TITLE": "Servicio a domicilio Premium",
+        "DESCRIPTION": "¿Quieres sorprender a alguien especial o simplemente decorar tu hogar sin moverte del sofá? En Flor de Loto, llevamos tus flores donde tú nos digas. <br>💐 Ramos personalizados<br>🚚 Entregas en el mismo día (según disponibilidad)<br>📍 Servicio en Segovia y alrededores<br>🎁 Opciones con tarjeta dedicatoria y envoltorios especiales<br>Haz tu pedido online o por teléfono y nosotros nos encargamos del resto. ¡Rápido, bonito y sin complicaciones!"
+      },
+      "ITEM_2": {
+        "TITLE": "Servicio de Mantenimiento",
+        "DESCRIPTION": "En Flor de Loto, no solo creamos arreglos florales: también los cuidamos para que luzcan siempre perfectos.<br>Ofrecemos un servicio de mantenimiento floral personalizado, ideal para:<br>Oficinas y despachos<br>Hoteles y restaurantes<br>Espacios de eventos o recepciones<br>Hogares con decoración viva y elegante<br>🔄 Visitas periódicas para renovar o mantener los arreglos<br>💧 Riego, limpieza y sustitución de flores según necesidad<br>🌸 Diseños adaptados a la estación y al estilo del lugar.<br>📅 Flexibilidad total: semanal, quincenal o mensual<br>Confía en nosotros para mantener tu espacio siempre lleno de vida, color y frescura"
+      },
+      "ITEM_3": {
+        "TITLE": "Asesoramiento Personalizado",
+        "DESCRIPTION": "En Flor de Loto, te ayudamos a elegir las flores perfectas para cada ocasión, espacio o persona. Nuestro servicio de asesoramiento floral está pensado para quienes buscan algo más que un ramo: buscan transmitir emociones, decorar con sentido o hacer que un momento sea inolvidable.<br>👩‍🎨 Asesoramiento en decoración floral para eventos, bodas y celebraciones<br>🏡 Ideas para ambientar tu hogar o negocio con flores y plantas<br>🎨 Combinaciones de colores, tipos de flores y estilos que se adaptan a ti<br>🪴 Consejos sobre cuidados, mantenimiento y duración<br>Cuéntanos qué necesitas y nosotros pondremos toda nuestra experiencia y sensibilidad floral a tu servicio."
+      }
+    },
+    "OPINIONS_TITLE_SECTION": "Las opiniones de nuestr@s clientes",
+    "OPINIONS_SECTION": {
+      "OPINION_1": {
+        "AUTHOR_NAME": "Gloria",
+        "DESCRIPTION": "Hoy es la primera vez que he ido y seguro que no la última! Rafaela (me quedé con su nombre) me ha preparado con mucho mimo un precioso ramo de claveles multicolor. <br>Ha sido además muy atenta y paciente porque no me decidía por unas flores u otras y quería ceñirme a un presupuesto :). <br>Gracias Rafaela! A mi amiga le ha encantado su ramo!"
+      },
+      "OPINION_2": {
+        "AUTHOR_NAME": "Cielo mr (Quispe)",
+        "DESCRIPTION": "He ido varias veces y he sido atendida tanto por Rafaela como por el dueño, en todos los casos un trato estupendo, muy amables, siempre con una sonrisa y unos ramos preciosos! <br>Totalmente recomendable!!"
+      },
+      "OPINION_3": {
+        "AUTHOR_NAME": "Sergio Enriquez",
+        "DESCRIPTION": "Pues yo he encargado ya muchos ramos para regalos y siempre muy bien, por cambiar esta vez compré una urna de cristal con un Bonsai que son preciosos, y por lo que sea a las semanas se me murió… se lo dije y sin poner ningún problema me dijo que se lo llevara y me ha echo otro nuevo, sin cargo ninguno!! <br>Tienen un trato genial hacia el cliente, volveré y la recomiendo para todo el mundo."
+      },
+      "OPINION_4": {
+        "AUTHOR_NAME": "Lu RqV",
+        "DESCRIPTION": "Da gusto con gente tan profesional como Rafaela.. todo perfecto! Con mucho detalle y gusto! Se nota cuando alguien disfruta con su trabajo! Gracias!<br> Volveré sin duda."
+      },
+      "OPINION_5": {
+        "AUTHOR_NAME": "Chema Durán",
+        "DESCRIPTION": "Fantástica atención por parte de Rafaela, super atenta y amable. Llamé por teléfono para un envío a domicilio y lo entregaron muy rápido y un ramo precioso que dejé a su gusto. Recomendable 100%"
+      },
+      "OPINION_6": {
+        "AUTHOR_NAME": "Marvin Bonilla",
+        "DESCRIPTION": "Realicé un pedido a la floristería Flor de Loto y quedé encantado. Las flores llegaron hermosas y perfectamente arregladas, pero lo que realmente marcó la diferencia fue la atención de Rafaella. Fue atenta, amable y se aseguró de que todo saliera perfecto. Sin duda, un servicio excelente que recomendaría a cualquiera. ¡Gracias, Rafaella y flor de loto por hacer de este pedido una experiencia tan especial!"
+      },
+      "OPINION_7": {
+        "AUTHOR_NAME": "Mayreni Garcia Almonte",
+        "DESCRIPTION": "Excelente servicio y atención de Rafaela, las flores hermosas, pero sobretodo el amor y entrega que le puso esta chica a mi compra me hizo el día. Super recomendado!"
+      },
+      "OPINION_8": {
+        "AUTHOR_NAME": "Cecilia Gómez Gascueña",
+        "DESCRIPTION": "Rafaella es una excelente profesional. Trato increíble, atención fantástica y calidad 10. No pienso cambiar de tienda nunca!"
+      },
+      "OPINION_9": {
+        "AUTHOR_NAME": "Angelica Muñoz Pascual",
+        "DESCRIPTION": "Encargué un regalo para agradecer a una compañera. <br>El trato desde el primer momento fue exquisito, con una atención y dedicación incomparables. Nunca he recibido tanta amabilidad de una persona en ninguna de los establecimientos a los que acudo. El regalo quedó precioso.<br> Son unos profesionales impresionantes.<br> Muchas gracias por todo."
+      },
+      "OPINION_10": {
+        "AUTHOR_NAME": "Estefany Rodriguez Garcia",
+        "DESCRIPTION": "Me an atendido súper bien, Rafaela a hecho un trabajo súper bonito con el regalo de mi madre muchas gracias."
+      },
+      "OPINION_11": {
+        "AUTHOR_NAME": "Blanca B",
+        "DESCRIPTION": "Muy buena atención por parte de Rafaela en todo momento. El papel del ramo no me gustó, y sin problema me lo cambio por otro. <br>Recomiendo."
+      },
+      "OPINION_12": {
+        "AUTHOR_NAME": "Valeri Radev Yankov",
+        "DESCRIPTION": "Magnifico trato de RAFAELA realizó un encargo magnifico y precioso."
+      },
+      "OPINION_13": {
+        "AUTHOR_NAME": "Jesus david Rolong arrieta",
+        "DESCRIPTION": "Encargué un ramo de flores para el cumple de mi mujer y la persona que me atendió de nombre Rafaela lo hizo con mucha amabilidad fue una excelente atención. De verdad que a esta floristería le doy un 10 de 10 tanto en atención, como en la calidad del producto, la verdad estupendo. <br>Cien por ciento recomendado. Gracias!"
+      },
+      "OPINION_14": {
+        "AUTHOR_NAME": "Yolanda Sanz",
+        "DESCRIPTION": "Solo puedo decir que la atención de Rafaela fue maravillosa, el trato fue exquisito,el ramo que nos hizo para mi madre quedó precioso. <br>Lo recomiendo al 100%."
+      },
+      "OPINION_15": {
+        "AUTHOR_NAME": "beatriz cruz",
+        "DESCRIPTION": "He contactado con esta floristeria desde Madrid para mandar una orquídea a un familiar hospitalizado en Segovia. Me ha atendido Rafaela y me ha dado todas las facilidades posibles. Muchas gracias por su eficacia. He quedado encantada.."
+      },
+      "OPINION_16": {
+        "AUTHOR_NAME": "María Bernabé",
+        "DESCRIPTION": "La persona que me atendió hablaba sin parar llegando al punto de agobiarme. Le pedí unas varas de bambú que tenían una pizarrita con su precio y cuando fui a pagar me cobró de más, tomándome por tonta. Echó la cuenta redonda y se quedó tan a gusto... no dije nada porque no paraba de hablar como para distraerme. Fueron 2.5€ que no van a ningún lado, pero salí molesta e indignada de que por 2.5€ alguien sea capaz de perder a un cliente."
+      },
+      "OPINION_17": {
+        "AUTHOR_NAME": "Ana",
+        "DESCRIPTION": "Siempre atentos a tus necesidades. <br>Rafaela es encantadora. Una atención estupenda. Te intenta ayudar en lo que buscas. <br>Un 10 en todos los sentidos."
+      },
+      "OPINION_18": {
+        "AUTHOR_NAME": "Editorial SHB",
+        "DESCRIPTION": "Segunda vez que compro en este lugar y ademas de lo hermoso de la tienda y sus productos, cabe destacar, por sobretodo, el trato amoroso de Rafaella. Me declaro nueva clienta!! ❤"
+      },
+      "OPINION_19": {
+        "AUTHOR_NAME": "Aurora Allas Jorge",
+        "DESCRIPTION": "Siempre voy allí porque quedo siempre muy satisfecha con el resultado. El trato es estupendo.Te aportan muchas ideas. <br>Muy profesionales, a la vez que muy amables y cercanos."
+      },
+      "OPINION_20": {
+        "AUTHOR_NAME": "Maria Alvarez",
+        "DESCRIPTION": "Nos encanta esta floristería! Rafaela es súper amable y hace unos ramos preciosos. Te aconseja para que tu regalo sea especial."
+      },
+      "OPINION_21": {
+        "AUTHOR_NAME": "Inmaculada Pérez",
+        "DESCRIPTION": "Trato exquisito y muy profesional, el ramo de cumpleaños precioso, era una sorpresa y le ha encantado. Y nos lo han llevado al lugar de la celebración. Gracias por todo."
+      },
+      "OPINION_22": {
+        "AUTHOR_NAME": "Alberto Acebes",
+        "DESCRIPTION": "¡Raúl es un gran florista! Siempre está dispuesto a ayudar, dando buenos consejos sobre cómo cuidar de las plantas. Siempre que tengo dudas, las resuelve rápidamente y me ayuda a que mis plantas se mantengan sanas.<br> Además, tiene algunas especies de lo más originales, como la que se puede ver en la foto, que quedan genial en casa y son fáciles de cuidar.<br> ¡Totalmente recomendable!"
+      },
+      "OPINION_23": {
+        "AUTHOR_NAME": "Macarena Cabello Obrecht",
+        "DESCRIPTION": "A pesar que hemos venido a última hora, Rafaela ha sido muy atenta y se ha dado el tiempo de hacernos un ramo Maravilloso. <br>Muchas gracias."
+      },
+      "OPINION_24": {
+        "AUTHOR_NAME": "Nuria Sacristán",
+        "DESCRIPTION": "Nefasto. Primero se olvidan del encargo y, cuando una hora más tarde se reclamó, todavía tardaron una hora más en llevarlo. Se encargó un ramo de rosas amarillas y llegó lo de la foto... Al volver a informar del error, y otros 45 minutos después, lo cambian por el ramo que se suponía correcto. <br>Rosas amarillas? No, uno minúsculo de rosas blancas pintadas con un spray amarillo... Ni recomendaré ni volveré a un sitio donde parece que se dedican a reírse del cliente."
+      },
+      "OPINION_25": {
+        "AUTHOR_NAME": "Isabel Vallejo",
+        "DESCRIPTION": "Totalmente recomendable, me encanta comprar aquí, ya habíamos comprado anteriormente, Rafaela es tan simpática y detallista, hoy hemos ido a comprar un centro de flores y además nos ha regalado unas flores que nos ha preparado con todo el cariño, cuánto se lo agradecemos, ha sido un detalle precioso por su parte, ahora en estos momentos tan difíciles para nosotros...... <br>Ojalá atendieran igual en todos los sitios..."
+      },
+      "OPINION_26": {
+        "AUTHOR_NAME": "Elisa de la Cruz",
+        "DESCRIPTION": "La floristería es genial, pero sobre todo la atención de Rafaela, es atenta, delicada, te aconseja muy bien y es super cariñosa. <br>Muchas gracias Rafaela."
+      },
+      "OPINION_27": {
+        "AUTHOR_NAME": "Nila Montero",
+        "DESCRIPTION": "Hoy mi pareja me ha sorprendido con un ramo de flores ESPECTACULAR de esta tienda. Mil gracias Rafaela por tu atencion y servicio. <br><Ha sido emocionante ❤️."
+      },
+      "OPINION_28": {
+        "AUTHOR_NAME": "Daniel Muñoz Perez",
+        "DESCRIPTION": "Una atención de primera rápido y muy profesional aconsejando un gusto tratar con gente que le gusta lo que hace muchas gracias Rafaela una maravilla de persona."
+      },
+      "OPINION_29": {
+        "AUTHOR_NAME": "jenny lilieth bermejo",
+        "DESCRIPTION": "La atención al cliente fue muy buena, Rafaela muy amable y atenta."
+      },
+      "OPINION_30": {
+        "AUTHOR_NAME": "ANA ROBLEDO BARROSO",
+        "DESCRIPTION": "Hoy comprado un ramo de flores precioso en la floristería flor de loto,la chica q me ha atendido ha hecho el ramo con mucho arte y mucho gusto, con todo detalle y muchísima amibilidad y simpatía,lo recomiendo totalmente,un sitio."
+      },
+      "OPINION_31": {
+        "AUTHOR_NAME": "Fernando de Frutos García",
+        "DESCRIPTION": "De largo la mejor floristería de Segovia en calidad , servicio y precio. <br>Los horarios inigualables con Raul y Rafaela siempre dispuestos a dar un servicio que no interflora es capaz de suministrar. <br>Una excelente solución para Domingos y festivos que siempre abren para tu regalo sorpresa para una visita a tus familiares o amigos en forma de regalo floral. <br>Seguid así."
+      },
+      "OPINION_32": {
+        "AUTHOR_NAME": "adrian sanchez",
+        "DESCRIPTION": "Es la primera vez que compro en la floristeria y definitivamente me encanto la atención y el ramo está precioso a mi madre le encantó y Rafaela como anfitriona super buena no dudo en recomendarla."
+      },
+      "OPINION_33": {
+        "AUTHOR_NAME": "lilibeth montenegro londoño",
+        "DESCRIPTION": "He comprado en varias ocasiones y me parece maravilloso, Rafaela es una chica muy atenta y amable. Quedó muy a gusto en cada visita, muy recomendados."
+      },
+      "OPINION_34": {
+        "AUTHOR_NAME": "Maria Yolanda Hernandez",
+        "DESCRIPTION": "Fue a comprar un centro y me atendió Rafaela, el trato especial y súper amable y simpática..y él centro precioso. <br>Volvere."
+      },
+      "OPINION_35": {
+        "AUTHOR_NAME": "Eliezer Leonardo Garcia aponte",
+        "DESCRIPTION": "Súper encantado con los arreglos son muy detallistas y atentos, me encantó sus servicios y atención sobretodo a Rafaela gran persona amable y carismática."
+      },
+      "OPINION_36": {
+        "AUTHOR_NAME": "Alejandra Herraiz Moya",
+        "DESCRIPTION": "Vine de viaje a Segovia y nos volvemos con dos ramos de rosas preciosos y una atención maravillosa por parte de Rafaela."
+      },
+      "OPINION_37": {
+        "AUTHOR_NAME": "Rubiela Petrelpetrel",
+        "DESCRIPTION": "La atención de Rafaela es excelente 👌 hace unos ramos hermoso."
+      },
+      "OPINION_38": {
+        "AUTHOR_NAME": "Cristina CC",
+        "DESCRIPTION": "Fui el día de la Madre a por un detalle para 3 personas. La persona que me atendió insistía en venderme ramos de 40€ sin escucharme ni un poquito lo que le estaba diciendo, enseñándome opciones que no se ajustaban a lo que le estaba diciendo. Todo con unas prisas y unas maneras que me dieron ganas de salir sin comprar nada. Pero tampoco tenía muchas más opciones… Al final terminé comprando y cuando di las flores vi que a una le faltaba el lazo, a otra le faltaba la tarjeta… En fin, un desastre. Tampoco parecían entenderse muy bien los trabajadores que estaban en aquel momento en el establecimiento."
+      },
+      "OPINION_39": {
+        "AUTHOR_NAME": "Lisbeth Pamela",
+        "DESCRIPTION": "Muy bello el arreglo que me hizo y la atención super bien. Estupendo todo."
+      },
+      "OPINION_40": {
+        "AUTHOR_NAME": "Arantxa Sacristán",
+        "DESCRIPTION": "Rafaela nos ha atendido muy bien. Ha sido amable y el ramo lo ha hecho muy bonito. Volveremos."
+      },
+      "OPINION_41": {
+        "AUTHOR_NAME": "homeguitarclass Clases de guitarra",
+        "DESCRIPTION": "Rafaella siempre atenta y profesional!!! Una floristeria alegre, sencilla y auténtica. 10/10 !!!"
+      },
+      "OPINION_42": {
+        "AUTHOR_NAME": "Adal MG88",
+        "DESCRIPTION": "Buena atención por parte de Rafaela y precioso ramo de Rosas con su globito y peluche❤️."
+      },
+      "OPINION_43": {
+        "AUTHOR_NAME": "Pilar Montes",
+        "DESCRIPTION": "Rafaela es un encanto de chica y me prepara unos ramos de rosas con su Peluchee y me encanta la atención de Rafaela 🍀🍀🍀💋."
+      },
+      "OPINION_44": {
+        "AUTHOR_NAME": "Deriva_78",
+        "DESCRIPTION": "Muy buen gusto, me prepararon un ramo precioso en un momento, con todo detalle y ajustado al presupuesto. La chica es muy profesional y cuida cada detalle. <br>Volveré a comprar allí"
+      },
+      "OPINION_45": {
+        "AUTHOR_NAME": "Damaris Dorscht",
+        "DESCRIPTION": "Siempre elijo Flor de Loto ya sea para agasajar a mis santos o dar un bonito regalo, la atención de Raúl tanto como Rafaela es genial!!!!! <br>Gracias!"
+      },
+      "OPINION_46": {
+        "AUTHOR_NAME": "Bego Isabel",
+        "DESCRIPTION": "Vino Rafaela a traer un potus y a trasplantado, hizo un excelente trabajo, muy amable y muy profesional, recomiendo 100%."
+      },
+      "OPINION_47": {
+        "AUTHOR_NAME": "Elisa Pascual González",
+        "DESCRIPTION": "Siempre que necesitamos un artículo de floristería, ya sea un ramo, planta o detalle no dudamos en acudir a su floristería, en todo momento hemos contado con un trato estupendo (Con un horario muy amplio, hasta en festivo) y unas flores de calidad que han llenado de color nuestra casa y a nuestros familiares. <br>El reparto de forma particular también ha sido de nuestro agrado en todas las ocasiones, (Además sin coste adicional) <br>¡Sin duda continuaremos acudiendo a esta floristería, tanto por calidad como por proximidad!"
+      },
+      "OPINION_48": {
+        "AUTHOR_NAME": "Raquel Bermejo De La Puente",
+        "DESCRIPTION": "Rafaela maravillosa, amable, cercana , muy simpática y buena vendedora, la recomiendo, me llevè una planta preciosa!!!!!"
+      },
+      "OPINION_49": {
+        "AUTHOR_NAME": "N KN",
+        "DESCRIPTION": "Una mala experiencia... Llevamos siendo clientes de esta floristería muchos años y nos gustaba muchísimo, pero la verdad que ya no es como antes. Hace varios días hice una compra y se supone que un establecimiento está para atender las necesidades/peticiones del cliente, en este caso no lo fue, no se escuchan las peticiones sino que se va un poco por libre (la atención no es la mejor) y la verdad uno queda descontento y sobre los precios sin comentarios, cada vez uno diferente... Es una pena porque el propietario siempre nos ha tratado muy bien y con mucha amabilidad, pero sin duda no volveremos..."
+      },
+      "OPINION_50": {
+        "AUTHOR_NAME": "Gebris ester Jiménez sanmartin",
+        "DESCRIPTION": "Muy buena atención excelente lo recomiendo saludes Rafaela tqm y su propietario."
+      },
+      "BUTTON": "Leer más"
+    }
+  },
+  "BOUQETS_PAGE": {
+    "TITLE": "Nuestros Ramos de Flores",
+    "ARMONIA_BOUQUET": {
+      "TITLE": "Ramo Armoia",
+      "DESCRIPTION": "<strong>Composición:</strong><br> Aniculata blanca - 12 ud. y Helechos - 7 ud. <br> <strong>Dimensiones:</strong><br> 40 cm de anchura y 45 cm de altura.<hr> Ramo de Paniculata natural recién cortada, también llamada Gypsopila"
+    },
+    "BOUQUET_OF_SUNFLOWERS_TEMPERANCE": {
+      "TITLE": "Ramo de girasoles Templanza",
+      "DESCRIPTION": "<strong>Composición:</strong><br> Eucalipto - 5 ud. Helechos - 4 ud. Solidago amarillo - 5 ud. Girasol teddy - 6 ud. Follaje rojo decorativo - 6 ud. <br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 45 cm de altura.<hr> Este vibrante ramo irradia alegría y energía con sus brillantes girasoles amarillos, simbolizando la felicidad y la vitalidad. Acompañado de follaje rojo para un contraste dinámico y eucalipto que añade un toque fresco y elegante, es perfecto para iluminar cualquier espacio y transmitir buenos deseos."
+    },
+    "BOUQUET_OF_RED_CARNATIONS": {
+      "TITLE": "Ramo de Claveles Rojos",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Gypsophila - 6 ud. Clavel columbiano - 12 ud. Helechos - 7 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 45 cm de altura.<hr> Este hermoso ramo simboliza la pasión y la devoción, con claveles rojos vibrantes que evocan amor y fuerza, mientras que el gypsophila blanco añade un toque de pureza y dulzura. Un diseño clásico y elegante que se adapta perfectamente a ocasiones románticas, aniversarios o para expresar admiración y respeto."
+    },
+    "AMANTINA_BOUQUET": {
+      "TITLE": "Ramo Amantina",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas blancas - 6 ud. Helechos - 5 ud. Hojas de aspidistra - 4 ud. Solidago verde - 3 ud.<br> <strong>Dimensiones:</strong><br> 40 cm de anchura y 50 cm de altura.<hr> ✨ Un diseño clásico y refinado que simboliza paz, amor y respeto. 🕊️💖"
+    },
+    "SPRING_BOUQUET": {
+      "TITLE": "Ramo primavera",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Lirios - 11 ud. Paniculata blanca - 4 ud. Verde tropical - 8 ud.<br> <strong>Dimensiones:</strong><br> 55 cm de anchura y 55 cm de altura.<hr> Precioso ramo de lirios de gran tamaño! Espectacular Colorido, el mejor regalo para una ocasión especial."
+    },
+    "BOUQUET_ROSES_EUCALYPTUS": {
+      "TITLE": "Ramo de Rosas y Eucalipto",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 8 ud. Rosas - 12 ud. Paniculata - 2 ud. Solidago amarillo - 1 ud. Helechos y hojas decorativas - 5 ud.<br> <strong>Dimensiones:</strong><br> 55 cm de anchura y 60 cm de altura.<hr> Este elegante ramo de rosas en tonos pastel es un símbolo de ternura, amor y delicadeza. Perfecto para momentos románticos, aniversarios o simplemente para expresar cariño sincero. Su armoniosa combinación con follaje verde y eucalipto aporta frescura y sofisticación."
+    },
+    "GERBERA_BOUQUET": {
+      "TITLE": "Ramo de Gerber",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Gerbera - 10 ud. Paniculata - 2 ud. Solidago amarillo - 3 ud. Helechos y follaje decorativo - 6 ud.<br> <strong>Dimensiones:</strong><br> 40 cm de anchura y 55 cm de altura.<hr> ✨ Un ramo lleno de vida y color para transmitir alegría en cada ocasión. ✨"
+    },
+    "BOUQUET_DAISIES": {
+      "TITLE": "Ramo de Margaritas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 5 ud. Margaritas - 10 ud. Solidago amarillo - 3 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 55 cm de altura.<hr> ✨ Un ramo lleno de luz y frescura para alegrar cualquier ocasión especial. ✨"
+    },
+    "BOUQUET_24_RED_ROSES": {
+      "TITLE": "Ramo de 24 Rosas Rojas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Paniculata - 4 ud. Rosas rojas - 24 ud. Solidago amarillo - 3 ud. Helechos y follaje decorativo - 10 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 55 cm de altura.<hr>Un ramo elegante y sofisticado que simboliza amor y pasión. Diseñado con rosas rojas intensas, acompañado de delicados toques blancos y verdes que realzan su belleza. Perfecto para aniversarios, declaraciones de amor y momentos especiales."
+    },
+    "BOUQUET_AMSTERDAM": {
+      "TITLE": "Ramo Amsterdam",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Gerberas fucsias, Lirios orientales rosados (algunos en botón), Iris azules, Crisantemos morados claros, Clavel amarillo, Pompones verdes (Crisantemo botón), Flor de cera blanca o paniculata, Eucalipto (follaje fresco y aromático), Astromelias blancas y lilas, Margaritas mini blancas, Verdes ornamentales (helecho, ruscus, etc.)<br> <strong>Dimensiones:</strong><br> 30-40 cm de anchura y 40-45 cm de altura.<hr>El ramo Amsterdam es un bouquet vibrante y elegante, ideal para celebraciones alegres o para transmitir cariño. Con una armoniosa mezcla de tonos fucsias, lilas, blancos, verdes y azules, está pensado para transmitir frescura, energía y buen gusto. Presentado sobre una base de papel amarillo mostaza que realza el colorido general."
+    },
+    "BOUQUET_COLOMBIA": {
+      "TITLE": "Ramo Colombia",
+      "DESCRIPTION": "<strong>Composición:</strong><br>El ramo está compuesto por una variedad de flores de colores vibrantes, envueltas en papel blanco y hojas verdes.Lirios blancos, algunos abiertos y otros en capullo. Gerberas amarillas con centros oscuros. Rosas amarillas. Claveles rosados y púrpuras. Flores pequeñas de color púrpura (posiblemente crisantemos). Una rosa azul (probablemente teñida artificialmente) Hojas verdes y helechos como relleno.<br> <strong>Dimensiones:</strong><br> 40-50 cm y una altura de 60-70 cm, incluyendo las hojas y el envoltorio.<hr>El ramo Amsterdam es un bouquet vibrante y elegante, ideal para celebraciones alegres o para transmitir cariño. Con una armoniosa mezcla de tonos fucsias, lilas, blancos, verdes y azules, está pensado para transmitir frescura, energía y buen gusto. Presentado sobre una base de papel amarillo mostaza que realza el colorido general. Un ramo colorido y variado de flores frescas, con lirios blancos, gerberas amarillas, claveles rosados y púrpuras, y una rosa azul, envuelto en papel blanco con hojas verdes. Es sostenido por una persona frente a una mesa de madera sobre un fondo blanco."
+    },
+    "BOUQUET_MALAGA": {
+      "TITLE": "Ramo Malaga",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Ramo de flores envuelto en papel blanco con un lazo verde, colocado sobre un fondo blanco puro, sin otros elementos visibles. Una rosa grande de color naranja como punto focal. Lirios amarillos, algunos en capullo. Crisantemos amarillos. Claveles rosados y púrpuras. Alstroemerias blancas con detalles rosados. Flores pequeñas blancas y amarillas como relleno. Hojas verdes y helechos para dar volumen y contraste.<br> <strong>Dimensiones:</strong><br> el diámetro del ramo es de aproximadamente 40-45 cm, y la altura, incluyendo las flores y el envoltorio, es de unos 50-60 cm.<hr>Un ramo vibrante de flores frescas con una rosa naranja central, lirios amarillos, crisantemos, claveles rosados y púrpuras, alstroemerias blancas y verdes de relleno, envuelto en papel blanco con un lazo verde, sobre un fondo blanco."
+    }
+  },
+  "FLOORS_PAGE": {
+    "SUBMENU": {
+      "ROUSES_PAGE": {
+        "TITLE_PAGE": "Nuestras Rosas",
+        "MULTICOLOR_ROSES": {
+          "TITLE": "Rosas Multicolor",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 5 ud. Paniculata - 3 ud. Rosas multicolor - 10 ud. Solidago amarillo - 3 ud. Helechos y follaje decorativo - - 6 ud.<br> <strong>Dimensiones:</strong><br> 60 cm de anchura y 60 cm de altura.<hr>Este vibrante ramo es una explosión de color y alegría, ideal para transmitir energía positiva y emociones sinceras. Su combinación de rosas multicolor junto con el delicado toque de la paniculata y el frescor del eucalipto lo convierten en el regalo perfecto para cualquier ocasión especial."
+        },
+        "SINGLE_ROSE_VASE": {
+          "TITLE": "Rosa única con Jarrón",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 4 ud. Paniculata - 2 ud. Rosa roja - 1 ud. Jarrón de vidrio - 1 ud.<br> <strong>Dimensiones:</strong><br> 12 cm de anchura y 40 cm de altura.<hr>Este hermoso detalle floral es un gesto elegante y significativo, ideal para expresar amor, admiración o gratitud. Con una sola rosa roja como protagonista, acompañada de delicados complementos y presentado en un fino jarrón de vidrio, es perfecto para sorprender en cualquier ocasión."
+        },
+        "DOME_3_PRESERVED_ROSES": {
+          "TITLE": "Cupula 3 Rosas Preservadas",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+        },
+        "ROUSES_DAMITA": {
+          "TITLE": "Rosas Damita",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja rectangular con un diseño colorido que incluye la palabra 'LOVE' y detalles como estrellas y salpicaduras de pintura. Dentro de la caja, hay varios bombones Ferrero Rocher envueltos en papel dorado. Un oso de peluche marrón sosteniendo un corazón rosa claro, colocado en el centro. Cinco rosas azules (probablemente teñidas artificialmente) a la derecha del oso. Una botella de vino tinto (etiquetada como Merlot) a la izquierda. Un globo rojo en forma de corazón con el nombre 'DAMITA' escrito en blanco, flotando sobre el arreglo. Hojas verdes y helechos como relleno decorativo. Una tarjeta roja con un diseño floral y el texto 'La Isla Segunda' en el frente.<br> <strong>Dimensiones:</strong><br>La caja mide aproximadamente 30 cm de largo, 20 cm de ancho y 10 cm de alto. El arreglo total, incluyendo el globo y la botella, tiene una altura de unos 50-60 cm y un ancho de 40-45 cm.<hr>Un regalo romántico en una caja decorativa con la palabra 'LOVE', que contiene bombones Ferrero Rocher, un oso de peluche con un corazón, rosas azules, una botella de vino tinto Merlot, un globo rojo con el nombre 'DAMITA' y una tarjeta, todo adornado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "ROUSES_LOVE_PACK": {
+          "TITLE": "Pack Amor",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja negra con una cinta roja de puntos blancos atada en un lazo. Dentro de la caja, hay varios bombones Ferrero Rocher envueltos en papel dorado. Una botella de vino tinto (etiquetada como 'Viña Ardanza Reserva') inclinada a la izquierda. Flores variadas, incluyendo: Rosas rojas. Lirios blancos, algunos en capullo. Margaritas blancas con centros verdes. Hojas verdes como relleno decorativo.<br> <strong>Dimensiones:</strong><br>la caja mide aproximadamente 30 cm de largo, 20 cm de ancho y 10 cm de alto. El arreglo total, incluyendo la botella y las flores, tiene una altura de unos 40-50 cm y un ancho de 35-40 cm.<hr>Un regalo elegante en una caja negra con cinta roja, que contiene bombones Ferrero Rocher, una botella de vino tinto Viña Ardanza Reserva, rosas rojas, lirios blancos y margaritas blancas, decorado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "ROUSES_ALWAYS_TOGETHER": {
+          "TITLE": "Pack Siempre Juntos",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja roja en forma de corazón como base. Rosas rojas, lirios blancos (algunos en capullo), margaritas blancas, y flores pequeñas blancas (posiblemente gypsophila) como arreglo floral principal. Hojas verdes y helechos para relleno. Un oso de peluche marrón sosteniendo un corazón rojo, colocado a la derecha. Una botella de vino tinto (etiquetada con un diseño de 'Happy Valentine's Day' y corazones) con un lazo rojo, ubicada al centro-izquierda. Una caja de bombones Nestlé 'Caja Roja' a la derecha del centro. Un globo rojo en forma de corazón con la palabra 'LOVE' escrita en blanco, flotando sobre el arreglo.<br> <strong>Dimensiones:</strong><br>La caja en forma de corazón mide aproximadamente 35 cm de ancho, 30 cm de largo y 10 cm de alto. El arreglo total, incluyendo el globo y la botella, tiene una altura de unos 50-60 cm y un ancho de 40-45 cm.<hr>Un regalo romántico en una caja roja en forma de corazón, con rosas rojas, lirios blancos, margaritas, un oso de peluche con un corazón, una botella de vino tinto con temática de San Valentín, una caja de bombones Nestlé Caja Roja, y un globo rojo con la palabra 'LOVE', decorado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "ROUSES_IN_LOVE": {
+          "TITLE": "Pack Te Amo",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Una caja roja con un patrón de corazones blancos y una cinta blanca atada en un lazo. Rosas blancas como flores principales, acompañadas de hojas verdes y helechos. Un oso de peluche marrón sosteniendo un corazón rojo, ubicado en el centro del arreglo. Un globo rojo en forma de corazón con la inscripción 'te amo' en blanco, flotando a la derecha. Un pequeño letrero rojo con la palabra 'LOVE' en blanco, colocado entre las flores.<br> <strong>Dimensiones:</strong><br>La caja mide aproximadamente 25 cm de ancho, 20 cm de largo y 10 cm de alto. El arreglo total, incluyendo el globo, tiene una altura de unos 40-50 cm y un ancho de 30-35 cm.<hr>Un regalo romántico en una caja roja con corazones blancos, decorada con rosas blancas, un oso de peluche con un corazón rojo, un globo rojo con 'te amo' y un letrero 'LOVE', adornado con hojas verdes, sobre una superficie clara frente a una pared de ladrillos blancos."
+        }
+      },
+      "ORCHIDS_PAGE": {
+        "TITLE_PAGE": "Nuestras Orquídeas",
+        "PHALAENOPSIS_ORCHID": {
+          "TITLE": "Orquidea Phalaenopsis",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>4 veces en mes<br><strong>Composición:</strong><br>Eucalipto - 4 ud. Paniculata - 2 ud. Rosa roja - 1 ud. Jarrón de vidrio - 1 ud.<br><strong>Dimensiones:</strong><br> 25 cm de anchura y 70 cm de altura.<hr>Colócala en un lugar con luz indirecta brillante, riega la planta una vez a la semana en verano y cada dos semanas en invierno, manténla en un ambiente húmedo y ventilado, pónle fertilizante cada 2-3 semanas durante el crecimiento."
+        },
+        "PHALAENOPSIS_ORCHID_ORCHID": {
+          "TITLE": "Orquidea orquidea Phalaenospsis",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>1 veces semanal<br><strong>Dimensiones:</strong><br> 25 cm de anchura y 70 cm de altura.<hr>Las orquídeas luz solar no directadirecta. Coloca tus orquídeas en un lugar interior donde reciban luz indirecta durante la mayor parte del día.<br> El riego es uno de los aspectos más importantes del cuidado de las orquídeas, sumerge la maceta en agua tibia durante unos minutos una vez por semana, asegurándote de que las raíces se hidraten bien antes de drenar el exceso de agua."
+        },
+        "PHALAENOPSIS_PLANT": {
+          "TITLE": "Planta Phalaenospsis",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>1 veces semanal<br><strong>Dimensiones:</strong><br> 25 cm de anchura y 70 cm de altura.<br><strong>Guía de cuidados</strong><br> Las Orquídeas Phalaenopsis planta de interior la luz indirecta , por lo que es preferiblemente colocarlas cerca de una ventana.<hr>Planta de Orquídea Phalaenopsis Color Rosa con 3 tallos y una altura de 75cm. Esta planta de interior originaria del sudeste asiático, una planta para expresar tu afecto a esa persona."
+        }
+      },
+      "MORE_FLOORS_PAGE": {
+        "TITLE_PAGE": "Más de nuestras flores",
+        "SCHEFFLERA": {
+          "TITLE": "Schefflera",
+          "DESCRIPTION": "<strong>Frecuencia de riego</strong><br>3 veces en mes<br><strong>Composición:</strong><br>Eucalipto - 4 ud. Paniculata - 2 ud. Rosa roja - 1 ud. Jarrón de vidrio - 1 ud.<br> <strong>Dimensiones:</strong><br> 45 cm de anchura y 130 cm de altura.<br><strong>Guía de cuidados:</strong><br>Luz: intensa Abono: desde Mayo a septiembre Riegos: cada 12 días, que se seque entre riegos y riegos Temperatura: 10° a 25°<hr>Orígen: Taiwán Hojas de 15 cm de diámetro, palmados y lustrosos verde oscuro brillante, compuestos de siete y ocho foliolos ovalados y largos."
+        },
+        "OLIVE_CUP": {
+          "TITLE": "Olivo Copa",
+          "DESCRIPTION": "<strong>Ya se ha trasplantado la planta. No es necesario trasplantar justo después de la compra.</strong><br><hr><strong>Frecuencia de riego:</strong><br>1 veces en semanal<strong>Dimensiones:</strong><br> 30 cm de anchura y 1 m de altura.<hr>Olea europaea llamado comúnmente Olivo y Oliveira, ideal como planta ornamental. Esta Olivera destaca por su elegancia, y su adaptabilidad a diferentes climas, con hojas rusticas que y un tronco grisáceo y retorcido aportan una elegancia como planta ornamental."
+        },
+        "YUCCA_PLANT": {
+          "TITLE": "Planta Yucca",
+          "DESCRIPTION": "<strong>Frecuencia de riego:</strong><br>1 veces en semanal<strong>Dimensiones:</strong><br> 25 cm de anchura y 1 m de altura.<hr>Envoltorio para regalo gratuito.<br><hr><strong>Guía de cuidados:</strong><br>Una planta de cultivó fácil y muy resistente a la sequía, qué vive muchos años en casa, si se puede colocar a plena luz, incluso en verano. Riegos: el sustrato debe secarse entre riegos y riegos."
+        },
+        "NATURAL_AROMAS_BASKET": {
+          "TITLE": "Cesta 'Aromas Naturales'",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 20 ud. cesta - 1 ud.<br> <strong>Dimensiones:</strong><br> 50 cm de anchura y 30 cm de altura.<hr>Un arreglo encantador y fresco de eucalipto presentado en una cesta de mimbre, ideal para decorar cualquier espacio y aportar un aroma natural relajante. Perfecto para aquellos que buscan un detalle elegante, ecológico y de fácil mantenimiento."
+        },
+        "NATURAL_AROMAS_VASE": {
+          "TITLE": "Jarron 'Aromas Naturales'",
+          "DESCRIPTION": "<strong>Composición:</strong><br>Eucalipto - 20 ud. Cesta - 1 ud.<br> <strong>Dimensiones:</strong><br> 50 cm de anchura y 70 cm de altura.<hr>Un arreglo encantador y fresco de eucalipto presentado en una cesta de mimbre, ideal para decorar cualquier espacio y aportar un aroma natural relajante. Perfecto para aquellos que buscan un detalle elegante, ecológico y de fácil mantenimiento."
+        },
+        "HAPPINESS": {
+          "TITLE": "Cesta Alegría'",
+          "DESCRIPTION": "<strong>Composición:</strong><br>EUna canasta de mimbre blanco que sirve como base.Orquídeas amarillas (Phalaenopsis) con tallos largos y hojas verdes. Bromelias naranjas con hojas espinosas. Plantas de flores de color púrpura, rosa y blanco (posiblemente violetas africanas o primulas) con follaje verde. Una cinta amarilla atada en un lazo decorativo alrededor de la canasta.<br> <strong>Dimensiones:</strong><br> La canasta tiene un diámetro aproximado de 25-30 cm y una altura de unos 20-25 cm, incluyendo las plantas. El arreglo total, con las flores más altas (orquídeas), alcanza una altura de aproximadamente 40-50 cm.<hr>Un arreglo floral vibrante en una canasta de mimbre blanco, con orquídeas amarillas, bromelias naranjas, flores púrpuras, rosas y blancas, y follaje verde, decorado con una cinta amarilla, sobre un fondo blanco."
+        },
+        "BIRTH_BASKET": {
+          "TITLE": "Cesta Nacimientos",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Un recipiente blanco con el texto 'COTTON TAIL FARM CARROT PATCH' y dibujos de zanahorias, con las frases 'LOCALLY GROWN' y 'ALWAYS FRESH'. Plantas variadas, incluyendo: Anthuriums rojos con espádices amarillos. Una planta de hojas grandes y verdes con rayas claras (posiblemente un Calathea). Una planta de flores amarillas pequeñas (posiblemente Kalanchoe). Una planta con hojas blancas y verdes moteadas (posiblemente un Hypoestes). Una planta con hojas largas y verdes (posiblemente un Spathiphyllum). Hojas de helecho y otras plantas verdes como relleno.<br> <strong>Dimensions:</strong><br> El recipiente tiene un diámetro de aproximadamente 25-30 cm y una altura de unos 15-20 cm. El arreglo total, incluyendo las plantas más altas, alcanza una altura de aproximadamente 40-50 cm.<hr>Un arreglo de plantas en un recipiente blanco decorado con el texto 'COTTON TAIL FARM CARROT PATCH', que contiene anthuriums rojos, un Calathea de hojas rayadas, flores amarillas, plantas moteadas y follaje verde, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "MADRID_BASKET": {
+          "TITLE": "Cesta Nacimientos",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Una caja rectangular blanca con un diseño pintado de cactus verdes con flores rosadas y detalles rojos. Plantas variadas, incluyendo: Hojas grandes de una planta con variegación verde y amarilla (posiblemente un Croton). Hojas largas y finas de una planta verde (posiblemente un Areca o similar). Flores rosadas y púrpuras (posiblemente Cyclamen o Primula). Hiedra verde que cae por los lados de la caja. Otras plantas verdes de follaje denso como relleno.<br> <strong>Dimensions:</strong><br> La caja mide aproximadamente 30 cm de largo, 20 cm de ancho y 15 cm de alto. El arreglo total, incluyendo las plantas más altas, alcanza una altura de unos 40-50 cm.<hr>Un arreglo de plantas en una caja blanca decorada con cactus pintados, que contiene un Croton con hojas variegadas, una planta de hojas finas, flores rosadas y púrpuras, hiedra colgante y follaje verde, sobre una mesa blanca frente a una pared de ladrillos blancos."
+        },
+        "HAPPY_COUPLE_TERRARIUM": {
+          "TITLE": "Terrario Pareja Feliz",
+          "DESCRIPTION": "<strong>Composition:</strong><br>Un terrario de vidrio con forma geométrica (hexagonal) y bordes de color verde. Dentro del terrario: Una planta pequeña con hojas verdes (posiblemente un Ficus pumila o similar). Musgo verde cubriendo el suelo. Una pequeña figura decorativa de dos niños (uno con un impermeable amarillo y otro con un vestido rosa) frente a un árbol. Piedras pequeñas y un poco de tierra como base. Suculentas pequeñas y otras plantas verdes alrededor.<br> <strong>Dimensions:</strong><br>El terrario tiene un diámetro de aproximadamente 20-25 cm en su base y una altura de unos 25-30 cm, incluyendo la planta más alta.<hr>Un terrario de vidrio hexagonal con bordes verdes, que contiene una planta verde, musgo, suculentas, piedras y una figura decorativa de dos niños, sobre una superficie clara frente a una pared de ladrillos blancos."
+        },
+        "HAPPY_TERRARIUM": {
+          "TITLE": "Couple Terrarium",
+          "DESCRIPTION": "<strong>Composition:</strong><br>A domed glass terrarium, decorated with a string at the top and a red ribbon with white hearts tied at the base. Inside the terrarium: A green plant with shiny leaves (possibly a Ficus pumila or similar). Green moss covering the soil. A decorative figurine of two children (one wearing a yellow raincoat and the other a pink dress and blue hat). Layers of soil, sand, and small stones at the base.<br> <strong>Dimensions:</strong><br>The terrarium has a diameter of approximately 20-25 cm at the base and a height of approximately 25-30 cm, including the dome and the plant.<hr>The terrarium has a diameter of approximately 20-25 cm at the base and a height of approximately 25-30 cm, including the dome and the plant."
+        }
+      }
+    }
+  },
+  "TERRARIUMS_PAGE": {
+    "TITLE": "Nuestros Terrarios",
+    "BONSAI_TERRARIUM_1": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "BONSAI_TERRARIUM_2": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "BONSAI_TERRARIUM_3": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    }
+  },
+  "FUNERALS_PAGE": {
+    "TITLE": "Centros Funerarios",
+    "BLUE_AND_ORANGE_FUNERAL_CENTER": {
+      "TITLE": "Centro Funerario Azúl y Naranja",
+      "DESCRIPTION": "Arreglo floral funerario de forma triangular y equilibrada, con una base ancha y un punto focal alto. El arreglo está compuesto por flores de diversos colores y tamaños: <br>Rosas azules (color teñido), de tamaño mediano, distribuidas por todo el arreglo para resaltar visualmente. <br>Gerberas naranjas, de tamaño grande, ubicadas principalmente en la parte central y superior, dando altura al conjunto.<br>Claveles color durazno, de tamaño mediano, aportando volumen y contraste suave.<br>Lirios blancos, de gran tamaño y elegancia, sobresaliendo en la parte superior central.<br>Pequeñas rosas o minirosas anaranjadas, que añaden detalle y profundidad.<br>Hojas verdes grandes (posiblemente aspidistra o monstera) en la parte trasera, utilizadas como fondo y estructura.<br>Cinta funeraria lila con texto negro, con el nombre “SERRANO”, indicando que es un tributo funerario personalizado."
+    },
+    "BIDASOA_FUNERAL_CENTER": {
+      "TITLE": "Centro Funerario Bidasoa",
+      "DESCRIPTION": "Centro funerario redondo y frondoso, con un diseño tradicional y simétrico, ideal para expresar condolencias con elegancia y respeto. Las flores utilizadas son variadas en tamaño y color: <br>Claveles rojos y blancos, de tamaño mediano, distribuidos de forma homogénea por todo el arreglo, dando volumen y textura. <br>Rosas rojas y blancas, de tamaño mediano a grande, que aportan distinción y contraste cromático. <br>Gerberas naranjas, grandes y vibrantes, colocadas en pequeños grupos que rompen la uniformidad y añaden calidez visual. <br>Crisantemos blancos, de tamaño medio, que complementan el volumen general con su forma redondeada y pétalos abundantes.<br> Hojas verdes ornamentales (como helechos y hojas variegadas), que enmarcan el conjunto y dan un acabado natural y elegante.<br> Lleva una cinta blanca decorativa en el centro, destinada a incluir un mensaje personalizado o nombre del remitente."
+    },
+    "FUNERAL_CENTER_APPEARANCE": {
+      "TITLE": "Centro Funerario Semblante",
+      "DESCRIPTION": "Corona funeraria clásica, con forma circular y una composición equilibrada, ideal para rendir homenaje con elegancia y serenidad. Está formada por una variedad de flores frescas de distintos tamaños:<br> Rosas rojas, de tamaño mediano, distribuidas de manera uniforme para dar un toque de amor y solemnidad.<br> Margaritas blancas con centro amarillo, pequeñas y abundantes, que aportan frescura y luminosidad al conjunto.<br> Lirios blancos y rosas, de gran tamaño y presencia, ubicados en puntos clave para dar protagonismo y elegancia.<br> Botones de lirio sin abrir, que añaden textura y simbolismo de pureza y esperanza.<br> Helechos y hojas verdes ornamentales, que enmarcan la corona y aportan profundidad y estructura.<br> Una cinta blanca con bordes dorados, que cuelga al centro para colocar dedicatorias personalizadas.<br> El diseño transmite paz, respeto y ternura, ideal para acompañar una despedida sentida."
+    },
+    "F12_FUNERAL_CENTER": {
+      "TITLE": "Centro Funerario F12",
+      "DESCRIPTION": "El ramo incluye rosas rojas y blancas, lirios blancos, gerberas rosadas y amarillas, hortensias blancas, y otras flores pequeñas de colores variados, con hojas verdes como relleno. La persona viste un top negro sin mangas, y el fondo es blanco."
+    },
+    "FUNERAL_BOUQUET": {
+      "TITLE": "Ramo Funerario",
+      "DESCRIPTION": "El ramo incluye rosas rojas y blancas, lirios blancos, gerberas rosadas y amarillas, hortensias blancas, y otras flores pequeñas de colores variados, con hojas verdes como relleno. La persona viste un top negro sin mangas, y el fondo es blanco."
+    },
+    "SPAIN_FUNERAL_CENTER": {
+      "TITLE": "Centro Funerario España",
+      "DESCRIPTION": "Corona con una cruz de madera en el centro, decorado con rosas rojas, naranjas y rosadas, gerberas de varios colores, flores pequeñas blancas y púrpuras, y follaje verde, sobre un fondo blanco."
+    },
+    "FUNERAL_CENTER_F123": {
+      "TITLE": "Centro Funerario F123",
+      "DESCRIPTION": "Una corona floral circular con una cruz de madera en el centro, adornada con rosas rojas, naranjas y rosadas, gerberas de varios colores, flores pequeñas blancas y púrpuras, y follaje verde, sobre un fondo blanco."
+    },
+    "LAUREL_CENTER_F111": {
+      "TITLE": "Centro de Laurel F111",
+      "DESCRIPTION": "Una corona funeraria circular hecha de hojas verdes, decorada con una cinta roja y amarilla atada en un lazo, sobre un fondo negro."
+    },
+    "LAUREL_CENTER_LISBOA": {
+      "TITLE": "Corona de Flores Lisboa",
+      "DESCRIPTION": "Una corona floral circular con una cruz de madera en el centro, decorada con rosas rojas, naranjas y rosadas, gerberas de varios colores, flores pequeñas blancas y púrpuras, y follaje verde, sobre un fondo blanco."
+    }
+  },
+  "WEDDINGS_PAGE": {
+    "TITLE": "Las flores que necesitas para tus eventos",
+    "WEDDING_TAB": "Bodas",
+    "EVENTS_TAB": "Eventos",
+    "DESCRIPTION_WEDDING": "En Flor de Loto queremos que el día de vuestra celebración sea único e inolvidable, por eso os ofrecerán una amplia gama de arreglos florales, ya sea para bodas tradicionales como para enlaces temáticos.",
+    "WEDDING_1": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_2": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_3": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_4": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_5": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    },
+    "WEDDING_6": {
+      "TITLE": "Cupula 3 Rosas Preservadas",
+      "DESCRIPTION": "<strong>Composición:</strong><br>Rosas eternas en cúpula de cristal - 1 ud.<br> <strong>Dimensiones:</strong><br> 21 cm de anchura y 34 cm de altura.<hr>Rosa natural preservada natural, de larga duración y de colores rosa en una cúpula de cristal de larga durabilidad sin requerimiento de agua ni cuidados especiales."
+    }
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "¡Estamos para ayudarte!",
+    "DESCRIPTION": "Si tienes alguna pregunta, consulta o deseas realizar un pedido personalizado, no dudes en contactarnos. Nuestro amable equipo de expertos floristas está listo para brindarte un servicio excepcional y asesoramiento personalizado. Puedes comunicarte con nosotros por teléfono, correo electrónico o visitarnos en nuestra tienda. Nos encantaría ser parte de tus momentos especiales y hacerlos inolvidables con nuestras hermosas flores.",
+    "FORM_FIEDS": {
+      "NAME": "Nombre",
+      "VALIDATION_NAME": "El nombre es requerido.",
+      "VALIDATION_NAME_LENGTH": "El mensaje debe tener al menos 3 carácteres.",
+      "EMAIL": "E-mail",
+      "VALIDATION_EMAIL": "El Email es requerido.",
+      "VALIDATION_EMAIL_FORMAT": "Introduzca un correo electrónico válido.",
+      "SUBJECT": "Asunto",
+      "VALIDATION_SUBJECT": "El asunto es requerido.",
+      "VALIDATION_SUBJECT_LENGTH": "El asunto debe tener al menos 3 carácteres.",
+      "MESSAGE": "Mensaje",
+      "VALIDATION_MESSAGE": "El mensaje es requerido.",
+      "VALIDATION_MESSAGE_LENGTH": "El mensaje debe tener al menos 15 carácteres."
+    },
+    "MESSAGE_SUCCESS": "¡Gracias por contactarnos! Nos pondremos en contacto contigo lo antes posible.",
+    "MESSAGE_ERROR": "¡Ups! Algo salió mal. Por favor, inténtalo de nuevo más tarde.",
+    "SEND": "Enviar"
+  },
+  "ERROR_PAGE": {
+    "TITLE": "¡¡Este no es el camino correcto!!",
+    "GO_BACK": "¿Rebobinamos?"
+  },
+  "OTHERS": {
+    "ORDER_MESSAGES": "¡¡Haz tu pedido aquí!!",
+    "FORM_ORDER": {
+      "TITLE": "Enviar pedido por WhatsApp",
+      "LABEL_NAME": "Escriba su nombre",
+      "VALIDATION_NAME": "El nombre es obligatorio",
+      "VALIDATION_NAME_LENGTH": "El nombre debe contener al menos 3 carácteres.",
+      "LABEL_PHONE": "Escriba su teléfono",
+      "VALIDATION_PHONE": "El teléfono es obligatorio.",
+      "VALIDATION_PHONE_LENGTH": "El número de teléfono debe tener al menos 9 caracteres.",
+      "LABEL_MESSAGE": "Digános, ¿que desea?",
+      "VALIDATION_MESSAGE": "El pedido es obligatorio.",
+      "VALIDATION_MESSAGE_LENGTH": "El pedido debe tener al menos 15 carácteres.",
+      "BUTTON_WHATSAPP": "Enviar pedido por WhatsApp",
+      "BUTTON_SMS": "Enviar pedido por SMS"
+    }
+  },
+  "POLICIES": {
+    "COOKIES": {
+      "TITLE": "Política de Cookies",
+      "WHAT_ARE_COOKIES_TITLE": "¿Qué son las cookies?",
+      "WHAT_ARE_COOKIES_DESCRIPTION": "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Se utilizan para recordar su actividad y preferencias.",
+      "HOW_DO_WE_USE_COOKIES_TITLE": "¿Cómo utilizamos las cookies?",
+      "HOW_DO_WE_USE_COOKIES_DESCRIPTION": "En [Nombre de la Empresa], utilizamos cookies para los siguientes fines:",
+      "HOW_DO_WE_USE_COOKIES_LIST": {
+        "REMEMBER": "· Recordar sus preferencias de usuario.",
+        "ANALYZE": "· Analizar el tráfico en nuestro sitio web.",
+        "PROVIDE": "· Proporcionar contenido personalizado."
+      },
+      "TYPES_OF_COOKIES_WE_USE_TITLE": "Tipos de cookies que utilizamos",
+      "TYPES_OF_COOKIES_WE_USE_LIST": {
+        "ESSENTIAL": "<li><strong>· Cookies esenciales:</strong> Son necesarias para el funcionamiento del sitio web.</li>",
+        "ANALYTICS": "<li><strong>· Cookies de análisis:</strong> Nos ayudan a entender cómo los usuarios interactúan con nuestro sitio.</li>",
+        "FUNCTIONALITY": "<li><strong>· Cookies de funcionalidad:</strong> Mejoran su experiencia al recordar sus preferencias.</li>",
+        "PUBLISHING": "<li><strong>· Cookies publicitarias:</strong> Utilizadas para mostrar anuncios relevantes.</li>"
+      },
+      "MANAGE_TITLE": "Gestión de cookies",
+      "MANAGE_DESCRIPTION": "Puede gestionar las cookies a través de la configuración de su navegador. Aquí están los enlaces para los navegadores más comunes:",
+      "MORE_INFORMATION_TITLE": "Más información",
+      "MORE_INFORMATION_DESCRIPTION": "Si tiene alguna pregunta sobre nuestra política de cookies, puede contactarnos en:"
+    },
+    "LEGAL": {
+      "TITLE": "Aviso Legal",
+      "DESCRIPTION": "Este sitio web está operado por [Nombre de la Empresa]. Al acceder o utilizar este sitio web, aceptas estar sujeto a los siguientes términos y condiciones.",
+      "IDENTIFICATION_TITLE": "Identificación del Responsable",
+      "IDENTIFICATION_DESCRIPTION": "Razón Social: [Nombre de la Empresa<br>CIF/NIF: [Número] <br>Dirección: [Dirección Completa]<br>Email: [Correo Electrónico] <br>Teléfono: [Número de Teléfono]",
+      "CONDITIONS_TITLE": "Condiciones de Uso",
+      "CONDITIONS_DESCRIPTION": "Al acceder a este sitio web, el usuario se compromete a utilizarlo de conformidad con la ley, la moral, el orden público y las presentes condiciones de uso.",
+      "PROPERTY_TITLE": "Propiedad Intelectual e Industrial",
+      "PROPERTY_DESCRIPTION": "Todos los contenidos de este sitio web (textos, imágenes, logotipos, diseño, etc.) están protegidos por derechos de propiedad intelectual pertenecientes a [Nombre de la Empresa] o a sus licenciantes.",
+      "EXCLUSION_TITLE": "Exclusión de Responsabilidad",
+      "EXCLUSION_DESCRIPTION": "[Nombre de la Empresa] no se hace responsable de los daños o perjuicios que puedan derivarse del uso del sitio web.",
+      "LEGISLATION_TITLE": "Legislación Aplicable",
+      "LEGISLATION_DESCRIPTION": "Estas condiciones se regirán por la legislación española. Para cualquier disputa, las partes se someterán a los juzgados y tribunales de [Ciudad]."
+    },
+    "PRIVACY": {
+      "TITLE": "Política de Privacidad",
+      "INTRO_TITLE": "Introducción",
+      "INTRO_DESCRIPTION": "En [Nombre de la Empresa], nos tomamos muy en serio la privacidad de nuestros usuarios. Esta política de privacidad describe cómo recopilamos, usamos y protegemos su información personal.",
+      "INFORMATION_TITLE": "Información que recopilamos",
+      "INFORMATION_DESCRIPTION": "<li>· Información proporcionada directamente por el usuario, como nombre, correo electrónico y número de teléfono.</li><li>· Información recopilada automáticamente, como datos de navegación y dirección IP.</li><li>· Información de terceros cuando usted interactúa con nuestros servicios.</li>",
+      "USE_TITLE": "Cómo utilizamos su información",
+      "USE_DESCRIPTION": "La información recopilada se utiliza para los siguientes fines:",
+      "USE_LIST": "<li>· Mejorar la experiencia del usuario en nuestro sitio web.</li><li>· Procesar solicitudes y brindar soporte al cliente.</li><li>· Envío de comunicaciones relacionadas con nuestros servicios.</li>",
+      "SHARING_TITLE": "Compartir su información",
+      "SHARING_DESCRIPTION": "No compartimos su información personal con terceros, excepto cuando sea necesario para cumplir con la ley, proteger nuestros derechos o brindar los servicios solicitados.",
+      "SECURITY_TITLE": "Protección de su información",
+      "SECURITY_DESCRIPTION": "Implementamos medidas de seguridad para proteger su información personal contra accesos no autorizados, alteraciones, divulgaciones o destrucciones.",
+      "RIGHTS_TITLE": "Sus derechos",
+      "RIGHTS_DESCRIPTION": "Usted tiene derecho a acceder, corregir o eliminar su información personal. Para ejercer estos derechos, por favor contáctenos en ",
+      "UPDATES_TITLE": "Actualizaciones a esta política",
+      "UPDATES_DESCRIPTION": "Nos reservamos el derecho de actualizar esta política de privacidad en cualquier momento. Los cambios serán publicados en esta página con la fecha de actualización correspondiente."
+    }
+  }
+}

@@ -1,0 +1,121 @@
+// Global styles
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+// body.light-theme {
+//     background: $grey-light;
+//     color: $black-light;
+// }
+
+// body.dark-theme {
+//     background: $black-light-bg;
+//     color: $grey-light-txt;
+// }
+
+body {
+    background: $white-dark;
+    color: $black-light;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+    font-family: $txt-h;
+    font-weight: $txt-bold;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: $h1-mob;
+    color: $brand-primary;
+    @include min-responsive($tablet) {
+        font-size: $h1-tab;
+    }
+
+    @include min-responsive($desktop-laptop) {
+        font-size: $h1-desk;
+    }
+}
+
+h2 {
+    font-size: $h2-mob;
+    color: $brand-tertiary;
+    @include min-responsive($tablet) {
+        font-size: $h2-tab;
+    }
+
+    @include min-responsive($desktop-laptop) {
+        font-size: $h2-desk;
+    }
+}
+
+h3 {
+    font-size: $h3-mob;
+    color: $brand-secondary;
+    @include min-responsive($tablet) {
+        font-size: $h3-tab;
+    }
+
+    @include min-responsive($desktop-laptop) {
+        font-size: $h3-desk;
+    }
+}
+
+p,
+a,
+span,
+input,
+label,
+button,
+li,
+textarea {
+    font-family: $txt-p;
+    font-size: $txt-main;
+    font-weight: $txt-regular;
+}
+
+button {
+    border-radius: $border-radius-05;
+    cursor: pointer;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a:not(.p-speeddial-action) {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: color .2s ease;
+    &:not(.navbar-brand)::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: .1rem;
+        bottom: 0;
+        left: 0;
+        background-color: currentColor;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.2s ease-in-out;
+    }
+    &:hover {
+        color: $grey;
+        &::before {
+            visibility: visible;
+            transform: scaleX(1);
+        }
+    }
+}
+
+.wrap-navbar a {
+    font-size: $txt-menu;
+}

@@ -1,0 +1,61 @@
+@import "/src/styles.scss";
+
+.wrap-card {
+    .wrap-image {
+        border: .2rem solid $grey;
+        border-bottom: none;
+        border-radius: $border-radius-05 $border-radius-05 0 0;
+        ::ng-deep {
+            p-image {
+                display: block;
+                width: 100%;
+                span {
+                    width: 100%;
+                    img {
+                        border-radius: $border-radius-05 $border-radius-05 0 0;
+                        overflow: hidden;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .wrap-info {
+        padding: 1rem 0 0 1rem;
+        border: .2rem solid $grey;
+        border-top: none;
+        border-radius: 0 0 $border-radius-05 $border-radius-05;
+        background: rgba($white, .3);
+        backdrop-filter: blur(.3rem);
+        &.no-border {
+          border: none;
+          background: transparent;
+        }
+        .wrap-icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 7.5rem;
+            height: auto;
+          }
+        }
+        .title-card-product {
+            font-size: 3rem;
+        }
+        .wrap-description {
+          max-height: 25rem;
+          overflow-x: hidden;
+          padding-right: 1rem;
+          &.services {
+            max-height: 25rem;
+            overflow-x: hidden;
+            padding-right: 0;
+            p {
+              padding-right: 1rem;
+            }
+          }
+        }
+    }
+}

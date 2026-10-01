@@ -1,0 +1,31 @@
+
+
+// Normalize
+@import "./normalize";
+
+// Colors
+@import "./colors/brand";
+@import "./colors/main";
+@import "./colors/states";
+@import "./colors/shadows";
+
+// Fonts
+@import "./fonts/txt-family";
+@import "./fonts/txt-sizes";
+@import "./fonts/txt-weight";
+
+// Sizes
+@import "./break-points/break-points";
+
+// Shapes
+@import "./shapes/shapes";
+
+// Mixins
+@import "./mixins/mixins";
+
+// Global Styles
+@import "./global/globals";
+@import "./global/grid";
+@import "./global/utilitis";
+@import "./custom-scrollbar";
+@import "./primeNg";

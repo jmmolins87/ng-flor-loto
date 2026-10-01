@@ -1,0 +1,42 @@
+
+
+
+<div class="wrap-policies privacity animate__animated animate__fadeIn">
+    <div class="container">
+        <header class="text-center text-decoration-underline">
+            <h1>{{ "POLICIES.PRIVACY.TITLE" | translate }}</h1>
+        </header>
+        <main>
+            <section class="animate__animated animate__pulse">
+                <h2>{{ "POLICIES.PRIVACY.INTRO_TITLE" | translate }}</h2>
+                <p>{{ "POLICIES.PRIVACY.INTRO_DESCRIPTION" | translate }}</p>
+            </section>
+            <section class="animate__animated animate__pulse">
+                <h2>{{ "POLICIES.PRIVACY.INFORMATION_TITLE" | translate }}</h2>
+                <ul [innerHTML]="('POLICIES.PRIVACY.INFORMATION_DESCRIPTION' | translate)">
+                </ul>
+            </section>
+            <section class="animate__animated animate__pulse">
+                <h2>{{ "POLICIES.PRIVACY.USE_TITLE" | translate }}</h2>
+                <p>{{ "POLICIES.PRIVACY.USE_DESCRIPTION" | translate }}</p>
+                <ul [innerHTML]="'POLICIES.PRIVACY.USE_LIST' | translate"></ul>
+            </section>
+            <section class="animate__animated animate__pulse">
+                <h2>{{ "POLICIES.PRIVACY.SHARING_TITLE" | translate }}</h2>
+                <p>{{ "POLICIES.PRIVACY.SHARING_DESCRIPTION" | translate }}</p>
+            </section>
+            <section class="animate__animated animate__pulse">
+                <h2>{{ "POLICIES.PRIVACY.SECURITY_TITLE" | translate }}</h2>
+                <p>{{ "POLICIES.PRIVACY.SECURITY_DESCRIPTION" | translate }}</p>
+            </section>
+            <section class="animate__animated animate__pulse">
+                <h2>{{ "POLICIES.PRIVACY.RIGHTS_TITLE" | translate }}</h2>
+                <p>{{ "POLICIES.PRIVACY.RIGHTS_DESCRIPTION" | translate }}<a href="mailto:flordelotosegovia@gmail.com">flordelotosegovia&#64;gmail.com</a>.</p>
+            </section>
+            <section class="animate__animated animate__pulse">
+                <h2>{{ "POLICIES.PRIVACY.UPDATES_TITLE" | translate }}</h2>
+                <p>{{ "POLICIES.PRIVACY.UPDATES_DESCRIPTION" | translate }}</p>
+            </section>
+        </main>
+    </div>
+</div>

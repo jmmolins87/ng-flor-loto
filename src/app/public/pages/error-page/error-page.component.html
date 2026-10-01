@@ -1,0 +1,22 @@
+
+
+
+<div class="wrap-error animate__animated animate__fadeIn">
+    <section class="wrap-animation">
+        <iframe src="https://lottie.host/embed/6bf8b921-5e59-4d08-9e37-793a8a4b54de/CCkNLpbzes.json" loading="lazy"></iframe>
+        <button class="scroll-indicator" (click)="scrollDown()">
+            <i class="pi pi-arrow-down"></i>
+        </button>
+    </section>
+        <section class="wrap-info">
+            <h1>{{ "ERROR_PAGE.TITLE" | translate }}</h1>
+            <div class="wrap-button">
+                <button 
+                    pButton (click)="goBack()" 
+                    class="p-button-outlined"
+                    [icon]="'pi pi-backward'" 
+                    [label]="'ERROR_PAGE.GO_BACK' | translate">
+                </button>
+            </div>
+        </section>
+</div>

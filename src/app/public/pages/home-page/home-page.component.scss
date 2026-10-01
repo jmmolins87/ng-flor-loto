@@ -1,0 +1,71 @@
+
+
+@import "/src/styles.scss";
+
+.wrap-home {
+    .wrap-title {
+        .subtitle {
+            color: $black-light;
+        }
+    }
+    .wrap-presentation {
+        margin-top: 2rem;
+        padding: 2rem;
+        border-radius: $border-radius-10;
+        background: rgba($white, .1);
+        border: .5rem solid $grey-light;
+        backdrop-filter: blur(1.5rem);
+        color: $black;
+        @include min-responsive($tablet) {
+            min-width: calc(33% - 2rem);
+        }
+        &.typewriter {
+            height: 25rem;
+        }
+    }
+    .wrap-recommends {
+        width: 100%;
+        @include min-responsive($mobile-large) {
+            @include grid(2, 2rem);
+        }
+        &__presentation {
+            margin-top: 1rem;
+            padding: 2rem;
+            border-radius: $border-radius-10;
+            background: rgba($white-dark, .1);
+            border: .5rem solid $grey-light;
+            backdrop-filter: blur(1.5rem);
+            color: $black;
+            @include min-responsive($tablet) {
+                margin-top: 0;
+            }
+        }
+    }
+    .wrap-services {
+      width: 100%;
+      @include min-responsive($mobile-large) {
+        @include grid(3, 4rem);
+      }
+      align-items: stretch;
+      .service {
+        margin-top: 1rem;
+        border-radius: $border-radius-10;
+        background: rgba($white-dark, .1);
+        border: .5rem solid $grey-light;
+        backdrop-filter: blur(1.5rem);
+        color: $black;
+        @include min-responsive($tablet) {
+          margin-top: 0;
+        }
+      }
+    }
+    .wrap-carrousel-opinions {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: $border-radius-10;
+        background: rgba($white-dark, .5);
+        border: .5rem solid $grey-light;
+        backdrop-filter: blur(1.5rem);
+    }
+}

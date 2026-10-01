@@ -1,1 +1,7 @@
-<p>cookies works!</p>
+
+
+
+<div class="cookies-banner" *ngIf="showBanner">
+        <p>{{ "COOKIES.TEXT" | translate }}</p>
+        <button pButton pRipple (click)="acceptCookies()">{{ "COOKIES.BUTTON" | translate }}</button>
+</div>

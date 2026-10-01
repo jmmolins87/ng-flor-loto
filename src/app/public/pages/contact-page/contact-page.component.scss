@@ -1,0 +1,51 @@
+
+
+@import "/src/styles.scss";
+
+.container {
+    .p-fluid {
+        padding: 2em;
+        background: rgba($white, .5);
+        backdrop-filter: blur(.5rem);
+        border-radius: .8rem;
+        box-shadow: $box-shadow;
+        .form-field {
+            display: flex;
+            box-sizing: border-box;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+            width: 100%;
+            gap: 1rem;
+            @include min-responsive($tablet) {
+                flex-direction: row;
+            }
+            .p-field {
+                margin-bottom: 1.5em;
+                flex: 1 1 100%;
+                min-width: 100%;
+                @include min-responsive($tablet) {
+                    flex: 1 1 33%;
+                    min-width: calc(33% - 1rem);
+                }
+            }
+        }
+    }
+    .wrap-button {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        button {
+            width: 100%;
+            @include min-responsive($tablet) {
+                max-width: 33%;
+            }
+        }
+    }
+    .p-error {
+        color: $danger-alert;
+    }
+}

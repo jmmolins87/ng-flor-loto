@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { AdminRoutingModule } from './admin-routing.module';
-
-import { MaterialModule } from './material-admin/material.module';
+import { PrimeNgAdminModule } from './prime-ng-admin/prime-ng-admin.module';
 
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { LoginComponent } from './pages/login/login.component';
@@ -19,7 +18,11 @@ import { LoginComponent } from './pages/login/login.component';
     CommonModule,
     AdminRoutingModule,
     FormsModule,
-    MaterialModule
+    PrimeNgAdminModule
+  ],
+  exports: [
+    DashboardComponent,
+    LoginComponent
   ]
 })
 export class AdminModule { }

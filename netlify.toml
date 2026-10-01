@@ -1,9 +1,8 @@
 [build]
-  command = "npm run build"
   publish = "dist/ng-f-loto-proj"
+  command = "npm run build"
 
 [[redirects]]
   from = "/*"
-  to = "https://flordlotosegovia.free.nf/:splat"
-  status = 301
-  force = true
+  to = "/index.html"
+  status = 200

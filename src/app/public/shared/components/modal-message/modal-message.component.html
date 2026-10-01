@@ -1,0 +1,22 @@
+
+
+
+
+<div class="wrap-modal-messages">
+    <p-dialog 
+        [header]="'OTHERS.ORDER_MESSAGES' | translate" 
+        [modal]="true" 
+        [(visible)]="visible" 
+        [breakpoints]="{ '1199px': '75vw', '992px': '75vw', '575px': '90vw' }" 
+        [style]="{ width: '50vw' }" 
+        [draggable]="false" >
+        <app-whatsapp />
+            <!-- <p-tabView>
+                <p-tabPanel header="Whatsapp">
+                </p-tabPanel>
+                <p-tabPanel header="SMS">
+                    <app-sms />
+                </p-tabPanel>
+            </p-tabView> -->
+    </p-dialog>
+</div>

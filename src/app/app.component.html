@@ -1,1 +1,32 @@
+
+
+<app-flower-background />
+<app-cookies />
+
+<div *ngIf="!sharedService.isAdminRoute()">
+    <app-navbar *ngIf="showNavbarFooter" />
+</div>
+
 <router-outlet />
+
+<div *ngIf="!sharedService.isAdminRoute()">
+    <app-footer *ngIf="showNavbarFooter" />
+    <div class="wrap-shopping"  *ngIf="showNavbarFooter">
+        <app-speed-dial [items]="itemsShop" showIcon="pi pi-shopping-cart" />
+    </div>
+    <div class="wrap-social" *ngIf="showNavbarFooter">
+        <app-speed-dial [items]="itemsSocial" showIcon="pi pi-share-alt" />
+    </div>
+</div>
+
+<div class="wrap-message-btn" *ngIf="showNavbarFooter">
+    <p-button 
+        (click)="openModalMessage()"
+        icon="pi pi-whatsapp"
+        iconPos="right" />
+    <span>{{ "OTHERS.ORDER_MESSAGES" | translate }}</span>
+</div>
+
+<app-modal-message />
+
+<p-scrollTop />

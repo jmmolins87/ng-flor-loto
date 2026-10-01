@@ -1,0 +1,25 @@
+
+
+
+
+
+@import "/src/styles.scss";
+
+.wrap-product {
+    .wrap-title {
+        margin-bottom: 2rem;
+    }
+    .product-wrap-cards {
+        width: 100%;
+        margin-bottom: 2rem;
+        @include min-responsive($mobile-large) {
+            @include grid(2, 2rem);
+        }
+        @include min-responsive($tablet) {
+            @include grid(3, 2rem);
+        }
+        @include min-responsive($desktop-laptop) {
+            @include grid(4, 2rem);
+        }
+    }
+}
